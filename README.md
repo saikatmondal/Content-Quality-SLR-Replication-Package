@@ -29,7 +29,7 @@ All datasets are organized by research questions (RQ1–RQ7). Each dataset corre
 ### RQ2: Quality metrics for assessing content quality
 **Objective.** We synthesize ten recurring metrics spanning clarity and relevance, readability, correctness and informativeness, engagement, reputation, popularity, tag quality, structural presentation, affect, and response timing.
 
-**Dataset.**  
+**Datasets.**  
 - `RQ2/RQ2-Quality-Metrics.csv`  
   **Columns.**
   - `Quality Metric`: Describes the quality metrics used in the study  
@@ -106,7 +106,7 @@ All datasets are organized by research questions (RQ1–RQ7). Each dataset corre
 **Objective.**  
 We analyze the publication metadata and collaboration characteristics of primary studies, including authorship patterns, geographic distribution, collaboration types, and publication venues.
 
-**Datasets.**
+**Dataset.**
 
 - `RQ5/RQ5-Publication-Metadata.csv`  
   **Columns.**
@@ -125,7 +125,7 @@ We analyze the publication metadata and collaboration characteristics of primary
 ### RQ6: Automated tools and techniques for content quality support
 
 **Objective.** We analyze the tools and techniques introduced by the selected primary studies for assessing and improving content quality.
-**Datasets.**
+**Dataset.**
 
 **Datasets.**
 
@@ -137,7 +137,7 @@ We analyze the publication metadata and collaboration characteristics of primary
 
 **Objective.** We analyze the limitations and future research directions reported in prior studies to identify common challenges, research gaps, and opportunities for advancing content quality in developer forums.
 
-**Datasets.**
+**Dataset.**
 
 - `RQ7/RQ7-Limitations-Future-Works.csv`  
   **Column.**
