@@ -143,7 +143,7 @@ We analyze the publication metadata and collaboration characteristics of primary
   **Column.**
   - `Limitations & Future Works`: Reported limitations and future research directions from the studies, along with the relevant sections where they are discussed
   
-  ## Scripts and Analysis Pipeline
+## Scripts and Analysis Pipeline
 
 The `Scripts` directory contains all the necessary scripts for data preprocessing, transformation, analysis, and generation of results reported in the manuscript. The scripts are systematically organized by research questions (RQ1–RQ5), ensuring clear traceability between datasets, analyses, and reported findings.
 
@@ -155,53 +155,54 @@ This structure enables researchers to:
 ### Directory Structure
   
 ```text
-Scripts/
-├── Data-Processing/
-│   ├── evaluation-metrics-count.py
-│   ├── evaluation-metrics-overlapping-analysis.py
-│   ├── highly-co-occurred-evaluation-metric-by-count.py
-│   └── highly-co-occurred-evaluation-metric-by-jaccard.py
-│   
-│
-├── RQ1/
-│   ├── Graphs/
-│   ├── Outputs/
-│   └── Scripts/
-│       ├── analysis-of-analyzed-components.py
-│       ├── analysis-of-target-components.py
-│       ├── formatting-data-for-palindrome.py
-│       └── list-forums-with-frequency.py
-│
-├── RQ2/
-│   ├── Outputs/
-│   └── Scripts/
-│       ├── analysis-of-metrics.py
-│       └── open-code-unique-metric-with-frequency.py
-│
-├── RQ3/
-│   ├── Outputs/
-│   └── Scripts/
-│       ├── analysis-of-methodology.py
-│       └── open-code-method-with-frequency.py
-│
-├── RQ4/
-│   ├── Outputs/
-│   └── Scripts/
-│       ├── analysis-of-performance-evaluation-metrics.py
-│       ├── mapping-of-evaluation-metrics.py
-│       ├── methodology-wise-evaluation-metric-count.py
-│       └── study-wise-evaluation-metrics.py
-│
-└── RQ5/
-    ├── Outputs/
-    └── Scripts/
-        ├── author-contributions-and-author-gender.py
-        ├── country-count-with-frequency.py
-        ├── study-wise-author-count-author-gender.py
-        ├── venue-wise-study.py
-        └── year-wise-study.py
+	Scripts/
+	├── Data-Processing/
+	│   ├── evaluation-metrics-count.py
+	│   ├── evaluation-metrics-overlapping-analysis.py
+	│   ├── highly-co-occurred-evaluation-metric-by-count.py
+	│   └── highly-co-occurred-evaluation-metric-by-jaccard.py
+	│   
+	│
+	├── RQ1/
+	│   ├── Graphs/
+	│   ├── Outputs/
+	│   └── Scripts/
+	│       ├── analysis-of-analyzed-components.py
+	│       ├── analysis-of-target-components.py
+	│       ├── formatting-data-for-palindrome.py
+	│       └── list-forums-with-frequency.py
+	│
+	├── RQ2/
+	│   ├── Outputs/
+	│   └── Scripts/
+	│       ├── analysis-of-metrics.py
+	│       └── open-code-unique-metric-with-frequency.py
+	│
+	├── RQ3/
+	│   ├── Outputs/
+	│   └── Scripts/
+	│       ├── analysis-of-methodology.py
+	│       └── open-code-method-with-frequency.py
+	│
+	├── RQ4/
+	│   ├── Outputs/
+	│   └── Scripts/
+	│       ├── analysis-of-performance-evaluation-metrics.py
+	│       ├── mapping-of-evaluation-metrics.py
+	│       ├── methodology-wise-evaluation-metric-count.py
+	│       └── study-wise-evaluation-metrics.py
+	│
+	└── RQ5/
+		├── Outputs/
+		└── Scripts/
+			├── author-contributions-and-author-gender.py
+			├── country-count-with-frequency.py
+			├── study-wise-author-count-author-gender.py
+			├── venue-wise-study.py
+			└── year-wise-study.py
 
-``` ---
+
+---
 
 ### Usage
 
