@@ -11,7 +11,6 @@ This replication package provides all necessary artifacts to **reproduce, valida
 - Research question–wise analyzed datasets
 - Data processing and analysis scripts
 
----
 
 ## Research Question–Wise Analyzed Datasets
 
@@ -201,7 +200,6 @@ Scripts/
         └── year-wise-study.py
 ```
 
----
 
 ### Usage
 
@@ -211,7 +209,6 @@ Each script can be executed independently to reproduce specific analyses. The re
 2. Use the `Data-Processing/` scripts for cross-cutting analyses (e.g., evaluation metrics aggregation and co-occurrence analysis)  
 3. Generated outputs are stored in the respective `Outputs/` directories  
 
----
 
 ### Requirements
 
@@ -226,7 +223,6 @@ The scripts are implemented in **Python 3.x** and rely on the following librarie
 - `csv` — CSV file handling  
 - `unicodedata` — text normalization  
 
----
 
 ## Installation
 
