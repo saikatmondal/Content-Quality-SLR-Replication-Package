@@ -1,0 +1,180 @@
+Evaluation Metric Name,Group Name,Study Count,Studies
+accuracy,accuracy,36,"S2, S7, S9, S12, S15, S16, S17, S21, S24, S27, S31, S37, S41, S45, S47, S49, S54, S56, S68, S73, S77, S79, S82, S85, S86, S90, S91, S98, S108, S109, S110, S115, S116, S117, S121, S123"
+agreement level,agreement level,1,S46
+anova,anova,1,S10
+answer score,answer score,2,"S13, S18"
+area under the roc curve (auc),auc,5,"S1, S4, S7, S15, S19"
+auc,auc,10,"S40, S47, S49, S53, S60, S70, S85, S92, S103, S107"
+area under the receiver operating characteristic curve (auc-roc),auc-roc,1,S61
+auc-roc,auc-roc,2,"S101, S116"
+receiver operating characteristic (roc)/area under the roc curve (auc),auc-roc,1,S16
+roc (auc),auc-roc,1,S27
+roc_auc,auc-roc,1,S45
+bertscore,bertscore,1,S87
+beta coefficients,beta coefficients,1,S10
+beta value – b,beta value – b,1,S5
+binning (time categorization),binning (time categorization),1,S8
+bilingual evaluation understudy (bleu),bleu,1,S118
+bleu,bleu,2,"S87, S102"
+bleu- 3,bleu,1,S75
+bleu score,bleu,1,S100
+bleu-1,bleu,1,S75
+bleu-2,bleu,1,S75
+bleu-4,bleu,1,S75
+bleus-4,bleu,2,"S104, S111"
+chi-squared statistic,chi-squared statistic,1,S12
+chi-squared test,chi-squared test,4,"S2, S50, S106, S121"
+cliff's delta,cliff's delta,2,"S106, S126"
+cliff's delta test,cliff's delta,1,S121
+coefficient estimate,coefficient estimate,2,"S19, S60"
+cohen's classification (rho),cohen's classification (rho),1,S83
+cohen's kappa,cohen's kappa,3,"S5, S12, S24"
+cohen's kappa (agreement),cohen's kappa,2,"S121, S122"
+cohen's kappa (agreement),cohen's kappa,1,S1
+kohen's kappa,cohen's kappa,1,S11
+compilability,compilability,1,S30
+completeness,completeness,2,"S32, S79"
+comprehensibility,comprehensibility,1,S79
+conciseness,conciseness,2,"S32, S79"
+consensus-based image description evaluation (cider),consensus-based image description evaluation (cider),1,S118
+constant,constant,1,S55
+correctness,correctness,2,"S32, S79"
+correlation,correlation,1,S72
+cosine similarity,cosine similarity,2,"S42, S85"
+cox and snell incremental r^2,cox and snell incremental r^2,1,S24
+cox and snell r square,cox and snell r square,1,S5
+cox and snell r^2,cox and snell r^2,1,S24
+cramer's v,cramer's v,1,S50
+cross-entropy loss,cross-entropy loss,1,S114
+discounted cumulative gain -dcg@k (k=2-5),discounted cumulative gain -dcg@k (k=2-5),1,S88
+diversity score,diversity score,2,"S51, S63"
+exact match (em),exact match (em),2,"S118, S125"
+f1 measure,f1 score,1,S109
+f1 score,f1 score,3,"S7, S37, S110"
+f1- score,f1 score,1,S61
+f1-score,f1 score,32,"S1, S4, S15, S19, S31, S36, S38, S40, S41, S52, S53, S56, S73, S77, S79, S80, S82, S86, S90, S91, S98, S99, S101, S103, S108, S115, S116, S117, S120, S121, S123, S125"
+f1-score@k,f1 score,9,"S42, S62, S76, S81, S96, S112, S113, S114, S124"
+"f1-score@k (k=5,10)",f1 score,1,S44
+f1-score,f1 score,1,S45
+f-score,f1 score,1,S94
+fisher's z-transformation,fisher's z-transformation,1,S87
+fitness function,fitness function,1,S14
+fleiss's kappa (agreement),fleiss's kappa (agreement),1,S119
+f-measure,f1 score,3,"S47, S48, S49"
+f-statistic,f-statistic,1,S23
+gelkerke r^2,gelkerke r^2,1,S24
+general language evaluation understanding (gleu),gleu,1,S118
+gleu,gleu,1,S39
+hosmer-lemeshow test,hosmer-lemeshow test,1,S5
+hosmer–lemeshow test ?2,hosmer-lemeshow test,1,S24
+human evaluation,human evaluation,2,"S75, S102"
+feature rank (information gain ratio),infogain,1,S4
+infogain,infogain,1,S27
+infogain,infogain,1,S6
+kaplan-meier estimator,kaplan-meier estimator,1,S99
+krippendorff's alpha,krippendorff's alpha,1,S27
+krippendorff's alpha (inter-coder agreement),krippendorff's alpha,1,S10
+kurtosis,kurtosis,1,S10
+5-point likert scale,likert scale,1,S2
+likert scale (1 to 5),likert scale,2,"S51, S63"
+mean rating (likert scale),likert scale,1,S22
+log likelihood,log likelihood,2,"S5, S55"
+logistic regression(beta value - ?,logistic regression(beta value - ?,1,S3
+macro-f1,macro-f1,1,S127
+macro-precision,macro-precision,1,S127
+macro-recall,macro-recall,1,S127
+mae,mae,1,S23
+mann-whitney u-test results,mann-whitney u-test results,2,"S37, S110"
+mann-whitney-wilcoxon test,mann-whitney-wilcoxon test,3,"S106, S121, S126"
+manual evaluation,manual evaluation,1,S62
+manual validation,manual validation,2,"S51, S63"
+matching score,matching score,1,S88
+matching_top10,matching_top10,1,S61
+matthews correlation coefficient,matthews correlation coefficient,1,S64
+mean,mean,4,"S10, S11, S22, S24"
+mean average precision (map),mean average precision (map),1,S109
+mean reciprocal rank,mean reciprocal rank,1,S58
+mean reciprocal rank (mrr),mean reciprocal rank,2,"S109, S118"
+mean reciprocal rank(mrr),mean reciprocal rank,1,S93
+mean reciprocal ranking (mrr),mean reciprocal rank,1,S66
+meteor,meteor,2,"S87, S102"
+micro-receiver operating characteristic (roc) curve,micro-receiver operating characteristic (roc) curve,1,S80
+mse,mse,1,S23
+multi-class log loss (mll),multi-class log loss (mll),1,S108
+na,na,1,S24
+nagelkerke incremental r^2,nagelkerke incremental r^2,1,S24
+nagelkerke r square,nagelkerke r square,1,S5
+nasa tlx for workload,nasa tlx for workload,1,S117
+ndcg (normalized discounted cumulative gain),ndcg,1,S113
+ndcg(normalized discounted cumulative gain)@k,ndcg,1,S6
+normalized discounted cumulative gain (ndcg),ndcg,1,S66
+neural network coefficient,neural network coefficient,1,S64
+"normalized cumulative gain discount (ndcc@k, k=1-10)","normalized cumulative gain discount (ndcc@k, k=1-10)",1,S94
+odds ratio,odds ratio,3,"S19, S24, S60"
+odds ratio - exp(?)),odds ratio,1,S3
+odds ratio – exp(b),odds ratio,1,S5
+omnibus test ?2,omnibus test ?2,1,S24
+omnibus tests of model coefficients,omnibus tests of model coefficients,1,S3
+pearson correlation,pearson correlation,1,S26
+pearson correlation coefficien,pearson correlation,1,S7
+pearson's correlation coefficient,pearson correlation,1,S21
+precision,precision,44,"S1, S4, S8, S14, S17, S19, S20, S26, S27, S30, S36, S37, S38, S41, S47, S48, S49, S52, S54, S56, S61, S68, S77, S79, S80, S82, S86, S90, S91, S94, S98, S99, S101, S103, S108, S109, S110, S115, S116, S117, S120, S121, S123, S125"
+precision@1,precision,2,"S35, S93"
+precision@5,precision,1,S85
+precision@k,precision,10,"S42, S44, S57, S62, S81, S96, S112, S113, S114, S124"
+"precision@k (k=1,2)",precision,1,S58
+precision@k (k=1-4),precision,1,S88
+"precision@k (k=5,10)",precision,2,"S67, S76"
+pseudo-r-squared,pseudo-r-squared,1,S2
+psp (propensity scored precision),psp (propensity scored precision),1,S113
+p-value,p-value,1,S60
+p-value significance,p-value,1,S3
+qualitative analysis,qualitative analysis,2,"S74, S95"
+random forest coefficient,random forest coefficient,1,S64
+rank feature (z-score),rank feature (z-score),1,S43
+recall,recall,43,"S1, S4, S8, S17, S19, S20, S27, S36, S37, S38, S40, S41, S47, S48, S49, S52, S53, S54, S56, S61, S68, S77, S79, S80, S82, S86, S90, S91, S94, S98, S99, S101, S103, S108, S109, S110, S115, S116, S117, S120, S121, S123, S125"
+recall@5,recall,1,S85
+recall@k,recall,11,"S42, S44, S62, S66, S67, S76, S96, S112, S113, S114, S124"
+"recall@k (k= 5,10)",recall,1,S57
+"recall@k (k=5, 10)",recall,1,S25
+"recall@k (k=5, 10, 20)",recall,2,"S33, S78"
+"recall@k (k=5,10)",recall,1,S81
+recall@n,recall,1,S59
+recall-rate@10,recall,1,S69
+recall-rate@20,recall,1,S69
+recall-rate@5,recall,1,S69
+"recall-rate@k (k=5, 10, 20)",recall,1,S28
+relative differences (rd),relative differences (rd),1,S119
+relevance score,relevance score,2,"S51, S63"
+rmse,rmse,1,S70
+root mean squared error,rmse,1,S61
+average roc,roc,1,S14
+roc,roc,6,"S41, S47, S49, S53, S60, S73"
+roc curve,roc,1,S64
+recall-oriented understudy for gisting evaluation (rouge-l),rouge,1,S118
+rouge,rouge,2,"S87, S102"
+rouge score,rouge,1,S100
+rouge-1,rouge,3,"S75, S104, S111"
+rouge-2,rouge,3,"S75, S104, S111"
+rouge-l,rouge,3,"S75, S104, S111"
+adjusted r-square,r-square,1,S10
+r-square,r-square,2,"S23, S55"
+r-squared,r-square,1,S34
+scott-knott (feature ranking),scott-knott (feature ranking),1,S36
+significance - ?,significance - ?,1,S3
+significance – p,significance – p,1,S5
+skewness,skewness,1,S10
+spearman's rank correlation,spearman's rank correlation,1,S34
+standard deviation,standard deviation,4,"S10, S11, S22, S24"
+standard error - s.e,standard error - s.e,1,S3
+standard error mean,standard error mean,1,S11
+statistical analysis,statistical analysis,1,S71
+"statistical analysis (mean, standard deviation)","statistical analysis (mean, standard deviation)",1,S87
+"top@k (k=1,3,5,10,15)","top@k (k=1,3,5,10,15)",1,S29
+t-test,t-test,1,S11
+"t-test (paired, welch)",t-test,1,S119
+two-tailed paired t-test,t-test,1,S2
+understandability,understandability,1,S32
+usefulness score,usefulness score,2,"S51, S63"
+user study,user study,1,S88
+wald statistics - wald,wald statistics - wald,1,S3

@@ -1,0 +1,108 @@
+Group Name,Total Study Count,Percentage,Studies
+recall,65,51.2,"S1, S101, S103, S108, S109, S110, S112, S113, S114, S115, S116, S117, S120, S121, S123, S124, S125, S17, S19, S20, S25, S27, S28, S33, S36, S37, S38, S4, S40, S41, S42, S44, S47, S48, S49, S52, S53, S54, S56, S57, S59, S61, S62, S66, S67, S68, S69, S76, S77, S78, S79, S8, S80, S81, S82, S85, S86, S90, S91, S94, S96, S98, S99"
+precision,61,48,"S1, S101, S103, S108, S109, S110, S112, S113, S114, S115, S116, S117, S120, S121, S123, S124, S125, S14, S17, S19, S20, S26, S27, S30, S35, S36, S37, S38, S4, S41, S42, S44, S47, S48, S49, S52, S54, S56, S57, S58, S61, S62, S67, S68, S76, S77, S79, S8, S80, S81, S82, S85, S86, S88, S90, S91, S93, S94, S96, S98, S99"
+f1 score,52,40.9,"S1, S101, S103, S108, S109, S110, S112, S113, S114, S115, S116, S117, S120, S121, S123, S124, S125, S15, S19, S31, S36, S37, S38, S4, S40, S41, S42, S44, S45, S47, S48, S49, S52, S53, S56, S61, S62, S7, S73, S76, S77, S79, S80, S81, S82, S86, S90, S91, S94, S96, S98, S99"
+accuracy,36,28.3,"S108, S109, S110, S115, S116, S117, S12, S121, S123, S15, S16, S17, S2, S21, S24, S27, S31, S37, S41, S45, S47, S49, S54, S56, S68, S7, S73, S77, S79, S82, S85, S86, S9, S90, S91, S98"
+auc/roc/auc-roc,29,22.8,"S1, S103, S107, S15, S19, S4, S40, S47, S49, S53, S60, S7, S70, S85, S92, S14, S41, S47, S49, S53, S60, S64, S73, S101, S116, S16, S27, S45, S61"
+rouge,13,10.2,"S100, S102, S104, S111, S118, S75, S87"
+bleu,10,7.9,"S100, S102, S104, S111, S118, S75, S87"
+cohen's kappa,7,5.5,"S1, S11, S12, S121, S122, S24, S5"
+odds ratio,5,3.9,"S19, S24, S3, S5, S60"
+mean reciprocal rank,5,3.9,"S109, S118, S58, S66, S93"
+standard deviation,4,3.1,"S10, S11, S22, S24"
+chi-squared test,4,3.1,"S106, S121, S2, S50"
+r-square,4,3.1,"S10, S23, S34, S55"
+mean,4,3.1,"S10, S11, S22, S24"
+likert scale,4,3.1,"S2, S22, S51, S63"
+pearson correlation,3,2.4,"S21, S26, S7"
+ndcg,3,2.4,"S113, S6, S66"
+cliff's delta,3,2.4,"S106, S121, S126"
+mann-whitney-wilcoxon test,3,2.4,"S106, S121, S126"
+infogain,3,2.4,"S27, S4, S6"
+t-test,3,2.4,"S11, S119, S2"
+krippendorff's alpha,2,1.6,"S10, S27"
+human evaluation,2,1.6,"S102, S75"
+hosmer-lemeshow test,2,1.6,"S24, S5"
+log likelihood,2,1.6,"S5, S55"
+qualitative analysis,2,1.6,"S74, S95"
+manual validation,2,1.6,"S51, S63"
+meteor,2,1.6,"S102, S87"
+p-value,2,1.6,"S3, S60"
+relevance score,2,1.6,"S51, S63"
+rmse,2,1.6,"S61, S70"
+usefulness score,2,1.6,"S51, S63"
+gleu,2,1.6,"S118, S39"
+mann-whitney u-test results,2,1.6,"S110, S37"
+correctness,2,1.6,"S32, S79"
+conciseness,2,1.6,"S32, S79"
+coefficient estimate,2,1.6,"S19, S60"
+exact match (em),2,1.6,"S118, S125"
+diversity score,2,1.6,"S51, S63"
+completeness,2,1.6,"S32, S79"
+answer score,2,1.6,"S13, S18"
+cosine similarity,2,1.6,"S42, S85"
+fisher's z-transformation,1,0.8,S87
+relative differences (rd),1,0.8,S119
+rank feature (z-score),1,0.8,S43
+random forest coefficient,1,0.8,S64
+psp (propensity scored precision),1,0.8,S113
+cohen's classification (rho),1,0.8,S83
+compilability,1,0.8,S30
+binning (time categorization),1,0.8,S8
+pseudo-r-squared,1,0.8,S2
+comprehensibility,1,0.8,S79
+omnibus tests of model coefficients,1,0.8,S3
+chi-squared statistic,1,0.8,S12
+beta coefficients,1,0.8,S10
+beta value  b,1,0.8,S5
+standard error mean,1,0.8,S11
+user study,1,0.8,S88
+anova,1,0.8,S10
+understandability,1,0.8,S32
+"top@k (k=1,3,5,10,15)",1,0.8,S29
+"statistical analysis (mean, standard deviation)",1,0.8,S87
+statistical analysis,1,0.8,S71
+standard error - s.e,1,0.8,S3
+consensus-based image description evaluation (cider),1,0.8,S118
+bertscore,1,0.8,S87
+spearman's rank correlation,1,0.8,S34
+skewness,1,0.8,S10
+significance  p,1,0.8,S5
+significance - ?,1,0.8,S3
+scott-knott (feature ranking),1,0.8,S36
+omnibus test ?2,1,0.8,S24
+constant,1,0.8,S55
+"normalized cumulative gain discount (ndcc@k, k=1-10)",1,0.8,S94
+cramer's v,1,0.8,S50
+mae,1,0.8,S23
+macro-recall,1,0.8,S127
+macro-precision,1,0.8,S127
+macro-f1,1,0.8,S127
+logistic regression(beta value - ?,1,0.8,S3
+cox and snell r^2,1,0.8,S24
+kurtosis,1,0.8,S10
+neural network coefficient,1,0.8,S64
+cross-entropy loss,1,0.8,S114
+kaplan-meier estimator,1,0.8,S99
+discounted cumulative gain -dcg@k (k=2-5),1,0.8,S88
+f-statistic,1,0.8,S23
+gelkerke r^2,1,0.8,S24
+fleiss's kappa (agreement),1,0.8,S119
+agreement level,1,0.8,S46
+cox and snell r square,1,0.8,S5
+manual evaluation,1,0.8,S62
+cox and snell incremental r^2,1,0.8,S24
+matching score,1,0.8,S88
+matching_top10,1,0.8,S61
+matthews correlation coefficient,1,0.8,S64
+mean average precision (map),1,0.8,S109
+correlation,1,0.8,S72
+micro-receiver operating characteristic (roc) curve,1,0.8,S80
+mse,1,0.8,S23
+multi-class log loss (mll),1,0.8,S108
+na,1,0.8,S24
+nagelkerke incremental r^2,1,0.8,S24
+nagelkerke r square,1,0.8,S5
+nasa tlx for workload,1,0.8,S117
+fitness function,1,0.8,S14
+wald statistics - wald,1,0.8,S3

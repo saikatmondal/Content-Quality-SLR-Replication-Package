@@ -1,0 +1,21 @@
+Metric_1,Metric_2,CooccurrenceCount
+recall,precision,54
+recall,f1 score,47
+precision,f1 score,45
+f1 score,accuracy,25
+precision,accuracy,25
+recall,accuracy,25
+f1 score,auc/roc/auc-roc,16
+recall,auc/roc/auc-roc,14
+precision,auc/roc/auc-roc,13
+accuracy,auc/roc/auc-roc,11
+rouge,bleu,7
+standard deviation,mean,4
+cliff's delta,mann-whitney-wilcoxon test,3
+precision,mean reciprocal rank,3
+accuracy,cohen's kappa,3
+conciseness,completeness,2
+rouge,human evaluation,2
+bleu,human evaluation,2
+rouge,meteor,2
+correctness,completeness,2

@@ -1,0 +1,100 @@
+Metric_1,Metric_2,Jaccard
+na,nagelkerke incremental r^2,1.0
+beta coefficients,anova,1.0
+significance - ?,wald statistics - wald,1.0
+significance - ?,logistic regression(beta value - ?,1.0
+skewness,kurtosis,1.0
+standard error - s.e,wald statistics - wald,1.0
+relevance score,usefulness score,1.0
+relevance score,diversity score,1.0
+standard error - s.e,logistic regression(beta value - ?,1.0
+usefulness score,diversity score,1.0
+standard error - s.e,significance - ?,1.0
+correctness,conciseness,1.0
+correctness,completeness,1.0
+"statistical analysis (mean, standard deviation)",bertscore,1.0
+anova,kurtosis,1.0
+conciseness,completeness,1.0
+anova,skewness,1.0
+user study,matching score,1.0
+user study,discounted cumulative gain -dcg@k (k=2-5),1.0
+beta coefficients,kurtosis,1.0
+beta coefficients,skewness,1.0
+fisher's z-transformation,"statistical analysis (mean, standard deviation)",1.0
+fisher's z-transformation,bertscore,1.0
+relative differences (rd),fleiss's kappa (agreement),1.0
+random forest coefficient,neural network coefficient,1.0
+random forest coefficient,matthews correlation coefficient,1.0
+omnibus tests of model coefficients,standard error - s.e,1.0
+omnibus tests of model coefficients,significance - ?,1.0
+omnibus tests of model coefficients,logistic regression(beta value - ?,1.0
+omnibus test ?2,cox and snell r^2,1.0
+omnibus test ?2,gelkerke r^2,1.0
+omnibus test ?2,cox and snell incremental r^2,1.0
+cox and snell r^2,nagelkerke incremental r^2,1.0
+cox and snell incremental r^2,nagelkerke incremental r^2,1.0
+rouge,bleu,1.0
+standard deviation,mean,1.0
+cox and snell incremental r^2,na,1.0
+cox and snell r square,nagelkerke r square,1.0
+gelkerke r^2,nagelkerke incremental r^2,1.0
+gelkerke r^2,na,1.0
+cliff's delta,mann-whitney-wilcoxon test,1.0
+gelkerke r^2,cox and snell incremental r^2,1.0
+f-statistic,mse,1.0
+discounted cumulative gain -dcg@k (k=2-5),matching score,1.0
+neural network coefficient,matthews correlation coefficient,1.0
+cox and snell r^2,na,1.0
+omnibus test ?2,na,1.0
+cox and snell r^2,cox and snell incremental r^2,1.0
+cox and snell r^2,gelkerke r^2,1.0
+logistic regression(beta value - ?,wald statistics - wald,1.0
+macro-precision,macro-f1,1.0
+macro-recall,macro-f1,1.0
+macro-recall,macro-precision,1.0
+mae,mse,1.0
+mae,f-statistic,1.0
+omnibus test ?2,nagelkerke incremental r^2,1.0
+manual validation,relevance score,1.0
+manual validation,usefulness score,1.0
+manual validation,diversity score,1.0
+omnibus tests of model coefficients,wald statistics - wald,1.0
+recall,precision,0.771
+recall,f1 score,0.691
+precision,f1 score,0.662
+completeness,understandability,0.5
+hosmer-lemeshow test,omnibus test ?2,0.5
+hosmer-lemeshow test,nagelkerke incremental r^2,0.5
+hosmer-lemeshow test,na,0.5
+hosmer-lemeshow test,cox and snell incremental r^2,0.5
+hosmer-lemeshow test,cox and snell r square,0.5
+hosmer-lemeshow test,gelkerke r^2,0.5
+hosmer-lemeshow test,cox and snell r^2,0.5
+krippendorff's alpha,skewness,0.5
+krippendorff's alpha,kurtosis,0.5
+krippendorff's alpha,anova,0.5
+krippendorff's alpha,beta coefficients,0.5
+likert scale,diversity score,0.5
+likert scale,usefulness score,0.5
+likert scale,relevance score,0.5
+likert scale,manual validation,0.5
+hosmer-lemeshow test,nagelkerke r square,0.5
+log likelihood,constant,0.5
+log likelihood,cox and snell r square,0.5
+log likelihood,nagelkerke r square,0.5
+exact match (em),consensus-based image description evaluation (cider),0.5
+conciseness,understandability,0.5
+conciseness,comprehensibility,0.5
+correctness,understandability,0.5
+correctness,comprehensibility,0.5
+gleu,consensus-based image description evaluation (cider),0.5
+rmse,matching_top10,0.5
+p-value,wald statistics - wald,0.5
+p-value,logistic regression(beta value - ?,0.5
+p-value,significance - ?,0.5
+p-value,standard error - s.e,0.5
+p-value,omnibus tests of model coefficients,0.5
+meteor,bertscore,0.5
+meteor,"statistical analysis (mean, standard deviation)",0.5
+meteor,fisher's z-transformation,0.5
+completeness,comprehensibility,0.5

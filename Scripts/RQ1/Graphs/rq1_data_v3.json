@@ -1,0 +1,102 @@
+{
+    "name": "",
+    "id": "0",
+    "children": [
+        {
+            "name": "TC1",
+            "id": "1",
+            "children": [
+                { "name": "answer body - 1 (1.8%)", "id": "1_1" },
+				{ "name": "answer code snippet - 8 (14.3%)", "id": "1_2" },    
+				{ "name": "answer revision - 1 (1.8%)", "id": "1_3" },
+				{ "name": "answer text - 13 (23.2%)", "id": "1_4" },
+				{ "name": "comments - 2 (3.6%)", "id": "1_5" },
+				{ "name": "developer code - 1 (1.8%)", "id": "1_6" },
+				{ "name": "emails in question - 1 (1.8%)", "id": "1_7" },
+				{ "name": "images in answer - 3 (5.4%)", "id": "1_8" },
+				{ "name": "images in question - 4 (7.1%)", "id": "1_9" },
+				{ "name": "metadata - 17 (30.4%)", "id": "1_10" },
+				{ "name": "question body - 2 (3.6%)", "id": "1_11" },
+				{ "name": "question code snippet - 31 (55.4%)", "id": "1_12" },
+				{ "name": "question revision - 1 (1.8%)", "id": "1_13" },
+				{ "name": "question text - 53 (94.6%)", "id": "1_14" },
+				{ "name": "question title - 33 (58.9%)", "id": "1_15" },
+				{ "name": "references in answer - 2 (3.6%)", "id": "1_16" },
+				{ "name": "references in question - 16 (28.6%)", "id": "1_17" },
+				{ "name": "rejected edits - 1 (1.8%)", "id": "1_18" },
+				{ "name": "tags - 31 (55.4%)", "id": "1_19" },
+				{ "name": "usage statistics - 1 (1.8%)", "id": "1_20" },
+				{ "name": "user profile - 20 (35.7%)", "id": "1_21" },
+				{ "name": "user relationships - 1 (1.8%)", "id": "1_22" }
+            ]
+        },
+        {
+            "name": "TC2",
+            "id": "2",
+            "children": [
+                { "name": "answer body - 4 (7.7%)", "id": "1_1" },
+				{ "name": "answer code snippet - 30 (57.7%)", "id": "1_2" },
+				{ "name": "answer comments - 1 (1.9%)", "id": "1_3" },
+				{ "name": "answer revision - 3 (5.8%)", "id": "1_4" },
+				{ "name": "answer text - 35 (67.3%)", "id": "1_5" },
+				{ "name": "code from external projects - 1 (1.9%)", "id": "1_6" },
+				{ "name": "comments - 6 (11.5%)", "id": "1_7" },
+				{ "name": "compilation errors - 2 (3.8%)", "id": "1_8" },
+				{ "name": "developer code - 1 (1.9%)", "id": "1_9" },
+				{ "name": "documentation - 1 (1.9%)", "id": "1_10" },
+				{ "name": "external resource - 1 (1.9%)", "id": "1_11" },
+				{ "name": "html tags - 3 (5.8%)", "id": "1_12" },
+				{ "name": "images in answer - 7 (13.5%)", "id": "1_13" },
+				{ "name": "images in question - 3 (5.8%)", "id": "1_14" },
+				{ "name": "metadata - 19 (36.5%)", "id": "1_15" },
+				{ "name": "question body - 6 (11.5%)", "id": "1_16" },
+				{ "name": "question code snippet - 12 (23.1%)", "id": "1_17" },
+				{ "name": "question revision - 1 (1.9%)", "id": "1_18" },
+				{ "name": "question text - 26 (50.0%)", "id": "1_19" },
+				{ "name": "question title - 7 (13.5%)", "id": "1_20" },
+				{ "name": "references in answer - 11 (21.2%)", "id": "1_21" },
+				{ "name": "references in question - 3 (5.8%)", "id": "1_22" },
+				{ "name": "rejected edits - 1 (1.9%)", "id": "1_23" },
+				{ "name": "review history - 1 (1.9%)", "id": "1_24" },
+				{ "name": "tags - 7 (13.5%)", "id": "1_25" },
+				{ "name": "usage statistics - 1 (1.9%)", "id": "1_26" },
+				{ "name": "user profile - 25 (48.1%)", "id": "1_27" },
+				{ "name": "user relationships - 1 (1.9%)", "id": "1_28" }
+            ]
+        },
+        {
+            "name": "TC3",
+            "id": "3",
+            "children": [
+                { "name": "library documentation - 1 (7.1%)", "id": "1_1" },
+				{ "name": "question code snippet - 3 (21.4%)", "id": "1_2" },
+				{ "name": "question text - 15 (107.1%)", "id": "1_3" },
+				{ "name": "question title - 5 (35.7%)", "id": "1_4" },
+				{ "name": "tags - 15 (107.1%)", "id": "1_5" },
+				{ "name": "user profile - 2 (14.3%)", "id": "1_6" }
+            ]
+        },
+        {
+            "name": "TC4",
+            "id": "4",
+            "children": [
+				{ "name": "question body - 1 (16.7%)", "id": "1_1" },
+				{ "name": "question code snippet - 5 (83.3%)", "id": "1_2" },
+				{ "name": "question text - 2 (33.3%)", "id": "1_3" },
+				{ "name": "question title - 6 (100.0%)", "id": "1_4" },
+				{ "name": "title revision - 1 (16.7%)", "id": "1_5" }
+            ]
+        },
+        {
+            "name": "TC5",
+            "id": "5",
+            "percent": "4.86%",
+            "children": [
+                { "name": "answer text - 1 (100%)", "id": "1_1" },
+				{ "name": "comments - 1 (100%)", "id": "1_2" },
+				{ "name": "metadata - 1 (100%)", "id": "1_3" },
+				{ "name": "user profile - 1 (100%)", "id": "1_4" }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,76 @@
+Venue,Journal/Conference,Published studies,Total
+MSR,Conference,"S8 (2013), S9 (2013), S17 (2015), S19 (2015), S20 (2015), S21 (2015), S33 (2016), S91 (2021)",8
+EMSE,Journal,"S57 (2018), S105 (2022), S106 (2022), S117 (2023), S124 (2024)",5
+TSE,Journal,"S71 (2019), S84 (2021), S97 (2022), S98 (2022), S118 (2023)",5
+APSEC,Conference,"S43 (2017), S69 (2019), S90 (2021)",3
+ICPC,Conference,"S29 (2015), S92 (2021), S96 (2022)",3
+ICSE,Conference,"S51 (2018), S65 (2019), S125 (2025)",3
+IPRM,Journal,"S47 (2017), S72 (2019), S94 (2021)",3
+ISCI,Journal,"S12 (2014), S26 (2015), S113 (2023)",3
+JSS,Journal,"S81 (2020), S111 (2023), S123 (2024)",3
+NEUROC,Journal,"S48 (2017), S59 (2018), S114 (2023)",3
+SANER,Conference,"S44 (2017), S102 (2022), S121 (2024)",3
+TOSEM,Journal,"S75 (2020), S85 (2021), S88 (2021)",3
+ASIST,Journal,"S10 (2013), S11 (2013)",2
+ASIST,Conference,"S18 (2015), S22 (2015)",2
+AUSE,Journal,"S62 (2018), S127 (2025)",2
+CHIIR,Conference,"S41 (2017), S87 (2021)",2
+ESEC/FSE,Conference,"S63 (2019), S95 (2022)",2
+HICSS,Conference,"S13 (2014), S16 (2014)",2
+ICSE-NIER,Conference,"S74 (2020), S77 (2020)",2
+ICSME,Conference,"S50 (2017), S126 (2025)",2
+IJDL,Journal,"S73 (2019), S116 (2023)",2
+ISSTA,Conference,"S30 (2016), S120 (2024)",2
+IST,Journal,"S60 (2018), S104 (2022)",2
+JCST,Journal,"S25 (2015), S28 (2015)",2
+JIS,Journal,"S24 (2015), S103 (2022)",2
+PACMHCI,Journal,"S39 (2017), S52 (2018)",2
+SIGIR,Conference,"S2 (2010), S6 (2013)",2
+TOIS,Journal,"S35 (2016), S76 (2020)",2
+TOIT,Journal,"S53 (2018), S66 (2019)",2
+WSDM,Conference,"S1 (2008), S93 (2021)",2
+WWW,Conference,"S15 (2014), S40 (2017)",2
+ACCESS,Conference,S115 (2023),1
+ACSAC,Conference,S56 (2018),1
+ASIS&T,Conference,S27 (2015),1
+CHI,Conference,S119 (2024),1
+COMPSAC,Conference,S38 (2016),1
+COSN,Conference,S7 (2013),1
+CSCWD,Conference,S101 (2022),1
+CSI-SE,Conference,S34 (2016),1
+CollaborateCom,Conference,S58 (2018),1
+EASE,Conference,S64 (2019),1
+ESWC,Conference,S4 (2012),1
+GJFSM,Journal,S61 (2018),1
+ICBK,Conference,S45 (2017),1
+ICDCS,Conference,S70 (2019),1
+ICEIS,Conference,S46 (2017),1
+ICMAI,Conference,S67 (2019),1
+ICSOFT,Conference,S68 (2019),1
+ICWSM,Conference,S49 (2017),1
+IEEE Access,Journal,S78 (2020),1
+IJCACI,Conference,S108 (2022),1
+IJCNN,Conference,S99 (2022),1
+INFU,Journal,S112 (2023),1
+ISEC,Conference,S86 (2021),1
+ITNG,Conference,S3 (2010),1
+JCDL,Conference,S31 (2016),1
+JISYS,Journal,S110 (2023),1
+MISNC,Conference,S42 (2017),1
+NCAA,Journal,S80 (2020),1
+NL4SE,Conference,S54 (2018),1
+NPLE,Journal,S82 (2020),1
+OIR,Journal,S5 (2012),1
+PAAP,Conference,S100 (2022),1
+PLOS ONE,Journal,S55 (2018),1
+QRS-C,Conference,S89 (2021),1
+QSIC,Conference,S14 (2014),1
+RANLP,Conference,S23 (2015),1
+SAC,Conference,S32 (2016),1
+SCAM,Conference,S122 (2024),1
+SCPR,Journal,S83 (2020),1
+SEAA,Conference,S79 (2020),1
+SEKE,Conference,S37 (2016),1
+SEmotion,Conference,S36 (2016),1
+SSRN,Technical Report,S107 (2022),1
+TALLIP,Journal,S109 (2023),1

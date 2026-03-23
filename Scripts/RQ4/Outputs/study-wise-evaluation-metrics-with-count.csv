@@ -1,0 +1,128 @@
+Study#,EvaluationMetrics,MetricCount
+S1,auc/roc/auc-roc; cohen's kappa; f1 score; precision; recall;,5
+S2,accuracy; chi-squared test; likert scale; pseudo-r-squared; t-test;,5
+S3,logistic regression(beta value - ?; odds ratio; omnibus tests of model coefficients; p-value; significance - ?; standard error - s.e; wald statistics - wald;,7
+S4,auc/roc/auc-roc; f1 score; infogain; precision; recall;,5
+S5,beta value  b; cohen's kappa; cox and snell r square; hosmer-lemeshow test; log likelihood; nagelkerke r square; odds ratio; significance  p;,8
+S6,infogain; ndcg;,2
+S7,accuracy; auc/roc/auc-roc; f1 score; pearson correlation;,4
+S8,binning (time categorization); precision; recall;,3
+S9,accuracy;,1
+S10,anova; beta coefficients; krippendorff's alpha; kurtosis; mean; r-square; skewness; standard deviation;,8
+S11,cohen's kappa; mean; standard deviation; standard error mean; t-test;,5
+S12,accuracy; chi-squared statistic; cohen's kappa;,3
+S13,answer score;,1
+S14,auc/roc/auc-roc; fitness function; precision;,3
+S15,accuracy; auc/roc/auc-roc; f1 score;,3
+S16,accuracy; auc/roc/auc-roc;,2
+S17,accuracy; precision; recall;,3
+S18,answer score;,1
+S19,auc/roc/auc-roc; coefficient estimate; f1 score; odds ratio; precision; recall;,6
+S20,precision; recall;,2
+S21,accuracy; pearson correlation;,2
+S22,likert scale; mean; standard deviation;,3
+S23,f-statistic; mae; mse; r-square;,4
+S24,accuracy; cohen's kappa; cox and snell incremental r^2; cox and snell r^2; gelkerke r^2; hosmer-lemeshow test; mean; na; nagelkerke incremental r^2; odds ratio; omnibus test ?2; standard deviation;,12
+S25,recall;,1
+S26,pearson correlation; precision;,2
+S27,accuracy; auc/roc/auc-roc; infogain; krippendorff's alpha; precision; recall;,6
+S28,recall;,1
+S29,"top@k (k=1,3,5,10,15);",1
+S30,compilability; precision;,2
+S31,accuracy; f1 score;,2
+S32,completeness; conciseness; correctness; understandability;,4
+S33,recall;,1
+S34,r-square; spearman's rank correlation;,2
+S35,precision;,1
+S36,f1 score; precision; recall; scott-knott (feature ranking);,4
+S37,accuracy; f1 score; mann-whitney u-test results; precision; recall;,5
+S38,f1 score; precision; recall;,3
+S39,gleu;,1
+S40,auc/roc/auc-roc; f1 score; recall;,3
+S41,accuracy; auc/roc/auc-roc; f1 score; precision; recall;,5
+S42,cosine similarity; f1 score; precision; recall;,4
+S43,rank feature (z-score);,1
+S44,f1 score; precision; recall;,3
+S45,accuracy; auc/roc/auc-roc; f1 score;,3
+S46,agreement level;,1
+S47,accuracy; auc/roc/auc-roc; f1 score; precision; recall;,5
+S48,f1 score; precision; recall;,3
+S49,accuracy; auc/roc/auc-roc; f1 score; precision; recall;,5
+S50,chi-squared test; cramer's v;,2
+S51,diversity score; likert scale; manual validation; relevance score; usefulness score;,5
+S52,f1 score; precision; recall;,3
+S53,auc/roc/auc-roc; f1 score; recall;,3
+S54,accuracy; precision; recall;,3
+S55,constant; log likelihood; r-square;,3
+S56,accuracy; f1 score; precision; recall;,4
+S57,precision; recall;,2
+S58,mean reciprocal rank; precision;,2
+S59,recall;,1
+S60,auc/roc/auc-roc; coefficient estimate; odds ratio; p-value;,4
+S61,auc/roc/auc-roc; f1 score; matching_top10; precision; recall; rmse;,6
+S62,f1 score; manual evaluation; precision; recall;,4
+S63,diversity score; likert scale; manual validation; relevance score; usefulness score;,5
+S64,auc/roc/auc-roc; matthews correlation coefficient; neural network coefficient; random forest coefficient;,4
+S65,,0
+S66,mean reciprocal rank; ndcg; recall;,3
+S67,precision; recall;,2
+S68,accuracy; precision; recall;,3
+S69,recall;,1
+S70,auc/roc/auc-roc; rmse;,2
+S71,statistical analysis;,1
+S72,correlation;,1
+S73,accuracy; auc/roc/auc-roc; f1 score;,3
+S74,qualitative analysis;,1
+S75,bleu; human evaluation; rouge;,3
+S76,f1 score; precision; recall;,3
+S77,accuracy; f1 score; precision; recall;,4
+S78,recall;,1
+S79,accuracy; completeness; comprehensibility; conciseness; correctness; f1 score; precision; recall;,8
+S80,f1 score; micro-receiver operating characteristic (roc) curve; precision; recall;,4
+S81,f1 score; precision; recall;,3
+S82,accuracy; f1 score; precision; recall;,4
+S83,cohen's classification (rho);,1
+S84,,0
+S85,accuracy; auc/roc/auc-roc; cosine similarity; precision; recall;,5
+S86,accuracy; f1 score; precision; recall;,4
+S87,"bertscore; bleu; fisher's z-transformation; meteor; rouge; statistical analysis (mean, standard deviation);",6
+S88,discounted cumulative gain -dcg@k (k=2-5); matching score; precision; user study;,4
+S89,,0
+S90,accuracy; f1 score; precision; recall;,4
+S91,accuracy; f1 score; precision; recall;,4
+S92,auc/roc/auc-roc;,1
+S93,mean reciprocal rank; precision;,2
+S94,"f1 score; normalized cumulative gain discount (ndcc@k, k=1-10); precision; recall;",4
+S95,qualitative analysis;,1
+S96,f1 score; precision; recall;,3
+S97,,0
+S98,accuracy; f1 score; precision; recall;,4
+S99,f1 score; kaplan-meier estimator; precision; recall;,4
+S100,bleu; rouge;,2
+S101,auc/roc/auc-roc; f1 score; precision; recall;,4
+S102,bleu; human evaluation; meteor; rouge;,4
+S103,auc/roc/auc-roc; f1 score; precision; recall;,4
+S104,bleu; rouge;,2
+S105,,0
+S106,chi-squared test; cliff's delta; mann-whitney-wilcoxon test;,3
+S107,auc/roc/auc-roc;,1
+S108,accuracy; f1 score; multi-class log loss (mll); precision; recall;,5
+S109,accuracy; f1 score; mean average precision (map); mean reciprocal rank; precision; recall;,6
+S110,accuracy; f1 score; mann-whitney u-test results; precision; recall;,5
+S111,bleu; rouge;,2
+S112,f1 score; precision; recall;,3
+S113,f1 score; ndcg; precision; psp (propensity scored precision); recall;,5
+S114,cross-entropy loss; f1 score; precision; recall;,4
+S115,accuracy; f1 score; precision; recall;,4
+S116,accuracy; auc/roc/auc-roc; f1 score; precision; recall;,5
+S117,accuracy; f1 score; nasa tlx for workload; precision; recall;,5
+S118,bleu; consensus-based image description evaluation (cider); exact match (em); gleu; mean reciprocal rank; rouge;,6
+S119,fleiss's kappa (agreement); relative differences (rd); t-test;,3
+S120,f1 score; precision; recall;,3
+S121,accuracy; chi-squared test; cliff's delta; cohen's kappa; f1 score; mann-whitney-wilcoxon test; precision; recall;,8
+S122,cohen's kappa;,1
+S123,accuracy; f1 score; precision; recall;,4
+S124,f1 score; precision; recall;,3
+S125,exact match (em); f1 score; precision; recall;,4
+S126,cliff's delta; mann-whitney-wilcoxon test;,2
+S127,macro-f1; macro-precision; macro-recall;,3

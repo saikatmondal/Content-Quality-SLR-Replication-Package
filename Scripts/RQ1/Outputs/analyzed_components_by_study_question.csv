@@ -1,0 +1,23 @@
+Feature Name,Studies,Count,Percentage
+answer body,S26,1,1.7
+answer code snippet,"S101, S127, S13, S47, S52, S54, S55, S56",8,13.6
+answer revision,S91,1,1.7
+answer text,"S1, S101, S105, S127, S13, S17, S39, S47, S52, S54, S55, S79, S88",13,22.0
+comments,"S101, S8",2,3.4
+developer code,S79,1,1.7
+emails in question,S14,1,1.7
+images in answer,"S39, S52, S54",3,5.1
+images in question,"S108, S39, S52, S54",4,6.8
+metadata,"S101, S103, S121, S14, S15, S17, S24, S26, S34, S36, S38, S47, S55, S60, S7, S79, S92",17,28.8
+question body,"S26, S80",2,3.4
+question code snippet,"S101, S106, S110, S123, S127, S13, S15, S17, S20, S21, S23, S24, S33, S34, S36, S38, S43, S45, S46, S47, S52, S53, S54, S55, S56, S60, S7, S79, S8, S86, S92",31,52.5
+question revision,S91,1,1.7
+question text,"S1, S10, S101, S103, S105, S106, S108, S11, S110, S115, S121, S127, S13, S14, S15, S16, S17, S20, S21, S23, S24, S28, S33, S34, S36, S37, S38, S39, S40, S41, S43, S45, S46, S47, S49, S52, S53, S54, S55, S60, S68, S69, S7, S77, S78, S8, S82, S86, S88, S90, S92, S99",52,88.1
+question title,"S103, S105, S108, S110, S121, S127, S14, S15, S16, S23, S24, S26, S28, S33, S34, S38, S40, S45, S46, S47, S53, S55, S60, S68, S69, S7, S77, S78, S8, S88, S90, S92, S99",33,55.9
+references in answer,"S39, S52",2,3.4
+references in question,"S103, S108, S110, S14, S15, S16, S34, S38, S39, S43, S45, S52, S55, S60, S7, S92",16,27.1
+rejected edits,S117,1,1.7
+tags,"S103, S105, S108, S110, S14, S15, S23, S24, S28, S33, S34, S36, S38, S40, S45, S52, S53, S54, S55, S60, S68, S69, S7, S77, S78, S8, S86, S90, S92, S99",30,50.8
+usage statistics,S1,1,1.7
+user profile,"S101, S103, S108, S14, S15, S17, S23, S24, S26, S36, S38, S47, S55, S56, S60, S7, S79, S8, S86, S92",20,33.9
+user relationships,S1,1,1.7

@@ -1,0 +1,29 @@
+Feature Name,Studies,Count,Percentage
+answer body,"S119, S2, S26, S63",4,7.0
+answer code snippet,"S101, S107, S120, S122, S125, S126, S13, S30, S32, S47, S48, S50, S51, S52, S54, S55, S56, S58, S61, S64, S65, S71, S74, S83, S84, S87, S89, S94, S97, S98",30,52.6
+answer comments,S71,1,1.8
+answer revision,"S125, S126, S91",3,5.3
+answer text,"S1, S101, S107, S109, S116, S12, S126, S13, S18, S19, S22, S27, S3, S31, S35, S39, S4, S47, S48, S5, S52, S54, S55, S58, S6, S61, S64, S70, S72, S73, S79, S87, S88, S93, S94",35,61.4
+code from external projects,S84,1,1.8
+comments,"S101, S125, S19, S58, S64, S72",6,10.5
+compilation errors,"S30, S98",2,3.5
+developer code,S79,1,1.8
+documentation,S83,1,1.8
+external resource,S93,1,1.8
+html tags,"S58, S63, S94",3,5.3
+images in answer,"S18, S39, S52, S54, S58, S72, S94",7,12.3
+images in question,"S39, S52, S54",3,5.3
+metadata,"S101, S107, S19, S2, S26, S27, S35, S4, S47, S5, S55, S6, S63, S64, S70, S71, S73, S79, S83",19,33.3
+question body,"S119, S122, S126, S2, S26, S63",6,10.5
+question code snippet,"S101, S13, S47, S48, S5, S52, S54, S55, S56, S6, S70, S79",12,21.1
+question revision,S91,1,1.8
+question text,"S1, S101, S109, S12, S13, S22, S3, S31, S35, S39, S4, S47, S48, S5, S52, S54, S55, S58, S6, S61, S64, S70, S73, S88, S93, S94",26,45.6
+question title,"S126, S26, S47, S48, S55, S63, S88",7,12.3
+references in answer,"S107, S12, S18, S19, S2, S39, S52, S58, S64, S72, S94",11,19.3
+references in question,"S39, S52, S55",3,5.3
+rejected edits,S117,1,1.8
+review history,S18,1,1.8
+tags,"S107, S4, S48, S52, S54, S55, S71",7,12.3
+usage statistics,S1,1,1.8
+user profile,"S101, S107, S116, S18, S19, S2, S26, S3, S31, S35, S4, S47, S48, S5, S55, S56, S58, S6, S61, S64, S70, S72, S73, S79, S94",25,43.9
+user relationships,S1,1,1.8

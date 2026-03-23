@@ -1,0 +1,1115 @@
+Study#,SL,Title,M1,M2,M3,M4,M5,M6,M7,M8,M9,M10,M11,EvaluationMetrics,Categorized_Methodology_Details,Year,formatted,Content,Target Content,TargetContentNumeric,#OfMethods
+S1,1,Finding high-quality content in social media,1,1,1,0,0,0,1,0,0,0,0,auc/roc/auc-roc; cohen's kappa; f1 score; precision; recall;,"Qualitative Analysis
+[Uses expert editor judgments to label questions and answers for well-formedness, readability, utility, interestingness, and correctness, serving as ground truth for supervised learning.]
+
+Machine Learning (ML)
+[Applies supervised classification using stochastic gradient boosted decision trees to integrate heterogeneous feature sets and distinguish high-quality content from lower-quality items.]
+
+Text Analysis and Natural Language Processing
+[Extracts lexical, syntactic, semantic, and grammatical features from text, including n-grams, readability indicators, language-model divergence, POS tagging, and stylistic markers for quality classification.]
+
+Data Mining and Graph-Based Models
+[Constructs multi-relational graphs of users, questions, and answers, and derives graph-based features (e.g., PageRank, HITS hub/authority scores) to model contributor reputation, interaction dynamics, and their influence on content quality.]",2008,"\cite{agichtein2008finding}
+Automatically identifies high-quality questions and answers in community-driven social media (Yahoo! Answers) by combining intrinsic textual quality, community interaction signals, and content usage statistics within a unified supervised classification framework.","2008:\cite{agichtein2008finding}
+Automatically identifies high-quality questions and answers in community-driven social media (Yahoo! Answers) by combining intrinsic textual quality, community interaction signals, and content usage statistics within a unified supervised classification framework.",answer; question,TC1&2,4
+S2,2,Evaluating and Predicting Answer Quality in Community QA,1,0,1,0,0,0,0,0,0,0,1,accuracy; chi-squared test; likert scale; pseudo-r-squared; t-test;,"Qualitative Analysis
+[Employs crowdsourced human assessment (Amazon Mechanical Turk) to rate answers across 13 quality dimensions using Likert-scale judgments as ground truth.]
+
+Machine Learning (ML)
+[Uses supervised logistic regression models to predict whether an answer will be selected as the best answer by the asker based on human-rated aspects and automatically extracted features.]
+
+Miscellaneous
+[Applies stratified sampling and extensive validation using 10-fold cross-validation and cross-dataset testing to assess robustness and generalizability of prediction models.]",2010,"\cite{shah2010evaluating}
+Evaluates and predicts answer quality in community question answering (Yahoo! Answers) by combining human-judged multidimensional quality criteria with automatically extracted textual, behavioral, and user-profile features using supervised logistic regression models.","2010:\cite{shah2010evaluating}
+Evaluates and predicts answer quality in community question answering (Yahoo! Answers) by combining human-judged multidimensional quality criteria with automatically extracted textual, behavioral, and user-profile features using supervised logistic regression models.",answer,TC2,3
+S3,3,Selection of the Best Answer in CQA Services,1,0,1,0,0,0,0,0,0,0,0,logistic regression(beta value - ?; odds ratio; omnibus tests of model coefficients; p-value; significance - ?; standard error - s.e; wald statistics - wald;,"Qualitative Analysis
+[Employs expert evaluation by domain specialists to identify best answers and to rate answers on content-appraisal dimensions, with inter-rater agreement validated using Cohen’s Kappa.]
+
+Machine Learning (ML)
+[Applies binary logistic regression to model the likelihood of an answer being selected as the best based on combined social, textual, and content-appraisal features.]",2010,"\cite{blooma2010selection}
+Investigates factors influencing best-answer selection in Yahoo! Answers by integrating social, textual, and content-appraisal features within a supervised logistic regression framework, showing the dominance of content-appraisal signals over surface and social cues.","2010:\cite{blooma2010selection}
+Investigates factors influencing best-answer selection in Yahoo! Answers by integrating social, textual, and content-appraisal features within a supervised logistic regression framework, showing the dominance of content-appraisal signals over surface and social cues.",answer,TC2,2
+S4,4,Automatic Identification of Best Answers in Online Enquiry Communities,1,0,0,1,0,1,0,0,0,0,1,auc/roc/auc-roc; f1 score; infogain; precision; recall;,"Quantitative and Statistical Analysis
+[Ranks feature importance using Information Gain Ratio to quantify the relative contribution of content, user, and thread features to best-answer prediction.]
+
+Machine Learning (ML)
+[Applies a supervised multi-class alternating decision tree classifier to predict best answers across different communities using combined content, user, and thread feature sets.]
+
+Relevance, Ranking, and Evaluation
+[Compares learning algorithms and feature subsets by evaluating precision, recall, F1-score, and ROC–AUC across multiple community datasets.]
+
+Miscellaneous
+[Employs standard 10-fold cross-validation to assess model robustness and generalizability.]",2012,"\cite{burel2012automatic}
+Automatically identifies best answers in online enquiry communities (SAP Community Network, Server Fault, and Cooking Stack Exchange) by integrating content, user reputation, and thread-level relational features within a supervised multi-class decision-tree learning framework.","2012:\cite{burel2012automatic}
+Automatically identifies best answers in online enquiry communities (SAP Community Network, Server Fault, and Cooking Stack Exchange) by integrating content, user reputation, and thread-level relational features within a supervised multi-class decision-tree learning framework.",answer,TC2,4
+S5,5,Predictors of High-Quality Answers,1,0,1,0,0,0,0,0,0,0,0,beta value Â– b; cohen's kappa; cox and snell r square; hosmer-lemeshow test; log likelihood; nagelkerke r square; odds ratio; significance Â– p;,"Qualitative Analysis
+[Applies expert judgment to evaluate content appraisal features and to identify high-quality versus non-high-quality answers, with inter-rater agreement validated using Cohen’s Kappa.]
+
+Machine Learning (ML)
+[Uses supervised logistic regression to estimate the likelihood of an answer being high quality based on combined social, textual, and content appraisal features.]",2012,"\cite{blooma2012predictors}
+Identifies predictors of high-quality answers in Yahoo! Answers by integrating expert-judged content appraisal features with social interaction signals and surface textual features using supervised logistic regression.","2012:\cite{blooma2012predictors}
+Identifies predictors of high-quality answers in Yahoo! Answers by integrating expert-judged content appraisal features with social interaction signals and surface textual features using supervised logistic regression.",answer,TC2,2
+S6,6,Exploiting User Feedback to Learn to Rank Answers in Q&A Forums: A Case Study with Stack Overflow,1,0,0,1,0,1,1,0,0,0,0,infogain; ndcg;,"Quantitative and Statistical Analysis
+[Analyzes feature importance using information gain to quantify discriminative power across feature groups.]
+
+Machine Learning (ML)
+[Employs ensemble tree models for learning to rank, including Random Forests and boosted decision-tree variants (EXQD, SHAH, AdTree), trained to predict continuous answer ratings.]
+
+Data Mining and Graph-Based Models
+[Incorporates user-graph expertise signals (e.g., ExpertiseRank/PageRank and HITS-style authority) to model relational influence among contributors.]
+
+Relevance, Ranking, and Evaluation
+[Applies learning-to-rank (L2R) with IR relevance functions (BM25) and evaluates rankings using NDCG with cross-validation and statistical significance testing.]",2013,"\cite{dalip2013exploiting}
+Learns to rank Stack Overflow answers by predicting answer ratings from user feedback using a learning-to-rank framework that integrates rich structural, textual, user, review, and graph-based features within ensemble tree models.","2013:\cite{dalip2013exploiting}
+Learns to rank Stack Overflow answers by predicting answer ratings from user feedback using a learning-to-rank framework that integrates rich structural, textual, user, review, and graph-based features within ensemble tree models.",answer,TC2,4
+S7,7,Fit or Unfit: Analysis and Prediction of 'closed Questions' on Stack Overflow,1,0,0,1,0,0,0,0,0,0,0,accuracy; auc/roc/auc-roc; f1 score; pearson correlation;,"Quantitative and Statistical Analysis
+[Performs correlation and temporal trend analyses to examine the evolution, causes, and community dynamics of closed questions over time.]
+
+Machine Learning (ML)
+[Trains multiple supervised classifiers—including stochastic gradient boosted trees, support vector machines, naive Bayes, logistic regression, and ensemble learners—to predict question closure at creation time, with boosted ensembles achieving the best performance.]",2013,"\cite{correa2013fit}
+Analyzes and predicts low-quality (“closed”) questions on Stack Overflow by characterizing textual style, user history, community signals, and tag usage, and by training ensemble machine-learning models to identify closure likelihood at question creation time.","2013:\cite{correa2013fit}
+Analyzes and predicts low-quality (“closed”) questions on Stack Overflow by characterizing textual style, user history, community signals, and tag usage, and by training ensemble machine-learning models to identify closure likelihood at question creation time.",question (closed),TC1,2
+S8,8,Answering questions about unanswered questions of Stack Overflow,1,0,1,1,0,0,1,0,0,0,0,binning (time categorization); precision; recall;,"Qualitative Analysis
+[Conducts manual qualitative analysis on a random sample of unanswered questions to derive a taxonomy explaining why questions remain unanswered.]
+
+Quantitative and Statistical Analysis
+[Applies random sampling and descriptive statistics to analyze distributions of unanswered questions across users, time, and reputation levels.]
+
+Machine Learning (ML)
+[Trains supervised classifiers, including Random Forests and other machine-learning models, to predict unanswered duration categories for questions.]
+
+Data Mining and Graph-Based Models
+[Applies data mining techniques over Stack Overflow posts, metadata, and user histories to extract predictive features.]",2013,"\cite{asaduzzaman2013answering}
+Investigates why Stack Overflow questions remain unanswered by mining large-scale data, deriving a qualitative taxonomy of unanswered-question characteristics, and building machine-learning models to predict how long a question will remain unanswered.","2013:\cite{asaduzzaman2013answering}
+Investigates why Stack Overflow questions remain unanswered by mining large-scale data, deriving a qualitative taxonomy of unanswered-question characteristics, and building machine-learning models to predict how long a question will remain unanswered.",question ,TC1,4
+S9,9,A discriminative model approach for suggesting tags automatically for stack overflow questions,1,1,0,0,0,0,0,0,0,0,0,accuracy;,"Machine Learning (ML)
+[Trains independent discriminative classifiers using Support Vector Machines for each popular tag, learning decision boundaries that distinguish tag-relevant questions from non-relevant ones.]
+
+Text Analysis and Natural Language Processing
+[Processes question text through tokenization, stop-word removal, and term-frequency weighting, using MALLET to generate high-dimensional feature vectors for discriminative model training.]",2013,"\cite{saha2013discriminative}
+Automatically suggests appropriate tags for Stack Overflow questions by training discriminative SVM-based models on large-scale historical question–tag data using lexical features extracted from question text.","2013:\cite{saha2013discriminative}
+Automatically suggests appropriate tags for Stack Overflow questions by training discriminative SVM-based models on large-scale historical question–tag data using lexical features extracted from question text.",tags,TC3,2
+S10,10,Analyzing question quality through intersubjectivity: world views and objective assessments of questions on social question-answering,0,0,1,1,0,0,1,0,0,0,0,anova; beta coefficients; krippendorff's alpha; kurtosis; mean; r-square; skewness; standard deviation;,"Qualitative Analysis
+[Applies Likert-scale coding by trained human assessors to rate multiple dimensions of question quality derived from a grounded typology.]
+
+Quantitative and Statistical Analysis
+[Uses stratified random sampling, inter-rater reliability assessment (Krippendorff’s alpha), correlation analysis, and multiple regression to relate subjective ratings to objective textual features.]
+
+Data Mining and Graph-Based Models
+[Employs data mining techniques to extract and analyze large sets of textual features from question subjects and contents for explanatory modeling.]",2013,"\cite{kitzie2013analyzing}
+Examines question quality in social Q&A by linking human, intersubjective quality judgments with automatically extracted textual features to identify which objective signals explain perceived deficiencies in questions and inform system-based interventions.","2013:\cite{kitzie2013analyzing}
+Examines question quality in social Q&A by linking human, intersubjective quality judgments with automatically extracted textual features to identify which objective signals explain perceived deficiencies in questions and inform system-based interventions.",question,TC1,3
+S11,11,From bad to good: an investigation of question quality and transformation,0,0,1,1,0,0,1,0,0,0,0,cohen's kappa; mean; standard deviation; standard error mean; t-test;,"Qualitative Analysis
+[Uses human expert assessments by trained reference librarians to label questions as “Bad,” revise them to “Good,” and evaluate quality based on a grounded typology of question failure.]
+
+Quantitative and Statistical Analysis
+[Applies paired statistical tests and feature comparisons to identify significant differences in textual features before and after revision and to analyze how feature relationships change through transformation.]
+
+Data Mining and Graph-Based Models
+[Employs data mining techniques to extract and analyze textual features from original and revised questions for comparative analysis.]",2013,"\cite{kitzie2013bad}
+Examines how textual features of low-quality questions change when experts revise them from “Bad” to “Good,” demonstrating that systematic reductions in noise and improvements in clarity and information density are strongly associated with higher perceived question quality.","2013:\cite{kitzie2013bad}
+Examines how textual features of low-quality questions change when experts revise them from “Bad” to “Good,” demonstrating that systematic reductions in noise and improvements in clarity and information density are strongly associated with higher perceived question quality.",question,TC1,3
+S12,12,Discovering high quality answers in community question answering archives using a hierarchy of classifiers,1,1,1,0,0,1,0,0,0,0,1,accuracy; chi-squared statistic; cohen's kappa;,"Qualitative Analysis
+[Uses manual annotation of question–answer pairs to label answer quality (good vs. bad) and question types, with high inter-annotator agreement.]
+
+Machine Learning (ML)
+[Applies supervised logistic regression and other classifiers within a hierarchical framework, where question-type classifiers guide the selection and aggregation of answer-quality classifiers.]
+
+Text Analysis and Natural Language Processing
+[Performs question-type classification and feature extraction using lexical, syntactic, and semantic NLP techniques, including n-grams, parsing-based features, and translation-based similarity.]
+
+Relevance, Ranking, and Evaluation
+[Conducts feature ranking and similarity analysis (e.g., cosine similarity) and evaluates models using accuracy-based comparisons across question types.]
+
+Miscellaneous
+[Employs k-fold cross-validation on natural and balanced datasets to assess robustness and generalizability.]",2014,"\cite{toba2014discovering}
+Identifies high-quality answers in community Q&A (Yahoo! Answers) by first classifying question types and then applying a hierarchy of supervised classifiers that leverage intrinsic textual, semantic, and similarity features to distinguish good and bad answers.","2014:\cite{toba2014discovering}
+Identifies high-quality answers in community Q&A (Yahoo! Answers) by first classifying question types and then applying a hierarchy of supervised classifiers that leverage intrinsic textual, semantic, and similarity features to distinguish good and bad answers.",answer,TC2,5
+S13,13,"""A Bit of Code"": How the Stack Overflow Community Creates Quality Postings",0,1,0,1,0,0,0,0,0,0,0,answer score;,"Quantitative and Statistical Analysis
+[Performs large-scale quantitative analysis over Stack Overflow data dumps, including distribution analysis and visualization of code–text ratios, readability scores, sentiment scores, and their relationships with post scores, favorites, and accepted answers.]
+
+Text Analysis and Natural Language Processing
+[Applies automated text processing to strip code and markup, compute readability metrics, and evaluate sentiment polarity on the remaining natural-language content.]",2014,"\cite{squire2014bit}
+Analyzes how the balance between source code and explanatory text influences perceived quality of Stack Overflow questions and answers by examining large-scale post metadata, readability, and sentiment characteristics of high-scoring and highly favorited posts.","2014:\cite{squire2014bit}
+Analyzes how the balance between source code and explanatory text influences perceived quality of Stack Overflow questions and answers by examining large-scale post metadata, readability, and sentiment characteristics of high-scoring and highly favorited posts.",answer; question,TC1&2,2
+S14,14,Understanding and Classifying the Quality of Technical Forum Questions,1,0,0,0,0,0,0,0,0,0,1,auc/roc/auc-roc; fitness function; precision;,"Machine Learning (ML)
+[Applies supervised learning models, including decision trees and other classifiers, with genetic algorithms used for feature selection and optimization.]
+
+Miscellaneous
+[Uses k-fold cross-validation to evaluate classification robustness and generalizability.]",2014,"\cite{ponzanelli2014understanding}
+Classifies the quality of technical forum questions by integrating textual, structural, user reputation, and community feedback features into supervised learning models to distinguish high- and low-quality questions on Stack Overflow.","2014:\cite{ponzanelli2014understanding}
+Classifies the quality of technical forum questions by integrating textual, structural, user reputation, and community feedback features into supervised learning models to distinguish high- and low-quality questions on Stack Overflow.",question,TC1,2
+S15,15,Chaff from the wheat : Characterization and modeling of deleted questions on Stack Overflow,1,0,0,1,0,0,0,0,0,0,1,accuracy; auc/roc/auc-roc; f1 score;,"Quantitative and Statistical Analysis
+[Conducts longitudinal and temporal trend analyses over multi-year Stack Overflow data snapshots to characterize deletion dynamics and moderation behavior.]
+
+Machine Learning (ML)
+[Builds supervised predictive models using ensemble-based classifiers (AdaBoost with decision trees) and other machine-learning techniques to predict question deletion at creation time.]
+
+Miscellaneous
+[Applies balanced sampling and k-fold cross-validation to evaluate prediction robustness and mitigate class imbalance.]",2014,"\cite{correa2014chaff}
+Characterizes and predicts extremely low-quality Stack Overflow questions that are ultimately deleted by analyzing longitudinal trends and modeling deletion likelihood at question creation time using user profile, community, content, and stylistic features.","2014:\cite{correa2014chaff}
+Characterizes and predicts extremely low-quality Stack Overflow questions that are ultimately deleted by analyzing longitudinal trends and modeling deletion likelihood at question creation time using user profile, community, content, and stylistic features.",question (deleted),TC1,3
+S16,16,Questioning the Question -- Addressing the Answerability of Questions in Community Question-Answering,1,0,1,0,0,1,0,0,0,0,1,accuracy; auc/roc/auc-roc;,"Qualitative Analysis
+[Uses human assessments collected via crowdsourcing (Mechanical Turk) to label questions as good or bad and to provide quality baselines for model training.]
+
+Machine Learning (ML)
+[Trains supervised classifiers, primarily Support Vector Machines, to predict question answerability based on extracted textual features.]
+
+Relevance, Ranking, and Evaluation
+[Applies cosine similarity measures to quantify subject–content alignment and support relevance-based feature analysis.]
+
+Miscellaneous
+[Evaluates model robustness using k-fold cross-validation on balanced subsets to mitigate class imbalance.]",2014,"\cite{shah2014questioning}
+Assesses the answerability and quality of community Q&A questions (Yahoo! Answers) by approximating human judgments through mechanically extracted textual features and supervised classification, with implications for question reformulation and routing.","2014:\cite{shah2014questioning}
+Assesses the answerability and quality of community Q&A questions (Yahoo! Answers) by approximating human judgments through mechanically extracted textual features and supervised classification, with implications for question reformulation and routing.",question,TC1,4
+S17,17,An Insight into the Unresolved Questions at Stack Overflow,1,1,0,1,0,0,1,0,0,0,1,accuracy; precision; recall;,"Quantitative and Statistical Analysis
+[Performs exploratory popularity and comparative analyses between resolved and unresolved questions to identify distinguishing behavioral and topical patterns.]
+
+Machine Learning (ML)
+[Builds supervised prediction models using J48 decision trees, logistic regression, and Naive Bayes classifiers to predict unresolved questions based on selected metrics.]
+
+Text Analysis and Natural Language Processing
+[Applies lexical analysis and topic modeling using MALLET (LDA) to extract topic similarity and entropy features from questions and answers.]
+
+Data Mining and Graph-Based Models
+[Analyzes historical user behavior and interaction patterns from Stack Overflow metadata to derive predictive behavioral features.]
+
+Miscellaneous
+[Evaluates model robustness using k-fold cross-validation across balanced datasets.]",2015,"\cite{rahman2015insight}
+Investigates why a substantial subset of Stack Overflow questions remain unresolved (no accepted answer) and proposes predictive models using behavioral, topical, and popularity signals to identify questions likely to remain unaccepted.","2015:\cite{rahman2015insight}
+Investigates why a substantial subset of Stack Overflow questions remain unresolved (no accepted answer) and proposes predictive models using behavioral, topical, and popularity signals to identify questions likely to remain unaccepted.",question,TC1,5
+S18,18,Evaluating Answer Quality across Knowledge Domains: Using Textual and Non-Textual Features in Social Q&A,0,0,0,1,0,1,0,0,0,0,0,answer score;,"Quantitative and Statistical Analysis
+[Applies exploratory factor analysis using maximum likelihood estimation and varimax rotation to identify latent feature groupings and compare their importance across knowledge domains.]
+
+Relevance, Ranking, and Evaluation
+[Conducts cross-domain comparisons to analyze how the contribution of textual and non-textual features to answer quality differs among science, technology, art, and recreation domains.]",2015,"\cite{fu2015evaluating}
+Evaluates and compares predictors of high-quality answers across multiple knowledge domains in social Q&A by modeling a unified set of textual and non-textual features and analyzing how their importance varies by domain.","2015:\cite{fu2015evaluating}
+Evaluates and compares predictors of high-quality answers across multiple knowledge domains in social Q&A by modeling a unified set of textual and non-textual features and analyzing how their importance varies by domain.",answer,TC2,2
+S19,19,Mining Successful Answers in Stack Overflow,1,1,0,1,0,0,0,0,0,0,1,auc/roc/auc-roc; coefficient estimate; f1 score; odds ratio; precision; recall;,"Quantitative and Statistical Analysis
+[Performs temporal and ablation analyses to quantify the contribution of timing, presentation, affect, and reputation to acceptance likelihood.]
+
+Machine Learning (ML)
+[Trains supervised classifiers, primarily logistic regression, to predict answer acceptance based on the combined feature set.]
+
+Text Analysis and Natural Language Processing
+[Applies sentiment analysis (e.g., lexicon-based scoring) to extract affective features from answer text and comments.]
+
+Miscellaneous
+[Implements experiments and evaluations using the Weka toolkit.]",2015,"\cite{calefato2015mining}
+Identifies actionable factors that predict whether a Stack Overflow answer will be accepted by modeling presentation quality, affective tone, timing, and user reputation using supervised learning on large-scale historical data.","2015:\cite{calefato2015mining}
+Identifies actionable factors that predict whether a Stack Overflow answer will be accepted by modeling presentation quality, affective tone, timing, and user reputation using supervised learning on large-scale historical data.",answer,TC2,4
+S20,20,Automatic assessments of code explanations: Predicting answering times on stack overflow,0,1,0,1,0,0,0,0,0,0,0,precision; recall;,"Quantitative and Statistical Analysis
+[Conducts large-scale quantitative and correlation analyses to examine the relationship between code–text explanatory alignment and time-to-answer across hundreds of thousands of posts.]
+
+Text Analysis and Natural Language Processing
+[Applies token similarity algorithms, L-ROUGE metrics, and term-based strategies, including grammar-based term extraction using ANTLR4, to quantify explanatory overlap between code snippets and textual descriptions.]",2015,"\cite{ercan2015automatic}
+Predicts Stack Overflow question answering time by automatically assessing the explanatory quality of code snippets through similarity between natural-language explanations and accompanying code, demonstrating that better-explained code leads to faster answers.","2015:\cite{ercan2015automatic}
+Predicts Stack Overflow question answering time by automatically assessing the explanatory quality of code snippets through similarity between natural-language explanations and accompanying code, demonstrating that better-explained code leads to faster answers.",question (code explanation),TC1,2
+S21,21,Quality Questions Need Quality Code: Classifying Code Fragments on Stack Overflow,1,0,1,0,0,0,0,1,0,0,0,accuracy; pearson correlation;,"Qualitative Analysis
+[Conducts manual inspection of code fragments to identify constructs indicative of low-quality questions and to derive domain-specific code quality metrics.]
+
+Machine Learning (ML)
+[Applies supervised classifiers, including Random Forests, Decision Trees, and Logistic Regression, to predict question quality using code-derived features.]
+
+Program and Code Analysis
+[Extracts and computes code readability and structural metrics from Java code fragments embedded in questions to quantify code quality.]",2015,"\cite{duijn2015quality}
+Classifies Stack Overflow questions as high or low quality by analyzing the readability, structure, and content of embedded code fragments, demonstrating that code-quality signals significantly improve question-quality prediction.","2015:\cite{duijn2015quality}
+Classifies Stack Overflow questions as high or low quality by analyzing the readability, structure, and content of embedded code fragments, demonstrating that code-quality signals significantly improve question-quality prediction.",question,TC1,3
+S22,22,"Utilizing Content Moderators to Investigate Critical Factors for Assessing the Quality of Answers on Brainly, Social Learning Q&A Platform for Students: A Pilot Study",0,0,1,1,0,0,0,0,0,0,0,likert scale; mean; standard deviation;,"Qualitative Analysis
+[Conducts a pilot user study with active Brainly content moderators, employing content analysis and open-discussion evaluations to elicit subjective quality criteria.]
+
+Quantitative and Statistical Analysis
+[Applies descriptive statistical analysis over Likert-scale survey responses to identify and rank the relative importance of answer quality factors.]",2015,"\cite{choi2015utilizing}
+Investigates how experienced content moderators assess answer quality on Brainly by identifying and validating key human-centric quality dimensions through a pilot user study and qualitative content analysis.","2015:\cite{choi2015utilizing}
+Investigates how experienced content moderators assess answer quality on Brainly by identifying and validating key human-centric quality dimensions through a pilot user study and qualitative content analysis.",answer,TC2,2
+S23,23,Predicting the quality of questions on Stackoverflow,0,1,0,1,0,0,0,0,0,0,0,f-statistic; mae; mse; r-square;,"Quantitative and Statistical Analysis
+[Applies regularized linear models, specifically Ridge regression, to predict question quality while handling high-dimensional and correlated feature spaces.]
+
+Text Analysis and Natural Language Processing
+[Performs term extraction and semantic analysis using tokenization and stop-word removal to model lexical signals that distinguish high- and low-quality questions.]",2015,"\cite{baltadzhieva2015predicting}
+Predicts the quality of Stack Overflow questions, measured by question score and number of answers, by modeling question formulation characteristics, asker reputation, tagging, and lexical terms using regularized regression on large-scale historical data.","2015:\cite{baltadzhieva2015predicting}
+Predicts the quality of Stack Overflow questions, measured by question score and number of answers, by modeling question formulation characteristics, asker reputation, tagging, and lexical terms using regularized regression on large-scale historical data.",question,TC1,2
+S24,24,Answers or no answers: Studying question answerability in Stack Overflow,1,0,1,0,0,0,0,0,0,0,0,accuracy; cohen's kappa; cox and snell incremental r^2; cox and snell r^2; gelkerke r^2; hosmer-lemeshow test; mean; na; nagelkerke incremental r^2; odds ratio; omnibus test ?2; standard deviation;,"Qualitative Analysis
+[Conducts human content analysis with trained coders to rate linguistic errors, completeness, complexity, politeness, and subjectivity using Likert-scale judgments.]
+
+Machine Learning (ML)
+[Applies hierarchical logistic regression to model question answerability by incrementally incorporating control variables, metadata features, and content-based quality indicators.]",2015,"\cite{chua2015answers}
+Examines why some Stack Overflow questions receive answers while others do not by proposing and validating the Quest-for-Answer framework, which models question answerability using a combination of content quality, socio-emotional cues, metadata, and temporal factors through hierarchical regression.","2015:\cite{chua2015answers}
+Examines why some Stack Overflow questions receive answers while others do not by proposing and validating the Quest-for-Answer framework, which models question answerability using a combination of content quality, socio-emotional cues, metadata, and temporal factors through hierarchical regression.",question,TC1,2
+S25,25,TagCombine: Recommending Tags to Contents in Software Information Sites,1,1,0,0,0,1,0,0,0,0,0,recall;,"Machine Learning (ML)
+[Formulates tag recommendation as a multi-label classification problem and applies supervised multi-label learning algorithms to estimate tag relevance scores.]
+
+Text Analysis and Natural Language Processing
+[Transforms textual content using TF-IDF representations and computes tag–term affinity scores to model relationships between terms in content and associated tags.]
+
+Relevance, Ranking, and Evaluation
+[Combines multi-label ranking, similarity-based ranking, and tag–term–based ranking components to produce final tag rankings and evaluates effectiveness using recall-based metrics.]",2015,"\cite{wang2015tagcombine}
+Proposes TagCombine, an automated tag recommendation approach for software information sites that integrates multi-label learning, similarity-based retrieval, and tag–term affinity modeling to improve tag relevance and coverage across platforms such as Stack Overflow.","2015:\cite{wang2015tagcombine}
+Proposes TagCombine, an automated tag recommendation approach for software information sites that integrates multi-label learning, similarity-based retrieval, and tag–term affinity modeling to improve tag relevance and coverage across platforms such as Stack Overflow.",tags,TC3,3
+S26,26,Detecting high-quality posts in community question answering sites,1,0,0,1,0,0,0,0,0,0,0,pearson correlation; precision;,"Quantitative and Statistical Analysis
+[Analyzes correlations between question and answer voting outcomes to validate the assumption that high-quality questions tend to attract high-quality answers.]
+
+Machine Learning (ML)
+[Proposes co-prediction algorithms that jointly learn question and answer quality using logistic regression optimized via gradient descent to exploit voting-score dependencies.]",2015,"\cite{yao2015detecting}
+Detects high-quality questions and answers in community Q&A sites at an early stage by jointly modeling voting correlations between questions and their associated answers using co-prediction algorithms.","2015:\cite{yao2015detecting}
+Detects high-quality questions and answers in community Q&A sites at an early stage by jointly modeling voting correlations between questions and their associated answers using co-prediction algorithms.",answer; question,TC1&2,2
+S27,27,Building a parsimonious model for identifying best answers using interaction history in community Q&A,1,0,0,1,0,0,0,0,0,0,0,accuracy; auc/roc/auc-roc; infogain; krippendorff's alpha; precision; recall;,"Quantitative and Statistical Analysis
+[Performs statistical analysis and feature ranking (e.g., information gain and correlation analysis) to assess redundancy and predictive contribution of textual and interaction features.]
+
+Machine Learning (ML)
+[Applies Bayesian Network (BayesNet) classifiers and supervised learning to build a two-step prediction model that first uses textual features and then refines failed cases using interaction-history features.]",2015,"\cite{shah2015building}
+Proposes a parsimonious model for identifying best answers in community Q&A by leveraging minimal textual features and novel interaction-history features between askers and answerers, showing that interaction signals significantly improve best-answer prediction with low computational cost.","2015:\cite{shah2015building}
+Proposes a parsimonious model for identifying best answers in community Q&A by leveraging minimal textual features and novel interaction-history features between askers and answerers, showing that interaction signals significantly improve best-answer prediction with low computational cost.",answer,TC2,2
+S28,28,Multi-Factor Duplicate Question Detection in Stack Overflow,0,1,0,0,0,1,0,0,1,0,0,recall;,"Text Analysis and Natural Language Processing
+[Applies Latent Dirichlet Allocation (LDA)–based topic modeling to capture latent semantic structures in question titles and descriptions.]
+
+Heuristic and Rule-Based Approaches
+[Employs a greedy weight-optimization strategy and a customized composition algorithm to combine multiple similarity factors into a unified duplicate-detection score.]
+
+Relevance, Ranking, and Evaluation
+[Uses cosine similarity–based measures and ranking-oriented evaluation metrics (e.g., recall@k) to assess the effectiveness of duplicate question retrieval.]",2015,"\cite{zhang2015multi}
+Detects duplicate questions on Stack Overflow by combining multiple similarity signals derived from question titles, descriptions, topics, and tags using topic modeling and heuristic ranking strategies.","2015:\cite{zhang2015multi}
+Detects duplicate questions on Stack Overflow by combining multiple similarity signals derived from question titles, descriptions, topics, and tags using topic modeling and heuristic ranking strategies.",question (duplicate),TC1,3
+S29,29,Synonym Suggestion for Tags on Stack Overflow,0,1,1,0,0,0,1,0,0,0,0,"top@k (k=1,3,5,10,15);","Qualitative Analysis
+[Conducts manual analysis of approved Stack Overflow tag synonym pairs and a user study with developers to derive synonym-creation strategies and to validate the quality of suggested synonyms.]
+
+Text Analysis and Natural Language Processing
+[Implements multiple synonym-creation strategies based on lexical, phonetic, and structural properties of tags, including stemming, string similarity, acronym handling, phonetic encoding (Metaphone), and token-based matching.]
+
+Data Mining and Graph-Based Models
+[Applies data mining over large-scale Stack Overflow tag datasets to extract synonym patterns and to support automated synonym suggestion and ranking.]",2015,"\cite{beyer2015synonym}
+Investigates how tag synonyms are manually created on Stack Overflow and proposes TSST, an automated approach that suggests and ranks potential tag synonyms using systematically derived linguistic and structural strategies.","2015:\cite{beyer2015synonym}
+Investigates how tag synonyms are manually created on Stack Overflow and proposes TSST, an automated approach that suggests and ranks potential tag synonyms using systematically derived linguistic and structural strategies.",tags,TC3,3
+S30,30,CSNIPPEX: Automated Synthesis of Compilable Code Snippets from Q&A Sites,0,0,0,1,0,0,0,1,1,0,0,compilability; precision;,"Quantitative and Statistical Analysis
+[Performs large-scale statistical analysis over hundreds of thousands of Stack Overflow posts to quantify the prevalence of uncompilable snippets and to evaluate synthesis effectiveness and precision.]
+
+Heuristic and Rule-Based Approaches
+[Introduces the clustering hypothesis to guide greedy inference of import declarations and compilation-unit composition, prioritizing dependency solutions that form coherent package clusters.]
+
+Program and Code Analysis
+[Implements compilation-unit inference, external dependency resolution, feedback-directed compilation, code completion, and quick-fix application to iteratively transform raw snippets into compilable Java programs.]",2016,"\cite{terragni2016csnippex}
+Proposes CSNIPPEX, an automated framework that synthesizes compilable Java code from incomplete Stack Overflow code snippets by inferring compilation units, resolving external dependencies, and iteratively fixing errors using compiler feedback.","2016:\cite{terragni2016csnippex}
+Proposes CSNIPPEX, an automated framework that synthesizes compilable Java code from incomplete Stack Overflow code snippets by inferring compilation units, resolving external dependencies, and iteratively fixing errors using compiler feedback.",answer code snippet (usability),TC2,3
+S31,31,Evaluating the Quality of Educational Answers in Community Question-Answering,1,0,0,0,0,0,0,0,0,0,0,accuracy; f1 score;,"Machine Learning (ML)
+[Applies supervised classification models, including Decision Trees and Random Forests, to predict answer quality using combined personal, community, textual, and contextual feature sets.]",2016,"\cite{le2016evaluating}
+Automatically assesses the quality of educational answers in community question-answering by integrating textual, contextual, personal, and community-based features into supervised classifiers, with large-scale validation on Brainly datasets.","2016:\cite{le2016evaluating}
+Automatically assesses the quality of educational answers in community question-answering by integrating textual, contextual, personal, and community-based features into supervised classifiers, with large-scale validation on Brainly datasets.",answer,TC2,1
+S32,32,Improving the Quality of Code Snippets in Stack Overflow,0,0,1,0,0,0,0,1,0,0,0,completeness; conciseness; correctness; understandability;,"Qualitative Analysis
+[Conducts expert-driven qualitative analysis and a controlled user study to compare original Stack Overflow code snippets with improved snippets generated using the proposed approach.]
+
+Program and Code Analysis
+[Applies feedback-driven code improvement through iterative compilation, program slicing to recover missing context, and clone detection to identify and enhance relevant code fragments.]",2016,"\cite{tavakoli2016improving}
+Introduces ExRec, an IDE-integrated approach that enables developers to improve the quality of Stack Overflow code snippets by transferring, fixing, and contributing enhanced code examples back to Q&A posts.","2016:\cite{tavakoli2016improving}
+Introduces ExRec, an IDE-integrated approach that enables developers to improve the quality of Stack Overflow code snippets by transferring, fixing, and contributing enhanced code examples back to Q&A posts.",answer code snippet,TC2,2
+S33,33,Mining Duplicate Questions in Stack Overflow,1,1,1,1,0,1,0,0,0,0,0,recall;,"Qualitative Analysis
+[manual inspection of sampled duplicate and master question pairs to identify and categorize underlying reasons for question duplication]
+
+Quantitative and Statistical Analysis
+[statistical analysis of lexical overlap and similarity distributions across large-scale Stack Overflow question pairs]
+
+Machine Learning (ML)
+[supervised discriminative classification using logistic regression trained on similarity-based features to predict whether a pair of questions is duplicate]
+
+Text Analysis and Natural Language Processing
+[application of named entity recognition to extract entities and entity types from question titles and bodies for overlap-based similarity computation]
+
+Relevance, Ranking, and Evaluation
+[use of BM25 ranking to retrieve candidate duplicate questions followed by cosine similarity–based scoring and recall@k evaluation to assess duplicate detection performance]",2016,"\cite{ahasanuzzaman2016mining}
+Mining duplicate questions in Stack Overflow by combining manual qualitative analysis of duplication causes with a supervised classification approach that leverages lexical, semantic, and entity-based similarity features to automatically identify and rank duplicate question pairs.","2016:\cite{ahasanuzzaman2016mining}
+Mining duplicate questions in Stack Overflow by combining manual qualitative analysis of duplication causes with a supervised classification approach that leverages lexical, semantic, and entity-based similarity features to automatically identify and rank duplicate question pairs.",question (duplicate),TC1,5
+S34,34,Predicting Questions' Scores on Stack Overflow,0,1,0,1,0,0,0,0,0,0,0,r-square; spearman's rank correlation;,"Quantitative and Statistical Analysis
+[applies correlation analysis, nonparametric statistical tests, and multiple linear regression to identify factors significantly associated with question scores]
+
+Text Analysis and Natural Language Processing
+[uses sentiment analysis techniques to compute polarity and subjectivity values from cleaned question text]",2016,"\cite{alharthi2016predicting}
+Predicting Stack Overflow question scores by quantitatively modeling how question format, content characteristics, sentiment, and post–answer interactions jointly relate to community voting outcomes using regression-based analysis.","2016:\cite{alharthi2016predicting}
+Predicting Stack Overflow question scores by quantitatively modeling how question format, content characteristics, sentiment, and post–answer interactions jointly relate to community voting outcomes using regression-based analysis.",question (score),TC1,2
+S35,35,"Social Question Answering: Textual, User, and Network Features for Best Answer Prediction",1,1,0,0,0,0,0,0,0,0,0,precision;,"Machine Learning (ML)
+[employs supervised learning-to-rank models, including Random Forests, Logistic Regression, ListNet, and RankSVM, to rank candidate answers by likelihood of being selected as best]
+
+Text Analysis and Natural Language Processing
+[applies topic clustering and large-scale linguistic analysis to group questions and evaluate feature effectiveness across different question types]",2016,"\cite{molino2016social}
+Best answer prediction in community question answering by learning to rank candidate answers using a large-scale combination of textual quality, linguistic similarity, user profile, and expertise network features extracted from Yahoo Answers.","2016:\cite{molino2016social}
+Best answer prediction in community question answering by learning to rank candidate answers using a large-scale combination of textual quality, linguistic similarity, user profile, and expertise network features extracted from Yahoo Answers.",answer,TC2,2
+S36,36,Understanding Question Quality through Affective Aspect in Q&A Site,1,1,0,0,0,0,0,0,0,0,1,f1 score; precision; recall; scott-knott (feature ranking);,"Machine Learning (ML)
+[builds supervised classification models using Random Forests to predict whether a question will receive an accepted answer based on combined feature sets]
+
+Text Analysis and Natural Language Processing
+[applies sentiment analysis and politeness extraction techniques to derive affective features from question text]
+
+Miscellaneous
+[employs repeated 10-fold cross-validation and feature importance analysis with Scott–Knott clustering to evaluate model performance and rank influential features]",2016,"\cite{jiarpakdee2016understanding}
+Investigating how affective aspects of question writing influence question quality on Stack Overflow by modeling unanswered-question prediction using textual, community-based, and affective features, and showing that affective cues improve prediction performance.","2016:\cite{jiarpakdee2016understanding}
+Investigating how affective aspects of question writing influence question quality on Stack Overflow by modeling unanswered-question prediction using textual, community-based, and affective features, and showing that affective cues improve prediction performance.",question,TC1,3
+S37,37,Embedded Emotion-based Classification of Stack Overflow Questions Towards the Question Quality Prediction,1,1,0,0,0,0,0,0,0,0,1,accuracy; f1 score; mann-whitney u-test results; precision; recall;,"Machine Learning (ML)
+[trains supervised classifiers, including Multilayer Perceptron and Support Vector Machine, to classify questions as high or low quality based on sentiment and content features]
+
+Text Analysis and Natural Language Processing
+[applies NLP preprocessing, sentiment analysis, and term-frequency analysis to extract TF–IDF–weighted indicator terms and sentence-level sentiment features]
+
+Miscellaneous
+[evaluates model performance using 10-fold cross-validation across multiple experimental settings]",2016,"\cite{rahman2016embedded}
+Predicting Stack Overflow question quality by modeling embedded human emotions through sentence-level sentiment polarity and key-term importance, and applying supervised machine learning to distinguish high- and low-quality questions at posting time.","2016:\cite{rahman2016embedded}
+Predicting Stack Overflow question quality by modeling embedded human emotions through sentence-level sentiment polarity and key-term importance, and applying supervised machine learning to distinguish high- and low-quality questions at posting time.",question,TC1,3
+S38,38,It Takes Two to Tango: Deleted Stack Overflow Question Prediction with Text and Meta Features,1,1,0,0,0,0,0,0,0,0,1,f1 score; precision; recall;,"Machine Learning (ML)
+[employs probabilistic text classifiers and ensemble learners, including Multinomial Naive Bayes and Complement Naive Bayes, combined with a weighted composite classifier for deletion prediction]
+
+Text Analysis and Natural Language Processing
+[applies large-scale text mining techniques such as tokenization, stop-word removal, stemming, and term-feature extraction across titles, bodies, and tags]
+
+Miscellaneous
+[evaluates prediction performance using longitudinal cross-validation with automated threshold and weight tuning]",2016,"\cite{xia2016takes}
+Predicting whether Stack Overflow questions will be deleted by jointly modeling textual content from titles, bodies, and tags with user- and community-level meta features through a two-stage ensemble classification approach.","2016:\cite{xia2016takes}
+Predicting whether Stack Overflow questions will be deleted by jointly modeling textual content from titles, bodies, and tags with user- and community-level meta features through a two-stage ensemble classification approach.",question (deleted),TC1,3
+S39,39,By the Community & For the Community: A Deep Learning Approach to Assist Collaborative Editing in Q&A Sites,0,1,1,0,1,0,0,0,0,0,0,gleu;,"Qualitative Analysis
+[conducts a formative study and user survey with trusted contributors and a field study with a novice editor to understand edit motivations, categories, and perceived usefulness]
+
+Deep Learning (DL) / Transformer-Based Deep Learning
+[formulates sentence editing as a sequence-to-sequence learning problem and trains a character-level RNN encoder–decoder model on millions of original–edited sentence pairs]
+
+Text Analysis and Natural Language Processing
+[applies sentence alignment and normalization techniques to extract parallel sentence pairs and handle domain-specific terms such as APIs, URLs, and code identifiers]",2017,"\cite{chen2017community}
+Assisting collaborative editing in Q&A sites by learning sentence-level edit patterns from large-scale community edits and recommending small textual improvements using a character-level deep learning model.","2017:\cite{chen2017community}
+Assisting collaborative editing in Q&A sites by learning sentence-level edit patterns from large-scale community edits and recommending small textual improvements using a character-level deep learning model.",answer; question,TC1&2,3
+S40,40,Detecting Duplicate Posts in Programming QA Communities via Latent Semantics and Association Rules,1,1,0,0,0,1,1,0,0,0,0,auc/roc/auc-roc; f1 score; recall;,"Machine Learning (ML)
+[trains and compares multiple supervised classifiers to distinguish duplicate and non-duplicate question pairs using combined semantic and association-based features]
+
+Text Analysis and Natural Language Processing
+[extracts lexical and latent semantic representations through TF–IDF vectorization, neural word and document embeddings, and topic modeling tailored for short technical texts]
+
+Data Mining and Graph-Based Models
+[mines association rules and phrase pairs from large sets of manually labeled duplicate questions using alignment techniques adapted from machine translation]
+
+Relevance, Ranking, and Evaluation
+[computes cosine similarity between vector and topic representations and evaluates duplicate detection performance using recall-, F1-, and AUC-based ranking metrics]",2017,"\cite{zhang2017detecting}
+Detecting duplicate programming questions by modeling question pairs with latent semantic representations and association rules, and framing duplicate detection as a supervised classification task that leverages vector similarity, topical similarity, and mined phrase associations.","2017:\cite{zhang2017detecting}
+Detecting duplicate programming questions by modeling question pairs with latent semantic representations and association rules, and framing duplicate detection as a supervised classification task that leverages vector similarity, topical similarity, and mined phrase associations.",question (duplicate),TC1,4
+S41,41,Discerning the Quality of Questions in Educational Q&A using Textual Features,1,0,1,0,0,0,0,0,0,0,1,accuracy; auc/roc/auc-roc; f1 score; precision; recall;,"Qualitative Analysis
+[employs human assessment with Likert-scale ratings to label question quality across several qualitative dimensions]
+
+Machine Learning (ML)
+[trains supervised classifiers, including SVM, Random Forest, and logistic regression, to predict question quality labels from textual features]
+
+Miscellaneous
+[evaluates classification robustness using cross-validation to ensure generalizability of results]",2017,"\cite{rath2017discerning}
+Assessing question quality in an educational Q&A platform by modeling human-rated quality dimensions using automatically extracted textual features and supervised learning to distinguish good and poor questions.","2017:\cite{rath2017discerning}
+Assessing question quality in an educational Q&A platform by modeling human-rated quality dimensions using automatically extracted textual features and supervised learning to distinguish good and poor questions.",question,TC1,3
+S42,42,TAGme: A Topical Folksonomy Based Collaborative Filtering for Tag Recommendation in Community Sites,1,1,0,0,0,0,0,0,0,0,0,cosine similarity; f1 score; precision; recall;,"Machine Learning (ML)
+[applies item-based collaborative filtering over topic–tag and user–topic profile matrices to recommend tags aligned with users’ previous topical histories]
+
+Text Analysis and Natural Language Processing
+[employs topic modeling and topical folksonomy construction using TF–IDF, LDA-based variants (including Tag-LDA), and relational topic modeling to capture semantic structure of posts and tags]",2017,"\cite{singh2017tagme}
+Recommending relevant tags for community question answering posts by constructing a topical folksonomy that integrates topic modeling with user–tag–topic relationships and applying collaborative filtering based on users’ historical topical interests.","2017:\cite{singh2017tagme}
+Recommending relevant tags for community question answering posts by constructing a topical folksonomy that integrates topic modeling with user–tag–topic relationships and applying collaborative filtering based on users’ historical topical interests.",tags,TC3,2
+S43,43,Identifying Textual Features of High-Quality Questions: An Empirical Study on Stack Overflow,0,1,0,1,0,0,1,0,0,0,0,rank feature (z-score);,"Quantitative and Statistical Analysis
+[applies variable clustering and redundancy analysis to control multicollinearity, followed by readability and descriptive statistics to characterize textual differences between high- and low-quality questions]
+
+Text Analysis and Natural Language Processing
+[uses sentiment analysis to extract polarity and sentiment strength from question text]
+
+Data Mining and Graph-Based Models
+[employs all-relevant feature selection and feature importance ranking using data-mining techniques such as the Boruta algorithm]",2017,"\cite{mi2017identifying}
+Identifying textual characteristics of high-quality Stack Overflow questions through a large-scale empirical analysis that contrasts high- and low-quality posts using readability, structural, lexical, and sentiment features to derive practical guidance for question formulation.","2017:\cite{mi2017identifying}
+Identifying textual characteristics of high-quality Stack Overflow questions through a large-scale empirical analysis that contrasts high- and low-quality posts using readability, structural, lexical, and sentiment features to derive practical guidance for question formulation.",question,TC1,3
+S44,44,Scalable tag recommendation for software information sites,1,1,0,0,0,1,0,0,1,0,0,f1 score; precision; recall;,"Machine Learning (ML)
+[formulates tag recommendation as a multi-class classification problem and applies an efficient classification algorithm to assign multiple relevant tags to new software objects]
+
+Text Analysis and Natural Language Processing
+[computes semantic similarity between software objects using normalized textual representations and tag normalization to handle synonymous and noisy tags]
+
+Heuristic and Rule-Based Approaches
+[filters unreliable and low-frequency tags using predefined thresholds to reduce noise and stabilize the tag space]
+
+Relevance, Ranking, and Evaluation
+[ranks candidate tags based on similarity-weighted scores derived from semantically related software objects and evaluates recommendations using precision-, recall-, and F1-based ranking metrics]",2017,"\cite{zhou2017scalable}
+Automatically recommending relevant tags for software information sites by retrieving semantically similar software objects and applying a scalable multi-classification and ranking approach to suggest concise, high-quality tags.","2017:\cite{zhou2017scalable}
+Automatically recommending relevant tags for software information sites by retrieving semantically similar software objects and applying a scalable multi-classification and ranking approach to suggest concise, high-quality tags.",tags,TC3,4
+S45,45,Towards Question Improvement on Knowledge Sharing Platforms: A Stack Overflow Case Study,1,1,0,0,0,0,0,0,0,0,0,accuracy; auc/roc/auc-roc; f1 score;,"Machine Learning (ML)
+[trains predictive models using SVM, logistic regression, kNN, and decision trees to estimate whether edited closed questions will be successfully reopened]
+
+Text Analysis and Natural Language Processing
+[performs extensive feature engineering over textual, formatting, and orthographic attributes of question titles, bodies, and tags]",2017,"\cite{gupta2017towards}
+Assisting the improvement and reopening of closed Stack Overflow questions by learning predictive models from edits performed by experienced users and identifying which textual, structural, and tagging edits most effectively increase reopening likelihood.","2017:\cite{gupta2017towards}
+Assisting the improvement and reopening of closed Stack Overflow questions by learning predictive models from edits performed by experienced users and identifying which textual, structural, and tagging edits most effectively increase reopening likelihood.",question,TC1,2
+S46,46,"Question's advisor a wizard interface to teach novice programmers how to post ""better"" questions in stack overflow",0,1,1,0,0,0,0,0,0,0,0,agreement level;,"Qualitative Analysis
+[conducts user studies and usability testing with programmers to elicit desirable question characteristics and to assess the perceived usefulness of the wizard interface]
+
+Text Analysis and Natural Language Processing
+[applies NLP techniques to analyze draft questions, detect missing desirable characteristics, and generate actionable, real-time suggestions for question improvement]",2017,"\cite{remigio2017question}
+Designing and evaluating a wizard-style assistant that helps novice programmers compose higher-quality Stack Overflow questions by providing real-time, NLP-driven feedback based on community-identified “good characteristics” of answerable questions.","2017:\cite{remigio2017question}
+Designing and evaluating a wizard-style assistant that helps novice programmers compose higher-quality Stack Overflow questions by providing real-time, NLP-driven feedback based on community-identified “good characteristics” of answerable questions.",question,TC1,2
+S47,47,On early detection of high voted Q&A on Stack Overflow,1,0,0,0,0,0,0,0,0,0,0,accuracy; auc/roc/auc-roc; f1 score; precision; recall;,"Machine Learning (ML)
+[applies logistic regression as a baseline and extends it with relational classifiers and joint prediction models that simultaneously infer question quality, answer quality, and acceptance likelihood]",2017,"\cite{neshati2017early}
+Early detection of high-voted questions and answers on Stack Overflow by jointly modeling question–answer dependencies shortly after posting, leveraging accepted-answer and answer-competition effects within a unified relational prediction framework.","2017:\cite{neshati2017early}
+Early detection of high-voted questions and answers on Stack Overflow by jointly modeling question–answer dependencies shortly after posting, leveraging accepted-answer and answer-competition effects within a unified relational prediction framework.",answer; question,TC1&2,1
+S48,48,The best answer prediction by exploiting heterogeneous data on software development Q&A forum,1,0,1,0,0,0,0,0,0,0,0,f1 score; precision; recall;,"Qualitative Analysis
+[analyzes user background knowledge by modeling historical answering behavior, reputation, and expertise indicators as a complementary view to textual similarity]
+
+Machine Learning (ML)
+[formulates best-answer prediction as a multi-view learning problem and applies the BoostStack ensemble framework to combine predictors trained on text, code, and user knowledge views]",2017,"\cite{zheng2017best}
+Predicting the best answers on Stack Overflow by exploiting heterogeneous information from text, code snippets, and user background knowledge, and combining these complementary views through a multi-view learning framework (BoostStack) to improve early and accurate best-answer identification.","2017:\cite{zheng2017best}
+Predicting the best answers on Stack Overflow by exploiting heterogeneous information from text, code snippets, and user background knowledge, and combining these complementary views through a multi-view learning framework (BoostStack) to improve early and accurate best-answer identification.",answer,TC2,2
+S49,49,Language Use Matters: Analysis of the Linguistic Structure of Question Texts Can Characterize Answerability in Quora,1,1,1,1,0,0,0,0,0,0,0,accuracy; auc/roc/auc-roc; f1 score; precision; recall;,"Qualitative Analysis
+[conducts psycholinguistic analysis to interpret how linguistic and emotional cues correspond to perceived question answerability]
+
+Quantitative and Statistical Analysis
+[computes diversity and distribution statistics over part-of-speech tags to quantify structural variation in question texts]
+
+Machine Learning (ML)
+[trains supervised classifiers, including SVM, logistic regression, and random forest models, to predict whether a question will be answered within a given time window]
+
+Text Analysis and Natural Language Processing
+[extracts linguistic features using LIWC categories, topic distributions from LDA, and edit-distance–based similarity via ROUGE-LCS recall]",2017,"\cite{maity2017language}
+Characterizing and predicting question answerability on Quora by quantifying linguistic and psycholinguistic language-use patterns in question texts and showing that these features alone can effectively discriminate answered from unanswered questions at early stages.","2017:\cite{maity2017language}
+Characterizing and predicting question answerability on Quora by quantifying linguistic and psycholinguistic language-use patterns in question texts and showing that these features alone can effectively discriminate answered from unanswered questions at early stages.",question,TC1,4
+S50,50,Understanding Stack Overflow Code Fragments,0,0,1,1,0,0,0,0,0,0,0,chi-squared test; cramer's v;,"Qualitative Analysis
+[conducts a survey-based user study with open-ended questions and qualitative coding to identify recurring issues that hinder code fragment understandability]
+
+Quantitative and Statistical Analysis
+[uses stratified sampling and descriptive statistical analysis of self-explanatory ratings to quantify perceived code understandability across topics]",2017,"\cite{treude2017understanding}
+Investigating how self-explanatory Stack Overflow code fragments are by conducting a large-scale survey study that analyzes developers’ perceptions of code understandability and identifies missing contextual information beyond code alone.","2017:\cite{treude2017understanding}
+Investigating how self-explanatory Stack Overflow code fragments are by conducting a large-scale survey study that analyzes developers’ perceptions of code understandability and identifies missing contextual information beyond code alone.",answer code snippet,TC2,2
+S51,51,Are Code Examples on an Online Q&A Forum Reliable? A Study of API Misuse on Stack Overflow,0,0,1,0,0,0,1,1,0,0,0,diversity score; likert scale; manual validation; relevance score; usefulness score;,"Qualitative Analysis
+[performs manual inspection of sampled Stack Overflow posts to validate detected API misuses and assess their potential runtime impact, supported by inter-rater agreement]
+
+Data Mining and Graph-Based Models
+[mines frequent API usage patterns, call sequences, and guard conditions from hundreds of thousands of GitHub repositories using subsequence mining and predicate equivalence analysis]
+
+Program and Code Analysis
+[applies program slicing and structured call-sequence extraction to isolate API-relevant code fragments and improve the precision of usage pattern mining]",2018,"\cite{zhang2018code}
+Assessing the reliability of Stack Overflow code examples by mining desirable API usage patterns from large-scale GitHub repositories and contrasting them against Stack Overflow snippets to detect prevalent API misuses that may lead to crashes, resource leaks, or unexpected behavior.","2018:\cite{zhang2018code}
+Assessing the reliability of Stack Overflow code examples by mining desirable API usage patterns from large-scale GitHub repositories and contrasting them against Stack Overflow snippets to detect prevalent API misuses that may lead to crashes, resource leaks, or unexpected behavior.",answer code snippet (API Misuse),TC2,3
+S52,52,Data-Driven Proactive Policy Assurance of Post Quality in Community Q&A Sites,0,1,1,0,1,0,0,0,0,0,0,f1 score; precision; recall;,"Qualitative Analysis
+[conducts a large-scale empirical analysis of collaborative editing logs to identify common editing types and mid-level quality assurance practices manifested through community edits]
+
+Deep Learning (DL) / Transformer-Based Deep Learning
+[formulates post-edit recommendation as a text classification problem and applies a Convolutional Neural Network (CNN) to learn editing patterns and predict required edit types]
+
+Text Analysis and Natural Language Processing
+[uses text classification over post bodies with word embeddings and CNN-based feature learning to detect quality issues and localize key phrases that justify edit recommendations]",2018,"\cite{chen2018data}
+Proposing a data-driven and proactive post-quality assurance approach that learns implicit community norms from large-scale collaborative editing histories on Stack Overflow and uses a CNN-based model to predict and recommend mid-level post edits (e.g., formatting, links, images) before publication.","2018:\cite{chen2018data}
+Proposing a data-driven and proactive post-quality assurance approach that learns implicit community norms from large-scale collaborative editing histories on Stack Overflow and uses a CNN-based model to predict and recommend mid-level post edits (e.g., formatting, links, images) before publication.",answer; question,TC1&2,3
+S53,53,Duplicate Detection in Programming Question Answering Communities,1,1,0,0,1,1,1,0,1,0,0,auc/roc/auc-roc; f1 score; recall;,"Machine Learning (ML)
+[trains and evaluates a wide range of supervised classifiers, including instance-based, linear, kernel-based, ensemble, and neural models, to predict whether a question pair is duplicate]
+
+Deep Learning (DL) / Transformer-Based Deep Learning
+[leverages neural representation learning to model latent semantic similarity between questions, enabling more robust detection beyond lexical overlap]
+
+Text Analysis and Natural Language Processing
+[extracts vector-based semantic representations, applies probabilistic language models with smoothing, and uses topic modeling to characterize question similarity]
+
+Heuristic and Rule-Based Approaches
+[filters and prunes candidate questions using tag overlap and ranking heuristics to reduce the search space before classification]
+
+Data Mining and Graph-Based Models
+[mines frequently co-occurring phrase pairs from known duplicate questions to construct association features that capture domain-specific paraphrasing patterns]
+
+Relevance, Ranking, and Evaluation
+[employs IR-style ranking models (e.g., BM25 and language-model–based scoring) to select top-k candidate duplicates and evaluates performance using recall-at-k and classification metrics]",2018,"\cite{zhang2018duplicate}
+Proposing a two-stage duplicate question detection framework for programming Q&A communities that first ranks candidate historical questions using information-retrieval models and then classifies question pairs using combined textual, latent semantic, and association-based features.","2018:\cite{zhang2018duplicate}
+Proposing a two-stage duplicate question detection framework for programming Q&A communities that first ranks candidate historical questions using information-retrieval models and then classifies question pairs using combined textual, latent semantic, and association-based features.",question (duplicate),TC1,6
+S54,54,Two Perspectives on Software Documentation Quality in Stack Overflow,1,1,1,0,0,0,0,0,0,0,0,accuracy; precision; recall;,"Qualitative Analysis
+[manually validates extracted documentation-quality indicators and their relationships with answer acceptance and voting outcomes]
+
+Machine Learning (ML)
+[applies a Naïve Bayes classifier to predict whether answers will be accepted or highly voted based on combinations of documentation-related features]
+
+Text Analysis and Natural Language Processing
+[performs automated readability analysis to derive linguistic features used in predictive modeling]",2018,"\cite{ellmann2018two}
+Analyzing software documentation quality on Stack Overflow from both the questioner’s and the community’s perspectives by examining how textual readability and information artifacts influence answer acceptance and voting, and by training predictive models for documentation success.","2018:\cite{ellmann2018two}
+Analyzing software documentation quality on Stack Overflow from both the questioner’s and the community’s perspectives by examining how textual readability and information artifacts influence answer acceptance and voting, and by training predictive models for documentation success.",answer; question,TC1&2,3
+S55,55,"Determinants of quality, latency, and amount of Stack Overflow answers about recent Android APIs",1,0,1,0,0,0,0,0,1,0,1,constant; log likelihood; r-square;,"Qualitative Analysis
+[conducts manual case studies to validate whether detected API mentions are central to questions and to characterize how new APIs are discussed]
+
+Machine Learning (ML)
+[applies regression-based predictive models, including logistic regression, Poisson regression, and linear regression, to estimate effects on answer quality, quantity, and latency]
+
+Heuristic and Rule-Based Approaches
+[filters and cleans large-scale Stack Overflow and Android API datasets to control for confounds such as deleted posts, migrated questions, and noisy API links]
+
+Miscellaneous
+[analyzes the role of bounties as an incentive mechanism by modeling their timing and presence in relation to answer quality and response speed]",2018,"\cite{kavaler2018determinants}
+Empirically analyzing Stack Overflow questions about newly introduced Android APIs to identify determinants of answer quality, response latency, and answer volume, and to assess whether incentives such as bounties mitigate delays and improve outcomes for questions on emerging APIs.","2018:\cite{kavaler2018determinants}
+Empirically analyzing Stack Overflow questions about newly introduced Android APIs to identify determinants of answer quality, response latency, and answer volume, and to assess whether incentives such as bounties mitigate delays and improve outcomes for questions on emerging APIs.",answer; question,TC1&2,4
+S56,56,ICSD: An Automatic System for Insecure Code Snippet Detection in Stack Overflow over Heterogeneous Information Network,1,1,1,0,0,0,1,0,0,0,0,accuracy; f1 score; precision; recall;,"Qualitative Analysis
+[manually labels code snippets as secure or insecure based on established Android security principles and expert inspection to construct ground-truth datasets]
+
+Machine Learning (ML)
+[applies a multi-view fusion classifier that integrates heterogeneous representations learned from multiple relational views to predict insecure code snippets]
+
+Text Analysis and Natural Language Processing
+[learns low-dimensional representations of code snippets using network embedding over heterogeneous graphs through the Snippet2Vec model]
+
+Data Mining and Graph-Based Models
+[constructs and mines a heterogeneous information network using meta-path–guided random walks to encode rich semantic relationships among users, posts, code, and keywords]",2018,"\cite{ye2018icsd}
+Automatically detecting insecure code snippets on Stack Overflow by jointly modeling code content and social coding context through a heterogeneous information network and learning multi-view representations that capture relationships among users, questions, answers, badges, and code.","2018:\cite{ye2018icsd}
+Automatically detecting insecure code snippets on Stack Overflow by jointly modeling code content and social coding context through a heterogeneous information network and learning multi-view representations that capture relationships among users, questions, answers, badges, and code.",answer; question (code snippet-security),TC1&2,4
+S57,57,"EnTagRec ++: An enhanced tag recommendation system for software information sites
+",1,0,0,1,0,0,0,0,0,0,0,precision; recall;,"Quantitative and Statistical Analysis
+[models tag–term and tag–object relationships using Bayesian inference (e.g., labeled topic modeling) and frequentist inference based on tag co-occurrence and term statistics]
+
+Machine Learning (ML)
+[applies grid search–based parameter tuning to optimally combine multiple inference components (Bayesian, frequentist, user-based, and initial-tag–based) into a unified tag-ranking model]",2018,"\cite{wang2018entagrec++}
+Enhancing automatic tag recommendation for software information sites by integrating Bayesian and frequentist inference with user history and initial user-provided tags, and combining these signals through optimized parameter tuning to improve tag recall and consistency.","2018:\cite{wang2018entagrec++}
+Enhancing automatic tag recommendation for software information sites by integrating Bayesian and frequentist inference with user history and initial user-provided tags, and combining these signals through optimized parameter tuning to improve tag recall and consistency.",tags,TC3,2
+S58,58,Exploiting User Activities for Answer Ranking in Q&A Forums,0,0,0,0,0,1,0,0,0,0,0,mean reciprocal rank; precision;,"Relevance, Ranking, and Evaluation
+[formulates answer selection as a learning-to-rank problem and applies ranking algorithms including SVMRank, PageRank, and HITS to combine textual, user, comment, and network-based features]",2018,"\cite{zhao2018exploiting}
+Improving answer ranking in Q&A forums by exploiting topic-aware user activity networks and combining newly designed user–activity features with textual, comment, and profile features under a learning-to-rank framework.","2018:\cite{zhao2018exploiting}
+Improving answer ranking in Q&A forums by exploiting topic-aware user activity networks and combining newly designed user–activity features with textual, comment, and profile features under a learning-to-rank framework.",answer,TC2,1
+S59,59,Guiding supervised topic modeling for content based tag recommendation,1,1,0,0,0,1,0,0,0,0,0,recall;,"Machine Learning (ML)
+[employs a supervised generative topic model that constrains topic assignments using known tags to directly guide tag prediction]
+
+Text Analysis and Natural Language Processing
+[applies topic modeling with LDA and supervised variants, augmented with Word2Vec-based semantic similarity to identify content words relevant to tags]
+
+Relevance, Ranking, and Evaluation
+[evaluates tag recommendation effectiveness by ranking candidate tags according to learned topic–content relevance and measuring recall at top-k positions]",2018,"\cite{wu2018guiding}
+Improving content-based tag recommendation for software information sites by guiding supervised topic modeling with tag–content relevance signals derived from semantic similarity and word embeddings.","2018:\cite{wu2018guiding}
+Improving content-based tag recommendation for software information sites by guiding supervised topic modeling with tag–content relevance signals derived from semantic similarity and word embeddings.",tags,TC3,3
+S60,60,How to ask for technical help? Evidence-based guidelines for writing questions on Stack Overflow,1,1,1,1,0,0,0,0,0,0,0,auc/roc/auc-roc; coefficient estimate; odds ratio; p-value;,"Qualitative Analysis
+[conducts user surveys and qualitative content analysis to elicit community norms and perceptions of what constitutes a good technical question]
+
+Quantitative and Statistical Analysis
+[applies logistic regression analysis to estimate the statistical association between question features and the likelihood of receiving answers]
+
+Machine Learning (ML)
+[uses logistic regression with clustering-based discretization to model nonlinear effects of continuous features]
+
+Text Analysis and Natural Language Processing
+[applies sentiment analysis techniques to extract affective features from question text]",2018,"\cite{calefato2018ask}
+Deriving evidence-based guidelines for writing effective Stack Overflow questions by combining qualitative user surveys with large-scale statistical modeling to identify textual, structural, affective, temporal, and reputational factors associated with question success.","2018:\cite{calefato2018ask}
+Deriving evidence-based guidelines for writing effective Stack Overflow questions by combining qualitative user surveys with large-scale statistical modeling to identify textual, structural, affective, temporal, and reputational factors associated with question success.",question,TC1,4
+S61,61,Finding and Ranking High-Quality Answers in Community Question Answering Sites,1,0,0,1,0,1,0,0,0,0,0,auc/roc/auc-roc; f1 score; matching_top10; precision; recall; rmse;,"Quantitative and Statistical Analysis
+[addresses class imbalance by applying random under-sampling to construct balanced training datasets]
+
+Machine Learning (ML)
+[trains ensemble and probabilistic classifiers, including Naive Bayes, Random Forest, and Gradient Boosting, to distinguish and rank high-quality answers]
+
+Relevance, Ranking, and Evaluation
+[analyzes feature importance and contribution using ranking-based evaluation to identify the most influential predictors of answer quality]",2018,"\cite{roy2018finding}
+Identifying and ranking high-quality answers in community question answering sites by combining linguistic readability features, semantic relevance signals, and user-centric activity and reputation indicators within supervised learning frameworks.","2018:\cite{roy2018finding}
+Identifying and ranking high-quality answers in community question answering sites by combining linguistic readability features, semantic relevance signals, and user-centric activity and reputation indicators within supervised learning frameworks.",answer,TC2,3
+S62,62,FastTagRec: fast tag recommendation for software information sites,0,1,1,0,1,0,0,0,0,0,0,f1 score; manual evaluation; precision; recall;,"Qualitative Analysis
+[conducts qualitative analysis to understand tagging behavior and guide feature design for efficient tag recommendation]
+
+Deep Learning (DL) / Transformer-Based Deep Learning
+[employs a neural network with a softmax output layer to model tag prediction as a multi-class classification problem]
+
+Text Analysis and Natural Language Processing
+[represents post content using bag-of-words and n-gram features, combined with Huffman coding for efficient text encoding]",2018,"\cite{liu2018fasttagrec}
+Proposing a fast and lightweight tag recommendation approach for software information sites by learning neural representations of post text and efficiently predicting relevant tags using a shallow neural network architecture.","2018:\cite{liu2018fasttagrec}
+Proposing a fast and lightweight tag recommendation approach for software information sites by learning neural representations of post text and efficiently predicting relevant tags using a shallow neural network architecture.",tags,TC3,3
+S63,63,AnswerBot: An Answer Summary Generation Tool Based on Stack Overflow,0,1,1,0,0,0,1,0,0,0,0,diversity score; likert scale; manual validation; relevance score; usefulness score;,"Qualitative Analysis
+[conducts controlled user studies to compare generated answer summaries against baseline search-engine–based summaries in terms of relevance, usefulness, and diversity]
+
+Text Analysis and Natural Language Processing
+[leverages bag-of-words representations, Word2Vec embeddings, inverse document frequency weighting, maximal marginal relevance for diversity-aware selection, sentence pattern recognition, and user-oriented feature extraction]
+
+Data Mining and Graph-Based Models
+[mines large-scale Stack Overflow data to retrieve relevant questions, extract candidate answer paragraphs, and support scalable summary generation]",2019,"\cite{cai2019answerbot}
+Automatically generating concise and diverse answer summaries for technical questions by retrieving relevant Stack Overflow posts, selecting salient answer paragraphs, and synthesizing summaries using relevance- and diversity-aware text summarization techniques.","2019:\cite{cai2019answerbot}
+Automatically generating concise and diverse answer summaries for technical questions by retrieving relevant Stack Overflow posts, selecting salient answer paragraphs, and synthesizing summaries using relevance- and diversity-aware text summarization techniques.",answer,TC2,3
+S64,64,Features That Predict the Acceptability of Java and JavaScript Answers on Stack Overflow,1,1,0,1,0,0,0,0,0,0,0,auc/roc/auc-roc; matthews correlation coefficient; neural network coefficient; random forest coefficient;,"Quantitative and Statistical Analysis
+[addresses class imbalance by applying synthetic oversampling techniques, including SMOTE and ADASYN, and evaluates feature relevance using information gain]
+
+Machine Learning (ML)
+[trains Random Forest and Neural Network models to predict answer acceptability and identify features with the highest predictive power]
+
+Text Analysis and Natural Language Processing
+[performs text preprocessing and tokenization to enable similarity computation, sentiment extraction, and feature construction from answer content]",2019,"\cite{omondiagbe2019features}
+Investigating which textual, code-related, temporal, and user-centric features distinguish accepted from unaccepted answers on Stack Overflow by modeling answer acceptability for Java and JavaScript questions using supervised learning.","2019:\cite{omondiagbe2019features}
+Investigating which textual, code-related, temporal, and user-centric features distinguish accepted from unaccepted answers on Stack Overflow by modeling answer acceptability for Java and JavaScript questions using supervised learning.",answer,TC2,3
+S65,65,How Reliable is the Crowdsourced Knowledge of Security Implementation?,0,0,1,1,0,0,0,1,0,0,0,,"Qualitative Analysis
+[conducts qualitative inspection of security-related posts and analyzes community feedback to understand how insecure implementations are discussed, corrected, or propagated]
+
+Quantitative and Statistical Analysis
+[applies statistical analysis to quantify the prevalence and distribution of insecure security practices across different cryptographic categories]
+
+Program and Code Analysis
+[uses clone detection techniques to identify recurring insecure code patterns and track their replication across multiple Stack Overflow posts]",2019,"\cite{chen2019reliable}
+Assessing the reliability of crowdsourced security implementation knowledge by systematically analyzing cryptographic code snippets shared on Stack Overflow and evaluating whether they correctly implement established security practices across multiple cryptographic domains.","2019:\cite{chen2019reliable}
+Assessing the reliability of crowdsourced security implementation knowledge by systematically analyzing cryptographic code snippets shared on Stack Overflow and evaluating whether they correctly implement established security practices across multiple cryptographic domains.",answer code snippet,TC2,3
+S66,66,Integrating Multi-Level Tag Recommendation with External Knowledge Bases for Automatic Question Answering,1,1,1,0,0,1,1,0,0,0,0,mean reciprocal rank; ndcg; recall;,"Qualitative Analysis
+[analyzes tag semantics and usage patterns to characterize hierarchical tag levels and to qualitatively assess the relevance of recommended tags and retrieved knowledge base articles]
+
+Machine Learning (ML)
+[employs supervised multi-class classification models trained on post–tag co-clusters to predict relevant tag clusters for new questions, combined with neighborhood-based voting to recommend final tags]
+
+Text Analysis and Natural Language Processing
+[uses topic modeling with Latent Dirichlet Allocation to represent posts and tag descriptions in a low-dimensional semantic space, enabling scalable similarity computation and clustering]
+
+Data Mining and Graph-Based Models
+[constructs post–tag bipartite graphs and applies multi-level spectral co-clustering to uncover hierarchical tag structures, while mining external knowledge bases using recommended tags for targeted article retrieval]
+
+Relevance, Ranking, and Evaluation
+[ranks retrieved knowledge base articles using tag-augmented tf-idf representations and cosine similarity, and evaluates retrieval effectiveness using recall, coverage, precision, mean reciprocal rank, and normalized discounted cumulative gain]",2019,"\cite{lima2019integrating}
+Integrating multi-level tag recommendation with external unstructured knowledge bases to automatically answer community questions by predicting semantically meaningful tags at different abstraction levels and using them to select relevant knowledge bases and rank authoritative documentation articles.","2019:\cite{lima2019integrating}
+Integrating multi-level tag recommendation with external unstructured knowledge bases to automatically answer community questions by predicting semantically meaningful tags at different abstraction levels and using them to select relevant knowledge bases and rank authoritative documentation articles.",tags,TC3,5
+S67,67,SOTagRec: A Combined Tag Recommendation Approach for Stack Overflow,1,1,0,0,1,0,0,0,0,0,1,precision; recall;,"Machine Learning (ML) [applies collaborative filtering based on TF-IDF representations and cosine similarity to estimate tag relevance from historically similar questions, and combines probabilistic outputs from multiple models using weighted linear aggregation]
+
+Deep Learning (DL) / Transformer-Based Deep Learning [employs a convolutional neural network with word embeddings and multiple convolution layers to learn deep semantic representations of question text and predict independent tag probabilities in a multi-label setting]
+
+Text Analysis and Natural Language Processing [represents questions using word embeddings trained on Stack Overflow data and TF-IDF vectors after tokenization, stop-word removal, and stemming to support both neural and similarity-based models]
+
+Miscellaneous [uses ten-fold cross-validation on large-scale Stack Overflow datasets to tune model parameters and evaluate tag recommendation effectiveness using Recall@k and Precision@k]",2019,"\cite{wang2019sotagrec}
+Proposing a combined tag recommendation approach for Stack Overflow that integrates convolutional neural networks and collaborative filtering to automatically infer relevant tags for new questions by jointly leveraging semantic textual features and historical tagging patterns.","2019:\cite{wang2019sotagrec}
+Proposing a combined tag recommendation approach for Stack Overflow that integrates convolutional neural networks and collaborative filtering to automatically infer relevant tags for new questions by jointly leveraging semantic textual features and historical tagging patterns.",tags,TC3,4
+S68,68,Towards an Accurate Prediction of the Question Quality on Stack Overflow using a Deep-Learning-Based NLP Approach,0,1,0,0,1,0,0,0,0,0,0,accuracy; precision; recall;,"Deep Learning (DL) / Transformer-Based Deep Learning [employs a deep neural network architecture consisting of a gated recurrent unit (GRU) followed by multiple dense layers to perform binary classification of question quality based solely on textual representations] 
+
+Text Analysis and Natural Language Processing [applies NLP preprocessing including text cleaning, tokenization, and vectorization, and represents questions using document-level embeddings derived from spaCy vectors and Stack-Overflow-specific Doc2Vec models to capture semantic properties of posts]",2019,"\cite{toth2019towards}
+Predicting the quality of Stack Overflow questions by classifying posts as high- or low-quality using only linguistic and semantic features extracted from question text, leveraging deep learning and NLP techniques to support automated moderation and pre-submission quality checking.","2019:\cite{toth2019towards}
+Predicting the quality of Stack Overflow questions by classifying posts as high- or low-quality using only linguistic and semantic features extracted from question text, leveraging deep learning and NLP techniques to support automated moderation and pre-submission quality checking.",question,TC1,2
+S69,69,Detecting Duplicate Questions in Stack Overflow via Deep Learning Approaches,0,1,0,0,1,0,0,0,0,0,0,recall;,"Deep Learning (DL) / Transformer-Based Deep Learning [employs multiple deep neural architectures, including CNN-, RNN-, and LSTM-based models, to learn non-linear semantic representations of question pairs and predict duplication likelihood through probability ranking]
+
+Text Analysis and Natural Language Processing [constructs duplicate and non-duplicate question pairs and represents question text using distributed word embeddings to capture semantic similarity for duplicate pair detection]",2019,"\cite{wang2019detecting}
+Automatically detecting duplicate questions in Stack Overflow by modeling semantic relatedness between question pairs using deep learning architectures to capture lexical and contextual similarities beyond surface-level text matching.","2019:\cite{wang2019detecting}
+Automatically detecting duplicate questions in Stack Overflow by modeling semantic relatedness between question pairs using deep learning architectures to capture lexical and contextual similarities beyond surface-level text matching.",question (duplicate),TC1,2
+S70,70,Predicting the Timing and Quality of Responses in Online Discussion Forums,1,1,0,0,0,0,1,0,0,0,0,auc/roc/auc-roc; rmse;,"Machine Learning (ML) [employs logistic regression for answer likelihood prediction and fully connected neural networks optimized via gradient descent to predict response quality based on engineered user–question features]
+
+Text Analysis and Natural Language Processing [uses topic modeling with Latent Dirichlet Allocation to infer latent discussion topics from question text and support computation of topical similarity features]
+
+Data Mining and Graph-Based Models [constructs question–answer and denser user interaction graphs to extract centrality, similarity, and resource-allocation features, and applies point process models to capture temporal dynamics of user responses]",2019,"\cite{hansen2019predicting}
+Predicting both the timing and quality of responses in online discussion forums by jointly modeling whether a user will answer a question, how quickly the response will arrive, and the expected quality of the answer using user–question interaction, topical similarity, and social network structure.","2019:\cite{hansen2019predicting}
+Predicting both the timing and quality of responses in online discussion forums by jointly modeling whether a user will answer a question, how quickly the response will arrive, and the expected quality of the answer using user–question interaction, topical similarity, and social network structure.",answer,TC2,3
+S71,71,An empirical study of obsolete answers on stack overflow,0,1,1,1,0,0,0,0,1,0,0,statistical analysis;,"Qualitative Analysis [manually inspects sampled obsolete answer threads, associated comments, and edit histories to understand obsolescence reasons, user reactions, evidence provided, and post-observation maintenance actions]
+
+Quantitative and Statistical Analysis [analyzes large-scale Stack Overflow data to measure the prevalence of obsolete answers, time-to-obsolescence detection, update frequency, tag-level obsolescence ratios, and statistical differences across communities]
+
+Text Analysis and Natural Language Processing [classifies reasons for answer obsolescence by analyzing textual cues in comments and answer content, categorizing causes such as API evolution, programming language changes, outdated references, tools, platforms, and protocols]
+
+Heuristic and Rule-Based Approaches [applies keyword-based heuristics on comments to automatically identify candidate obsolete answers and construct a large dataset for subsequent quantitative and qualitative analysis]",2019,"\cite{zhang2019empirical}
+Empirically investigating how and why answers on Stack Overflow become obsolete over time by analyzing large-scale answer threads, user comments, and post histories to characterize obsolescence prevalence, causes, community reactions, and maintenance behaviors.","2019:\cite{zhang2019empirical}
+Empirically investigating how and why answers on Stack Overflow become obsolete over time by analyzing large-scale answer threads, user comments, and post histories to characterize obsolescence prevalence, causes, community reactions, and maintenance behaviors.",answer (obsolete),TC2,4
+S72,72,Quality assessment of answers with user-identified criteria and data-driven features in social Q&A,0,0,0,1,0,0,0,0,0,0,0,correlation;,Quantitative and Statistical Analysis [applies large-scale quantitative analysis combining exploratory factor analysis and linear regression to identify dominant quality dimensions and examine how textual and non-textual features correlate with answer scores across domains],2019,"\cite{fu2019quality}
+Assessing answer quality in social Q&A by jointly examining user-identified evaluation criteria and data-driven textual and non-textual features across multiple knowledge domains to understand how users perceive and select high-quality answers.","2019:\cite{fu2019quality}
+Assessing answer quality in social Q&A by jointly examining user-identified evaluation criteria and data-driven textual and non-textual features across multiple knowledge domains to understand how users perceive and select high-quality answers.",answer,TC2,1
+S73,73,Assessing the quality of answers autonomously in community question-answering,1,0,0,0,0,0,1,0,0,0,0,accuracy; auc/roc/auc-roc; f1 score;,"Machine Learning (ML) [builds supervised classification models using logistic regression, decision trees, and random forests to predict answer quality from heterogeneous feature sets]
+
+Data Mining and Graph-Based Models [extracts egonet and graph-structural features from user interaction networks to model social influence, connectivity, and information flow patterns relevant to answer quality prediction]",2019,"\cite{le2019assessing}
+Automatically assessing answer quality in community question–answering platforms by integrating textual, contextual, personal, and community-based features into supervised machine learning models to distinguish high-quality answers from low-quality ones at scale.","2019:\cite{le2019assessing}
+Automatically assessing answer quality in community question–answering platforms by integrating textual, contextual, personal, and community-based features into supervised machine learning models to distinguish high-quality answers from low-quality ones at scale.",answer,TC2,2
+S74,74,Code Duplication on Stack Overflow,0,0,1,0,0,0,0,1,0,0,0,qualitative analysis;,"Qualitative Analysis [conducts manual inspection of representative duplicated code snippets to understand reuse patterns, clone contexts, sources, and maintenance behaviors]
+
+Program and Code Analysis [applies code normalization and fingerprinting to detect exact and non-trivial code clones across threads, analyzes clone distribution and evolution, and examines licensing information to identify copyright and attribution conflicts]",2020,"\cite{baltes2020code}
+Investigating the prevalence, characteristics, and implications of duplicated code snippets within Stack Overflow by analyzing how non-trivial code blocks are reused across threads and examining associated maintainability and licensing concerns.","2020:\cite{baltes2020code}
+Investigating the prevalence, characteristics, and implications of duplicated code snippets within Stack Overflow by analyzing how non-trivial code blocks are reused across threads and examining associated maintainability and licensing concerns.",answer code snippet (duplicate),TC2,2
+S75,75,Generating Question Titles for Stack Overflow from Mined Code Snippets,0,0,1,0,1,0,0,0,0,0,0,bleu; human evaluation; rouge;,"Qualitative Analysis [conducts human evaluation to assess the naturalness, clarity, and relevance of generated question titles, and to examine their effectiveness in improving low-quality questions]
+
+Deep Learning (DL) / Transformer-Based Deep Learning [employs an LSTM-based sequence-to-sequence architecture enhanced with attention, copy, and coverage mechanisms to model code-to-text generation and handle rare tokens and repetition in generated titles]",2020,"\cite{gao2020generating}
+Automatically generating concise and informative Stack Overflow question titles from associated code snippets using a deep sequence-to-sequence learning approach to improve question clarity and attract more relevant answers.","2020:\cite{gao2020generating}
+Automatically generating concise and informative Stack Overflow question titles from associated code snippets using a deep sequence-to-sequence learning approach to improve question clarity and attract more relevant answers.",question title,TC4,2
+S76,76,Large-Scale Question Tagging via Joint Question-Topic Embedding Learning,1,1,0,0,1,1,0,0,0,0,0,f1 score; precision; recall;,"Text Analysis and Natural Language Processing [learns shared semantic representations of questions and tags by embedding both into a common latent space to enable similarity-based matching]
+
+Machine Learning (ML) [uses a multilayer perceptron to model interactions between learned question and tag embeddings and support large-scale tag prediction]
+
+Deep Learning (DL) / Transformer-Based Deep Learning [employs convolutional neural networks to encode question text, integrates hierarchical directed acyclic graph encoding of tags, optimizes predictions using sigmoid cross-entropy loss, and applies transfer learning to handle sparse and imbalanced tags]
+
+Relevance, Ranking, and Evaluation [ranks candidate tags by computing similarity scores between question and tag embeddings and evaluates effectiveness using top-k ranking–based matching metrics]",2020,"\cite{nie2020large}
+Automatically assigning relevant topic tags to newly posted questions at scale by jointly learning semantic embeddings for questions and topic tags, leveraging hierarchical tag structures to improve tagging accuracy under highly imbalanced tag distributions.","2020:\cite{nie2020large}
+Automatically assigning relevant topic tags to newly posted questions at scale by jointly learning semantic embeddings for questions and topic tags, leveraging hierarchical tag structures to improve tagging accuracy under highly imbalanced tag distributions.",tags,TC3,4
+S77,77,Why Will My Question Be Closed? NLP-Based Pre-Submission Predictions of Question Closing Reasons on Stack Overflow,0,1,0,1,1,0,0,0,0,0,0,accuracy; f1 score; precision; recall;,"Quantitative and Statistical Analysis [balances highly skewed class distributions through downsampling to ensure reliable training and evaluation of binary and multi-class prediction models]
+
+Deep Learning (DL) / Transformer-Based Deep Learning [employs recurrent neural network architectures based on gated recurrent units, including unidirectional, bidirectional, and composite GRU-based models, to predict question closure and specific closing reasons]
+
+Text Analysis and Natural Language Processing [applies text cleaning, tokenization, stemming, and part-of-speech tagging to preprocess question text and extract linguistic features used as input for neural models]",2020,"\cite{toth2020will}
+Predicting whether a Stack Overflow question will be closed and identifying the specific closing reason before submission by analyzing only the textual content of the question using deep learning–based NLP models to support users in composing acceptable questions.","2020:\cite{toth2020will}
+Predicting whether a Stack Overflow question will be closed and identifying the specific closing reason before submission by analyzing only the textual content of the question using deep learning–based NLP models to support users in composing acceptable questions.",question (closed),TC1,3
+S78,78, Duplicate Question Detection With Deep Learning in Stack Overflow,0,1,0,0,1,0,0,0,0,0,0,recall;,"Text Analysis and Natural Language Processing [represents question text using Word2Vec embeddings to capture word-level semantic information for similarity learning]
+
+Deep Learning (DL) / Transformer-Based Deep Learning [employs deep neural architectures including CNN-, RNN-, and LSTM-based models built on Word2Vec representations to learn semantic similarity between question pairs and predict duplication likelihood]",2020,"\cite{wang2020duplicate}
+Automatically detecting duplicate questions in Stack Overflow by modeling semantic relatedness between question pairs using deep learning architectures combined with word embeddings to capture both word-level and document-level similarities.","2020:\cite{wang2020duplicate}
+Automatically detecting duplicate questions in Stack Overflow by modeling semantic relatedness between question pairs using deep learning architectures combined with word embeddings to capture both word-level and document-level similarities.",question (duplicate),TC1,2
+S79,79,Improving Quality of a Post's Set of Answers in Stack Overflow,1,0,1,0,0,0,0,1,0,0,1,accuracy; completeness; comprehensibility; conciseness; correctness; f1 score; precision; recall;,"Qualitative Analysis [relies on human judgment to label posts as deficient or non-deficient by manually evaluating answer sets against defined quality criteria]
+
+Machine Learning (ML) [trains supervised classification models, including neural networks, decision trees, and support vector machines, to predict posts that require improvement based on post-level features]
+
+Program and Code Analysis [applies clone detection and program slicing techniques to extract and recommend relevant code snippets that help contributors generate higher-quality answers]
+
+Miscellaneous [implements an IDE-based prompting tool to proactively suggest deficient posts to developers and support answer improvement with minimal context switching]",2020,"\cite{tavakoli2020improving}
+Improving the overall quality of a post’s set of answers on Stack Overflow by automatically identifying questions with deficient answers and facilitating expert contributions through predictive modeling and an IDE-integrated recommendation tool.","2020:\cite{tavakoli2020improving}
+Improving the overall quality of a post’s set of answers on Stack Overflow by automatically identifying questions with deficient answers and facilitating expert contributions through predictive modeling and an IDE-integrated recommendation tool.",answer; question,TC1&2,4
+S80,80,Predicting closed questions on community question answering sites using convolutional neural network,1,0,0,1,1,0,0,0,0,0,0,f1 score; micro-receiver operating characteristic (roc) curve; precision; recall;,"Quantitative and Statistical Analysis [addresses severe class imbalance in question status labels by applying synthetic minority oversampling techniques to improve the robustness of prediction models]
+
+Machine Learning (ML) [builds baseline classifiers using traditional algorithms such as naïve Bayes, gradient boosting, random forest, and k-nearest neighbor trained on handcrafted linguistic features]
+
+Deep Learning (DL) / Transformer-Based Deep Learning [employs convolutional neural network and long short-term memory architectures to automatically learn contextual and semantic representations from question text and perform multi-class closure reason prediction]",2020,"\cite{roy2020predicting}
+Predicting whether newly posted questions in community question answering sites will be closed and identifying the specific closure reason by leveraging linguistic features and deep learning models to support early quality control and reduce moderator workload.","2020:\cite{roy2020predicting}
+Predicting whether newly posted questions in community question answering sites will be closed and identifying the specific closure reason by leveraging linguistic features and deep learning models to support early quality control and reduce moderator workload.",question (closed),TC1,3
+S81,81,TagDC: A tag recommendation method for software information sites with a combination of deep learning and collaborative filtering,0,1,0,0,1,0,1,0,0,0,0,f1 score; precision; recall;,"Deep Learning (DL) / Transformer-Based Deep Learning [leverages a hybrid neural architecture combining Bi-LSTM for contextual word representation, convolutional neural networks for local feature extraction, and capsule networks to model multi-label tag confidence]
+
+Text Analysis and Natural Language Processing [represents software object descriptions using distributed word and document embeddings to capture both word-level semantics and global contextual meaning]
+
+Data Mining and Graph-Based Models [applies collaborative filtering to identify semantically similar historical software objects and reuse their associated tags to complement deep learning–based predictions]",2020,"\cite{li2020tagdc}
+Recommending accurate and consistent tags for software-related posts by combining deep learning–based semantic modeling with collaborative filtering to mitigate tag synonymy and tag explosion in software information sites.","2020:\cite{li2020tagdc}
+Recommending accurate and consistent tags for software-related posts by combining deep learning–based semantic modeling with collaborative filtering to mitigate tag synonymy and tag explosion in software information sites.",tags,TC3,3
+S82,82,Multilayer Convolutional Neural Network to Filter Low Quality Content from Quora,1,1,0,0,1,0,0,0,0,0,1,accuracy; f1 score; precision; recall;,"Machine Learning (ML) [trains traditional classifiers using handcrafted linguistic features to establish baseline performance for low-quality content detection]
+
+Deep Learning (DL) / Transformer-Based Deep Learning [employs a multilayer convolutional neural network to automatically learn hidden contextual patterns from question text and classify posts as low-quality or acceptable]
+
+Text Analysis and Natural Language Processing [represents questions using distributed word embeddings generated through skip-gram, continuous bag-of-words, and pre-trained embedding models to support semantic learning]
+
+Miscellaneous [applies k-fold cross-validation to ensure robust evaluation and reduce bias arising from fixed train–test splits]",2020,"\cite{roy2020multilayer}
+Automatically filtering low-quality content in community question answering platforms by predicting insincere or low-quality questions using a multilayer convolutional neural network that relies solely on textual content without manual feature engineering.","2020:\cite{roy2020multilayer}
+Automatically filtering low-quality content in community question answering platforms by predicting insincere or low-quality questions using a multilayer convolutional neural network that relies solely on textual content without manual feature engineering.",question,TC1,4
+S83,83,Understanding stack overflow code quality: A recommendation of caution,0,0,1,1,0,0,0,1,0,0,0,cohen's classification (rho);,"Qualitative Analysis [conducts in-depth manual inspection of representative code snippets and their surrounding discussion context to understand the practical implications of detected quality issues]
+
+Quantitative and Statistical Analysis [performs large-scale quantitative analysis and correlation studies to measure the prevalence, distribution, and co-occurrence of different code quality violations]
+
+Program and Code Analysis [applies static analysis tools to detect reliability issues, readability violations, performance inefficiencies, and security vulnerabilities in sampled code snippets, combined with systematic snippet sampling and violation categorization]",2020,"\cite{meldrum2020understanding}
+Empirically evaluating the quality of code snippets shared on Stack Overflow by analyzing multiple dimensions of code quality to caution developers about potential risks when reusing community-provided code.","2020:\cite{meldrum2020understanding}
+Empirically evaluating the quality of code snippets shared on Stack Overflow by analyzing multiple dimensions of code quality to caution developers about potential risks when reusing community-provided code.",answer code snippet,TC2,3
+S84,84,Toxic code snippets on stack overflow,0,0,1,1,0,0,0,1,0,0,0,,"Qualitative Analysis [conducts user studies involving Stack Overflow answerers and visitors to understand awareness, perceptions, and behaviors related to reusing outdated or license-violating code snippets]
+
+Quantitative and Statistical Analysis [performs large-scale empirical analysis to quantify the prevalence of toxic code snippets, their reuse frequency, and the extent of outdated and problematic solutions]
+
+Program and Code Analysis [applies clone detection to identify reused code between Stack Overflow and open-source projects, classifies toxic code types, and analyzes outdated clone evolution and license conflicts]",2021,"\cite{ragkhitwetsagul2019toxic}
+Investigating the presence and impact of toxic code snippets on Stack Overflow by examining how reused code becomes harmful due to being outdated, incorrect, buggy, mismatched to problems, or violating software licenses, and assessing developer awareness and reuse risks.","2021:\cite{ragkhitwetsagul2019toxic}
+Investigating the presence and impact of toxic code snippets on Stack Overflow by examining how reused code becomes harmful due to being outdated, incorrect, buggy, mismatched to problems, or violating software licenses, and assessing developer awareness and reuse risks.",answer code snippet,TC2,3
+S85,85,Are Comments on Stack Overflow Well Organized for Easy Retrieval by Developers?,1,1,1,1,0,1,0,0,0,0,0,accuracy; auc/roc/auc-roc; cosine similarity; precision; recall;,"Qualitative Analysis [manually categorizes comments through open coding to identify informative versus uninformative content types, such as improvements, weaknesses, inquiries, and additions]
+
+Quantitative and Statistical Analysis [performs large-scale empirical analysis and statistical testing to compare characteristics of hidden and shown comments and assess the effectiveness of the existing organization mechanism]
+
+Machine Learning (ML) [trains supervised classifiers to automatically distinguish informative comments from uninformative ones using textual, activity, and user-related features]
+
+Text Analysis and Natural Language Processing [applies vector space models and text preprocessing to compute similarity between answers and comments and support classifier feature construction]
+
+Relevance, Ranking, and Evaluation [evaluates alternative comment organization strategies by ranking comments using similarity measures and classifier predictions to improve retrieval of informative comments]",2021,"\cite{zhang2021comments}
+Investigating whether Stack Overflow’s comment organization mechanism effectively surfaces informative comments by analyzing large-scale comment data, characterizing hidden versus shown comments, and evaluating alternative strategies for improving comment retrieval for developers.","2021:\cite{zhang2021comments}
+Investigating whether Stack Overflow’s comment organization mechanism effectively surfaces informative comments by analyzing large-scale comment data, characterizing hidden versus shown comments, and evaluating alternative strategies for improving comment retrieval for developers.",comment answer,TC5,5
+S86,86,Early Detection and Guidelines to Improve Unanswered Questions on Stack Overflow,1,1,1,1,0,0,0,0,0,0,0,accuracy; f1 score; precision; recall;,"Qualitative Analysis [manually inspects answered and unanswered questions to identify recurring deficiencies in problem description, topic assignment, code explanation, and formatting, and to derive actionable improvement guidelines]
+
+Quantitative and Statistical Analysis [conducts large-scale comparative analysis using random sampling and statistical testing to identify significant differences between answered and unanswered questions across multiple features]
+
+Machine Learning (ML) [builds supervised prediction models using decision trees, random forests, k-nearest neighbors, and neural networks to identify unanswered questions during submission based on available features]
+
+Text Analysis and Natural Language Processing [applies readability analysis and topic entropy modeling to quantify linguistic clarity, topical focus, and information density of question text]",2021,"\cite{mondal2021early}
+Detecting potentially unanswered Stack Overflow questions at submission time and providing empirically grounded guidelines for improvement by jointly analyzing large-scale quantitative signals, qualitative insights, and supervised prediction models.","2021:\cite{mondal2021early}
+Detecting potentially unanswered Stack Overflow questions at submission time and providing empirically grounded guidelines for improvement by jointly analyzing large-scale quantitative signals, qualitative insights, and supervised prediction models.",question (unanswered),TC1,4
+S87,87,Quantifying Human-Perceived Answer Utility in Non-Factoid Question Answering,0,0,1,1,0,0,0,0,0,0,0,"bertscore; bleu; fisher's z-transformation; meteor; rouge; statistical analysis (mean, standard deviation);","Qualitative Analysis [conducts an editorial user study in which askers and answerers generate questions and answers and manually assess answer usefulness and multiple utility aspects]
+
+Quantitative and Statistical Analysis [applies correlation analysis to quantify relationships between individual answer aspects and perceived usefulness, and to evaluate how well existing automatic answer quality metrics align with human judgments]",2021,"\cite{cambazoglu2021quantifying}
+Examining what makes answers to non-factoid questions useful from the asker’s perspective by developing an aspect taxonomy of answer utility and empirically analyzing how different answer characteristics correlate with human-perceived usefulness.","2021:\cite{cambazoglu2021quantifying}
+Examining what makes answers to non-factoid questions useful from the asker’s perspective by developing an aspect taxonomy of answer utility and empirically analyzing how different answer characteristics correlate with human-perceived usefulness.",answer,TC2,2
+S88,88,Technical Q&A Site Answer Recommendation via Question Boosting,1,0,1,0,1,0,0,0,1,0,0,discounted cumulative gain -dcg@k (k=2-5); matching score; precision; user study;,"Qualitative Analysis [conducts user studies to evaluate perceived usefulness, relevance, and satisfaction with the recommended answers]
+
+Machine Learning (ML) [employs weakly supervised learning to train answer recommendation models using implicit signals rather than fully labeled datasets]
+
+Deep Learning (DL) / Transformer-Based Deep Learning [applies LSTM-based sequence-to-sequence models and convolutional neural networks to model semantic relationships between boosted questions and candidate answers]
+
+Heuristic and Rule-Based Approaches [uses heuristic rules to enhance question representations and guide candidate answer selection prior to model-based ranking]",2021,"\cite{gao2020technical}
+Recommending high-quality answers in technical Q&A sites by boosting question representations with informative context and leveraging weak supervision, neural models, and heuristics to surface more relevant and useful answers.","2021:\cite{gao2020technical}
+Recommending high-quality answers in technical Q&A sites by boosting question representations with informative context and leveraging weak supervision, neural models, and heuristics to surface more relevant and useful answers.",answer; question,TC1&2,4
+S89,89,Contextual Profiling of Stack Overflow Java Code Security Vulnerabilities Initial Insights from a Pilot Study,0,1,1,1,0,0,0,1,0,0,0,,"Qualitative Analysis [performs manual code review and inductive analysis of vulnerable snippets and their surrounding context, including answers, comments, and edit histories, to assess contributor awareness and potential mitigation cues]
+
+Quantitative and Statistical Analysis [applies static analysis at scale to quantify the frequency and distribution of security vulnerabilities across a large corpus of Java code snippets]
+
+Text Analysis and Natural Language Processing [profiles contextual information around code snippets to understand how textual explanations and discussions influence the likelihood of vulnerability propagation]
+
+Program and Code Analysis [uses automated vulnerability detection techniques to identify security-related coding faults in Java snippets and analyze their potential impact if reused in real-world software]",2021,"\cite{licorish2021contextual}
+Investigating the prevalence, types, and contextual characteristics of Java code security vulnerabilities in Stack Overflow answers by analyzing code snippets, surrounding discussion, and potential security implications to raise developer awareness and support safer code reuse.","2021:\cite{licorish2021contextual}
+Investigating the prevalence, types, and contextual characteristics of Java code security vulnerabilities in Stack Overflow answers by analyzing code snippets, surrounding discussion, and potential security implications to raise developer awareness and support safer code reuse.",answer code snippet,TC2,4
+S90,90,Detecting Duplicate Questions in Stack Overflow via Semantic and Relevance Approaches,0,1,0,0,1,1,0,0,0,0,0,accuracy; f1 score; precision; recall;,"Deep Learning (DL) / Transformer-Based Deep Learning [employs Siamese bidirectional LSTM architectures with soft alignment attention to model word-level semantic interactions between paired questions]
+
+Text Analysis and Natural Language Processing [represents question text using document and word embeddings as well as topic modeling to capture semantic context at multiple granularities]
+
+Relevance, Ranking, and Evaluation [combines semantic matching and relevance matching signals to compute similarity scores and evaluate duplicate detection effectiveness through ranking and classification-based matching]",2021,"\cite{liao2021detecting}
+Detecting duplicate questions in Stack Overflow by jointly modeling semantic similarity and relevance signals between question pairs to capture both deep meaning correspondence and exact term-level matching.","2021:\cite{liao2021detecting}
+Detecting duplicate questions in Stack Overflow by jointly modeling semantic similarity and relevance signals between question pairs to capture both deep meaning correspondence and exact term-level matching.",question (duplicate),TC1,3
+S91,91,Rollback Edit Inconsistencies in Developer Forum,0,0,1,1,0,0,0,0,1,0,0,accuracy; f1 score; precision; recall;,"Qualitative Analysis [conducts an in-depth qualitative study and user study to categorize different types of rollback inconsistencies and to understand how such inconsistencies affect contributors’ perceptions, motivation, and editing behavior]
+
+Quantitative and Statistical Analysis [performs statistical analysis to examine correlations between rollback inconsistencies and post quality indicators such as popularity, engagement, and answer outcomes]
+
+Heuristic and Rule-Based Approaches [develops rule-based detection techniques to automatically identify multiple types of rollback edit inconsistencies by comparing pre- and post-rollback revisions]",2021,"\cite{mondal2021rollback}
+Investigating inconsistencies in rollback edits on developer forums by identifying recurring inconsistency types, analyzing their impact on post quality and user engagement, and proposing automated detection techniques to support more consistent collaborative editing.","2021:\cite{mondal2021rollback}
+Investigating inconsistencies in rollback edits on developer forums by identifying recurring inconsistency types, analyzing their impact on post quality and user engagement, and proposing automated detection techniques to support more consistent collaborative editing.",answer; question,TC1&2,3
+S92,92,Characterization and Prediction of Questions without Accepted Answers on Stack Overflow,1,0,0,0,0,0,0,1,0,0,1,auc/roc/auc-roc;,"Machine Learning (ML) [trains multiple supervised models, including gradient-boosted trees and linear and probabilistic classifiers, to predict whether a question will receive an accepted answer based solely on features available at submission time]
+
+Program and Code Analysis [performs static analysis of code-related attributes within questions, such as code presence and size, to model how technical detail contributes to question resolution]
+
+Miscellaneous [uses k-fold cross-validation to ensure robust evaluation and mitigate overfitting when training and comparing predictive models at scale]",2021,"\cite{yazdaninia2021characterization}
+Characterizing and predicting Stack Overflow questions that fail to receive accepted answers by analyzing large-scale question-level features available at submission time and building predictive models to provide early feedback for improving question resolvability.","2021:\cite{yazdaninia2021characterization}
+Characterizing and predicting Stack Overflow questions that fail to receive accepted answers by analyzing large-scale question-level features available at submission time and building predictive models to provide early feedback for improving question resolvability.",question,TC1,3
+S93,93,Beyond Relevance: Trustworthy Answer Selection via Consensus Verification,0,1,0,0,1,0,0,0,0,0,0,mean reciprocal rank; precision;,"Deep Learning (DL) / Transformer-Based Deep Learning [employs BERT-based relevance matching combined with neural verification modules, including pivoted attention mechanisms, self-interaction networks, and deep neural architectures to model answer–evidence consistency]
+
+Text Analysis and Natural Language Processing [introduces a matching–verification framework that retrieves external supporting evidence, distills consensus representations, and verifies answer consistency against aggregated crowd knowledge]",2021,"\cite{su2021beyond}
+Selecting trustworthy answers in community question answering by extending relevance-based answer selection with consensus verification from external information sources to jointly model answer relevance and trustworthiness.","2021:\cite{su2021beyond}
+Selecting trustworthy answers in community question answering by extending relevance-based answer selection with consensus verification from external information sources to jointly model answer relevance and trustworthiness.",answer,TC2,2
+S94,94,Recency and quality-based ranking question in CQAs: A Stack Overflow case study,1,0,1,0,0,1,0,0,0,0,0,"f1 score; normalized cumulative gain discount (ndcc@k, k=1-10); precision; recall;","Qualitative Analysis [constructs ground truth ranking labels through manual annotation to distinguish high-quality and low-quality questions]
+
+Machine Learning (ML) [applies a wide range of supervised learning-to-rank algorithms, including boosting-, neural-, tree-, and margin-based rankers, to learn optimal question ranking functions]
+
+Relevance, Ranking, and Evaluation [evaluates ranking effectiveness using learning-to-rank frameworks that combine relevance, quality, and recency features to improve question ordering in CQAs]",2021,"\cite{amancio2021recency}
+Investigating how question recency and quality signals jointly influence question ranking in community question answering platforms by modeling temporal, structural, social, and relevance features using learning-to-rank techniques on Stack Overflow data.","2021:\cite{amancio2021recency}
+Investigating how question recency and quality signals jointly influence question ranking in community question answering platforms by modeling temporal, structural, social, and relevance features using learning-to-rank techniques on Stack Overflow data.",answer,TC2,3
+S95,95,How to Formulate Specific How-to Questions in Software Development?,0,1,1,0,0,0,1,0,0,0,0,qualitative analysis;,"Qualitative Analysis [conducts user studies and qualitative analysis of developer-authored how-to questions to identify recurring patterns, shortcomings, and best practices in question formulation]
+
+Text Analysis and Natural Language Processing [applies linguistic and conceptual mutation techniques to transform vague questions into more specific variants by refining action verbs, objects, and contextual details]
+
+Data Mining and Graph-Based Models [constructs and mines knowledge graphs from existing high-quality questions to extract seed tasks and guide the generation of more specific how-to question formulations]",2022,"\cite{liu2022formulate}
+Investigating how developers formulate effective and specific how-to questions in software development by analyzing real-world questions, identifying common deficiencies, and proposing data-driven techniques to help users generate clearer and more informative questions.","2022:\cite{liu2022formulate}
+Investigating how developers formulate effective and specific how-to questions in software development by analyzing real-world questions, identifying common deficiencies, and proposing data-driven techniques to help users generate clearer and more informative questions.",question title,TC4,3
+S96,96,PTM4Tag: Sharpening Tag Recommendation of Stack Overflow Posts with Pre-Trained Models,0,1,0,0,1,0,0,0,0,0,1,f1 score; precision; recall;,"Deep Learning (DL) / Transformer-Based Deep Learning [applies transfer learning using multiple pre-trained language models and fine-tunes a BERT-based multi-label classifier to predict relevant tags for Stack Overflow posts]
+
+Text Analysis and Natural Language Processing [preprocesses post content by removing HTML artifacts and compares performance against embedding-based baselines to enhance semantic representation quality]
+
+Miscellaneous [conducts ablation studies to analyze the contribution of different model components and input features to overall tag recommendation performance]",2022,"\cite{he2022ptm4tag}
+Improving automatic tag recommendation for Stack Overflow posts by leveraging pre-trained language models and transfer learning to better capture semantic representations of question content and address challenges such as sparse tags and semantic ambiguity.","2022:\cite{he2022ptm4tag}
+Improving automatic tag recommendation for Stack Overflow posts by leveraging pre-trained language models and transfer learning to better capture semantic representations of question content and address challenges such as sparse tags and semantic ambiguity.",tags,TC3,3
+S97,97,A Study of C/C++ Code Weaknesses on Stack Overflow,0,0,1,1,0,0,1,1,0,0,0,,"Qualitative Analysis [conducts qualitative inspection and in-depth analysis of selected C/C++ code snippets to understand the nature, context, and causes of observed security weaknesses]
+
+Quantitative and Statistical Analysis [performs large-scale quantitative analysis to measure the frequency, distribution, and trends of different security weaknesses across Stack Overflow posts]
+
+Data Mining and Graph-Based Models [applies data mining techniques and analyzes user behavior patterns to study how insecure code is shared, reused, and propagated within the community]
+
+Program and Code Analysis [uses static code analysis tools to detect security weaknesses, map findings to standardized vulnerability categories, and analyze code revisions to observe how weaknesses evolve over time]",2022,"\cite{zhang2021study}
+Analyzing the prevalence, characteristics, and evolution of security weaknesses in C/C++ code snippets shared on Stack Overflow by examining real-world answers to understand potential risks and developer practices related to insecure code reuse.","2022:\cite{zhang2021study}
+Analyzing the prevalence, characteristics, and evolution of security weaknesses in C/C++ code snippets shared on Stack Overflow by examining real-world answers to understand potential risks and developer practices related to insecure code reuse.",answer code snippet,TC2,4
+S98,98,An Empirical Study of C++ Vulnerabilities in Crowd-Sourced Code Examples,0,1,1,0,0,0,0,1,0,0,0,accuracy; f1 score; precision; recall;,"Qualitative Analysis [conducts manual code review and qualitative inspection of vulnerable C++ snippets to understand vulnerability causes, contexts, and developer awareness]
+
+Text Analysis and Natural Language Processing [analyzes syntactic structures of code and surrounding text to support vulnerability understanding and classification]
+
+Program and Code Analysis [performs automated vulnerability classification, maps findings to standardized weakness categories, and applies clone detection to study reuse and propagation of vulnerable code snippets]",2022,"\cite{verdi2020empirical}
+Examining the presence, nature, and propagation of security vulnerabilities in C++ code examples shared on community-driven platforms by empirically analyzing real-world snippets to understand risks associated with crowd-sourced code reuse.","2022:\cite{verdi2020empirical}
+Examining the presence, nature, and propagation of security vulnerabilities in C++ code examples shared on community-driven platforms by empirically analyzing real-world snippets to understand risks associated with crowd-sourced code reuse.",answer code snippet,TC2,3
+S99,99,Ask It Right! Identifying Low-Quality questions on Community Question Answering Services,0,0,0,1,1,0,0,0,0,0,0,f1 score; kaplan-meier estimator; precision; recall;,"Quantitative and Statistical Analysis [applies survival analysis to model the time until question closure and to study how different tags and closure reasons influence question longevity]
+
+Deep Learning (DL) / Transformer-Based Deep Learning [employs transformer-based semantic modeling combined with graph convolutional networks to jointly learn question–tag representations, and uses late fusion techniques for low-quality question detection]",2022,"\cite{arora2022ask}
+Identifying low-quality questions in community question answering services at creation time by modeling semantic, structural, and tag-based relationships to predict question closure reasons and support proactive question improvement.","2022:\cite{arora2022ask}
+Identifying low-quality questions in community question answering services at creation time by modeling semantic, structural, and tag-based relationships to predict question closure reasons and support proactive question improvement.",question,TC1,2
+S100,100,Generating High Quality Titles in StackOverflow via Data Denoising Method,1,0,0,0,1,0,0,0,1,0,1,bleu; rouge;,"Machine Learning (ML) [applies a confidence-based clustering learning approach to group code snippets by functionality and estimate label reliability for filtering low-quality title–code pairs]
+
+Deep Learning (DL) / Transformer-Based Deep Learning [uses transformer-based sequence generation models trained on denoised datasets to generate concise and semantically accurate question titles]
+
+Heuristic and Rule-Based Approaches [employs heuristic data denoising and pruning strategies based on confidence thresholds to remove noisy or low-quality training instances]
+
+Miscellaneous [uses cross-validation to estimate confidence distributions and evaluate the robustness of the denoising and title generation process]",2022,"\cite{guo2022generating}
+Generating high-quality Stack Overflow question titles by reducing noise in training data through a data denoising strategy and leveraging neural models to better capture the semantic relationship between code snippets and their corresponding titles.","2022:\cite{guo2022generating}
+Generating high-quality Stack Overflow question titles by reducing noise in training data through a data denoising strategy and leveraging neural models to better capture the semantic relationship between code snippets and their corresponding titles.",question title,TC4,4
+S101,101,Predicting Rollback Edits on Stack Overflow Based on Deep Fusion of Metadata and Text,1,0,0,1,1,0,0,0,0,0,0,auc/roc/auc-roc; f1 score; precision; recall;,"Quantitative and Statistical Analysis
+[Logistic regression–based empirical analysis to identify and interpret metadata factors significantly associated with rollback likelihood.]
+
+Machine Learning (ML)
+[Baseline predictive modeling using logistic regression trained on structured metadata features.]
+
+Deep Learning (DL) / Transformer-Based Deep Learning
+[Deep Fusion of Metadata and Text (DFMT) architecture combining BiLSTM-based textual encoders, CNN and attention-enhanced variants, and BERT representations with metadata via multi-head attention and global attention mechanisms.]",2022,"\cite{jiang2022predicting}
+Rollback edit prediction by jointly modeling edit textual changes and multi-dimensional metadata through a deep fusion architecture that captures their interdependencies using attention-based neural networks.","2022:\cite{jiang2022predicting}
+Rollback edit prediction by jointly modeling edit textual changes and multi-dimensional metadata through a deep fusion architecture that captures their interdependencies using attention-based neural networks.",answer; question,TC1&2,3
+S102,102,SOTitle: A Transformer-based Post Title Generation Approach for Stack Overflow,1,1,0,0,1,0,0,0,1,0,0,bleu; human evaluation; meteor; rouge;,"Machine Learning (ML)
+[Multi-task learning formulation that treats title generation for different programming languages as related tasks to improve generalization and shared representation learning.]
+
+Deep Learning (DL) / Transformer-Based Deep Learning
+[Transformer-based sequence-to-sequence model with multi-head attention, leveraging multi-modal inputs (problem description and code snippets) and beam search decoding to generate high-quality titles.]
+
+Text Analysis and Natural Language Processing
+[Subword-level tokenization using SentencePiece to handle vocabulary diversity and out-of-vocabulary terms across natural language and source code.]
+
+Heuristic and Rule-Based Approaches
+[Heuristic filtering rules to construct a high-quality training corpus by selecting well-scored questions with accepted answers and code snippets.]",2022,"\cite{liu2022sotitle}
+Automatic generation of concise and informative Stack Overflow question titles by jointly modeling problem descriptions and code snippets through a Transformer-based, multi-task learning framework.","2022:\cite{liu2022sotitle}
+Automatic generation of concise and informative Stack Overflow question titles by jointly modeling problem descriptions and code snippets through a Transformer-based, multi-task learning framework.",question title,TC4,4
+S103,103,Is this question going to be closed? Answering question closibility on Stack Exchange,1,0,0,1,0,0,0,0,0,0,0,auc/roc/auc-roc; f1 score; precision; recall;,"Quantitative and Statistical Analysis
+[Handling class imbalance between open and closed questions using synthetic minority over-sampling to improve classifier robustness.]
+
+Machine Learning (ML)
+[Supervised classification using Gradient Boosting, Naive Bayes, Logistic Regression, and Random Forest models trained on manually engineered textual and non-textual features.]",2022,"\cite{roy2022question}
+Automatic prediction of question closibility on Stack Exchange by modeling asker characteristics, community feedback, question metadata, and textual properties using supervised machine learning.","2022:\cite{roy2022question}
+Automatic prediction of question closibility on Stack Exchange by modeling asker characteristics, community feedback, question metadata, and textual properties using supervised machine learning.",question (closed),TC1,2
+S104,104,Improving Stack Overflow question title generation with copying enhanced CodeBERT model and bi-modal information,0,0,1,0,1,0,0,0,0,0,0,bleu; rouge;,"Qualitative Analysis
+[Manual human evaluation of generated titles using predefined readability and correlation criteria to complement automated metrics.]
+
+Deep Learning (DL) / Transformer-Based Deep Learning
+[Copying-enhanced CodeBERT (CCBERT) model based on an encoder–decoder Transformer architecture, incorporating bi-modal encoding of text and code, multi-head self-attention, and an explicit copy mechanism to handle rare and domain-specific tokens.]",2022,"\cite{zhang2022improving}
+Automatic generation of high-quality Stack Overflow question titles by leveraging bi-modal information (text descriptions and code snippets) through a copying-enhanced CodeBERT encoder–decoder architecture that captures long-range dependencies and rare tokens.","2022:\cite{zhang2022improving}
+Automatic generation of high-quality Stack Overflow question titles by leveraging bi-modal information (text descriptions and code snippets) through a copying-enhanced CodeBERT encoder–decoder architecture that captures long-range dependencies and rare tokens.",question title,TC4,2
+S105,105,Analyzing Techniques for Duplicate Question Detection on Q&A Websites for Game Developers,1,0,0,1,1,1,0,0,0,0,0,,"Quantitative and Statistical Analysis
+[Construction of balanced and representative datasets through controlled sampling of duplicate and non-duplicate question pairs from Stack Exchange data dumps.]
+
+Machine Learning (ML)
+[Supervised classification using a Random Forest model that combines multiple similarity scores to predict whether two questions are duplicates.]
+
+Deep Learning (DL) / Transformer-Based Deep Learning
+[Use of unsupervised and pre-trained language models, including MPNet sentence embeddings, to generate dense semantic representations of questions.]
+
+Relevance, Ranking, and Evaluation
+[Application of cosine similarity and recall-rate@k–based ranking evaluation to assess how effectively techniques surface true duplicate questions among top recommendations.]",2022,"\cite{kamienski2023analyzing}
+Duplicate question detection for game development–focused Q&A websites by comparing question content using unsupervised, pre-trained semantic representations and supervised combinations of similarity signals to identify semantically redundant questions.","2022:\cite{kamienski2023analyzing}
+Duplicate question detection for game development–focused Q&A websites by comparing question content using unsupervised, pre-trained semantic representations and supervised combinations of similarity signals to identify semantically redundant questions.",question (duplicate),TC1,4
+S106,106,The reproducibility of programming-related issues in Stack Overflow questions,0,0,1,1,0,0,0,0,1,0,0,chi-squared test; cliff's delta; mann-whitney-wilcoxon test;,"Qualitative Analysis
+[In-depth manual examination of question texts and code snippets, including systematic reproduction attempts and categorization of reproducibility status and underlying challenges.]
+
+Quantitative and Statistical Analysis
+[Statistical analysis of reproducibility rates across languages and correlation analysis between reproducibility status and answer-related meta-data such as accepted answers, response delay, and answer count.]
+
+Heuristic and Rule-Based Approaches
+[Rule-based classification of reproducibility outcomes using predefined criteria and editing-action taxonomies to distinguish reproducible and irreproducible issues.]",2022,"\cite{mondal2022reproducibility}
+An exploratory empirical study that manually evaluates whether programming issues reported in Stack Overflow questions can be reproduced from their accompanying code snippets and analyzes how reproducibility impacts question answering outcomes.","2022:\cite{mondal2022reproducibility}
+An exploratory empirical study that manually evaluates whether programming issues reported in Stack Overflow questions can be reproduced from their accompanying code snippets and analyzes how reproducibility impacts question answering outcomes.",question,TC1,3
+S107,107,Studying the Long-Term Value Answers on Stack Overflow,1,0,1,1,0,0,0,0,0,0,0,auc/roc/auc-roc;,"Qualitative Analysis
+[Manual categorization of questions associated with long-term value answers to identify thematic types (e.g., how-to, review, conceptual) that sustain usefulness over time.]
+
+Quantitative and Statistical Analysis
+[Exploratory and correlational analysis of temporal voting patterns and multivariate statistical modeling to distinguish long-term versus short-term value answers.]
+
+Machine Learning (ML)
+[Logistic regression modeling employed as an explanatory framework to quantify the association between answer-, question-, tag-, and user-related factors and long-term answer value.]",2022,"\cite{yang4069233studying}
+A large-scale longitudinal analysis examining how Stack Overflow answers gain or lose community recognition over time and identifying factors associated with answers that sustain long-term value.","2022:\cite{yang4069233studying}
+A large-scale longitudinal analysis examining how Stack Overflow answers gain or lose community recognition over time and identifying factors associated with answers that sustain long-term value.",answer,TC2,3
+S108,108,Towards Quality Improvement and Prediction of Closed Questions on Stack Overflow,1,0,0,1,0,0,0,0,0,0,0,accuracy; f1 score; multi-class log loss (mll); precision; recall;,"Quantitative and Statistical Analysis
+[Addressing severe class imbalance by combining SMOTE oversampling with random undersampling and Tomek-link–based data cleaning.]
+
+Machine Learning (ML)
+[Multi-class classification using XGBoost, Random Forest, and Vowpal Wabbit models to predict both question closure and its associated reason.]",2022,"\cite{opu2022towards}
+Early prediction of Stack Overflow question closure and its specific closing reason by extracting textual, metadata, sentiment, and tag-related features and applying multi-class machine learning models at question posting time.","2022:\cite{opu2022towards}
+Early prediction of Stack Overflow question closure and its specific closing reason by extracting textual, metadata, sentiment, and tag-related features and applying multi-class machine learning models at question posting time.",question (closed),TC1,2
+S109,109,Context-Aware Answer Selection in Community Question Answering Exploiting Spatial Temporal Bidirectional Long Short-Term Memory,0,1,0,0,1,0,0,0,0,0,0,accuracy; f1 score; mean average precision (map); mean reciprocal rank; precision; recall;,"Deep Learning (DL) / Transformer-Based Deep Learning
+[Spatial–temporal Bi-LSTM architecture that captures forward (question-to-answer) and backward (answer-to-answer) dependencies, followed by max-pooling and softmax layers for quality answer selection.]
+
+Text Analysis and Natural Language Processing
+[Extensive text preprocessing and semantic encoding, including tokenization, parsing, lemmatization, stop-word removal, POS tagging, named-entity extraction, and Par2Vec-based paragraph-level vector representations for context-aware modeling.]",2023,"\cite{ahmed2023context}
+Context-aware selection of high-quality answers in community question answering by jointly modeling question–answer relevance and inter-answer temporal dependencies using a spatial–temporal bidirectional LSTM architecture.","2023:\cite{ahmed2023context}
+Context-aware selection of high-quality answers in community question answering by jointly modeling question–answer relevance and inter-answer temporal dependencies using a spatial–temporal bidirectional LSTM architecture.",answer,TC2,2
+S110,110,A novel hybrid CNN-LSTM approach for assessing Stack Overflow post quality,1,0,0,0,1,0,0,0,0,0,0,accuracy; f1 score; mann-whitney u-test results; precision; recall;,"Machine Learning (ML)
+[Formulation of post quality assessment as a multi-class classification problem distinguishing very good, good, bad, and very bad questions.]
+
+Deep Learning (DL) / Transformer-Based Deep Learning
+[Hybrid Convolutional Neural Network–Long Short-Term Memory architecture in which CNN layers learn discriminative feature representations and LSTM layers capture sequential and long-range dependencies among extracted features.]",2023,"\cite{anwar2023novel}
+Automated multi-class assessment of Stack Overflow post quality by integrating handcrafted textual, readability, formatting, and metadata features with a hybrid CNN–LSTM model that captures both local patterns and long-term dependencies.","2023:\cite{anwar2023novel}
+Automated multi-class assessment of Stack Overflow post quality by integrating handcrafted textual, readability, formatting, and metadata features with a hybrid CNN–LSTM model that captures both local patterns and long-term dependencies.",question,TC1,2
+S111,111,Diverse title generation for Stack Overflow posts with multiple-sampling-enhanced transformer,0,0,1,0,1,0,0,0,0,0,0,bleu; rouge;,"Qualitative Analysis
+[Manual human evaluation involving experienced programmers who rate generated titles on readability, correlation, diversity, and usability, with inter-rater agreement analysis.]
+
+Deep Learning (DL) / Transformer-Based Deep Learning
+[M3NSCT5 framework built on a CodeT5 sequence-to-sequence Transformer backbone, enhanced with maximal marginal multiple nucleus sampling to jointly optimize title quality and diversity during decoding, and pre-trained on large-scale code corpora.]",2023,"\cite{zhang2023diverse}
+Automatic generation of multiple high-quality and diverse Stack Overflow post titles from code snippets by leveraging a CodeT5-based Transformer with maximal marginal multiple nucleus sampling to address ambiguity in code-only contexts.","2023:\cite{zhang2023diverse}
+Automatic generation of multiple high-quality and diverse Stack Overflow post titles from code snippets by leveraging a CodeT5-based Transformer with maximal marginal multiple nucleus sampling to address ambiguity in code-only contexts.",question title,TC4,2
+S112,112,Dual-interactive fusion for code-mixed deep representation learning in tag recommendation,0,1,0,0,1,0,0,0,0,0,0,f1 score; precision; recall;,"Deep Learning (DL) / Transformer-Based Deep Learning
+[CDR4Tag framework that integrates code-mixed deep representations using dual-interactive fusion, combining connective and separative semantic interaction modules with hierarchy-aware semantic learning and GraphCodeBERT-based code encoding.]
+
+Text Analysis and Natural Language Processing
+[Sentence-pair matching formulation that jointly encodes software objects and candidate tags to capture semantic correlations between descriptions, code snippets, and tags for recommendation.]",2023,"\cite{li2023dual}
+Automatic tag recommendation for software information sites by jointly modeling text descriptions, code snippets, and tag semantics through a code-mixed deep representation learning framework with dual-interactive fusion and hierarchy-aware semantic learning.","2023:\cite{li2023dual}
+Automatic tag recommendation for software information sites by jointly modeling text descriptions, code snippets, and tag semantics through a code-mixed deep representation learning framework with dual-interactive fusion and hierarchy-aware semantic learning.",tags,TC3,2
+S113,113,KEIC: A Tag Recommendation Framework with Knowledge Enhancement and Interclass Correlation,1,1,0,0,1,0,0,0,0,0,0,f1 score; ndcg; precision; psp (propensity scored precision); recall;,"Machine Learning (ML)
+[Multi-label classification baselines enhanced within the KEIC framework, including FastText-based models (KEIC-FastText) to assess gains from knowledge and correlation integration.]
+
+Deep Learning (DL) / Transformer-Based Deep Learning
+[KEIC framework instantiated with multiple encoders—KEIC-XML-CNN, KEIC-AttentionXML, and KEIC-BERT—that combine Transformer-based sequence encoding, correlation networks (CorNet) to capture interclass dependencies, and bottlenecked correlation stacks to control parameter growth.]
+
+Text Analysis and Natural Language Processing
+[Knowledge integration via knowledge graph augmentation (e.g., ConceptNet/CN-DBpedia) to inject entity-centric triples into inputs, coupled with sequence encoding and correlation capture to enhance semantic understanding and tag prediction.]",2023,"\cite{wang2023keic}
+Automatic tag recommendation formulated as extreme multi-label classification by enriching text representations with commonsense knowledge and explicitly modeling inter-tag correlations to mitigate long-tail effects across large Q&A datasets.","2023:\cite{wang2023keic}
+Automatic tag recommendation formulated as extreme multi-label classification by enriching text representations with commonsense knowledge and explicitly modeling inter-tag correlations to mitigate long-tail effects across large Q&A datasets.",tags,TC3,3
+S114,114,Textual tag recommendation with multi-tag topical attention,1,1,0,0,1,1,0,0,0,0,0,cross-entropy loss; f1 score; precision; recall;,"Machine Learning (ML)
+[End-to-end multi-task learning that jointly optimizes neural topic generation and tag ranking to balance topic discovery and tag prediction.]
+
+Deep Learning (DL) / Transformer-Based Deep Learning
+[Neural Topic Generator combined with a sequence encoder and a multi-tag topical attention mechanism, where dynamic neural topics guide tag-specific post representations for ranking.]
+
+Text Analysis and Natural Language Processing
+[Bag-of-Words (BoW) representations used for neural topic generation alongside sequential text encoding to capture both global topical signals and local semantic context.]
+
+Relevance, Ranking, and Evaluation
+[Multi-tag topical attention mechanism and a topic-guided tag ranker that produce tag-specific relevance scores, enabling effective ranking of candidate tags under long-tail distributions.]",2023,"\cite{xu2023textual}
+A topic-guided tag recommendation approach that jointly models dynamic neural topics and tag-specific attention to improve tag relevance, particularly for long-tail tags, via an end-to-end multi-task learning framework.","2023:\cite{xu2023textual}
+A topic-guided tag recommendation approach that jointly models dynamic neural topics and tag-specific attention to improve tag relevance, particularly for long-tail tags, via an end-to-end multi-task learning framework.",tags,TC3,4
+S115,115,Duplicate Quora Questions Pair Detection using Siamese Bert and Ma-LSTM,0,1,0,0,1,1,0,0,0,0,0,accuracy; f1 score; precision; recall;,"Deep Learning (DL) / Transformer-Based Deep Learning
+[Siamese neural network architectures employing pre-trained BERT encoders, Manhattan Distance LSTM (MaLSTM), and BiLSTM models to learn pairwise semantic similarity for duplicate detection.]
+
+Text Analysis and Natural Language Processing
+[Text preprocessing pipelines including tokenization, stopword removal, stemming or lemmatization, and representation learning via word embeddings such as Word2Vec and Google2Vec, alongside contextual embeddings from BERT.]
+
+Relevance, Ranking, and Evaluation
+[Similarity computation using cosine similarity between learned question embeddings, followed by threshold-based classification and evaluation using standard performance metrics.]",2023,"\cite{priyanka2023duplicate}
+Automatic detection of semantically duplicate Quora question pairs by comparing question representations learned through Siamese neural architectures, including BERT-, MaLSTM-, and BiLSTM-based similarity models.","2023:\cite{priyanka2023duplicate}
+Automatic detection of semantically duplicate Quora question pairs by comparing question representations learned through Siamese neural architectures, including BERT-, MaLSTM-, and BiLSTM-based similarity models.",question (duplicate),TC1,3
+S116,116,Predicting answer acceptability for question-answering system,1,1,0,1,0,0,0,0,0,0,0,accuracy; auc/roc/auc-roc; f1 score; precision; recall;,"Quantitative and Statistical Analysis
+[Mitigation of severe class imbalance between accepted and non-accepted answers using SMOTE-based oversampling and comparative statistical evaluation.]
+
+Machine Learning (ML)
+[Supervised classification using Naive Bayes, Random Forest, Logistic Regression, and Gradient Boosting models trained on combined textual and non-textual feature sets.]
+
+Text Analysis and Natural Language Processing
+[Data preprocessing including cleaning, normalization, stemming, lemmatization, and feature extraction from answer texts to support predictive modeling.]",2023,"\cite{roy2023predicting}
+Prediction of whether a newly posted answer in community question-answering systems will be accepted by jointly modeling textual readability features and user-centric contribution signals using supervised machine learning.","2023:\cite{roy2023predicting}
+Prediction of whether a newly posted answer in community question-answering systems will be accepted by jointly modeling textual readability features and user-centric contribution signals using supervised machine learning.",answer,TC2,3
+S117,117,Automatic prediction of rejected edits in Stack Overflow,1,0,1,0,0,0,0,0,0,0,0,accuracy; f1 score; nasa tlx for workload; precision; recall;,"Qualitative Analysis
+[Manual inspection and coding of rejected edits to derive a fine-grained taxonomy of rejection reasons and guide feature design.]
+
+Machine Learning (ML)
+[Supervised classification using Decision Trees, Random Forest, K-Nearest Neighbors, and eXtreme Gradient Boosting models trained on engineered text- and user-based features.]",2023,"\cite{mondal2023automatic}
+Automatic identification of rejected Stack Overflow edits by modeling textual, structural, affective, and user-based cues to predict edit rejection and infer potential rejection reasons, supported by a real-time edit assistance tool.","2023:\cite{mondal2023automatic}
+Automatic identification of rejected Stack Overflow edits by modeling textual, structural, affective, and user-based cues to predict edit rejection and infer potential rejection reasons, supported by a real-time edit assistance tool.",answer; question (rejected edits),TC1&2,2
+S118,118,Automated Question Title Reformulation by Mining Modification Logs From Stack Overflow,0,1,1,0,1,0,0,0,0,0,0,bleu; consensus-based image description evaluation (cider); exact match (em); gleu; mean reciprocal rank; rouge;,"Deep Learning (DL) / Transformer-Based Deep Learning
+[T5-based encoder–decoder Transformer fine-tuned for title reformulation, modeling the task as neural text-to-text generation with beam search decoding.]
+
+Qualitative Analysis
+[Formative qualitative analysis of title edit logs to identify common reformulation patterns, complemented by a human study evaluating readability, relevance, and usefulness of generated titles.]
+
+Text Analysis and Natural Language Processing
+[Mining and preprocessing of Stack Overflow modification logs, linguistic normalization, subword tokenization (SentencePiece), and multi-modal text modeling combining original titles and question bodies.]",2023,"\cite{liu2023automated}
+Automatic reformulation of Stack Overflow question titles by mining historical title modification logs and learning reformulation patterns via a T5-based Transformer with multi-task learning across programming languages.","2023:\cite{liu2023automated}
+Automatic reformulation of Stack Overflow question titles by mining historical title modification logs and learning reformulation patterns via a T5-based Transformer with multi-task learning across programming languages.",question title,TC4,3
+S119,119,Is Stack Overflow Obsolete? An Empirical Study of the Characteristics of ChatGPT Answers to Stack Overflow Questions,0,1,1,0,1,0,0,0,0,0,0,fleiss's kappa (agreement); relative differences (rd); t-test;,"Text Analysis and Natural Language Processing
+[Linguistic feature extraction and sentiment modeling using LIWC-based psycholinguistic analysis and a fine-tuned RoBERTa sentiment classifier.]
+
+Qualitative Analysis
+[In-depth manual coding of ChatGPT answers to develop a taxonomy of quality issues, complemented by a controlled user study and follow-up interviews with programmers.]
+
+Deep Learning (DL) / Transformer-Based Deep Learning
+[Application of a RoBERTa-based Transformer model for sentiment analysis to quantify affective differences between ChatGPT and human-written answers.]",2024,"\cite{kabir2024stack}
+A mixed-methods empirical study comparing ChatGPT-generated answers with accepted Stack Overflow answers by systematically analyzing their correctness, quality dimensions, linguistic characteristics, sentiment, and user perceptions.","2024:\cite{kabir2024stack}
+A mixed-methods empirical study comparing ChatGPT-generated answers with accepted Stack Overflow answers by systematically analyzing their correctness, quality dimensions, linguistic characteristics, sentiment, and user perceptions.",answer,TC2,3
+S120,120,Identifying Smart Contract Security Issues in Code Snippets from Stack Overflow,0,0,1,0,0,0,0,0,0,1,0,f1 score; precision; recall;,"Qualitative Analysis
+[User study involving smart contract developers to assess real-world practices, security awareness, and risks associated with reusing Stack Overflow code snippets.]
+
+Generative AI / Foundation Models
+[Fine-tuned Llama2-based large language model used for completing fragmented smart contract code snippets prior to vulnerability analysis, enabling downstream symbolic execution and pattern-based detection.]",2024,"\cite{chen2024identifying}
+Identification of security vulnerabilities in incomplete smart contract code snippets shared on Stack Overflow by combining large language model–based code completion with traditional program analysis techniques.","2024:\cite{chen2024identifying}
+Identification of security vulnerabilities in incomplete smart contract code snippets shared on Stack Overflow by combining large language model–based code completion with traditional program analysis techniques.",answer,TC2,2
+S121,121,Can We Identify Stack Overflow Questions Requiring Code Snippets? Investigating the Cause & Effect of Missing Code Snippets,1,1,1,0,0,0,0,0,0,0,0,accuracy; chi-squared test; cliff's delta; cohen's kappa; f1 score; mann-whitney-wilcoxon test; precision; recall;,"Qualitative Analysis
+[Manual inspection of question revision histories and comments to categorize code snippet presence, complemented by a practitioner survey to understand why users omit required code snippets.]
+
+Machine Learning (ML)
+[Supervised classification using Random Forest, XGBoost, Artificial Neural Network, Gaussian Naive Bayes, K-Nearest Neighbors, and Support Vector Machines to predict whether a question requires code snippets.]
+
+Text Analysis and Natural Language Processing
+[Extraction of text-based features such as keywords, POS-based patterns, sentence structures, and code-like elements from question titles and bodies to support automated prediction models.]",2024,"\cite{mondal2024can}
+An empirical mixed-methods study that investigates how missing required code snippets affect Stack Overflow question outcomes and proposes supervised ML models to automatically identify questions that require code snippets at submission time.","2024:\cite{mondal2024can}
+An empirical mixed-methods study that investigates how missing required code snippets affect Stack Overflow question outcomes and proposes supervised ML models to automatically identify questions that require code snippets at submission time.",question,TC1,3
+S122,122,AUTOGENICS: Automated Generation of Context-Aware Inline Comments for Code Snippets on Programming Q&A Sites Using LLM,0,0,1,0,0,0,0,0,0,1,0,cohen's kappa;,"Qualitative Analysis
+[Manual evaluation of LLM-generated inline comments using Likert-scale ratings, complemented by a practitioner user study with active Stack Overflow users to assess perceived effectiveness, usefulness, and demand for automated inline commenting tools.]
+
+Generative AI / Foundation Models
+[Use of large language models, primarily Gemini 1.5 Pro and GPT-4, for inline comment generation; AUTOGENICS enhances standard LLM outputs by incorporating question context and applying rule-based noise filtering to produce higher-quality, context-aware comments.]",2024,"\cite{bappon2024autogenics}
+A mixed-methods study that designs and evaluates AUTOGENICS, a browser-integrated tool that uses large language models to generate context-aware, noise-free inline comments for Stack Overflow answer code snippets to improve code comprehension and reuse.","2024:\cite{bappon2024autogenics}
+A mixed-methods study that designs and evaluates AUTOGENICS, a browser-integrated tool that uses large language models to generate context-aware, noise-free inline comments for Stack Overflow answer code snippets to improve code comprehension and reuse.",answer code snippet (documentation),TC2,2
+S123,123,"Reproducibility of issues reported in stack overflow questions: Challenges, impact & estimation",1,0,1,1,0,0,0,0,0,0,0,accuracy; f1 score; precision; recall;,"Qualitative Analysis
+[Practitioner survey and manual qualitative analysis to validate a catalog of reproducibility challenges, estimate their severity and impact on answering questions, and elicit requirements for tool support.]
+
+Machine Learning (ML)
+[Supervised classification using Random Forest, XGBoost, Artificial Neural Network, Naive Bayes, and K-Nearest Neighbors to predict reproducible vs. irreproducible issues based on extracted code features.]
+
+Quantitative and Statistical Analysis
+[Application of SMOTE oversampling to address class imbalance and statistical analyses to evaluate model performance and feature significance.]",2024,"\cite{mondal2024reproducibility}
+A mixed-methods empirical study that investigates why many Stack Overflow questions fail to reproduce reported issues, validates practitioners’ perceptions of reproducibility challenges, and builds ML models to automatically predict issue reproducibility from code snippets.","2024:\cite{mondal2024reproducibility}
+A mixed-methods empirical study that investigates why many Stack Overflow questions fail to reproduce reported issues, validates practitioners’ perceptions of reproducibility challenges, and builds ML models to automatically predict issue reproducibility from code snippets.",question (issues reproducibility of code snippets),TC1,3
+S124,124,PTM4Tag+: Tag recommendation of stack overflow posts with pre-trained models,0,0,0,0,1,0,0,0,0,0,0,f1 score; precision; recall;,"Deep Learning (DL) / Transformer-Based Deep Learning
+[Transformer-based multi-label classification framework with a triplet architecture that independently encodes title, description, and code using pre-trained models (BERT, RoBERTa, CodeBERT, BERTOverflow, ALBERT, PLBART, CoTexT, CodeT5) and their lightweight variants (DistilBERT, DistilRoBERTa, CodeBERT-small, CodeT5-small), followed by embedding concatenation and neural classification.]",2024,"\cite{he2025ptm4tag+}
+A large-scale empirical study proposing PTM4Tag+, a transformer-based multi-label tag recommendation framework that jointly models question titles, descriptions, and code snippets using diverse pre-trained language models to substantially outperform prior CNN-based approaches.","2024:\cite{he2025ptm4tag+}
+A large-scale empirical study proposing PTM4Tag+, a transformer-based multi-label tag recommendation framework that jointly models question titles, descriptions, and code snippets using diverse pre-trained language models to substantially outperform prior CNN-based approaches.",tags,TC3,1
+S125,125,Towards Better Answers: Automated Stack Overflow Post Updating,0,0,1,0,0,0,0,0,0,1,0,exact match (em); f1 score; precision; recall;,"Qualitative Analysis
+[Manual inspection of comment–edit pairs to define validity criteria, qualitative error analysis of generated updates, and in-the-wild evaluation via real Stack Overflow edit submissions reviewed by community maintainers.]
+
+Generative AI / Foundation Models
+[Fine-tuned CodeLlama with prompt learning and low-rank adaptation (LoRA) to (i) predict valid comment–edit pairs and (ii) generate updated code snippets conditioned on comments, evaluated against baselines including prompt-only LLMs.]",2025,"\cite{mai2024towards}
+An LLM-based framework (SOUP) that automatically updates Stack Overflow answer code snippets by learning to map improvement-oriented comments to concrete edits, combining valid comment–edit prediction with automated post updating using CodeLlama.","2025:\cite{mai2024towards}
+An LLM-based framework (SOUP) that automatically updates Stack Overflow answer code snippets by learning to map improvement-oriented comments to concrete edits, combining valid comment–edit prediction with automated post updating using CodeLlama.",answer,TC2,2
+S126,126,Does Editing Improve Answer Quality on Stack Overflow? A Data-Driven  Investigation,0,0,0,1,0,0,0,0,0,0,0,cliff's delta; mann-whitney-wilcoxon test;,"Quantitative and Statistical Analysis
+[Large-scale comparative analysis of initial vs. latest answer revisions using non-parametric statistical tests (Mann–Whitney–Wilcoxon), effect sizes (Cliff’s Delta), and objective static and dynamic code analysis across six quality dimensions.]",2025,"\cite{mondal2025does}
+This large-scale empirical study analyzes 94,994 Python answers with accepted edits to systematically examine whether collaborative editing improves multiple objective dimensions of answer quality on Stack Overflow.","2025:\cite{mondal2025does}
+This large-scale empirical study analyzes 94,994 Python answers with accepted edits to systematically examine whether collaborative editing improves multiple objective dimensions of answer quality on Stack Overflow.",answer,TC2,1
+S127,127,Detecting question relatedness in programming Q&A communities via bimodal feature fusion,0,0,0,0,1,0,0,0,0,0,0,macro-f1; macro-precision; macro-recall;,"Deep Learning (DL) / Transformer-Based Deep Learning
+[Bimodal feature fusion framework that integrates SOBERT for question text encoding and UniXcoder for code-aware representation learning, combining both modalities through neural fusion layers to predict question relatedness.]",2025,"\cite{bu2025detecting}
+Automatic detection of semantically related programming questions by jointly modeling natural language descriptions and code snippets through bimodal feature fusion with pre-trained Transformer encoders.","2025:\cite{bu2025detecting}
+Automatic detection of semantically related programming questions by jointly modeling natural language descriptions and code snippets through bimodal feature fusion with pre-trained Transformer encoders.",question (duplicate),TC1,1
