@@ -21,10 +21,10 @@ All datasets are organized by research questions (RQ1–RQ7). Each dataset corre
 **Objective.** We present a taxonomy of content artifacts targeted for quality assessment and enhancement (e.g., questions, answers, tags, titles, and comments), as well as the analytical components examined by primary studies (e.g., textual content, metadata, user profiles, and interaction signals).
 
 **Dataset.**  
-- `RQ1/RQ1-Target-And-Analyzed-Components.csv`
+- `RQ1/RQ1-Target-And-Analyzed-Components.csv`  
   **Columns.**
-- `Target Content`: Targeted content artifact (e.g., question, answer, tag, title, comment)  
-- `Analyzed Components`: Analyzed components (e.g., text, metadata, user information, interaction features)
+	- `Target Content`: Targeted content artifact (e.g., question, answer, tag, title, comment)  
+	- `Analyzed Components`: Analyzed components (e.g., text, metadata, user information, interaction features)
 
 ### RQ2: Quality metrics for assessing content quality
 **Objective.** We synthesize ten recurring metrics spanning clarity and relevance, readability, correctness and informativeness, engagement, reputation, popularity, tag quality, structural presentation, affect, and response timing.
@@ -75,7 +75,7 @@ All datasets are organized by research questions (RQ1–RQ7). Each dataset corre
   - `Statistical Test`: Statistical tests used for validation in the studies  
 
 - `RQ4/RQ4-Database.csv`  
-  **Columns.**
+  **Column.**
   - `Dataset`: Dataset(s) used in each study  
 
 - `RQ4/study-wise-evaluation-metrics.csv`  
@@ -140,5 +140,5 @@ We analyze the publication metadata and collaboration characteristics of primary
 **Datasets.**
 
 - `RQ7/RQ7-Limitations-Future-Works.csv`  
-  **Columns.**
+  **Column.**
   - `Limitations & Future Works`: Reported limitations and future research directions from the studies, along with the relevant sections where they are discussed
