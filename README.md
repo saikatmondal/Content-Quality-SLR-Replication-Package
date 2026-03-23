@@ -153,53 +153,53 @@ This structure enables researchers to:
 - Extend or adapt specific parts of the analysis pipeline  
   
 ### Directory Structure
-  
+
 ```text
-	Scripts/
-	├── Data-Processing/
-	│   ├── evaluation-metrics-count.py
-	│   ├── evaluation-metrics-overlapping-analysis.py
-	│   ├── highly-co-occurred-evaluation-metric-by-count.py
-	│   └── highly-co-occurred-evaluation-metric-by-jaccard.py
-	│   
-	│
-	├── RQ1/
-	│   ├── Graphs/
-	│   ├── Outputs/
-	│   └── Scripts/
-	│       ├── analysis-of-analyzed-components.py
-	│       ├── analysis-of-target-components.py
-	│       ├── formatting-data-for-palindrome.py
-	│       └── list-forums-with-frequency.py
-	│
-	├── RQ2/
-	│   ├── Outputs/
-	│   └── Scripts/
-	│       ├── analysis-of-metrics.py
-	│       └── open-code-unique-metric-with-frequency.py
-	│
-	├── RQ3/
-	│   ├── Outputs/
-	│   └── Scripts/
-	│       ├── analysis-of-methodology.py
-	│       └── open-code-method-with-frequency.py
-	│
-	├── RQ4/
-	│   ├── Outputs/
-	│   └── Scripts/
-	│       ├── analysis-of-performance-evaluation-metrics.py
-	│       ├── mapping-of-evaluation-metrics.py
-	│       ├── methodology-wise-evaluation-metric-count.py
-	│       └── study-wise-evaluation-metrics.py
-	│
-	└── RQ5/
-		├── Outputs/
-		└── Scripts/
-			├── author-contributions-and-author-gender.py
-			├── country-count-with-frequency.py
-			├── study-wise-author-count-author-gender.py
-			├── venue-wise-study.py
-			└── year-wise-study.py
+Scripts/
+├── Data-Processing/
+│   ├── evaluation-metrics-count.py
+│   ├── evaluation-metrics-overlapping-analysis.py
+│   ├── highly-co-occurred-evaluation-metric-by-count.py
+│   └── highly-co-occurred-evaluation-metric-by-jaccard.py
+│
+├── RQ1/
+│   ├── Graphs/
+│   ├── Outputs/
+│   └── Scripts/
+│       ├── analysis-of-analyzed-components.py
+│       ├── analysis-of-target-components.py
+│       ├── formatting-data-for-palindrome.py
+│       └── list-forums-with-frequency.py
+│
+├── RQ2/
+│   ├── Outputs/
+│   └── Scripts/
+│       ├── analysis-of-metrics.py
+│       └── open-code-unique-metric-with-frequency.py
+│
+├── RQ3/
+│   ├── Outputs/
+│   └── Scripts/
+│       ├── analysis-of-methodology.py
+│       └── open-code-method-with-frequency.py
+│
+├── RQ4/
+│   ├── Outputs/
+│   └── Scripts/
+│       ├── analysis-of-performance-evaluation-metrics.py
+│       ├── mapping-of-evaluation-metrics.py
+│       ├── methodology-wise-evaluation-metric-count.py
+│       └── study-wise-evaluation-metrics.py
+│
+└── RQ5/
+    ├── Outputs/
+    └── Scripts/
+        ├── author-contributions-and-author-gender.py
+        ├── country-count-with-frequency.py
+        ├── study-wise-author-count-author-gender.py
+        ├── venue-wise-study.py
+        └── year-wise-study.py
+```
 
 ---
 
@@ -211,6 +211,7 @@ Each script can be executed independently to reproduce specific analyses. The re
 2. Use the `Data-Processing/` scripts for cross-cutting analyses (e.g., evaluation metrics aggregation and co-occurrence analysis)  
 3. Generated outputs are stored in the respective `Outputs/` directories  
 
+---
 
 ### Requirements
 
@@ -223,32 +224,41 @@ The scripts are implemented in **Python 3.x** and rely on the following librarie
 - `collections` — counting and grouping (`Counter`, `defaultdict`)  
 - `re` — regular expressions for text processing  
 - `csv` — CSV file handling  
-- `unicodedata` — text normalization   
-  
+- `unicodedata` — text normalization  
+
+---
+
 ## Installation
 
 Follow the steps below to set up the environment and install all required dependencies.
 
-### Step1: Clone the Repository
+### Step 1: Clone the Repository
 
 ```bash
 git clone https://github.com/saikatmondal/Content-Quality-SLR-Replication-Package.git
 cd Content-Quality-SLR-Replication-Package
+```
 
-### Step2: Create a Virtual Environment (Recommended)
+### Step 2: Create a Virtual Environment (Recommended)
 
+```bash
 python -m venv venv
+```
 
-Step3: Activate the Virtual Environment
+### Step 3: Activate the Virtual Environment
 
 **Linux / macOS**
-
+```bash
 source venv/bin/activate
+```
 
 **Windows**
-
+```bash
 venv\Scripts\activate
+```
 
-### Step4: Install Required Dependencies
+### Step 4: Install Required Dependencies
 
+```bash
 pip install pandas numpy matplotlib
+```
