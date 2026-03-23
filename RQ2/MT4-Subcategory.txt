@@ -1,0 +1,46 @@
+MT4: Community Engagement and Activity
+
+User Experience & Tenure (account age, history, and longevity):
+account age, age, age of account, membership duration, membership duration in years, n. of days since register, n. of days since last access, time since the account creation, userregistrationdays, qownerage
+________________________________________
+User Contribution Volume (questions, answers, and posting activity):
+previous answers, # previous questions, # of answerer’s previous answers at answer creation time, # of questioner’s previous questions at question creation time, (# previous answers)/(age of account), (# previous questions)/(age of account), answer count, answers provided, number of answers, number of answers given, number of answers given by the user, number of posted answers, number of questions, number of questions asked, number of posted questions, number of (not deleted) questions asked by the user, number of previous answers of answerer, number of previous questions of questioner, number of asker’s questions, number of asker’s answers, qownernq, user-post-question, user-supply-answer, post rate, q answern
+________________________________________
+Answer Acceptance & Success (answer outcomes and acceptance behavior):
+accepted answer ratio, accepted by originator votes, average number of accepted answers, number of accepted answers on different domains, number of accepted answers on same domain, number of asker’s accepted answers, answer rejection ratio, received response ratio, topic response ratio
+________________________________________
+Voting, Reputation & Recognition (community feedback and rewards):
+answer score, net answer votes, net question votes, favorite vote count, favorite votes, favourite count, number of positive votes received, number of negative votes received, number of positive votes on same domain answers, number of positive votes on different domain answers, ranking of users, counts of user points, # previous badges, counts of merit badges, counts of merit badges (u_mbc), user-gain-badge, grade level of users, number of thanks that user received
+________________________________________
+Commenting & Discussion Activity (engagement through comments):
+# of comments received in one hour after question creation, comment count, counts of comments an answer received, counts of comments an answer received (r_cc), counts of comments posted by a user, counts of comments posted by a user (u_cc), number of comments, number of comments posted to answers, number of comments posted to questions, n. of comments posted to answers and questions, avg n. of comments per answer, avg n. of comments per question, average number of comments per posted answer, average number of comments per posted question, average number of comments received, max n. of comments per answer, max n. of comments per question, min n. of comments per answer, min n. of comments per question, n. of users who commented the answer, qncomments
+________________________________________
+Responsiveness & Timeliness (speed of interaction and replies):
+# of answers received in one hour after question creation, response time, answer age/day, counts of answer age/day (r_aage), time between the question being posted and the answer being given, timetobounty
+________________________________________
+Editing, Revisions & Maintenance Activity (post evolution and edits):
+average n. of edits per user, n. of edits made on answers, counts of revisions, counts of revision (r_rc), no. of modifications, modifications, complete change of post, text/code modification, addedcodelines, addedtextlines, deletedcodelines, deletedtextlines, postprioredit, postpriorrollback, postpriorrollbackproportion, userprioredit, userpriorrollback, userpriorrollbackproportion, userdayeditcount, standard deviation of edits per user
+________________________________________
+Suggested Edits & Moderation Signals (collaborative editing and review):
+#sug to the answer, #sug to the question, #sug approved by the answer author, #sug approved by the asker, #sug rejected by the answer author, #sug rejected by the asker, counts of suggested edits made by a user, counts of suggested edits made by a user (u_ec), n. of suggested edits, n. of suggested edits approved, n. of suggested edits rejected, approve edit vote count, moderator review vote count, moderator review votes, review count, reviews
+________________________________________
+Bounty, Closure & Lifecycle Votes (question lifecycle engagement):
+bounty start vote count, bounty start votes, bounty end votes, bounty close vote count, f.bounty, close vote count, close votes, reopen vote count, reopen votes, deletion vote count, deletion votes, undeletion vote count, undeletion votes
+________________________________________
+Abuse, Flags & Community Health (negative or corrective interactions):
+number of flagged answers, number of flags given by the user, spam vote count, spam votes, offensive votes, number of spam reports that user received, number of warnings that user received, deface post, impatient, irregular or inconsiderate members, status
+________________________________________
+Social Network & Interaction Structure (community connectivity):
+number of friends in community, number of friends in community (friends_count), connectivity network, user relationships, average cc of friends, average cc of friends (cc_adj), clustering coefficient in friendship network, clustering coefficient in friendship network (cc), size of ego network of friendship (ego), size of ego-network of friendship, number of neighbors in ego network (ego_adj), number of neighbors in ego-network, number of outgoing edges in ego network (ego_out), number of outgoing edges in ego-network, average degree of neighborhood, average degree of neighborhood (deg_adj), competitors, n. of interactions with other forum users, number of distinct interactions between the asker and answerer
+________________________________________
+Topical Engagement & Domain Breadth (topic-level participation):
+number of topics in which user post answers, number of topics in which user post comments, number of topics in which user post questions, topics answered, topics asked, topic-weighted answer votes, topic-weighted questions answered, user-user topic similarity
+________________________________________
+Profile Completeness & Identity Signals (user profile presence):
+presence of a picture in the user profile, presence of a resume in the user profile, presence of a title in the user profile, length of the resume (in characters)
+________________________________________
+Popularity & Visibility (exposure and reach):
+view count, average view counts for previous questions, average rank position for posted answers, thread, t number, qmec, amec, qownerreputation, aownerreputation
+
+
+

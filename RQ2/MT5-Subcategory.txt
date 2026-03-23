@@ -1,0 +1,43 @@
+MT5: Reputation and Social Authority
+
+Account Standing & Longevity (authority derived from time and presence):
+age of account
+________________________________________
+Reputation Scores & User Standing (explicit reputation and points-based authority):
+reputation, reputation score, user reputation, the reputation of answerer, the reputation of questioner, reputation of users (answerer_rep), answerer’s points, asker’s points, points, counts of user points (u_point), information from the answerer’s profile (a_points, information from the asker’s profile (q_points, questioner’s reputation at question creation time, answerer’s reputation at answer creation time, asker score
+________________________________________
+Answerer Authority & Expertise (perceived expertise and authority as an answerer):
+answerer authority, answerer's expertise, answerer’s user history (answers answered, answers entropy, answers ratio, answers to age of account ratio, approved edit suggestion, answerer’s reputation at answer creation time, hits authority of the user in the arn, indegree of the user in the arn, pagerank of the user in the arn, rank position in ranswers, rank position in rrans, an number answer, a_total_answers, a_best_answers, best answers answered
+________________________________________
+Asker Authority & Expertise (credibility and authority as a questioner):
+asker authority, asker’s user history (questions asked, average number of accepted answers, average number of down votes per posted answer, average number of up votes per posted answer, avg n. of answers posted in the categories of t, avg n. of questions posted in the categories of t, avg rank position in racat, avg rank position in rqcat, avg rank position in rracat, avg rank position in rrqcat, avg rating received in the categories of t, best answers answered), rank position in rquestions, rank position in rrask, an number question
+________________________________________
+Voting Outcomes & Score Signals (community evaluation through votes):
+up vote count, upvotes, down vote count, downvotes, q upvote, post score, accepted answer count, sum of asker’s answers’ scores, sum of asker’s questions’ scores, number of up-votes that user received (up_votes), number of down-votes that user received (down_votes), number of upvotes to posted answers got from other users, number of downvotes to posted answers got from other users, negative votes received, offensive vote count
+________________________________________
+Historical Performance by Score Polarity (track record of success or failure):
+previous answers with 0 scores, # previous answers with negative scores, # previous answers with positive scores, # previous questions with 0 scores, # previous questions with negative scores, # previous questions with positive scores, previous answers with +ve score, previous answers with -ve score, previous answers with 0 score, previous questions with +ve score, previous questions with -ve score, previous questions with 0 score, previous posts with negative score
+________________________________________
+Badges, Honors & Achievements (formal recognition and awards):
+answer badge count, answer badges count, question badge count, question badges count, total badges, number of previous badges, n. of merit badges, badge score, badges-tags coverage, earned analytical badge, earned autobiographer badge, earned commentator badge, earned curious badge, earned custodian badge, earned editor badge, earned enthusiast badge, earned famous question badge, earned good answer badge, earned informed badge, earned necromancer badge, earned nice answer badge, earned notable question badge, earned popular question badge, earned scholar badge, earned student badge, earned supporter badge, earned teacher badge, earned tumbleweed badge, earned yearling badge, hasbadgearchaeologist, hasbadgecopyeditor, hasbadgestrunkwhite, user-gain-badge
+________________________________________
+Acceptance, Best Answers & Resolution Success (authority via accepted answers):
+best answers ratio, number of best answers, number of posted answers selected as the best answer, q_best_answers, q_questions_resolved, a_questions_resolved, question answered, questions and answers entropy
+________________________________________
+Contribution Volume & Role Indicators (authority from activity scale):
+number of answers, number of questions, number of previous answers, number of previous questions, n. of posted answers, n. of posted questions, a_questions_asked, q_questions_asked, q_total_answers, a_total_answers, question asked
+________________________________________
+Topical Reputation & Domain Authority (expertise across topics):
+topic reputation same domain, topic reputation different domain, topical reputation, number of accepted answers on different domains, number of accepted answers on same domain, n. of categories user is a top-3 answerer, n. of categories user is a top-3 asker, topics answered, topics asked, u-t3a / n. of categories user asked, u-t3q / n. of categories user answered, tot. rating got by answering questions in cats. of t, tot. rating got by asking questions in cats. of t, total rating received by answering questions, total rating received by asking questions, max n. of answers posted in the categories of t, max n. of questions posted in the categories of t, min n. of answers posted in the categories of t, min n. of questions posted in the categories of t, max rating received in the categories of t, min rating received in the categories of t
+________________________________________
+Rank Positions & Comparative Authority (relative standing among users):
+rank difference between answerer & asker (diff_rep_users), rank position in racat, rank position in rqcat, rank position in rracat, rank position in rrqcat, max rank position in racat, max rank position in rqcat, max rank position in rracat, max rank position in rrqcat, min rank position in racat, min rank position in rqcat, min rank position in rracat, min rank position in rrqcat
+________________________________________
+Upvote Aggregations & Statistical Authority Signals (temporal and topic-based vote summaries):
+ak mean/median/sum - qn upvote, ak mean/sum/median an upvote, an total/median/max - a upvote, an total/median/max - q upvote, q total/max answer score, t max/min/total/mean - an median upvote, t max/min/total/mean - qn median upvote, t max/min/total/mean - n answer, t max/min/total/mean - n question, normalised topic entropy, questions entropy, questions ratio, questions to age of account ratio
+________________________________________
+Endorsement & Social Recognition (peer acknowledgment beyond votes):
+users’ endorsement, users’ endorsements (positive votes received, by another answerer, by answerer, by asker, by commenter, by insider, by outsider, commenter reputation, signature, user
+
+
+

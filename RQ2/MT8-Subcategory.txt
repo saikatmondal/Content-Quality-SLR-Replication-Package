@@ -1,0 +1,48 @@
+MT8: Presentation and Structural Quality
+
+Overall Presentation & Organization (global structure and visual organization):
+presentation, organization, structure, style and legibility, well-formedness, clutter, text size, text format, text/code formatting, the format of answer, format of the answer (well_format)
+________________________________________
+Answer & Description Structural Elements (lists, quotes, sections, and layout):
+answer listing, answer quotes, description listing, description quotes, has list (“<li>” in body), has quote (“<quote>” in body), lists, list count, n. of lists, n. of list items in the text, number of lists in the text, number of list items in the text, n. of quoted blocks, number of quoted blocks in the text, number of quotes, section count (n. of html h1 tags), sub-section count (n. of html h2 tags), sub-sub-section count (n. of html h3 tags), average section length, maximum section length, minimum section length, section length standard deviation
+________________________________________
+Code Formatting & Layout (presentation quality of code blocks):
+abodycharsofcode, average code length, average number of code lines per code snippet, code format, code length standard deviation, maximum code length, minimum code length, number of code lines, text/code formatting
+________________________________________
+Quoted Text Characteristics (presentation of quoted content):
+average length of quoted text, average quoted text length, maximum length of quoted text, maximum quoted text length, minimum length of quoted text, minimum quoted text length, quoted text length standard deviation
+________________________________________
+Paragraph & Sentence Layout (paragraphing and sentence-level structure):
+counts of paragraphs, paragraph count, paragraphs, number of paragraphs, number of paragraphs in the text, average section length, avgparalen, avgsntclen, number of sentences
+________________________________________
+Capitalization & Case Usage (uppercase/lowercase presentation quality):
+capital letters divided by all characters, capital title, capitalization, lower-case, lowercase percentage, uppercase, uppercase character ratio, uppercase percentage, uppercase ratio, number of capitalized words, n. of words capitalized, number of upper case characters, number of upper case characters in body, number of lower case characters, number of lower case characters in body, title starts with a capital character, number of capitalization violations (no capital letter after sentence mark)
+________________________________________
+Punctuation & Special Characters (punctuation correctness and density):
+count of punctuation marks, punctuation characters divided by all characters, number of punctuation violations (lack or redundancy), number of question marks, number of special characters, number of special characters in body, tags-with-punctuation
+________________________________________
+Whitespace & Spacing Quality (spacing and whitespace usage):
+space density, spaces count, spacing, number of whitespaces, number of white case characters in body, whitespace characters divided by all characters, number of whitespace violations (lack or redundancy)
+________________________________________
+Text Emphasis & Highlighting (visual emphasis and styling):
+emphtexts, highlighting, italic plus bold tag count, number of <strong> tags
+________________________________________
+Media & Visual Elements (non-textual presentation aids):
+description images, image count
+________________________________________
+Character-, Word-, and Symbol-Level Counts (surface formatting indicators):
+length (# characters), number of characters, number of words, number of alphabetical characters in body, number of digit characters in body, number of urls
+________________________________________
+Switches & Structural Flow Indicators (navigational or logical switches):
+answitches, qnswitches
+________________________________________
+Title Formatting & Signals (presentation-related title properties):
+has wh-word in title, is title an interrogative sentence, title starts with a capital character, “error”/“not working” in title
+________________________________________
+Advanced Formatting & Markup (specialized formatting support):
+using advanced math typing: latex, using advanced math typing: latex (contain_tex)
+________________________________________
+Orthographic & Styling Conventions (writing and visual consistency):
+orthographic, tags-with-spaces, readability
+
+

@@ -1,0 +1,8 @@
+M10: Heuristic and Rule-Based Approaches
+
+Large Language Models (LLMs) for Code & Text Generation (general-purpose foundation models):
+gpt-4, llama2, codellama
+________________________________________
+Multimodal & Advanced Foundation Models (next-generation, extended-capability models):
+gemini 1.5 pro
+

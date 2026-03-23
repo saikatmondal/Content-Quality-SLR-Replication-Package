@@ -1,0 +1,17 @@
+M9: Heuristic and Rule-Based Approaches
+
+Heuristic-Based Methods & Strategies (hand-crafted heuristics and greedy logic):
+clustering hypothesis, greedy method (weight optimization), heuristic filtering, heuristic pruning, heuristic rules, heuristic-based data collection
+________________________________________
+Rule-Based Models & Detection (explicit rules and deterministic decisions):
+rule-based detection technique, rule-based model, tag filtering
+________________________________________
+Data Preparation & Noise Handling (pre-filtering and cleaning rules):
+data denoising, data filtering
+________________________________________
+Custom & Hybrid Heuristic Algorithms (specialized or tailored approaches):
+customized algorithm (composer)
+________________________________________
+Miscelleneous (heuristic elements not fitting other groups):
+clustering hypothesis
+

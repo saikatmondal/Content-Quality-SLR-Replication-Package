@@ -1,0 +1,26 @@
+M1: Machine Learning
+
+Tree-Based Models & Ensemble Learning (trees, forests, boosting, and bagging):
+decision tree, decision tree (j48), decision trees, decision trees (cart), cart, j48, adtree, multi-class alternating decision tree, ensemble learning, adaboost, adarank, rankboost, booststack, gradient boosting, gradient boosting classifier, stochastic gradient boosting, stochastic gradient boosted trees, extreme gradient boosting, extreme gradient boosting (xgboost), xgboost, random forest, random forest (rf), random forest classifier, random forests, random forests (rf), multiple additive regression trees, lambdamart
+________________________________________
+Linear, Regression & Probabilistic Models (linear decision functions and Bayesian models):
+logistic regression, logistic regression classifier, logistic regression model, simple logistic regression, ridge, lasso, bayesian ridge, hierarchical logistic regression, naive bayes, naive bayes (nb), naive bayes classifier, naïve bayes, complement naive bayes, gaussian naive bayes, gaussian naive bayes (nb), bayes multinomial algorithm, bayesian network (bayesnet), generative model
+________________________________________
+Support Vector Machines & Kernel-Based Methods (margin-based learning):
+support vector machine, support vector machine (svm), support vector machines, support vector machines (svm), svm, svm classifier, linear svm, rbf svm, ranksvm, support vector machine for ranking
+________________________________________
+Neural Networks & Representation Learning (connectionist models):
+neural network, artificial neural network, artificial neural network (ann), fully-connected neural network, multi-layer perceptron, multilayer perceptron
+________________________________________
+Instance-Based, Ranking & Recommendation Models (neighbor, ranking, and recommender systems):
+k-nearest neighbor, k-nearest neighbors, k-nearest neighbors (knn), k-nearest neighbours (k-nn), knn, k-clusters confidence learning (kcl-ct), learning to rank model, ranknet, listnet, collaborative filtering, collaborative filtering (cf), supervised recommendation system
+________________________________________
+Multi-Output, Structured & Advanced Learning Paradigms (complex supervision and outputs):
+multi-class classification, multiclass classification, multi-classification algorithm, multi-label classification, multi-task learning, hierarchical classifiers, relational classifier, joint prediction models, multi-view learning, multi-view fusion classifier, supervised topic modeling, weakly supervised learning, co-prediction algorithms (cops)
+________________________________________
+Optimization, Training & Feature Processing (learning procedures and tuning):
+gradient descent, gradient descent optimization, coordinate ascent, grid search, discriminative model training, feature engineering
+________________________________________
+Miscelleneous (hybrid models, frameworks, and tooling):
+combined model, prediction modeling, predictive modeling, machine learning classifiers, keic-fasttext, vowpal wabbit, exqd, shah
+

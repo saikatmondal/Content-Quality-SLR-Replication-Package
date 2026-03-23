@@ -1,0 +1,23 @@
+M7: Data Mining and Graph-Based Models
+
+Core Data Mining & Pattern Discovery (general mining and pattern extraction):
+data mining, data mining (e.g., data mining and graph-based models, association rule mining, subsequence mining, pattern recognition, clustering, api usage mining, guard condition mining, seed task extraction
+________________________________________
+Graph-Based Models & Network Analysis (graph structures and network-based learning):
+graph models, graph-based classification, egonet features (graph analysis), heterogeneous information network (hin), meta-path guided random walk, expertiserank, graph-based model of contributor relationships combined with content and usage-based features
+________________________________________
+Knowledge Graphs & External Knowledge Mining (structured knowledge sources):
+knowledge graph, knowledge graph mining, knowledge retrieval from external kbs
+________________________________________
+User, Interaction & Behavioral Mining (users and interactions as data):
+user behavior analysis, user interaction modeling, collaborative filtering
+________________________________________
+Association, Ranking & Feature-Oriented Mining (relations, importance, and ranking):
+association features, feature ranking, multi-level tag recommendation, post-tag co-clustering
+________________________________________
+Temporal, Probabilistic & Process Models (event- and process-driven mining):
+point process model
+________________________________________
+Miscelleneous (specialized or uncategorized mining approaches):
+boruta algorithm)
+

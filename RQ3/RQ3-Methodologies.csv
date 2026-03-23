@@ -1,0 +1,368 @@
+Study#,SL,Title,Year,Target Q&A Site,Methodology,Categorized Methodology
+S1,1,Finding high-quality content in social media,2008,Yahoo! Answers,Qualitative analysis (human rating on quality); Textual and semantic feature analysis; Machine learning (classification frameworks using stochastic gradient boosted trees); Graph-based model of contributor relationships combined with content and usage-based features; Text classification; User interaction modeling; Graph-based classification,"Qualitative Analysis [human rating on quality];
+Machine Learning (ML) [classification frameworks using stochastic gradient boosted trees];
+Text Analysis and Natural Language Processing [Textual and semantic feature analysis, Text classification];
+Data Mining and Graph-Based Models [Graph-based model of contributor relationships combined with content and usage-based features, Graph-based classification, User interaction modeling];"
+S2,2,Evaluating and Predicting Answer Quality in Community QA,2010,Yahoo! Answers,Qualitative analysis (human rating on quality); Machine learning (logistic regression); Cross-validation,"Qualitative Analysis [human rating on quality];
+Machine Learning (ML) [logistic regression];
+Miscellaneous [Cross-validation];"
+S3,3,Selection of the Best Answer in CQA Services,2010,Yahoo! Answers,Logistic regression model; Expert evaluation,"Qualitative Analysis [Expert evaluation];
+Machine Learning (ML) [Logistic regression model];"
+S4,4,Automatic Identification of Best Answers in Online Enquiry Communities,2012,SAP Community Network (SCN); Server Fault (SF); Cooking community (CO) ,Machine Learning (Multi-class alternating decision tree); 10-fold cross-validation; Information gain ratio analysis; Learning algorithm comparison,"Quantitative and Statistical Analysis [Information gain ratio analysis];
+Machine Learning (ML) [Multi-class alternating decision tree];
+Relevance, Ranking, and Evaluation [Learning algorithm comparison];
+Miscellaneous [10-fold cross-validation];"
+S5,5,Predictors of High-Quality Answers,2012,Yahoo! Answers,Qualitative analysis; Logistic regression model; Expert judgment.,"Qualitative Analysis [Qualitative analysis, Expert judgment];
+Machine Learning (ML) [Logistic regression model];"
+S6,6,Exploiting User Feedback to Learn to Rank Answers in Q&A Forums: A Case Study with Stack Overflow,2013,Stack Overflow,"Machine Learning (e.g., EXQD, SHAH, AdTree, RF); Random Forests; Learning to Rank (L2R); Cross-validation; Information gain analysis; ExpertiseRank; BM25 ranking function; Probabilistic retrieval framework","Quantitative and Statistical Analysis [Information gain analysis];
+Machine Learning (ML) [EXQD, SHAH, AdTree, Random Forests];
+Data Mining and Graph-Based Models [ExpertiseRank, Data Mining and Graph-Based Models];
+Relevance, Ranking, and Evaluation [Learning to Rank (L2R), BM25 ranking function];"
+S7,7,Fit or Unfit: Analysis and Prediction of 'closed Questions' on Stack Overflow,2013,Stack Overflow,"Machine learning classification (e.g., Stochastic Gradient Boosted Trees, Support Vector Machines, Naive Bayes, Logistic Regression); Temporal analysis; Correlation analysis; Ensemble learning","Quantitative and Statistical Analysis [Correlation analysis, Temporal analysis];
+Machine Learning (ML) [Stochastic Gradient Boosted Trees, Support Vector Machines, Naive Bayes, Logistic Regression, Ensemble learning];"
+S8,8,Answering questions about unanswered questions of Stack Overflow,2013,Stack Overflow,"Qualitative analysis; Data mining; Random sampling; Machine learning classifiers (e.g., Random Forest); 10-fold cross-validation","Qualitative Analysis [Qualitative analysis];
+Quantitative and Statistical Analysis [Random sampling];
+Machine Learning (ML) [Random Forest, Machine learning classifiers];
+Data Mining and Graph-Based Models [Data mining];"
+S9,9,A discriminative model approach for suggesting tags automatically for stack overflow questions,2013,Stack Overflow,"Machine learning classifiers (e.g., SVM); Discriminative model training; Tokenization; Term Frequency (TF); Mallet","Machine Learning (ML) [SVM, Discriminative model training];
+Text Analysis and Natural Language Processing [Tokenization, Term Frequency (TF), Mallet];"
+S10,10,Analyzing question quality through intersubjectivity: world views and objective assessments of questions on social question-answering,2013,Yahoo! Answers,"Data mining; Statistical analysis (e.g., regression); Likert-based coding; Multiple regression; Krippendorff’s alpha; Stratified random sampling;","Qualitative Analysis [Likert-based coding];
+Quantitative and Statistical Analysis [Statistical analysis (e.g., regression), Multiple regression, Krippendorff’s alpha, Stratified random sampling];
+Data Mining and Graph-Based Models [Data mining];"
+S11,11,From bad to good: an investigation of question quality and transformation,2013,Yahoo! Answers,Data mining; Statistical analysis; Human expert assessments; Feature comparison (before and after revision); Typology-based evaluation,"Qualitative Analysis [Human expert assessments, Typology-based evaluation];
+Quantitative and Statistical Analysis [Statistical analysis, Feature comparison (before and after revision)];
+Data Mining and Graph-Based Models [Data mining];"
+S12,12,Discovering high quality answers in community question answering archives using a hierarchy of classifiers,2014,Yahoo! Answers,"Manual annotation; Machine learning classifiers (e.g., logistic regression); Hierarchical classifiers; Question-type classification; Cross-validation; Feature ranking; Cosine similarity","Qualitative Analysis [Manual annotation];
+Machine Learning (ML) [Logistic regression, Hierarchical classifiers, Machine learning classifiers];
+Text Analysis and Natural Language Processing [Question-type classification];
+Relevance, Ranking, and Evaluation [Feature ranking, Cosine similarity];
+ Miscellaneous [Cross-validation];"
+S13,13,"""A Bit of Code"": How the Stack Overflow Community Creates Quality Postings",2014,Stack Overflow,Quantitative analysis; Readability analysis; Sentiment evaluation,"Quantitative and Statistical Analysis [Quantitative analysis, Readability analysis];
+Text Analysis and Natural Language Processing[Sentiment evaluation];"
+S14,14,Understanding and Classifying the Quality of Technical Forum Questions,2014,Stack Overflow,"Machine learning classifiers (e.g., Decision Tree); Genetic algorithms; Cross-validation.","Machine Learning (ML) [Decision Tree, Machine learning classifiers, Genetic algorithms];
+Miscellaneous [Cross-validation];"
+S15,15,Chaff from the wheat : Characterization and modeling of deleted questions on Stack Overflow,2014,Stack Overflow,"Machine learning classifiers (e.g., Adaboost); Longitudinal analysis; Predictive modeling; Temporal trend analysis; Cross-validation","Quantitative and Statistical Analysis [Longitudinal analysis, Temporal trend analysis];
+Machine Learning (ML) [Adaboost, Machine learning classifiers, Predictive modeling];
+Miscellaneous [Cross-validation];"
+S16,16,Questioning the Question -- Addressing the Answerability of Questions in Community Question-Answering,2014,Yahoo! Answers,"Machine learning classifiers (e.g., Support Vector Machine); Human assessments (e.g., Mechanical Turk); Human quality ratings; Cross-validation; Cosine similarity.","Qualitative Analysis [Human assessments (e.g., Mechanical Turk), Human quality ratings];
+Machine Learning (ML) [Support Vector Machine, Machine learning classifiers];
+Relevance, Ranking, and Evaluation [Cosine similarity];
+Miscellaneous [Cross-validation];"
+S17,17,An Insight into the Unresolved Questions at Stack Overflow,2015,Stack Overflow,"Machine learning classifiers (e.g., J48, Logistic Regression, Naive Bayes); Lexical analysis; Topic modeling; User behavior analysis; Popularity analysis; Prediction modeling; Cross-validation; MALLET","Quantitative and Statistical Analysis [Popularity analysis];
+Machine Learning (ML) [J48, Logistic Regression, Naive Bayes, Machine learning classifiers, Prediction modeling];
+Text Analysis and Natural Language Processing [Lexical analysis, Topic modeling, MALLET];
+Data Mining and Graph-Based Models [User behavior analysis];
+Miscellaneous [Cross-validation];"
+S18,18,Evaluating Answer Quality across Knowledge Domains: Using Textual and Non-Textual Features in Social Q&A,2015,"Stack Excchange (Mathematics, Ask Ubuntu, Photography, Arqade)",Exploratory Factor Analysis (EFA); Maximum likelihood estimation; Varimax rotation; Cross-domain comparison,"Quantitative and Statistical Analysis [Exploratory Factor Analysis (EFA), Maximum likelihood estimation, Varimax rotation];
+Relevance, Ranking, and Evaluation [Cross-domain comparison];"
+S19,19,Mining Successful Answers in Stack Overflow,2015,Stack Overflow,"Machine learning classifiers (e.g., Logistic Regression); Sentiment analysis; Temporal analysis; Weka tool.","Quantitative and Statistical Analysis [Temporal analysis];
+Machine Learning (ML) [Logistic Regression, Machine learning classifiers];
+Text Analysis and Natural Language Processing [Sentiment analysis];
+Miscellaneous [Weka tool];"
+S20,20,Automatic assessments of code explanations: Predicting answering times on stack overflow,2015,Stack Overflow,Quantitative analysis; Correlation analysis; Token Similarity Algorithm (TSA); L-ROUGE metric; Term-based strategy; Term extraction using ANTLR4.,"Quantitative and Statistical Analysis [Quantitative analysis, Correlation analysis];
+Text Analysis and Natural Language Processing [Token Similarity Algorithm (TSA), L-ROUGE metric, Term-based strategy, Term extraction using ANTLR4];"
+S21,21,Quality Questions Need Quality Code: Classifying Code Fragments on Stack Overflow,2015,Stack Overflow,"Qualitative analysis; Machine learning classifiers (e.g., Random Forest, Decision Tree, Logistic Regression); Code readability metrics","Qualitative Analysis [Qualitative analysis];
+Machine Learning (ML) [Random Forest, Decision Tree, Logistic Regression, Machine learning classifiers];
+Program and Code Analysis [Code readability metrics];"
+S22,22,"Utilizing Content Moderators to Investigate Critical Factors for Assessing the Quality of Answers on Brainly, Social Learning Q&A Platform for Students: A Pilot Study",2015,Brainly social learning Q&A platform,User study; Statistical analysis; Content analysis; Likert scale; Open-discussion evaluation; Qualitative analysis,"Qualitative Analysis [User study, Content analysis, Open-discussion evaluation, Qualitative analysis];
+Quantitative and Statistical Analysis [Statistical analysis, Likert scale];"
+S23,23,Predicting the quality of questions on Stackoverflow,2015,Stack Overflow,"Linear regression (e.g., Ridge Regression); Term extraction; Semantic analysis; Tokenization; Stop-word removal.","Quantitative and Statistical Analysis [Linear regression (e.g., Ridge Regression)];
+Text Analysis and Natural Language Processing [Term extraction, Semantic analysis, Tokenization, Stop-word removal];"
+S24,24,Answers or no answers: Studying question answerability in Stack Overflow,2015,Stack Overflow,Qualitative analysis; Hierarchical Logistic regression,"Qualitative Analysis [Qualitative analysis];
+Machine Learning (ML) [Hierarchical Logistic regression];"
+S25,25,TagCombine: Recommending Tags to Contents in Software Information Sites,2015,Stack Overflow; Ask Ubuntu; Ask Different; Freecode,Multi-label ranking component; Similarity-based ranking component; Tag-term affinity scoring; TF-IDF transformation; Multi-label classification,"Machine Learning (ML) [Multi-label classification];
+Text Analysis and Natural Language Processing [TF-IDF transformation, Tag-term affinity scoring];
+Relevance, Ranking, and Evaluation [Multi-label ranking component, Similarity-based ranking component];"
+S26,26,Detecting high-quality posts in community question answering sites,2015,Stack Overflow; Mathematics ,Co-prediction algorithms (CoPs); Logistic regression; Voting correlation analysis; Gradient descent optimization,"Quantitative and Statistical Analysis [Voting correlation analysis];
+Machine Learning (ML) [Co-prediction algorithms (CoPs), Logistic regression, Gradient descent optimization];"
+S27,27,Building a parsimonious model for identifying best answers using interaction history in community Q&A,2015,Yahoo! Answers,"Machine learning classifiers (e.g., Bayesian Network (BayesNet)); Statistical analysis","Quantitative and Statistical Analysis [Statistical analysis];
+Machine Learning (ML) [Bayesian Network (BayesNet), Machine learning classifiers];"
+S28,28,Multi-Factor Duplicate Question Detection in Stack Overflow,2015,Stack Overflow,Greedy method (weight optimization); Customized algorithm (Composer); Latent Dirichlet Allocation (LDA); Topic modeling; Cosine similarity,"Text Analysis and Natural Language Processing [Latent Dirichlet Allocation (LDA), Topic modeling];
+Heuristic and Rule-Based Approaches [Greedy method (weight optimization), Customized algorithm (Composer)];
+Relevance, Ranking, and Evaluation [Cosine similarity];"
+S29,29,Synonym Suggestion for Tags on Stack Overflow,2015,Stack Overflow,Qualitative analysis; Data mining; User study; Manual tag analysis; Synonym creation strategies,"Qualitative Analysis [Qualitative analysis, User study, Manual tag analysis];
+Text Analysis and Natural Language Processing [Synonym creation strategies];
+Data Mining and Graph-Based Models [Data mining];"
+S30,30,CSNIPPEX: Automated Synthesis of Compilable Code Snippets from Q&A Sites,2016,StackOverflow,C-Units inference; Dependencies resolver; Code completer; Feedback-directed compilation; Clustering hypothesis; Dependency resolution; Quick fix suggestions; Statistical analysis,"Quantitative and Statistical Analysis [Statistical analysis];
+Heuristic and Rule-Based Approaches [Clustering hypothesis];
+Program and Code Analysis [C-Units inference, Dependencies resolver, Code completer, Feedback-directed compilation, Dependency resolution, Quick fix suggestions];"
+S31,31,Evaluating the Quality of Educational Answers in Community Question-Answering,2016,Brainly,"Machine learning classifiers (e.g., Decision Trees, Random Forest)","Machine Learning (ML) [Decision Trees, Random Forest, Machine learning classifiers];"
+S32,32,Improving the Quality of Code Snippets in Stack Overflow,2016,Stack Overflow ,Qualitative analysis; Feedback-driven code improvement; Program slicing; Clone detection,"Qualitative Analysis [Qualitative analysis];
+Program and Code Analysis [Feedback-driven code improvement, Program slicing, Clone detection];"
+S33,33,Mining Duplicate Questions in Stack Overflow,2016,Stack Overflow,"Qualitative analysis; Machine learning classifiers (e.g., Logistic Regression); BM25 scoring function; Term overlap analysis; Cosine similarity; Named Entity Recognition (NER).","Qualitative Analysis [Qualitative analysis];
+Quantitative and Statistical Analysis [Term overlap analysis];
+Machine Learning (ML) [Logistic Regression, Machine learning classifiers];
+Text Analysis and Natural Language Processing [Named Entity Recognition (NER)];
+Relevance, Ranking, and Evaluation [BM25 scoring function, Cosine similarity];"
+S34,34,Predicting Questions' Scores on Stack Overflow,2016,Stack Overflow,Multiple linear regression; Sentiment analysis; Nonparametric statistical tests,"Quantitative and Statistical Analysis [Multiple linear regression, Nonparametric statistical tests];
+Text Analysis and Natural Language Processing [Sentiment analysis];"
+S35,35,"Social Question Answering: Textual, User, and Network Features for Best Answer Prediction",2016,Yahoo! Answers,"Machine learning classifiers (e.g., Random Forest, Logistic Regression, ListNet, RankSVM); Learning to rank model; Topic clustering","Machine Learning (ML) [Random Forest, Logistic Regression, ListNet, RankSVM, Machine learning classifiers, Learning to rank model];
+Text Analysis and Natural Language Processing [Topic clustering];"
+S36,36,Understanding Question Quality through Affective Aspect in Q&A Site,2016,Stack Overflow,"Machine learning classifiers (e.g., Random Forest); Sentiment analysis (e.g., SentiStrength); Politeness scoring; 10-fold cross-validation","Machine Learning (ML) [Random Forest, Machine learning classifiers];
+Text Analysis and Natural Language Processing [Sentiment analysis (e.g., SentiStrength), Politeness scoring];
+Miscellaneous [10-fold cross-validation];"
+S37,37,Embedded Emotion-based Classification of Stack Overflow Questions Towards the Question Quality Prediction,2016,Stack Overflow,"Machine learning classifiers (e.g., Multilayer Perceptron, Support Vector Machine); Natural Language Processing (NLP); Sentiment analysis; Term frequency analysis (TF-IDF); 10-fold cross-validation","Machine Learning (ML) [Multilayer Perceptron, Support Vector Machine, Machine learning classifiers];
+Text Analysis and Natural Language Processing [Natural Language Processing (NLP), Sentiment analysis, Term frequency analysis (TF-IDF)];
+Miscellaneous [10-fold cross-validation];"
+S38,38,It Takes Two to Tango: Deleted Stack Overflow Question Prediction with Text and Meta Features,2016,Stack Overflow,"Machine learning classifiers (e.g., Bayes Multinomial Algorithm, Complement Naive Bayes); Text mining; Cross-validation","Machine Learning (ML) [Bayes Multinomial Algorithm, Complement Naive Bayes, Machine learning classifiers];
+Text Analysis and Natural Language Processing [Text mining];
+Miscellaneous [Cross-validation];"
+S39,39,By the Community & For the Community: A Deep Learning Approach to Assist Collaborative Editing in Q&A Sites,2017,Stack Overflow,"Deep learning (e.g., RNN encoder-decoder model); User study; Sentence alignment; Character-level modeling","Qualitative Analysis [User study];
+Deep Learning (DL) / Transformer-Based Deep Learning [RNN encoder-decoder model, Character-level modeling];
+Text Analysis and Natural Language Processing [Sentence alignment];"
+S40,40,Detecting Duplicate Posts in Programming QA Communities via Latent Semantics and Association Rules,2017,Stack Overflow,"Machine learning classifiers (e.g., Decision Tree, K-Nearest Neighbours (K-NN), Support Vector Machines (SVM), Logistic Regression, Random Forest, Naive Bayes); TF-IDF vectorization; Word2Vec and Doc2Vec embeddings; Latent Dirichlet Allocation (LDA) topic modeling; Cosine similarity; Association rule mining","Machine Learning (ML) [Decision Tree, K-Nearest Neighbours (K-NN), Support Vector Machines (SVM), Logistic Regression, Random Forest, Naive Bayes, Machine learning classifiers];
+Text Analysis and Natural Language Processing [TF-IDF vectorization, Word2Vec and Doc2Vec embeddings, Latent Dirichlet Allocation (LDA) topic modeling];
+Data Mining and Graph-Based Models [Association rule mining];
+Relevance, Ranking, and Evaluation [Cosine similarity];"
+S41,41,Discerning the Quality of Questions in Educational Q&A using Textual Features,2017,Brainly,"Qualitative assessment; Machine learning classifiers (e.g., Support Vector Machine (SVM), Random Forests (RF), Simple Logistic Regression); Human rating (e.g., Likert scale); Cross-validation","Qualitative Analysis [Qualitative assessment, Human rating (e.g., Likert scale)];
+Machine Learning (ML) [Support Vector Machine (SVM), Random Forests (RF), Simple Logistic Regression, Machine learning classifiers];
+Miscellaneous [Cross-validation];"
+S42,42,TAGme: A Topical Folksonomy Based Collaborative Filtering for Tag Recommendation in Community Sites,2017,Stack Overflow,Topical folksonomy; Topic modeling; Collaborative filtering; TF-IDF; Latent Dirichlet Allocation (LDA); Tag-LDA; Relational Topic Modeling (RTM),"Machine Learning (ML) [Collaborative filtering];
+Text Analysis and Natural Language Processing [Topical folksonomy, Topic modeling, TF-IDF, Latent Dirichlet Allocation (LDA), Tag-LDA, Relational Topic Modeling (RTM)];"
+S43,43,Identifying Textual Features of High-Quality Questions: An Empirical Study on Stack Overflow,2017,Stack Overflow,"Data mining (e.g., Boruta algorithm); Variable clustering; Redundancy analysis; Sentiment analysis; Readability metrics; Feature ranking","Quantitative and Statistical Analysis [Variable clustering, Redundancy analysis, Readability metrics];
+Text Analysis and Natural Language Processing [Sentiment analysis];
+Data Mining and Graph-Based Models [Data mining (e.g., Boruta algorithm), Feature ranking];"
+S44,44,Scalable tag recommendation for software information sites,2017,Stack Overflow;  Ask Ubuntu; Ask Different;  Freecode,Multi-classification algorithm; Semantic similarity analysis; Tag ranking; Tag filtering; Tag normalization,"Machine Learning (ML) [Multi-classification algorithm];
+Text Analysis and Natural Language Processing [Semantic similarity analysis, Tag normalization];
+Heuristic and Rule-Based Approaches [Tag filtering];
+Relevance, Ranking, and Evaluation [Tag ranking];"
+S45,45,Towards Question Improvement on Knowledge Sharing Platforms: A Stack Overflow Case Study,2017,Stack Overflow,"Machine learning (SVM, Logistic Regression, kNN, Decision Tree); Predictive modeling; Feature engineering (textual, formatting, orthographic)","Machine Learning (ML) [SVM, Logistic Regression, kNN, Decision Tree, Predictive modeling];
+Text Analysis and Natural Language Processing [Feature engineering (textual, formatting, orthographic)];"
+S46,46,"Question's advisor a wizard interface to teach novice programmers how to post ""better"" questions in stack overflow",2017,Stack Overflow,User study; Natural language processing (NLP); Usability testing,"Qualitative Analysis [User study, Usability testing];
+Text Analysis and Natural Language Processing [Natural language processing (NLP)];"
+S47,47,On early detection of high voted Q&A on Stack Overflow,2017,Stack Overflow,"Machine Learning (Logistic Regression, Relational Classifier); Joint Prediction Models","Machine Learning (ML) [Logistic Regression, Relational Classifier, Joint Prediction Models];"
+S48,48,The best answer prediction by exploiting heterogeneous data on software development Q&A forum,2017,Stack Overflow,"Machine Learning (Multi-View Learning, BoostStack); User Background Knowledge Analysis","Qualitative Analysis [User Background Knowledge Analysis];
+Machine Learning (ML) [Multi-View Learning, BoostStack];"
+S49,49,Language Use Matters: Analysis of the Linguistic Structure of Question Texts Can Characterize Answerability in Quora,2017,Quora,"Linguistic Inquiry and Word Count (LIWC); Machine Learning (SVM Classifier, Logistic Regression, Random Forest); POS Tag Diversity; LDA Topic Modeling; ROUGE-LCS Recall; Psycholinguistic Analysis","Qualitative Analysis [Psycholinguistic Analysis];
+Quantitative and Statistical Analysis [POS Tag Diversity];
+Machine Learning (ML) [SVM Classifier, Logistic Regression, Random Forest];
+Text Analysis and Natural Language Processing [Linguistic Inquiry and Word Count (LIWC), LDA Topic Modeling, ROUGE-LCS Recall];"
+S50,50,Understanding Stack Overflow Code Fragments,2017,Stack Overflow,User Study; Stratified Sampling; Open-Ended Questions; Qualitative Coding; Quantitative Analysis (Self-Explanatory Rating),"Qualitative Analysis [User Study, Open-Ended Questions, Qualitative Coding];
+Quantitative and Statistical Analysis [Stratified Sampling, Quantitative Analysis (Self-Explanatory Rating)];"
+S51,51,Are Code Examples on an Online Q&A Forum Reliable? A Study of API Misuse on Stack Overflow,2018,Stack Overflow,Data Mining; Pattern Recognition; Qualitative Analysis; API Usage Mining; Program Slicing; Subsequence Mining; Guard Condition Mining; Manual Inspection,"Qualitative Analysis [Qualitative Analysis, Manual Inspection];
+Data Mining and Graph-Based Models [Data Mining, Pattern Recognition, API Usage Mining, Subsequence Mining, Guard Condition Mining];
+Program and Code Analysis [Program Slicing];"
+S52,52,Data-Driven Proactive Policy Assurance of Post Quality in Community Q&A Sites,2018,Stack Overflow,Deep Learning (Convolutional Neural Network); Empirical Study of Edits; Text Classification; Collaborative Editing Analysis,"Qualitative Analysis [Empirical Study of Edits, Collaborative Editing Analysis];
+Deep Learning (DL) / Transformer-Based Deep Learning [Convolutional Neural Network];
+Text Analysis and Natural Language Processing [Text Classification];"
+S53,53,Duplicate Detection in Programming Question Answering Communities,2018,Stack Overflow; Quora,"Machine Learning (KNN, Linear SVM, RBF SVM, Naïve Bayes, Logistic Regression, Decision Tree, Random Forest, AdaBoost, Multi-Layer Perceptron); Deep Learning; Data Mining; Vector Similarity (doc2vec); Relevance Features (BM25); Association Features; Language Models (LMJM, LMDIR); Topic Modeling (LDA)","Machine Learning (ML) [KNN, Linear SVM, RBF SVM, Naïve Bayes, Logistic Regression, Decision Tree, Random Forest, AdaBoost, Multi-Layer Perceptron];
+Deep Learning (DL) / Transformer-Based Deep Learning [Deep Learning];
+Text Analysis and Natural Language Processing [Vector Similarity (doc2vec), Language Models (LMJM, LMDIR), Topic Modeling (LDA)];
+Heuristic and Rule-Based Approaches [];
+Data Mining and Graph-Based Models [Data Mining, Association Features];
+Relevance, Ranking, and Evaluation [Relevance Features (BM25)];"
+S54,54,Two Perspectives on Software Documentation Quality in Stack Overflow,2018,Stack Overflow,Machine Learning (Naïve Bayes); Manual Validation; Text Readability Analysis,"Qualitative Analysis [Manual Validation];
+Machine Learning (ML) [Naïve Bayes];
+Text Analysis and Natural Language Processing [Text Readability Analysis];"
+S55,55,"Determinants of quality, latency, and amount of Stack Overflow answers about recent Android APIs",2018,Stack Overflow;,Logistic Regression; Manual Case Studies; Data Filtering; Bounty Analysis,"Qualitative Analysis [Manual Case Studies];
+Machine Learning (ML) [Logistic Regression];
+Heuristic and Rule-Based Approaches [Data Filtering];
+Miscellaneous [Bounty Analysis];"
+S56,56,ICSD: An Automatic System for Insecure Code Snippet Detection in Stack Overflow over Heterogeneous Information Network,2018,Stack Overflow,Machine Learning (Multi-View Fusion Classifier); Qualitative Analysis (Manual Labeling); Heterogeneous Information Network (HIN); meta-path guided random walk; Network Embedding (Snippet2Vec),"Qualitative Analysis [Manual Labeling];
+Machine Learning (ML) [Multi-View Fusion Classifier];
+Text Analysis and Natural Language Processing[Network Embedding (Snippet2Vec)];
+Data Mining and Graph-Based Models [Heterogeneous Information Network (HIN), meta-path guided random walk];"
+S57,57,"EnTagRec ++: An enhanced tag recommendation system for software information sites
+",2018,Stack Overflow; Ask Ubuntu; Ask Different; Super User; Freecode,Bayesian Inference; Frequentist Inference; Grid Search,"Quantitative and Statistical Analysis [Bayesian Inference, Frequentist Inference];
+Machine Learning (ML) [Grid Search];"
+S58,58,Exploiting User Activities for Answer Ranking in Q&A Forums,2018,Stack Overflow,Ranking Algorithm (PageRank); Learning-to-Rank (L2R) Approach; SVMRank; HITS Algorithm,"Relevance, Ranking, and Evaluation [Learning-to-Rank (L2R) Approach, Ranking Algorithm (PageRank), HITS Algorithm, SVMRank];"
+S59,59,Guiding supervised topic modeling for content based tag recommendation,2018,Stack Overflow; Mathematics ,Topic Modeling; Word2Vec Model; Latent Dirichlet Allocation (LDA); Supervised Topic Modeling; Tag-Content Relevance; Generative Model,"Machine Learning (ML) [Generative Model, Supervised Topic Modeling];
+Text Analysis and Natural Language Processing [Topic Modeling, Word2Vec Model, Latent Dirichlet Allocation (LDA)];
+Relevance, Ranking, and Evaluation [Tag-Content Relevance];"
+S60,60,How to ask for technical help? Evidence-based guidelines for writing questions on Stack Overflow,2018,Stack Overflow,Logistic Regression Analysis; Qualitative Analysis; User Survey; Sentiment Analysis; Logistic Regression; Qualitative Content Analysis; Clustering-Based Discretization,"Qualitative Analysis [Qualitative Analysis, User Survey, Qualitative Content Analysis];
+Quantitative and Statistical Analysis [Logistic Regression Analysis];
+Machine Learning (ML) [Logistic Regression, Clustering-Based Discretization];
+Text Analysis and Natural Language Processing [Sentiment Analysis];"
+S61,61,Finding and Ranking High-Quality Answers in Community Question Answering Sites,2018,Stack Exchange,"Machine Learning (Naive Bayes Classifier, Random Forest Classifier, Gradient Boosting Classifier); Random Under-Sampling; Feature Importance Ranking","Quantitative and Statistical Analysis [Random Under-Sampling];
+Machine Learning (ML) [Naive Bayes Classifier, Random Forest Classifier, Gradient Boosting Classifier];
+Relevance, Ranking, and Evaluation [Feature Importance Ranking];"
+S62,62,FastTagRec: fast tag recommendation for software information sites,2018,Stack Overflow; Askubuntu; Serverfault; Unix; Codereview; Freecode; Database Administrator; Wordpress; AskDifferent; Software Engineering,Qualitative Analysis; Machine Learning Classifier (Neural Network); Bag of Words; N-Gram Features; Huffman Coding; Softmax Function,"Qualitative Analysis [Qualitative Analysis];
+Deep Learning (DL) / Transformer-Based Deep Learning [Neural Network, Softmax Function];
+Text Analysis and Natural Language Processing [Bag of Words, N-Gram Features, Huffman Coding];"
+S63,63,AnswerBot: An Answer Summary Generation Tool Based on Stack Overflow,2019,Stack Overflow,Data Mining; User Study; Bag-of-Words; Word2Vec Embeddings; Inverse Document Frequency (IDF); Maximal Marginal Relevance (MMR); Sentence Pattern Recognition; User-Oriented Feature Extraction,"Qualitative Analysis [User Study];
+Text Analysis and Natural Language Processing [Bag-of-Words, Word2Vec Embeddings, Inverse Document Frequency (IDF), Maximal Marginal Relevance (MMR), Sentence Pattern Recognition, User-Oriented Feature Extraction];
+Data Mining and Graph-Based Models [Data Mining];"
+S64,64,Features That Predict the Acceptability of Java and JavaScript Answers on Stack Overflow,2019,Stack Overflow,"Machine Learning (Random Forest, Neural Network); Data Sampling (SMOTE, ADASYN); Information Gain; Text Preprocessing; Tokenization","Quantitative and Statistical Analysis[Data Sampling (SMOTE, ADASYN)];
+Quantitative and Statistical Analysis [Information Gain];
+Machine Learning (ML) [Random Forest, Neural Network];
+Text Analysis and Natural Language Processing [Text Preprocessing, Tokenization];"
+S65,65,How Reliable is the Crowdsourced Knowledge of Security Implementation?,2019,Stack Overflow,Qualitative Analysis; Statistical Analysis; Clone Detection; Community Feedback Analysis,"Qualitative Analysis [Qualitative Analysis, Community Feedback Analysis];
+Quantitative and Statistical Analysis [Statistical Analysis];
+Program and Code Analysis [Clone Detection];"
+S66,66,Integrating Multi-Level Tag Recommendation with External Knowledge Bases for Automatic Question Answering,2019,Stack Overflow,Data Mining; Clustering; Supervised Recommendation System; Qualitative Analysis; Multi-Level Tag Recommendation; Post-Tag Co-Clustering; LDA for Dimensionality Reduction; Knowledge Retrieval from External KBs; Tag Ranking; Collaborative Filtering,"Qualitative Analysis [Qualitative Analysis];
+Machine Learning (ML) [Supervised Recommendation System, Collaborative Filtering];
+Text Analysis and Natural Language Processing [LDA for Dimensionality Reduction];
+Data Mining and Graph-Based Models [ Knowledge Retrieval from External KBs, Data Mining, Clustering, Multi-Level Tag Recommendation, Post-Tag Co-Clustering];
+Relevance, Ranking, and Evaluation [Tag Ranking];"
+S67,67,SOTagRec: A Combined Tag Recommendation Approach for Stack Overflow,2019,Stack Overflow,Convolutional Neural Network (CNN); Collaborative Filtering (CF); Word Embedding; TF-IDF; Combined Model; Cross-Validation,"Machine Learning (ML) [Collaborative Filtering (CF), Combined Model];
+Deep Learning (DL) / Transformer-Based Deep Learning [Convolutional Neural Network (CNN)];
+Text Analysis and Natural Language Processing [Word Embedding, TF-IDF];
+Miscellaneous [Cross-Validation];"
+S68,68,Towards an Accurate Prediction of the Question Quality on Stack Overflow using a Deep-Learning-Based NLP Approach,2019,Stack Overflow,"Deep Learning; Natural Language Processing (NLP); Doc2Vec Representation; Neural Networks (GRU, Dense Layers); Tokenization","Deep Learning (DL) / Transformer-Based Deep Learning [Neural Networks (GRU, Dense Layers), Deep Learning];
+Text Analysis and Natural Language Processing [Natural Language Processing (NLP), Tokenization, Doc2Vec Representation];"
+S69,69,Detecting Duplicate Questions in Stack Overflow via Deep Learning Approaches,2019,Stack Overflow,"Deep Learning (DQ-CNN, DQ-RNN, DQ-LSTM); CNN-Based Approach; RNN-Based Approach; LSTM-Based Approach; Word Embeddings; Duplicate Pair Detection","Deep Learning (DL) / Transformer-Based Deep Learning [DQ-CNN, DQ-RNN, DQ-LSTM, CNN-Based Approach, RNN-Based Approach, LSTM-Based Approach];
+Text Analysis and Natural Language Processing [Duplicate Pair Detection, Word Embeddings];"
+S70,70,Predicting the Timing and Quality of Responses in Online Discussion Forums,2019,Stack Overflow ,"Machine Learning (Logistic Regression Classifier, Fully-Connected Neural Network); Point Process Model; Neural Network; Logistic Regression; Graph Models; Latent Dirichlet Allocation (LDA); Feature Engineering; Gradient Descent","Machine Learning (ML) [Logistic Regression Classifier, Fully-Connected Neural Network, Logistic Regression, Feature Engineering, Gradient Descent, Neural Network];
+Text Analysis and Natural Language Processing [Latent Dirichlet Allocation (LDA)];
+Data Mining and Graph-Based Models [Graph Models, Point Process Model];"
+S71,71,An empirical study of obsolete answers on stack overflow,2019,Stack Overflow,Heuristic-Based Data Collection; Qualitative Analysis; Quantitative Analysis; Obsolescence Reason Classification,"Qualitative Analysis [Qualitative Analysis];
+Quantitative and Statistical Analysis [Quantitative Analysis];
+Text Analysis and Natural Language Processing [Obsolescence Reason Classification];
+Heuristic and Rule-Based Approaches [Heuristic-Based Data Collection];"
+S72,72,Quality assessment of answers with user-identified criteria and data-driven features in social Q&A,2019,Ask Ubuntu; Mathematics; Photography; Arqade,Quantitative Analysis; Correlation Analysis (Linear Regression); Exploratory Factor Analysis (EFA),"Quantitative and Statistical Analysis [Quantitative Analysis, Correlation Analysis (Linear Regression), Exploratory Factor Analysis (EFA)];"
+S73,73,Assessing the quality of answers autonomously in community question-answering,2019,Brainly ; Stack Overflow;,"Machine Learning (Logistic Regression, Decision Trees, Random Forest); Egonet Features (graph analysis)","Machine Learning (ML) [Logistic Regression, Decision Trees, Random Forest];
+Data Mining and Graph-Based Models [Egonet Features (graph analysis)];"
+S74,74,Code Duplication on Stack Overflow,2020,Stack Overflow,Code Normalization; Analysis of Non-Trivial Code Blocks; Qualitative Analysis of Snippets; Licensing Conflict Analysis,"Qualitative Analysis [Qualitative Analysis of Snippets];
+Program and Code Analysis [Code Normalization, Analysis of Non-Trivial Code Blocks, Licensing Conflict Analysis];"
+S75,75,Generating Question Titles for Stack Overflow from Mined Code Snippets,2020,Stack Overflow,Deep Learning (LSTM); Qualitative Analysis; Sequence-to-Sequence Model; Attention Mechanism; Copy Mechanism; Coverage Mechanism,"Qualitative Analysis [Qualitative Analysis];
+Deep Learning (DL) / Transformer-Based Deep Learning [LSTM, Sequence-to-Sequence Model, Attention Mechanism, Copy Mechanism, Coverage Mechanism];"
+S76,76,Large-Scale Question Tagging via Joint Question-Topic Embedding Learning,2020,Zhihu,Deep Learning (Convolutional Neural Networks); Multilayer Perceptron; Question-Tag Embeddings; Hierarchical DAG Encoding; Sigmoid Cross-Entropy Loss; Similarity Matching; Transfer Learning,"Text Analysis and Natural Language Processing [Question-Tag Embeddings];
+Machine Learning (ML) [Multilayer Perceptron];
+Deep Learning (DL) / Transformer-Based Deep Learning [Convolutional Neural Networks, Hierarchical DAG Encoding, Sigmoid Cross-Entropy Loss, Transfer Learning];
+Relevance, Ranking, and Evaluation [Similarity Matching];"
+S77,77,Why Will My Question Be Closed? NLP-Based Pre-Submission Predictions of Question Closing Reasons on Stack Overflow,2020,Stack Overflow,"Deep Learning (GRU, RNN); Text Preprocessing (Cleaning, Tokenization, Stemming); Natural Language Processing (NLP); GRU-Based RNN Models (Unidirectional, Bidirectional, Composite); Part-of-Speech Tagging; Downsampling for Balancing Dataset","Quantitative and Statistical Analysis [Downsampling for Balancing Dataset];
+Deep Learning (DL) / Transformer-Based Deep Learning [GRU, RNN, GRU-Based RNN Models (Unidirectional, Bidirectional, Composite)];
+Text Analysis and Natural Language Processing [Text Preprocessing (Cleaning, Tokenization, Stemming), Natural Language Processing (NLP), Part-of-Speech Tagging];"
+S78,78, Duplicate Question Detection With Deep Learning in Stack Overflow,2020,Stack Overflow,"Deep Learning (WV-CNN, WV-RNN, WV-LSTM); Word2Vec; Convolutional Neural Networks (CNN); Recurrent Neural Networks (RNN); Long Short-Term Memory (LSTM)","Text Analysis and Natural Language Processing [Word2Vec];
+Deep Learning (DL) / Transformer-Based Deep Learning [WV-CNN, WV-RNN, WV-LSTM, Convolutional Neural Networks (CNN), Recurrent Neural Networks (RNN), Long Short-Term Memory (LSTM)];"
+S79,79,Improving Quality of a Post's Set of Answers in Stack Overflow,2020,Stack Overflow,Machine Learning; Qualitative Analysis; Neural Network; Decision Tree (J48); Support Vector Machine; Prompter Tool; Clone Detection; Slicing Techniques.,"Qualitative Analysis [Qualitative Analysis];
+Machine Learning (ML) [Neural Network, Decision Tree (J48), Support Vector Machine];
+Program and Code Analysis [Clone Detection, Slicing Techniques];
+Miscellaneous [Prompter Tool];"
+S80,80,Predicting closed questions on community question answering sites using convolutional neural network,2020,Stack Overflow,"Machine Learning (Naive Bayes, Gradient Boosting, Random Forest, K-Nearest Neighbor); Deep Learning (CNN Models; LSTM Models); SMOTE Balancing","Quantitative and Statistical Analysis [SMOTE Balancing];
+Machine Learning (ML) [Naive Bayes, Gradient Boosting, Random Forest, K-Nearest Neighbor];
+Deep Learning (DL) / Transformer-Based Deep Learning [CNN Models, LSTM Models];"
+S81,81,TagDC: A tag recommendation method for software information sites with a combination of deep learning and collaborative filtering,2020,"StackOverflow@small; AskDifferent;
+Database Administrator; Freecode;
+Wordpress; Askubuntu; Serverfault; Unix; StackOverflow@large","Deep Learning (CNN, Capsule Networks, Bi-LSTM); Collaborative Filtering; Word2Vec; Doc2Vec","Deep Learning (DL) / Transformer-Based Deep Learning [CNN, Capsule Networks, Bi-LSTM];
+Text Analysis and Natural Language Processing [Word2Vec, Doc2Vec];
+Data Mining and Graph-Based Models [Collaborative Filtering];"
+S82,82,Multilayer Convolutional Neural Network to Filter Low Quality Content from Quora,2020,Quora,"Machine Learning (Stochastic Gradient Boosting, Random Forest, Gradient Boosting, Naive Bayes, Logistic Regression); Deep Learning (Multilayer CNN); Skip-gram Embedding; CBOW Embedding; GloVe Embedding; K-Fold Cross-Validation","Machine Learning (ML) [Stochastic Gradient Boosting, Random Forest, Gradient Boosting, Naive Bayes, Logistic Regression];
+Deep Learning (DL) / Transformer-Based Deep Learning [Multilayer CNN];
+Text Analysis and Natural Language Processing [Skip-gram Embedding, CBOW Embedding, GloVe Embedding];
+Miscellaneous [K-Fold Cross-Validation];"
+S83,83,Understanding stack overflow code quality: A recommendation of caution,2020,Stack Overflow,Quantitative Analysis; Qualitative Analysis; Correlation Analysis; PMD for Code Reliability; Checkstyle for Readability; FindBugs for Performance; FindBugs for Security; Code Violation Analysis; Snippet Sampling,"Qualitative Analysis [Qualitative Analysis];
+Quantitative and Statistical Analysis [Quantitative Analysis, Correlation Analysis];
+Program and Code Analysis [PMD for Code Reliability, Checkstyle for Readability, FindBugs for Performance, FindBugs for Security, Code Violation Analysis, Snippet Sampling];"
+S84,84,Toxic code snippets on stack overflow,2021,Stack Overflow,User Study; Quantitative Analysis; Clone Detection; Code Classification; Outdated Clone Analysis,"Qualitative Analysis [User Study];
+Quantitative and Statistical Analysis [Quantitative Analysis];
+Program and Code Analysis [Clone Detection, Code Classification, Outdated Clone Analysis];"
+S85,85,Are Comments on Stack Overflow Well Organized for Easy Retrieval by Developers?,2021,Stack Overflow,Quantitative Analysis; Qualitative Analysis; Machine Learning (Random Forest); Cosine Similarity; Vector Space Model (VSM),"Qualitative Analysis [Qualitative Analysis];
+Quantitative and Statistical Analysis [Quantitative Analysis];
+Machine Learning (ML) [Random Forest];
+Text Analysis and Natural Language Processing [Vector Space Model (VSM)];
+Relevance, Ranking, and Evaluation [Cosine Similarity];"
+S86,86,Early Detection and Guidelines to Improve Unanswered Questions on Stack Overflow,2021,Stack Overflow,"Qualitative Analysis; Machine Learning (Decision Trees (CART), Random Forest, K-Nearest Neighbors, Artificial Neural Network); Text Readability Analysis; Topic Entropy Analysis; Topic Response Ratio; Random Sampling; Statistical Analysis","Qualitative Analysis [Qualitative Analysis];
+Quantitative and Statistical Analysis [Random Sampling, Statistical Analysis, Topic Response Ratio];
+Machine Learning (ML) [Decision Trees (CART), Random Forest, K-Nearest Neighbors, Artificial Neural Network];
+Text Analysis and Natural Language Processing [Text Readability Analysis, Topic Entropy Analysis];"
+S87,87,Quantifying Human-Perceived Answer Utility in Non-Factoid Question Answering,2021,self-generated Q&A,User Study; Qualitative Analysis; Correlation Analysis,"Qualitative Analysis [User Study, Qualitative Analysis];
+Quantitative and Statistical Analysis [Correlation Analysis];"
+S88,88,Technical Q&A Site Answer Recommendation via Question Boosting,2021,Ask Ubuntu; Super User; Stack Overflow,User Study; Deep Learning (LSTM); Sequence-to-Sequence Model; Convolutional Neural Network (CNN); Weakly Supervised Learning; Heuristic Rules,"Qualitative Analysis [User Study];
+Machine Learning (ML) [Weakly Supervised Learning];
+Deep Learning (DL) / Transformer-Based Deep Learning [LSTM, Sequence-to-Sequence Model, Convolutional Neural Network (CNN)];
+Heuristic and Rule-Based Approaches [Heuristic Rules];"
+S89,89,Contextual Profiling of Stack Overflow Java Code Security Vulnerabilities Initial Insights from a Pilot Study,2021,Stack Overflow,Quantitative Analysis (Using FindBugs); Qualitative Analysis; Manual Code Review; Contextual Profiling; Inductive Analysis; Code Vulnerability Detection,"Qualitative Analysis [Qualitative Analysis, Manual Code Review, Inductive Analysis];
+Quantitative and Statistical Analysis [Quantitative Analysis (Using FindBugs)];
+Text Analysis and Natural Language Processing [Contextual Profiling];
+Program and Code Analysis [Code Vulnerability Detection];"
+S90,90,Detecting Duplicate Questions in Stack Overflow via Semantic and Relevance Approaches,2021,Stack Overflow,Deep Learning (Siamese BiLSTM); Soft Align Attention; Semantic Matching; Relevance Matching; Doc2Vec; Word2Vec; Latent Dirichlet Allocation (LDA),"Deep Learning (DL) / Transformer-Based Deep Learning [Siamese BiLSTM, Soft Align Attention];
+Text Analysis and Natural Language Processing [Doc2Vec, Word2Vec, Latent Dirichlet Allocation (LDA)];
+Relevance, Ranking, and Evaluation [Semantic Matching, Relevance Matching];"
+S91,91,Rollback Edit Inconsistencies in Developer Forum,2021,Stack Overflow,Qualitative Study; User Study; Statistical Analysis; Rule-Based Detection Technique,"Qualitative Analysis [Qualitative Study, User Study];
+Quantitative and Statistical Analysis [Statistical Analysis];
+Heuristic and Rule-Based Approaches [Rule-Based Detection Technique];"
+S92,92,Characterization and Prediction of Questions without Accepted Answers on Stack Overflow,2021,Stack Overflow,"Machine Learning (XGBoost, CART, Bayesian Ridge, Ridge, Lasso, Gaussian Naive Bayes); 10-Fold Cross-Validation; Static Analysis","Machine Learning (ML) [XGBoost, CART, Bayesian Ridge, Ridge, Lasso, Gaussian Naive Bayes];
+Program and Code Analysis [Static Analysis];
+Miscellaneous [10-Fold Cross-Validation];"
+S93,93,Beyond Relevance: Trustworthy Answer Selection via Consensus Verification,2021,Yahoo! Answers; Quora;  Amazon,Matching-Verification (MV) Framework; BERT-Based Relevance Matching; Consensus Verification; Pivoted Attention Mechanism; Self-Interaction Network; Neural Networks,"Deep Learning (DL) / Transformer-Based Deep Learning [BERT-Based Relevance Matching, Pivoted Attention Mechanism, Self-Interaction Network, Neural Networks];
+Text Analysis and Natural Language Processing [Matching-Verification (MV) Framework, Consensus Verification];"
+S94,94,Recency and quality-based ranking question in CQAs: A Stack Overflow case study,2021,Stack Overflow,"Learning-to-Rank Algorithms (AdaRank, Coordinate Ascent, LambdaMART, ListNet, Multiple Additive Regression Trees, Random Forests, RankBoost, RankNet, Support Vector Machine for Ranking); Manual Labeling; Ground Truth Creation","Qualitative Analysis [Manual Labeling, Ground Truth Creation];
+Machine Learning (ML) [AdaRank, Coordinate Ascent, LambdaMART, ListNet, Multiple Additive Regression Trees, Random Forests, RankBoost, RankNet, Support Vector Machine for Ranking];
+Relevance, Ranking, and Evaluation [Learning-to-Rank Algorithms];"
+S95,95,How to Formulate Specific How-to Questions in Software Development?,2022,Stack Overflow,User Study; Knowledge Graph; Knowledge Graph Mining; Seed Task Extraction; Concept Mutation; Linguistic Mutation; Qualitative analysis,"Qualitative Analysis [User Study, Qualitative analysis];
+Text Analysis and Natural Language Processing [Linguistic Mutation, Concept Mutation];
+Data Mining and Graph-Based Models [Knowledge Graph, Knowledge Graph Mining, Seed Task Extraction];"
+S96,96,PTM4Tag: Sharpening Tag Recommendation of Stack Overflow Posts with Pre-Trained Models,2022,Stack Overflow,"Transfer Learning (CodeBERT, ALBERT, BERT, RoBERTa, BERTOverflow); BERT-Based Multi-Label Classifier; Post2Vec Baseline Comparison; Ablation Study; Pre-Processing (HTML Tag Removal)","Deep Learning (DL) / Transformer-Based Deep Learning [Transfer Learning (CodeBERT, ALBERT, BERT, RoBERTa, BERTOverflow), BERT-Based Multi-Label Classifier];
+Text Analysis and Natural Language Processing [Post2Vec Baseline Comparison, Pre-Processing (HTML Tag Removal)];
+Miscellaneous [Ablation Study];"
+S97,97,A Study of C/C++ Code Weaknesses on Stack Overflow,2022,Stack Overflow,Quantitative Analysis; Data Mining; Qualitative Analysis; Static Code Analysis (Cppcheck); CWE Mapping; Code Revision Analysis; User Behavior Analysis; Qualitative Study,"Qualitative Analysis [Qualitative Analysis, Qualitative Study];
+Quantitative and Statistical Analysis [Quantitative Analysis];
+Data Mining and Graph-Based Models [Data Mining, User Behavior Analysis];
+Program and Code Analysis [Static Code Analysis (Cppcheck), CWE Mapping, Code Revision Analysis];"
+S98,98,An Empirical Study of C++ Vulnerabilities in Crowd-Sourced Code Examples,2022,Stack Overflow,Qualitative Analysis; Manual Code Review; Vulnerability Classification; CWE Tagging; SyntaxNet Analysis; Clone Detection,"Qualitative Analysis [Qualitative Analysis, Manual Code Review];
+Text Analysis and Natural Language Processing [SyntaxNet Analysis];
+Program and Code Analysis [Vulnerability Classification, CWE Tagging, Clone Detection];"
+S99,99,Ask It Right! Identifying Low-Quality questions on Community Question Answering Services,2022,Stack Overflow,"Deep Learning (BERTOverflow, Graph Convolutional Network (GCN)); BERT-Based Transformer Model; Survival Analysis; Late Fusion Technique","Quantitative and Statistical Analysis [Survival Analysis];
+Deep Learning (DL) / Transformer-Based Deep Learning [BERTOverflow, Graph Convolutional Network (GCN), BERT-Based Transformer Model, Late Fusion Technique];"
+S100,100,Generating High Quality Titles in StackOverflow via Data Denoising Method,2022,Stack Overflow,K-Clusters Confidence Learning (KCL-CT); Cross-Validation; Transformer Model; Data Denoising; Heuristic Pruning,"Machine Learning (ML) [K-Clusters Confidence Learning (KCL-CT)];
+Deep Learning (DL) / Transformer-Based Deep Learning [Transformer Model];
+Heuristic and Rule-Based Approaches [Data Denoising, Heuristic Pruning];
+Miscellaneous [Cross-Validation];"
+S101,101,Predicting Rollback Edits on Stack Overflow Based on Deep Fusion of Metadata and Text,2022,Stack Overflow,Deep Learning (Deep Fusion of Metadata and Text (DFMT)); Quantitative Analysis; Logistic Regression; Bidirectional Long Short Term Memory network (BiLSTM); TextCNN; Attention-Based BiLSTM; BERT Model,"Quantitative and Statistical Analysis [Quantitative Analysis];
+Machine Learning (ML) [Logistic Regression];
+Deep Learning (DL) / Transformer-Based Deep Learning [Deep Fusion of Metadata and Text (DFMT), Bidirectional Long Short Term Memory network (BiLSTM), TextCNN, Attention-Based BiLSTM, BERT Model];"
+S102,102,SOTitle: A Transformer-based Post Title Generation Approach for Stack Overflow,2022,Stack Overflow,Transformer-Based Model (Multi-Head Attention Mechanism); Multi-Task Learning; SentencePiece Tokenizer; Multi-Modal Input (Code and Description); Beam Search; Heuristic Filtering,"Machine Learning (ML) [Multi-Task Learning];
+Deep Learning (DL) / Transformer-Based Deep Learning [Transformer-Based Model (Multi-Head Attention Mechanism), Multi-Modal Input (Code and Description), Beam Search];
+Text Analysis and Natural Language Processing [SentencePiece Tokenizer];
+Heuristic and Rule-Based Approaches [Heuristic Filtering];"
+S103,103,Is this question going to be closed? Answering question closibility on Stack Exchange,2022,Stack Exchange,"Machine Learning (Gradient Boosting, Naive Bayes, Logistic Regression, Random Forest); SMOTE (Oversampling)","Quantitative and Statistical Analysis [SMOTE (Oversampling)];
+Machine Learning (ML) [Gradient Boosting, Naive Bayes, Logistic Regression, Random Forest];"
+S104,104,Improving Stack Overflow question title generation with copying enhanced CodeBERT model and bi-modal information,2022,Stack Overflow,Deep Learning (CCBERT); Qualitative Analysis; Transformer-Based Model; Bi-Modal Encoding (Text and Code); CodeBERT Model; Copy Mechanism; Encoder-Decoder Architecture; Multi-Head Self-Attention,"Qualitative Analysis [Qualitative Analysis];
+Deep Learning (DL) / Transformer-Based Deep Learning [CCBERT, Transformer-Based Model, Bi-Modal Encoding (Text and Code), CodeBERT Model, Copy Mechanism, Encoder-Decoder Architecture, Multi-Head Self-Attention];"
+S105,105,Analyzing Techniques for Duplicate Question Detection on Q&A Websites for Game Developers,2022,Stack Overflow; Game Development (Stack Excahnge),Unsupervised and Pre-Trained Models; MPNet Embeddings; Cosine Similarity; Random Forest Classifier; Data Sampling,"Quantitative and Statistical Analysis [Data Sampling];
+Machine Learning (ML) [Random Forest Classifier];
+Deep Learning (DL) / Transformer-Based Deep Learning [Unsupervised and Pre-Trained Models, MPNet Embeddings];
+Relevance, Ranking, and Evaluation [Cosine Similarity];"
+S106,106,The reproducibility of programming-related issues in Stack Overflow questions,2022,Stack Overflow,Qualitative Analysis; Quantitative Analysis; Correlation Analysis; Statistical Analysis; rule-based model,"Qualitative Analysis [Qualitative Analysis];
+Quantitative and Statistical Analysis [Quantitative Analysis, Correlation Analysis, Statistical Analysis];
+Heuristic and Rule-Based Approaches [rule-based model];"
+S107,107,Studying the Long-Term Value Answers on Stack Overflow,2022,Stack Overflow,Machine Learning (Logistic Regression); Qualitative Analysis; Exploratory Analysis; Quantitative Analysis; Statistical Correlation,"Qualitative Analysis [Qualitative Analysis];
+Quantitative and Statistical Analysis [Exploratory Analysis, Quantitative Analysis, Statistical Correlation];
+Machine Learning (ML) [Logistic Regression];"
+S108,108,Towards Quality Improvement and Prediction of Closed Questions on Stack Overflow,2022,Stack Overflow,"Machine Learning (XGBoost, Random Forest, Vowpal Wabbit); SMOTE Oversampling; Random Undersampling; Multi-Class Classification","Quantitative and Statistical Analysis [SMOTE Oversampling, Random Undersampling];
+Machine Learning (ML) [XGBoost, Random Forest, Vowpal Wabbit, Multi-Class Classification];"
+S109,109,Context-Aware Answer Selection in Community Question Answering Exploiting Spatial Temporal Bidirectional Long Short-Term Memory,2023,No explicit A&A site,Deep Learning (Spatial-Temporal Bi-LSTM); Par2Vec Encoding; Text Preprocessing; Semantic-Aware Vector Representation; Max Pooling; Softmax Layer,"Deep Learning (DL) / Transformer-Based Deep Learning [Spatial-Temporal Bi-LSTM, Max Pooling, Softmax Layer];
+Text Analysis and Natural Language Processing [Par2Vec Encoding, Text Preprocessing, Semantic-Aware Vector Representation];"
+S110,110,A novel hybrid CNN-LSTM approach for assessing Stack Overflow post quality,2023,Stack Overflow,Deep Learning (Hybrid Convolutional Neural Network–Long Short-Term Memory); LSTM for Temporal Dependencies; Multiclass Classification,"Machine Learning (ML) [Multiclass Classification];
+Deep Learning (DL) / Transformer-Based Deep Learning [Hybrid Convolutional Neural Network–Long Short-Term Memory, LSTM for Temporal Dependencies];"
+S111,111,Diverse title generation for Stack Overflow posts with multiple-sampling-enhanced transformer,2023,Stack Overflow,M3NSCT5 (Hybrid Method Combining Maximal Marginal Multiple Nucleus Sampling and CodeT5); Qualitative Analysis; Transformer Model; CodeT5 Backbone; Sequence-to-Sequence Model; Pre-Training on Code Corpus,"Qualitative Analysis [Qualitative Analysis];
+Deep Learning (DL) / Transformer-Based Deep Learning [M3NSCT5 (Hybrid Method Combining Maximal Marginal Multiple Nucleus Sampling and CodeT5), Transformer Model, CodeT5 Backbone, Sequence-to-Sequence Model, Pre-Training on Code Corpus];"
+S112,112,Dual-interactive fusion for code-mixed deep representation learning in tag recommendation,2023,"StackOverflow, Codereview, Database Administrators, Wordpress",CDR4Tag (Code-Mixed Deep Representation Learning); Code-Mixed Deep Representation; Dual-Interactive Fusion; Hierarchy-Aware Semantic Learning; GraphCodeBERT Encoding; Sentence Pair Matching,"Deep Learning (DL) / Transformer-Based Deep Learning [CDR4Tag (Code-Mixed Deep Representation Learning), Code-Mixed Deep Representation, Dual-Interactive Fusion, Hierarchy-Aware Semantic Learning, GraphCodeBERT Encoding];
+Text Analysis and Natural Language Processing [Sentence Pair Matching];"
+S113,113,KEIC: A Tag Recommendation Framework with Knowledge Enhancement and Interclass Correlation,2023,Baidu Knows; Freecode; Stack Overflow ,"Machine/Deep Learning (KEIC-FastText, KEIC-XML-CNN, KEIC-AttentionXML, KEIC-BERT); Knowledge Integration; Sequence Encoding; Correlation Capture; Knowledge Graph Augmentation; Transformer Models; Multi-Label Classification","Machine Learning (ML) [KEIC-FastText, Multi-Label Classification];
+Deep Learning (DL) / Transformer-Based Deep Learning [Transformer Models, Sequence Encoding, Correlation Capture, KEIC-XML-CNN, KEIC-AttentionXML, KEIC-BERT];
+Text Analysis and Natural Language Processing [Knowledge Integration, Knowledge Graph Augmentation];"
+S114,114,Textual tag recommendation with multi-tag topical attention,2023,Physics-StackExchange; Academia-StackExchange; Law-StackExchange; AskUbuntu,"Machine/Deep Learning (Neural Topic Generator, BoW, Multi-Tag Topical Attention Mechanism); Multi-Task Learning; Sequence Encoder; Dynamic Neural Topic; Multi-Tag Topical Attention Mechanism; Topic-Guided Tag Ranker","Machine Learning (ML) [Multi-Task Learning];
+Deep Learning (DL) / Transformer-Based Deep Learning [Neural Topic Generator, Sequence Encoder, Dynamic Neural Topic];
+Text Analysis and Natural Language Processing [BoW];
+Relevance, Ranking, and Evaluation [Multi-Tag Topical Attention Mechanism, Topic-Guided Tag Ranker];"
+S115,115,Duplicate Quora Questions Pair Detection using Siamese Bert and Ma-LSTM,2023,Quora,"Deep Learning (Siamese Neural Network, BERT, MaLSTM, BiLSTM Models); Word Embeddings (Word2Vec, Google2Vec); Preprocessing (Tokenization, Stopword Removal); Cosine Similarity","Deep Learning (DL) / Transformer-Based Deep Learning [Siamese Neural Network, BERT, MaLSTM, BiLSTM Models];
+Text Analysis and Natural Language Processing [Word Embeddings (Word2Vec, Google2Vec), Preprocessing (Tokenization, Stopword Removal)];
+Relevance, Ranking, and Evaluation [Cosine Similarity];"
+S116,116,Predicting answer acceptability for question-answering system,2023,Stack Overflow,"Machine Learning (Naive Bayes, Random Forest, Logistic Regression, Gradient Boosting); Data Preprocessing; SMOTE Oversampling","Quantitative and Statistical Analysis [SMOTE Oversampling];
+Machine Learning (ML) [Naive Bayes, Random Forest, Logistic Regression, Gradient Boosting];
+Text Analysis and Natural Language Processing [Data Preprocessing];"
+S117,117,Automatic prediction of rejected edits in Stack Overflow,2023,Stack Overflow,"Qualitative Analysis; Machine Learning (Decision Trees, Random Forest, K-Nearest Neighbors, eXtreme Gradient Boosting)","Qualitative Analysis [Qualitative Analysis];
+Machine Learning (ML) [Decision Trees, Random Forest, K-Nearest Neighbors, eXtreme Gradient Boosting];"
+S118,118,Automated Question Title Reformulation by Mining Modification Logs From Stack Overflow,2023,Stack Overflow,Transformer-Based Deep Learning (Transformer model T5); qualitative analysis; natural language processing (NLP); user study;,"Deep Learning (DL) / Transformer-Based Deep Learning [Transformer model T5];
+Qualitative Analysis [qualitative analysis, user study];
+Text Analysis and Natural Language Processing [natural language processing (NLP)];"
+S119,119,Is Stack Overflow Obsolete? An Empirical Study of the Characteristics of ChatGPT Answers to Stack Overflow Questions,2024,Stack Overflow,linguistic analysis; user study; qualitative analysis; deep learning (RoBERTa);,"Text Analysis and Natural Language Processing [linguistic analysis];
+Qualitative Analysis [qualitative analysis, user study];
+Deep Learning (DL) / Transformer-Based Deep Learning [RoBERTa];"
+S120,120,Identifying Smart Contract Security Issues in Code Snippets from Stack Overflow,2024,Stack Overflow,user study; Generative AI/Foundation Models (Llama2);,"Qualitative Analysis [user study];
+Generative AI/Foundation Models [Llama2];"
+S121,121,Can We Identify Stack Overflow Questions Requiring Code Snippets? Investigating the Cause & Effect of Missing Code Snippets,2024,Stack Overflow,"natural language processing (NLP); qualitative analysis; user study; machine learning (Random Forest (RF), eXtreme Gradient Boosting (XGBoost), Artificial Neural Network (ANN), Gaussian Naive Bayes (NB), K-Nearest Neighbors (KNN), Support Vector Machines (SVM)); ","Qualitative Analysis [qualitative analysis, user study];
+Machine Learning (ML) [Random Forest (RF), eXtreme Gradient Boosting (XGBoost), Artificial Neural Network (ANN), Gaussian Naive Bayes (NB), K-Nearest Neighbors (KNN), Support Vector Machines (SVM)];
+Text Analysis and Natural Language Processing [natural language processing (NLP)];"
+S122,122,AUTOGENICS: Automated Generation of Context-Aware Inline Comments for Code Snippets on Programming Q&A Sites Using LLM,2024,Stack Overflow,"AI/Foundation Models (Gemini 1.5 Pro, GPT-4); user study; qualitative analysis;","Qualitative Analysis [user study, qualitative analysis];
+Generative AI/Foundation Models [Gemini 1.5 Pro, GPT-4];"
+S123,123,"Reproducibility of issues reported in stack overflow questions: Challenges, impact & estimation",2024,Stack Overflow,"user study; machine learning (Random Forest (RF), eXtreme Gradient Boosting (XGBoost), Artificial Neural Network (ANN), Naive Bayes (NB), K-Nearest Neighbors(KNN)); qualitative analysis; SMOTE oversampling;","Qualitative Analysis [user study, qualitative analysis];
+Machine Learning (ML) [Random Forest (RF), eXtreme Gradient Boosting (XGBoost), Artificial Neural Network (ANN), Naive Bayes (NB), K-Nearest Neighbors (KNN)];
+Quantitative and Statistical Analysis [SMOTE oversampling];"
+S124,124,PTM4Tag+: Tag recommendation of stack overflow posts with pre-trained models,2024,Stack Overflow,"Transformer-Based Deep Learning (BERT, RoBERTa, CodeBERT, BERTOverflow, ALBERT, PLBART, CoTexT, CodeT5, DistilBERT, DistilRoBERTa, CodeBERT-small, CodeT5-small); ","Deep Learning (DL) / Transformer-Based Deep Learning [BERT, RoBERTa, CodeBERT, BERTOverflow, ALBERT, PLBART, CoTexT, CodeT5, DistilBERT, DistilRoBERTa, CodeBERT-small, CodeT5-small];"
+S125,125,Towards Better Answers: Automated Stack Overflow Post Updating,2025,Stack Overflow,Generative AI/Foundation Models (CodeLlama); qualitative analysis;,"Qualitative Analysis [qualitative analysis];
+Generative AI/Foundation Models [CodeLlama];"
+S126,126,Does Editing Improve Answer Quality on Stack Overflow? A Data-Driven  Investigation,2025,Stack Overflow,quantitative analysis; ,Quantitative and Statistical Analysis [quantitative analysis];
+S127,127,Detecting question relatedness in programming Q&A communities via bimodal feature fusion,2025,"Stack Overflow, Chinese Massive Open Online Course (MOOC)","Transformer-Based Deep Learning (SOBERT, UniXcoder); ","Deep Learning (DL) / Transformer-Based Deep Learning [SOBERT, UniXcoder];"

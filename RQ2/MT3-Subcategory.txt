@@ -1,0 +1,46 @@
+MT3: Content Accuracy and Informativeness
+
+Factual Correctness & Truthfulness (whether the content is factually right and valid):
+accuracy, accuracy (linguistic errors (reverse-coded)), correctness, correctness (factual errors, factuality, truthfulness, reliability, trustworthiness, fair, objectivity, subjectivity, title subjectivity
+________________________________________
+Conceptual Soundness & Technical Validity (soundness of ideas, logic, and technical claims):
+adequacy, conceptual errors, conceptual inconsistency, correlation, rationality, reasonableness, rationale, domain, expertise, show that knows the topic, quality
+________________________________________
+Completeness & Coverage (whether the answer sufficiently covers the problem):
+completeness, comprehensiveness, comprehensiveness (comprehensive, not comprehensive), details, different number of solutions), explanation, informativeness, usefulness, utility, helpfulness, qneed, understandability
+________________________________________
+Clarity, Precision & Specificity (how precise, clear, and focused the content is):
+clarity, ambiguity, clarification, conciseness, conciseness (redundant, specificity, too broad, too-broad, too hard, too short, too specific or too time-consuming, complex, comprehensibility, presentation, writing style
+________________________________________
+Relevance & Appropriateness (alignment with question intent and scope):
+relevance, irrelevant, off-topic, open, inappropriate, not a question for so, course project or homework question, do not create homework questions, opinion based, opinion-based, primarily opinion-based, program-specific without a program snippet or proper explanation, proprietary technology
+________________________________________
+Originality, Novelty & Redundancy Control (uniqueness and non-duplication):
+novelty, originality, diversity, interestingness, serendipity, a duplicate question, duplicate, duplicate/clone, duplication, duplication note, avoiding creating duplicate questions
+________________________________________
+Information Density & Balance (signal vs. noise and redundancy):
+amount of unique information, lack of information, excess information), excessive information, information to noise, entropy of subject and content
+________________________________________
+Consistency & Coherence (internal and external consistency):
+consistency (factual inconsistency, inconsistency, inconsistent, terminological inconsistency, terminological errors)
+________________________________________
+Code Correctness & Implementation Quality (correctness of provided code):
+buggy code, code errors, incorrect solutions, mismatched solutions, poor syntax, loops, methods, presence of a class, presence of a method, presence of main method, parsability, code usability, coding inconsistency, code optimization, usability, performance
+________________________________________
+Compilation, Execution & API Usage (runtime and API-level correctness):
+compilability, missing or incorrect order of api calls, missing exception handling, missing finally, missing if checks, incorrect guard condition, unchecked return values (urv), exception handling, initialization vector (iv), seeding
+________________________________________
+Security, Safety & Vulnerabilities (security-related correctness and risks):
+security, security vulnerabilities, access control (ac), denial of service (dos), common weakness enumeration (cwe), license violation, licensing conflicts, proprietary technology, password-based encryption (pbe), digital signature, hash - pbkdf, symmetric - cipher/mode, ssl/tls - hostnameverifier trust manager, version cipher suite onreceivedsslerror, time manipulation, smart contract vulnerabilities (reentrancy (re), short address attack (saa)), front running (fr), random - type, bad randomness (br), ei_expose_rep, ms_expose_rep, ms_final_pkgprotect, ms_pkgprotect, ms_should_be_final, dp_create_classloader_inside_do_privileged
+________________________________________
+Maintenance, Evolution & Obsolescence (long-term correctness over time):
+obsolete, outdated solutions, deprecation note, compatibility, reproducibility, changes, fixes, hasfixingimproving, f.added
+________________________________________
+Hyperlinks, References & External Validity (supporting evidence and links):
+inactive hyperlink, hyperlink modification, reference modification, image revision, credentials
+________________________________________
+Statistical / IR-Based Informativeness Signals (distributional and retrieval indicators):
+#(question body) / (#(answer body) ? #(word list)), #(question body) / tf-body, #(title) / (#(answer body) ? #(word list)), #(title) / tf-title, bm25, idf-body, idf-title, tf-body, tf-body / #(answer body), tf-body ? #(question body), tf-body ? idf-body / #(answer body), tf-idf of key/indicator terms, tf-title, tf-title / #(answer body), tf-title ? #(title), tf-title ? idf-title / #(answer body), kld(good answers of same category), kld(good answers), kld(wikipedia discussion pages), kld(wikipedia pages classified as "good"), entropy of the vector constructed by counting the number of answers in each category, entropy of the vector constructed by counting the number of questions in each category), invalid keywords (avg), key
+________________________________________
+Policy, Community & Platform Compliance (rules and norms):
+inappropriate, not a question for so, course project or homework question, do not create homework questions, proprietary technology

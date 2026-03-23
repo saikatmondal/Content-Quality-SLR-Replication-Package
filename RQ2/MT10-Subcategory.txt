@@ -1,0 +1,30 @@
+MT10: Response Timing and Interaction
+
+Question & Answer Temporal Context (when questions and answers are posted):
+asking time (day of the week), asking time (hour), question posting time (gmt) - {morning, afternoon, evening, night}, day of week, day of week - {weekend}, hour of day, time
+________________________________________
+Answer Latency & Responsiveness (how quickly answers are provided or accepted):
+difference between the timestamp of when the answerer’s answer was posted and when the question was posted, duration to answer, duration to answer (time_to_answer), median response time, time between the question being posted and the answer being given, time to accepted answer (the time difference between the creation of the accepted answer and its question), delay in getting accepted answers, difference between the timestamp of when the answer was chosen as best answer by the asker and the timestamp of when the question was posted, quickness
+________________________________________
+Early Interaction Signals (activity shortly after question creation):
+#ans posted before this answer, number of submitted answers one hour after question posted, number of comments of all submitted answers one hour after question posted, number of comments of question one hour after question creation
+________________________________________
+Commenting Activity & Interaction Intensity (comment-related engagement over time):
+average length of comments posted to the answer, maximum number of comments in one comment session, number of comments posted by the answerer, number of comments posted to the answer, number of users who commented the answer, sum of comment text length of all comments posted to the answer
+________________________________________
+User Availability & Access Timing (user presence and access delays):
+last access delay, sign up date time lag, postedittime
+________________________________________
+Relative Timing & Positional Features (timing-based ordering and position):
+relative answer position, apidifftime
+________________________________________
+Temporal Buckets & Time Windows (coarse-grained temporal segmentation):
+before 2 days and after 2 days)
+________________________________________
+Answering Behavior Models & Predictive Features (model-driven timing indicators):
+answering time prediction model features, time to first good answer models (log minutes, typing speed, weekday)
+________________________________________
+Post-Interaction Temporal Evolution (time-based post changes and revisits):
+re-agemerge, re-edtage, re-linkage, re-tagage
+
+

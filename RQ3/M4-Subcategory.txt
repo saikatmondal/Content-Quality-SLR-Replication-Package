@@ -1,0 +1,29 @@
+M4: Quantitative and Statistical Analysis
+
+Statistical Inference & Hypothesis Testing (classical and Bayesian inference):
+bayesian inference, frequentist inference, maximum likelihood estimation, nonparametric statistical tests, statistical analysis, statistical analysis (e.g., statistical correlation, krippendorff’s alpha
+________________________________________
+Regression & Predictive Statistical Modeling (regression-based quantitative analysis):
+correlation analysis, correlation analysis (linear regression), linear regression (e.g., logistic regression analysis, multiple linear regression, multiple regression, regression), ridge regression), voting correlation analysis
+________________________________________
+Sampling, Balancing & Data Preparation (dataset construction and rebalancing):
+data sampling, data sampling (smote, downsampling for balancing dataset, random sampling, stratified random sampling, stratified sampling, smote (oversampling), smote balancing, smote oversampling, random under-sampling, random undersampling, adasyn)
+________________________________________
+Exploratory, Descriptive & Factor Analysis (pattern discovery and structure analysis):
+exploratory analysis, exploratory factor analysis (efa), variable clustering, varimax rotation, popularity analysis, redundancy analysis, pos tag diversity, term overlap analysis
+________________________________________
+Temporal & Longitudinal Analysis (time-based quantitative trends):
+longitudinal analysis, temporal analysis, temporal trend analysis, survival analysis
+________________________________________
+Metric-Based Quantitative Evaluation (numeric indicators and measurements):
+information gain, information gain analysis, information gain ratio analysis, readability analysis, readability metrics, topic response ratio, feature comparison (before and after revision)
+________________________________________
+Rating Scales & Agreement Measures (human-rated quantitative signals):
+likert scale, quantitative analysis (self-explanatory rating)
+________________________________________
+Automated & Tool-Supported Quantitative Analysis (programmatic measurements):
+quantitative analysis, quantitative analysis (using findbugs)
+________________________________________
+Miscelleneous (quantitative methods not fitting other groups):
+statistical analysis (e.g., statistical correlation
+

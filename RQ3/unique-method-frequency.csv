@@ -1,0 +1,487 @@
+Method Name,Frequency
+qualitative analysis,35
+logistic regression,23
+random forest,18
+machine learning classifiers,17
+user study,17
+quantitative analysis,12
+cross-validation,10
+data mining,9
+cosine similarity,8
+statistical analysis,8
+naive bayes,7
+natural language processing (nlp),6
+clone detection,5
+correlation analysis,5
+decision tree,5
+latent dirichlet allocation (lda),5
+sentiment analysis,5
+10-fold cross-validation,4
+gradient boosting,4
+neural network,4
+tokenization,4
+topic modeling,4
+collaborative filtering,3
+decision trees,3
+sequence-to-sequence model,3
+smote oversampling,3
+support vector machine,3
+word2vec,3
+adaboost,2
+artificial neural network (ann),2
+bert,2
+bertoverflow,2
+convolutional neural network (cnn),2
+copy mechanism,2
+deep learning,2
+doc2vec,2
+exploratory factor analysis (efa),2
+extreme gradient boosting (xgboost),2
+feature ranking,2
+human rating on quality,2
+k-nearest neighbors,2
+k-nearest neighbors (knn),2
+knn,2
+listnet,2
+logistic regression model,2
+lstm,2
+mallet,2
+manual code review,2
+manual labeling,2
+multi-label classification,2
+multi-task learning,2
+multilayer perceptron,2
+naïve bayes,2
+predictive modeling,2
+program slicing,2
+qualitative study,2
+random forest (rf),2
+random forest classifier,2
+random forests,2
+random sampling,2
+roberta,2
+support vector machines (svm),2
+svm,2
+tag ranking,2
+temporal analysis,2
+text classification,2
+text preprocessing,2
+text readability analysis,2
+tf-idf,2
+transformer model,2
+user behavior analysis,2
+xgboost,2
+ablation study,1
+adarank,1
+adtree,1
+albert,1
+analysis of non-trivial code blocks,1
+api usage mining,1
+artificial neural network,1
+association features,1
+association rule mining,1
+attention mechanism,1
+attention-based bilstm,1
+bag of words,1
+bag-of-words,1
+bayes multinomial algorithm,1
+bayesian inference,1
+bayesian network (bayesnet),1
+bayesian ridge,1
+beam search,1
+bert model,1
+bert-based multi-label classifier,1
+bert-based relevance matching,1
+bert-based transformer model,1
+bi-lstm,1
+bi-modal encoding (text and code),1
+bidirectional long short term memory network (bilstm),1
+bilstm models,1
+bm25 ranking function,1
+bm25 scoring function,1
+booststack,1
+bounty analysis,1
+bow,1
+c-units inference,1
+capsule networks,1
+cart,1
+cbow embedding,1
+ccbert,1
+cdr4tag (code-mixed deep representation learning),1
+character-level modeling,1
+checkstyle for readability,1
+classification frameworks using stochastic gradient boosted trees,1
+clustering,1
+clustering hypothesis,1
+clustering-based discretization,1
+cnn,1
+cnn models,1
+cnn-based approach,1
+co-prediction algorithms (cops),1
+code classification,1
+code completer,1
+code normalization,1
+code readability metrics,1
+code revision analysis,1
+code violation analysis,1
+code vulnerability detection,1
+code-mixed deep representation,1
+codebert,1
+codebert model,1
+codebert-small,1
+codellama,1
+codet5,1
+codet5 backbone,1
+codet5-small,1
+collaborative editing analysis,1
+collaborative filtering (cf),1
+combined model,1
+community feedback analysis,1
+complement naive bayes,1
+concept mutation,1
+consensus verification,1
+content analysis,1
+contextual profiling,1
+convolutional neural network,1
+convolutional neural networks,1
+convolutional neural networks (cnn),1
+coordinate ascent,1
+correlation analysis (linear regression),1
+correlation capture,1
+cotext,1
+coverage mechanism,1
+cross-domain comparison,1
+customized algorithm (composer),1
+cwe mapping,1
+cwe tagging,1
+data denoising,1
+data filtering,1
+"data mining (e.g., boruta algorithm)",1
+data mining and graph-based models,1
+data preprocessing,1
+data sampling,1
+"data sampling (smote, adasyn)",1
+decision tree (j48),1
+decision trees (cart),1
+deep fusion of metadata and text (dfmt),1
+dependencies resolver,1
+dependency resolution,1
+discriminative model training,1
+distilbert,1
+distilroberta,1
+doc2vec representation,1
+downsampling for balancing dataset,1
+dq-cnn,1
+dq-lstm,1
+dq-rnn,1
+dual-interactive fusion,1
+duplicate pair detection,1
+dynamic neural topic,1
+egonet features (graph analysis),1
+empirical study of edits,1
+encoder-decoder architecture,1
+ensemble learning,1
+expert evaluation,1
+expert judgment,1
+expertiserank,1
+exploratory analysis,1
+exqd,1
+extreme gradient boosting,1
+feature comparison (before and after revision),1
+feature engineering,1
+"feature engineering (textual, formatting, orthographic)",1
+feature importance ranking,1
+feedback-directed compilation,1
+feedback-driven code improvement,1
+findbugs for performance,1
+findbugs for security,1
+frequentist inference,1
+fully-connected neural network,1
+gaussian naive bayes,1
+gaussian naive bayes (nb),1
+gemini 1.5 pro,1
+generative model,1
+genetic algorithms,1
+glove embedding,1
+gpt-4,1
+gradient boosting classifier,1
+gradient descent,1
+gradient descent optimization,1
+graph convolutional network (gcn),1
+graph models,1
+graph-based classification,1
+graph-based model of contributor relationships combined with content and usage-based features,1
+graphcodebert encoding,1
+greedy method (weight optimization),1
+grid search,1
+ground truth creation,1
+gru,1
+"gru-based rnn models (unidirectional, bidirectional, composite)",1
+guard condition mining,1
+heterogeneous information network (hin),1
+heuristic filtering,1
+heuristic pruning,1
+heuristic rules,1
+heuristic-based data collection,1
+hierarchical classifiers,1
+hierarchical dag encoding,1
+hierarchical logistic regression,1
+hierarchy-aware semantic learning,1
+hits algorithm,1
+huffman coding,1
+"human assessments (e.g., mechanical turk)",1
+human expert assessments,1
+human quality ratings,1
+"human rating (e.g., likert scale)",1
+hybrid convolutional neural network–long short-term memory,1
+inductive analysis,1
+information gain,1
+information gain analysis,1
+information gain ratio analysis,1
+inverse document frequency (idf),1
+j48,1
+joint prediction models,1
+k-clusters confidence learning (kcl-ct),1
+k-fold cross-validation,1
+k-nearest neighbor,1
+k-nearest neighbours (k-nn),1
+keic-attentionxml,1
+keic-bert,1
+keic-fasttext,1
+keic-xml-cnn,1
+knowledge graph,1
+knowledge graph augmentation,1
+knowledge graph mining,1
+knowledge integration,1
+knowledge retrieval from external kbs,1
+krippendorff’s alpha,1
+l-rouge metric,1
+lambdamart,1
+"language models (lmjm, lmdir)",1
+lasso,1
+late fusion technique,1
+latent dirichlet allocation (lda) topic modeling,1
+lda for dimensionality reduction,1
+lda topic modeling,1
+learning algorithm comparison,1
+learning to rank (l2r),1
+learning to rank model,1
+learning-to-rank (l2r) approach,1
+learning-to-rank algorithms,1
+lexical analysis,1
+licensing conflict analysis,1
+likert scale,1
+likert-based coding,1
+"linear regression (e.g., ridge regression)",1
+linear svm,1
+linguistic analysis,1
+linguistic inquiry and word count (liwc),1
+linguistic mutation,1
+llama2,1
+logistic regression analysis,1
+logistic regression classifier,1
+long short-term memory (lstm),1
+longitudinal analysis,1
+lstm for temporal dependencies,1
+lstm models,1
+lstm-based approach,1
+m3nsct5 (hybrid method combining maximal marginal multiple nucleus sampling and codet5),1
+malstm,1
+manual annotation,1
+manual case studies,1
+manual inspection,1
+manual tag analysis,1
+manual validation,1
+matching-verification (mv) framework,1
+max pooling,1
+maximal marginal relevance (mmr),1
+maximum likelihood estimation,1
+meta-path guided random walk,1
+mpnet embeddings,1
+multi-class alternating decision tree,1
+multi-class classification,1
+multi-classification algorithm,1
+multi-head self-attention,1
+multi-label ranking component,1
+multi-layer perceptron,1
+multi-level tag recommendation,1
+multi-modal input (code and description),1
+multi-tag topical attention mechanism,1
+multi-view fusion classifier,1
+multi-view learning,1
+multiclass classification,1
+multilayer cnn,1
+multiple additive regression trees,1
+multiple linear regression,1
+multiple regression,1
+n-gram features,1
+naive bayes (nb),1
+naive bayes classifier,1
+named entity recognition (ner),1
+network embedding (snippet2vec),1
+neural networks,1
+"neural networks (gru, dense layers)",1
+neural topic generator,1
+nonparametric statistical tests,1
+obsolescence reason classification,1
+open-discussion evaluation,1
+open-ended questions,1
+outdated clone analysis,1
+par2vec encoding,1
+part-of-speech tagging,1
+pattern recognition,1
+pivoted attention mechanism,1
+plbart,1
+pmd for code reliability,1
+point process model,1
+politeness scoring,1
+popularity analysis,1
+pos tag diversity,1
+post-tag co-clustering,1
+post2vec baseline comparison,1
+pre-processing (html tag removal),1
+pre-training on code corpus,1
+prediction modeling,1
+"preprocessing (tokenization, stopword removal)",1
+prompter tool,1
+psycholinguistic analysis,1
+qualitative analysis of snippets,1
+qualitative assessment,1
+qualitative coding,1
+qualitative content analysis,1
+quantitative analysis (self-explanatory rating),1
+quantitative analysis (using findbugs),1
+question-tag embeddings,1
+question-type classification,1
+quick fix suggestions,1
+random forests (rf),1
+random under-sampling,1
+random undersampling,1
+rankboost,1
+ranking algorithm (pagerank),1
+ranknet,1
+ranksvm,1
+rbf svm,1
+readability analysis,1
+readability metrics,1
+recurrent neural networks (rnn),1
+redundancy analysis,1
+relational classifier,1
+relational topic modeling (rtm),1
+relevance features (bm25),1
+relevance matching,1
+ridge,1
+rnn,1
+rnn encoder-decoder model,1
+rnn-based approach,1
+rouge-lcs recall,1
+rule-based detection technique,1
+rule-based model,1
+seed task extraction,1
+self-interaction network,1
+semantic analysis,1
+semantic matching,1
+semantic similarity analysis,1
+semantic-aware vector representation,1
+sentence alignment,1
+sentence pair matching,1
+sentence pattern recognition,1
+sentencepiece tokenizer,1
+"sentiment analysis (e.g., sentistrength)",1
+sentiment evaluation,1
+sequence encoder,1
+sequence encoding,1
+shah,1
+siamese bilstm,1
+siamese neural network,1
+sigmoid cross-entropy loss,1
+similarity matching,1
+similarity-based ranking component,1
+simple logistic regression,1
+skip-gram embedding,1
+slicing techniques,1
+smote (oversampling),1
+smote balancing,1
+snippet sampling,1
+sobert,1
+soft align attention,1
+softmax function,1
+softmax layer,1
+spatial-temporal bi-lstm,1
+static analysis,1
+static code analysis (cppcheck),1
+"statistical analysis (e.g., regression)",1
+statistical correlation,1
+stochastic gradient boosted trees,1
+stochastic gradient boosting,1
+stop-word removal,1
+stratified random sampling,1
+stratified sampling,1
+subsequence mining,1
+supervised recommendation system,1
+supervised topic modeling,1
+support vector machine (svm),1
+support vector machine for ranking,1
+support vector machines,1
+survival analysis,1
+svm classifier,1
+svmrank,1
+synonym creation strategies,1
+syntaxnet analysis,1
+tag filtering,1
+tag normalization,1
+tag-content relevance,1
+tag-lda,1
+tag-term affinity scoring,1
+temporal trend analysis,1
+term extraction,1
+term extraction using antlr4,1
+term frequency (tf),1
+term frequency analysis (tf-idf),1
+term overlap analysis,1
+term-based strategy,1
+text mining,1
+"text preprocessing (cleaning, tokenization, stemming)",1
+textcnn,1
+textual and semantic feature analysis,1
+tf-idf transformation,1
+tf-idf vectorization,1
+token similarity algorithm (tsa),1
+topic clustering,1
+topic entropy analysis,1
+topic modeling (lda),1
+topic response ratio,1
+topic-guided tag ranker,1
+topical folksonomy,1
+transfer learning,1
+"transfer learning (codebert, albert, bert, roberta, bertoverflow)",1
+transformer model t5,1
+transformer models,1
+transformer-based model,1
+transformer-based model (multi-head attention mechanism),1
+typology-based evaluation,1
+unixcoder,1
+unsupervised and pre-trained models,1
+usability testing,1
+user background knowledge analysis,1
+user interaction modeling,1
+user survey,1
+user-oriented feature extraction,1
+variable clustering,1
+varimax rotation,1
+vector similarity (doc2vec),1
+vector space model (vsm),1
+voting correlation analysis,1
+vowpal wabbit,1
+vulnerability classification,1
+weakly supervised learning,1
+weka tool,1
+word embedding,1
+word embeddings,1
+"word embeddings (word2vec, google2vec)",1
+word2vec and doc2vec embeddings,1
+word2vec embeddings,1
+word2vec model,1
+wv-cnn,1
+wv-lstm,1
+wv-rnn,1

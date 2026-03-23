@@ -1,0 +1,144 @@
+Study#,SL,Title,Year,Target Q&A Site,Dataset
+S1,1,Finding high-quality content in social media,2008,Yahoo! Answers,"Yahoo! Answers (6,665 questions and 8,366 question/answer pairs)"
+S2,2,Evaluating and Predicting Answer Quality in Community QA,2010,Yahoo! Answers,"Yahoo! Quest (120 questions with 600 answers. For each question, we picked five answers – the answer voted as the best answer, and four others randomly sampled.)"
+S3,3,Selection of the Best Answer in CQA Services,2010,Yahoo! Answers,Yahoo! Answers (800 question-answer pairs - Computers and Internet category)
+S4,4,Automatic Identification of Best Answers in Online Enquiry Communities,2012,SAP Community Network; Server Fault; Cooking community;,"SAP Community Network (SCN) (Our dataset consists of 95, 015 threads and 427, 221 posts divided between
+32, 942 users were collected from 33 different forums between December 2003 and July 2011. Within those threads, we only select threads that have the best answers. Our final dataset consists of 29, 960 (32%) questions and 111, 719 (26%) answers.); Server Fault (SF) (Our SF dataset is extracted from the April 2011 public dataset, and consists of 71, 962 questions, 162, 401 answers and 51, 727 users. Within those questions, we selected only the questions that have the best answers. The final SF dataset consists of 36, 717 (51%) questions and 95, 367 (59%) answers.); Cooking community (CO) (CO is a smaller dataset with 3, 065 questions, 9, 820 answers and 4, 941 users. Similarly to the other datasets, we only select the questions that have the best answers. The final dataset is composed of 2, 154 (70%) questions and 7, 039 (72%) answers)"
+S5,5,Predictors of High-Quality Answers,2012,Yahoo! Answers,"Yahoo! Answers(May 2009 from four categories:
+computers and internet, mathematics and science, arts and humanities, and business. 200 questions were randomly selected from each category to make a total of 800 questions. Each question had three answers, with one best answer and two non-best answers randomly selected from the pool of candidate answers. This resulted in a total of 2,400 question-answer pairs for analysis.)"
+S6,6,Exploiting User Feedback to Learn to Rank Answers in Q&A Forums: A Case Study with Stack Overflow,2013,Stack Overflow,"Stack Overflow (9,721 questions with 53,263 answers)"
+S7,7,Fit or Unfit: Analysis and Prediction of 'closed Questions' on Stack Overflow,2013,Stack Overflow,"Stack Overflow (August 2012 data dump - 102,993 ‘closed’ questions)"
+S8,8,Answering questions about unanswered questions of Stack Overflow,2013,Stack Overflow,"Stack Overflow (July 31, 2008 to July 31, 2012)"
+S9,9,A discriminative model approach for suggesting tags automatically for stack overflow questions,2013,Stack Overflow,"Stack Overflow (Training: 1.3 million questions to prepare the training datasets for 834 popular tags, Testing: we create an
+oracle of 16,680 questions by randomly choosing 20 questions for each of the 834 tags)"
+S10,10,Analyzing question quality through intersubjectivity: world views and objective assessments of questions on social question-answering,2013,Yahoo! Answers,"Yahoo! Answers (1,000 questions - Business, Entertainment, Travel, Sports, and Health)"
+S11,11,From bad to good: an investigation of question quality and transformation,2013,Yahoo! Answers,"Yahoo! Answers (2,000 questions - Business and Finance, Entertainment and Music, Health, Sports, and Travel)"
+S12,12,Discovering high quality answers in community question answering archives using a hierarchy of classifiers,2014,Yahoo! Answers,"Yahoo! Answers (5854 questions with 46,821 answers covering 12 categories have been collected from April 2006 to April 2012 period)"
+S13,13,"""A Bit of Code"": How the Stack Overflow Community Creates Quality Postings",2014,Stack Overflow,"Stack Overflow (August 2012 data dump, 10.3M posts)"
+S14,14,Understanding and Classifying the Quality of Technical Forum Questions,2014,Stack Overflow,"Stack Overflow (September 2013 data dump - 5,648,975 questions)"
+S15,15,Chaff from the wheat : Characterization and modeling of deleted questions on Stack Overflow,2014,Stack Overflow,"Stack Overflow (24 database dumps between August 2008 and June 2013 - 270,604 (?0.27M) deleted questions)"
+S16,16,Questioning the Question -- Addressing the Answerability of Questions in Community Question-Answering,2014,Yahoo! Answers,"Yahoo! Answers (5,000 questions)"
+S17,17,An Insight into the Unresolved Questions at Stack Overflow,2015,Stack Overflow,"Stack Overflow(3,956 unresolved questions, 4,101 resolved questions)"
+S18,18,Evaluating Answer Quality across Knowledge Domains: Using Textual and Non-Textual Features in Social Q&A,2015,Mathematics; Ask Ubuntu; Photography; Arqade;,"Stack Exchange (Mathematics, Ask Ubuntu, Photography, Arqade -- 1,000 answers from four sites)"
+S19,19,Mining Successful Answers in Stack Overflow,2015,Stack Overflow,"Stack Overflow (September 2014 data dump - 348,618 answers where 103,728 (30%) accepted answers)"
+S20,20,Automatic assessments of code explanations: Predicting answering times on stack overflow,2015,Stack Overflow,"Stack Overflow (301,480 posts)"
+S21,21,Quality Questions Need Quality Code: Classifying Code Fragments on Stack Overflow,2015,Stack Overflow,"Stack Overflow (MSR Challenge Dataset - 521,530 questions related to Java; Final dataset - 123,688 questions, out of which 11,997 low quality and 111,671 high quality)"
+S22,22,"Utilizing Content Moderators to Investigate Critical Factors for Assessing the Quality of Answers on Brainly, Social Learning Q&A Platform for Students: A Pilot Study",2015,Brainly,Brainly (6 question-answer sets)
+S23,23,Predicting the quality of questions on Stackoverflow,2015,Stack Overflow,"Stack Overflow (1,713,400 Questions -  31 July 2008 to 9 June 2011, 126,227 remained unanswered (7.37%))"
+S24,24,Answers or no answers: Studying question answerability in Stack Overflow,2015,Stack Overflow,Stack Overflow (randomly sampled 3000 Java-related questions (1500 answered + 1500 unanswered))
+S25,25,TagCombine: Recommending Tags to Contents in Software Information Sites,2015,Stack Overflow; Ask Ubuntu; Ask Different; Freecode;,"Ask Different, Ask Ubuntu, Freecode, and Stack Overflow, which contain 13,351, 37,354, 39,231, and 47,668 text documents, respectively, and 153, 346, 243, and 437 tags, respectively"
+S26,26,Detecting high-quality posts in community question answering sites,2015,Stack Overflow; Mathematics;,"Stack Overflow (questions - 1,966,272, Answers - 4,282,570, Users - 756,695, Votes - 14,056,000); Mathematics (questions - 16,638, Answers - 32,876, Users - 12,526, Votes - 202,932)"
+S27,27,Building a parsimonious model for identifying best answers using interaction history in community Q&A,2015,Yahoo! Answers,"Yahoo! Answers (11,609 question-answer pairs, 23,218 best answers, interactions 230, 840)"
+S28,28,Multi-Factor Duplicate Question Detection in Stack Overflow,2015,Stack Overflow,Stack Overflow (MSR 2013 mining challenge - 2008 to 2012)
+S29,29,Synonym Suggestion for Tags on Stack Overflow,2015,Stack Overflow,"Stack Overflow (38,000 tags; 2,765 synonym-pairs)"
+S30,30,CSNIPPEX: Automated Synthesis of Compilable Code Snippets from Q&A Sites,2016,Stack Overflow,"Stack Overflow (1,103,464 answer posts that are either accepted by the original questioner or have a score of at least one -- 44.58% (491,906) contain Java code snippets)"
+S31,31,Evaluating the Quality of Educational Answers in Community Question-Answering,2016,Brainly,"Brainly (US) (Nov ’1K, 3 to Dec ’15, Users-800K, Questions-1.5M, Answers-700K); Brainly (Poland) (Mar ’09 to Dec ’15, Users-2.9M, Questions-19.9M, Answers-10M)"
+S32,32,Improving the Quality of Code Snippets in Stack Overflow,2016,Stack Overflow ,Stack Overflow (40 questions related to Java)
+S33,33,Mining Duplicate Questions in Stack Overflow,2016,Stack Overflow,"Stack Overflow (mining challenge in MSR 2015 - 130,888 ( 0.13M) duplicate questions - August 2008 to September 2014)"
+S34,34,Predicting Questions' Scores on Stack Overflow,2016,Stack Overflow,"Stack Overflow (data dumps published from 2009 to 2014 - 12,077 questions)"
+S35,35,"Social Question Answering: Textual, User, and Network Features for Best Answer Prediction",2016,Yahoo! Answers,"Yahoo! Answers(January-December of 2011, for a total of>7.2M resolved questions, >39.5M answers, and >6.1M unique users)"
+S36,36,Understanding Question Quality through Affective Aspect in Q&A Site,2016,Stack Overflow,"Stack Overflow (Stack Overflow data dump - MSR
+Challenge 2015, Sampled 38,232 questions)"
+S37,37,Embedded Emotion-based Classification of Stack Overflow Questions Towards the Question Quality Prediction,2016,Stack Overflow,"Stack Overflow (38,920 questions, 73% of them are up-voted (i.e., score > 0) whereas the rest 10,474 (27%) are down- voted (i.e., score < 0))"
+S38,38,It Takes Two to Tango: Deleted Stack Overflow Question Prediction with Text and Meta Features,2016,Stack Overflow,"Stack Overflow(417,685 questions - deleted 194130 questions & non-deleted 223555 questions)"
+S39,39,By the Community & For the Community: A Deep Learning Approach to Assist Collaborative Editing in Q&A Sites,2017,Stack Overflow,"Stack Overflow (2007 - December 11, 2016 - 12,865,526 questions and 20,536,823 answers)"
+S40,40,Detecting Duplicate Posts in Programming QA Communities via Latent Semantics and Association Rules,2017,Stack Overflow,"Stack Overflow (11,846,518 questions - 250,710 pairs of questions are marked as duplicates)"
+S41,41,Discerning the Quality of Questions in Educational Q&A using Textual Features,2017,Brainly,"Brainly (2,000 questions - 1,000 answered and 1,000 unanswered)"
+S42,42,TAGme: A Topical Folksonomy Based Collaborative Filtering for Tag Recommendation in Community Sites,2017,Stack Overflow,Stack Overflow (August 2008 to May 2012); Stock Exchange (August 2010 to August 2015)
+S43,43,Identifying Textual Features of High-Quality Questions: An Empirical Study on Stack Overflow,2017,Stack Overflow,Stack Overflow (Data Dump for the period of 2008-2016: 12.35M questions and 19.78M answers)
+S44,44,Scalable tag recommendation for software information sites,2017,Stack Overflow;  Ask Ubuntu; Ask Different;  Freecode;,"StackOverflow@small (#software object -50000, #tags -9243, #final software object -47814, #final tags -438);
+StackOverflow@large (#software object -11203032, #tags -44265, #final software object -10421906, #final tags -427);
+AskUbuntu (#software object -36868, #tags -1784, #final software object -24941, #final tags -344);
+AskDifferent (#software object -14836, #tags -824, #final software object -11459, #final tags -178);
+Freecode (#software object -47978, #tags -9018, #final software object -43644, #final tags -274)"
+S45,45,Towards Question Improvement on Knowledge Sharing Platforms: A Stack Overflow Case Study,2017,Stack Overflow,"Stack Overflow (139,030 closed questions, Positive class (reopened) and negative samples - 9,729) "
+S46,46,"Question's advisor a wizard interface to teach novice programmers how to post ""better"" questions in stack overflow",2017,Stack Overflow,N/A - conducted a user study
+S47,47,On early detection of high voted Q&A on Stack Overflow,2017,Stack Overflow,"Stack Overflow (Details Table 2, page 12)"
+S48,48,The best answer prediction by exploiting heterogeneous data on software development Q&A forum,2017,Stack Overflow,"Stack Overflow (2013
+to 2015 data dump - questions 705,938 and answers is 2,117,825)"
+S49,49,Language Use Matters: Analysis of the Linguistic Structure of Question Texts Can Characterize Answerability in Quora,2017,Quora,"Quora (web-based crawls between June 2014 to August 2014 - 822,040 questions, 80,253 topics, 1,833,125 answers)"
+S50,50,Understanding Stack Overflow Code Fragments,2017,Stack Overflow,Stack Overflow (120 code snippets); Kode Java (40 code snippets)
+S51,51,Are Code Examples on an Online Q&A Forum Reliable? A Study of API Misuse on Stack Overflow,2018,Stack Overflow,"Stack Overflow (Apply the tool on 217,818 posts); "
+S52,52,Data-Driven Proactive Policy Assurance of Post Quality in Community Q&A Sites,2018,Stack Overflow,"Stack Overflow (36,943,972 posts - 14,237,281 questions and 22,618,594 answers); CNN (264,372 posts as positive data for adding code format, 38,168 posts for adding text format, 228,191 posts for adding links, and 189,884 posts for adding images and same amount of negative data)"
+S53,53,Duplicate Detection in Programming Question Answering Communities,2018,Stack Overflow; Quora;,"Stack Overflow (April 2010 to June 2016, 11,846,518 questions - 250,710 pairs of questions are duplicates); Quora (404,301 questions,
+149,274 duplicates) (Details Table 2, page 10)"
+S54,54,Two Perspectives on Software Documentation Quality in Stack Overflow,2018,Stack Overflow,Stack Overflow ( May 2014 data dump -- 7.2 million questions and over 12 million answers)
+S55,55,"Determinants of quality, latency, and amount of Stack Overflow answers about recent Android APIs",2018,Stack Overflow,"Stack Overflow (March 16, 2015 data dump); Google Play Store"
+S56,56,ICSD: An Automatic System for Insecure Code Snippet Detection in Stack Overflow over Heterogeneous Information Network,2018,Stack Overflow,"Stack Overflow (March 2010 to May 2018 - 429,523 questions, 623,746 answer threats posted by 213,560 users including 737,215 code snippets)"
+S57,57,"EnTagRec ++: An enhanced tag recommendation system for software information sites
+",2018,Stack Overflow; Ask Ubuntu; Ask Different; Super User; Freecode;,"Stack Overflow (Objects - 47,668, Tags - 437); Ask Ubuntu (Objects-37,354, Tags-346); Ask Different (Objects-13,351, Tags-153); Super User (Objects-47,996, Tags -460); Freecode (Objects-39,231, Tags-243)"
+S58,58,Exploiting User Activities for Answer Ranking in Q&A Forums,2018,Stack Overflow,"Stack Overflow (1356745 users, 13457828 question-answering pairs, 7112213 comments, details Table 5, page 7)"
+S59,59,Guiding supervised topic modeling for content based tag recommendation,2018,Stack Overflow; Mathematics;,"Stack Overflow (# of posts-3,350,978, # of tags-1035); Mathematics (# of posts-19,950, # of tags-461); BibSonomy (# of posts-247,889, # of tags-612); AskUbuntu (# of posts-234,703, # of tags-743)"
+S60,60,How to ask for technical help? Evidence-based guidelines for writing questions on Stack Overflow,2018,Stack Overflow,"Stack Overflow (July 2008 to September 2014 - 87,373 questions)"
+S61,61,Finding and Ranking High-Quality Answers in Community Question Answering Sites,2018,Stack Exchange,"Stack Exchange (75,837 answers, details Table 1, page 6)"
+S62,62,FastTagRec: fast tag recommendation for software information sites,2018,Stack Overflow; Ask Ubuntu; Server Fault; Unix; Code Review; Freecode; Database Administrators; Wordpress; Ask Different; Software Engineering;,"Stack Overflow ( July 1, 2024 data dump); Other (December 31, 2016 data dump) [Details: Table 1, page 12]"
+S63,63,AnswerBot: An Answer Summary Generation Tool Based on Stack Overflow,2019,Stack Overflow,"Stack Overflow (March 2016  data dump - 228,817 Java questions and collect their corresponding answers)"
+S64,64,Features That Predict the Acceptability of Java and JavaScript Answers on Stack Overflow,2019,Stack Overflow,"Stack Overflow (Java & JavaScript - 249,588 posts drawn from 2014-2016)"
+S65,65,How Reliable is the Crowdsourced Knowledge of Security Implementation?,2019,Stack Overflow,"Stack Overflow (8,690 code snippets)"
+S66,66,Integrating Multi-Level Tag Recommendation with External Knowledge Bases for Automatic Question Answering,2019,Stack Overflow,"Stack Overflow (August 18, 2015 data dump, randomly sampled 2,000 questions for each knowledge base with matching tags, totaling 12,000 questions along with over 50,000 linked answers. To find details, see Table 3 of page 15 )"
+S67,67,SOTagRec: A Combined Tag Recommendation Approach for Stack Overflow,2019,Stack Overflow,"Stack Overflow (March 1, 2016 data dump - Questions 47711, tags 436)"
+S68,68,Towards an Accurate Prediction of the Question Quality on Stack Overflow using a Deep-Learning-Based NLP Approach,2019,Stack Overflow,"Stack Overflow (21 April 2019 data dump- 425,097 random samples for training, 66,328 samples for test)"
+S69,69,Detecting Duplicate Questions in Stack Overflow via Deep Learning Approaches,2019,Stack Overflow,"Stack Overflow( September 2014 data dumpt, 134,261 non-master questions and 88,476 master questions)"
+S70,70,Predicting the Timing and Quality of Responses in Online Discussion Forums,2019,Stack Overflow ,"Stack Overflow (20,923 questions and 19,934 total answers generated by 9,947 askers and 6,451 answerers, with 14,643 distinct users.)"
+S71,71,An empirical study of obsolete answers on stack overflow,2019,Stack Overflow,"Stack Overflow (52,177 Stack Overflow answer threads - all answers to 52,177 questions, 58,201 comments that mention obsolescence and 12,629 tags)"
+S72,72,Quality assessment of answers with user-identified criteria and data-driven features in social Q&A,2019,Ask Ubuntu; Mathematics; Photography; Arqade;,"Stack Exchange (March 2017 data dump - 8000 answers were used to analyze textual and non-textual features, 8061 user comments)"
+S73,73,Assessing the quality of answers autonomously in community question-answering,2019,Brainly ; Stack Overflow;,"Brainly (US- Nov’13–Dec’15, PL-Mar’09–Dec’15); Stack Overflow(Jul’08–Sep’14) Details-Table 3 of page 8."
+S74,74,Code Duplication on Stack Overflow,2020,Stack Overflow,"Stack Overflow (43,942,960  code snippets)"
+S75,75,Generating Question Titles for Stack Overflow from Mined Code Snippets,2020,Stack Overflow,Stack Overflow
+S76,76,Large-Scale Question Tagging via Joint Question-Topic Embedding Learning,2020,Zhihu,"Zhihu (Dataset I [Questions - 2,999,967, tags-1,999], Dataset II [Questions - 1,707,023, tags 13,258])"
+S77,77,Why Will My Question Be Closed? NLP-Based Pre-Submission Predictions of Question Closing Reasons on Stack Overflow,2020,Stack Overflow,"Stack Overflow (March 4, 2019 data dump - 207,040 closed questions + 207,040 non-closed questions)"
+S78,78, Duplicate Question Detection With Deep Learning in Stack Overflow,2020,Stack Overflow,"Stack Overflow (August 2008 to September 2014 questions - 134,261 non-master questions and 88,476 master questions)"
+S79,79,Improving Quality of a Post's Set of Answers in Stack Overflow,2020,Stack Overflow,Stack Overflow (randomly selected 3600 posts - from 2013 to 2019)
+S80,80,Predicting closed questions on community question answering sites using convolutional neural network,2020,Stack Overflow,"Stack Overflow (89,176 open questions,  88,790 closed questions)"
+S81,81,TagDC: A tag recommendation method for software information sites with a combination of deep learning and collaborative filtering,2020,"Stack Overflow; Ask Different;
+Database Administrators; Freecode;
+Wordpress; Ask Ubuntu; Server Fault; Unix;","StackOverflow@small; AskDifferent;
+Database Administrator; Freecode;
+Wordpress; Askubuntu; Serverfault; Unix; StackOverflow@large (Details Table 2 - page 7)"
+S82,82,Multilayer Convolutional Neural Network to Filter Low Quality Content from Quora,2020,Quora,Quora
+S83,83,Understanding stack overflow code quality: A recommendation of caution,2020,Stack Overflow,"Stack Overflow (answers for 2014, 2015 and 2016 were chosen - 404,779 code snippets, from the 117,526 answer posts (191,556 snippets from accepted answers and 213,223 snippets from unaccepted answers))"
+S84,84,Toxic code snippets on stack overflow,2021,Stack Overflow,Stack Overflow; GitHub;
+S85,85,Are Comments on Stack Overflow Well Organized for Easy Retrieval by Developers?,2021,Stack Overflow,"Stack Overflow (September 2017 data dump - 22.7 million answers, 32.2 million comments)"
+S86,86,Early Detection and Guidelines to Improve Unanswered Questions on Stack Overflow,2021,Stack Overflow,"Stack Overflow (2017 data dump - 4,814,900 questions where 4,324,252answered and 500,648 unanswered)"
+S87,87,Quantifying Human-Perceived Answer Utility in Non-Factoid Question Answering,2021,Self-generated Q&A,user-generated
+S88,88,Technical Q&A Site Answer Recommendation via Question Boosting,2021,Ask Ubuntu; Super User; Stack Overflow;,"Ask Ubuntu, Super User, Stack Overflow (Python), Stack Overflow (Java) (details Table 3, page 14)"
+S89,89,Contextual Profiling of Stack Overflow Java Code Security Vulnerabilities Initial Insights from a Pilot Study,2021,Stack Overflow,"Stack Overflow (404,779 code snippets - 191,556 snippets from accepted answers, and 213,223 snippets from unaccepted answers)"
+S90,90,Detecting Duplicate Questions in Stack Overflow via Semantic and Relevance Approaches,2021,Stack Overflow,"Stack Overflow ( 2017 March data dump - 19,427 question pairs)"
+S91,91,Rollback Edit Inconsistencies in Developer Forum,2021,Stack Overflow,"Stack Overflow (September 2019 data dump, 63,071 question revisions and 39,218 answer revisions, then sampled 382 from 63,071 rejected question revisions, and 395 from 39,218 rejected answer revisions)"
+S92,92,Characterization and Prediction of Questions without Accepted Answers on Stack Overflow,2021,Stack Overflow,Stack Overflow (18 million questions)
+S93,93,Beyond Relevance: Trustworthy Answer Selection via Consensus Verification,2021,Yahoo! Answers; Quora; Amazon;,Yahoo! Answers; Quora;  Amazon
+S94,94,Recency and quality-based ranking question in CQAs: A Stack Overflow case study,2021,Stack Overflow,"Stack Overflow (10,000 questions)"
+S95,95,How to Formulate Specific How-to Questions in Software Development?,2022,Stack Overflow,"Stack Overflow ( 257,430 questions)"
+S96,96,PTM4Tag: Sharpening Tag Recommendation of Stack Overflow Posts with Pre-Trained Models,2022,Stack Overflow,"Stack Overflow (September 5, 2018 data dump) "
+S97,97,A Study of C/C++ Code Weaknesses on Stack Overflow,2022,Stack Overflow,"Stack Overflow (867,734 answers that have code snippets - 1,561,550 code snippets in total - 14,194,563 lines of code - 1,833,449 code versions in total)"
+S98,98,An Empirical Study of C++ Vulnerabilities in Crowd-Sourced Code Examples,2022,Stack Overflow,Stack Overflow and GitHub (SOTorrent data set version 2018-09-23)
+S99,99,Ask It Right! Identifying Low-Quality questions on Community Question Answering Services,2022,Stack Overflow,"Stack Overflow (June 2019 data dump - 17.7 million questions (closed + non-closed), details in Table II, page 5)"
+S100,100,Generating High Quality Titles in StackOverflow via Data Denoising Method,2022,Stack Overflow,Stack Overflow
+S101,101,Predicting Rollback Edits on Stack Overflow Based on Deep Fusion of Metadata and Text,2022,Stack Overflow,"SOTorrent dataset (August 31, 2020 - 79,346 question-body rollback edits and 48,770 answer-body rollback edits)"
+S102,102,SOTitle: A Transformer-based Post Title Generation Approach for Stack Overflow,2022,Stack Overflow,"Stack Overflow (1,168,257 high-quality questions detail Table I, page 5)"
+S103,103,Is this question going to be closed? Answering question closibility on Stack Exchange,2022,Stack Exchange,Stack Exchange (January 2009 to March 2017 data dump)
+S104,104,Improving Stack Overflow question title generation with copying enhanced CodeBERT model and bi-modal information,2022,Stack Overflow,"Stack Overflow (211,819 questions, deatails Table 3, page 5)"
+S105,105,Analyzing Techniques for Duplicate Question Detection on Q&A Websites for Game Developers,2022,Stack Overflow; Game Development;,"Stack Overflow & Game Development (Stack Excahnge) (June 2021 Stack Exchange data dump, details Table 1, page 8)"
+S106,106,The reproducibility of programming-related issues in Stack Overflow questions,2022,Stack Overflow,Stack Overflow (December 2019 data dump of Stack Overflow - 400 Java and 400 Python questions)
+S107,107,Studying the Long-Term Value Answers on Stack Overflow,2022,Stack Overflow,"Stack Overflow (March 2018 data dump - 5,108,171 answers and their associated questions and users)"
+S108,108,Towards Quality Improvement and Prediction of Closed Questions on Stack Overflow,2022,Stack Overflow,"Stack Overflow and Kaggle (Details Section 4.2, page 11)"
+S109,109,Context-Aware Answer Selection in Community Question Answering Exploiting Spatial Temporal Bidirectional Long Short-Term Memory,2023,No Explicit Q&A Site,"SemEval CQA benchmark dataset (4,439 questions with 21,818 answers comprised of three classes relevant, potential, and irrelevant)"
+S110,110,A novel hybrid CNN-LSTM approach for assessing Stack Overflow post quality,2023,Stack Overflow,"Stack Overflow (200,000 questions)"
+S111,111,Diverse title generation for Stack Overflow posts with multiple-sampling-enhanced transformer,2023,Stack Overflow,"Stack Overflow (890,000 questions, details Table I, page 6)"
+S112,112,Dual-interactive fusion for code-mixed deep representation learning in tag recommendation,2023,Stack Overflow; Code Review; Database Administrators; Wordpress;,"StackOverflow, Codereview, Database Administrators, Wordpress (details Table I, page 7)"
+S113,113,KEIC: A Tag Recommendation Framework with Knowledge Enhancement and Interclass Correlation,2023,Baidu Knows; Freecode; Stack Overflow;,"Baidu Knows (120,000 questions, 4128 tags); Freecode (46,995 questions, 46,995 tags); Stack Overflow (120,000 questions, 14,808 tags)"
+S114,114,Textual tag recommendation with multi-tag topical attention,2023,Physics; Academia; Law; Ask Ubuntu;,"Physics-StackExchange; Academia-StackExchange; Law-StackExchange; AskUbuntu [Details: Table 3, page 6)"
+S115,115,Duplicate Quora Questions Pair Detection using Siamese Bert and Ma-LSTM,2023,Quora,"Quora (100,000 questions)"
+S116,116,Predicting answer acceptability for question-answering system,2023,Stack Overflow,"Stack Overflow (75,838 answers - 65,327 non-accepted & 10,511 accepted)"
+S117,117,Automatic prediction of rejected edits in Stack Overflow,2023,Stack Overflow,"Stack Overflow ( September 2019 data dump - 1,116,473 rejected edits (72,159 questions + 44,314 answers))"
+S118,118,Automated Question Title Reformulation by Mining Modification Logs From Stack Overflow,2023,Stack Overflow,"Stack Overflow (Posts and PostHistory - July 2008 to March 2022, 152,259 title reformulation pairs from 122,528 title reformulation threads)"
+S119,119,Is Stack Overflow Obsolete? An Empirical Study of the Characteristics of ChatGPT Answers to Stack Overflow Questions,2024,Stack Overflow,"Stack Overflow (March 2023 data dump, 517 sampled questions, 2000 questions from the SO data dump for linguistic analysis)"
+S120,120,Identifying Smart Contract Security Issues in Code Snippets from Stack Overflow,2024,Stack Overflow,"Stack Overflow (897 answer code snippets from 4,952 questions); For model finetuning: 345,058 open-source smart contracts from the Ethereum mainnet, sourced from the GitHub repository smart-contract-sanctuary, up to March 2023."
+S121,121,Can We Identify Stack Overflow Questions Requiring Code Snippets? Investigating the Cause & Effect of Missing Code Snippets,2024,Stack Overflow,"Stack Overflow (August 2023 data dump, 11,585,146 questions, 1,207 randomly sampled for manual analysis)"
+S122,122,AUTOGENICS: Automated Generation of Context-Aware Inline Comments for Code Snippets on Programming Q&A Sites Using LLM,2024,Stack Overflow,"Stack Overflow (February 2024 data dump, total of 2963,498 answers, randomly selected 400 for code comment generation)"
+S123,123,"Reproducibility of issues reported in stack overflow questions: Challenges, impact & estimation",2024,Stack Overflow,"Stack Overflow (Mondal et al.’s dataset (2019), which consists
+of 357 questions: 270 reproducible + 87 irreproducible)"
+S124,124,PTM4Tag+: Tag recommendation of stack overflow posts with pre-trained models,2024,Stack Overflow,"Stack Overflow (September 2018 data dump, 10,379,014 posts; 23,687 common tags; 29,357 rare tags removed; 100,000 latest posts used for testing and 10,279,014 for training)"
+S125,125,Towards Better Answers: Automated Stack Overflow Post Updating,2025,Stack Overflow,"Stack Overflow (78,317 Java comment-answer edit pairs, for baseline comparison: SOTorrent dataset, September 2019 data dump, 304,567 potential Java comment-edit pairs)"
+S126,126,Does Editing Improve Answer Quality on Stack Overflow? A Data-Driven  Investigation,2025,Stack Overflow,"Stack Overflow (January 2025 data dump, a final dataset of 94,994 answers)"
+S127,127,Detecting question relatedness in programming Q&A communities via bimodal feature fusion,2025,Stack Overflow; Chinese Massive Open Online Course (MOOC),"Stack Overflow (Amirreza et al. (2019), 253,115 Java question pairs categorized into four classes: 70,173 isolated, 68,181 indirect, 70,939 direct, and 43,822 duplicate); Chinese MOOC (C language programming forum, 2018–2023; 17,792 question pairs categorized into three classes: 8,612 isolated, 6,407 related, and 2,773 duplicate)"

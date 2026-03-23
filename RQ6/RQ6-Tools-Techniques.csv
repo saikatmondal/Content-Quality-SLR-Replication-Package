@@ -1,0 +1,335 @@
+Study#,SL,Title,Year,Tools & Techniques
+S1,1,Finding high-quality content in social media,2008,"Tool/Technique [graph-based classification framework];
+Target Content [question, answer];
+Purpose [separate high-quality items from the rest];"
+S2,2,Evaluating and Predicting Answer Quality in Community QA,2010,"Tool/Technique [machine learning classifiers];
+Target Content [answer];
+Purpose [predict high-quality answers and identify the best answer selected by the asker];"
+S3,3,Selection of the Best Answer in CQA Services,2010,"Tool/Technique [feature-based logistic regression framework];
+Target Content [answer];
+Purpose [identify and predict the best (high-quality) answer based on social, textual, and content-appraisal features];"
+S4,4,Automatic Identification of Best Answers in Online Enquiry Communities,2012,"Tool/Technique [machine learning–based best answer identification model];
+Target Content [answer];
+Purpose [automatically identify and rank the best (highest-quality) answer in Q&A threads when manual selection is missing];"
+S5,5,Predictors of High-Quality Answers,2012,"Tool/Technique [feature-based quality prediction framework using logistic regression];
+Target Content [answer];
+Purpose [identify and predict high-quality answers by combining social features and content features];"
+S6,6,Exploiting User Feedback to Learn to Rank Answers in Q&A Forums: A Case Study with Stack Overflow,2013,"Tool/Technique [learning-to-rank framework using Random Forests];
+Target Content [answer];
+Purpose [rank answers by quality using user feedback and multi-dimensional features];"
+S7,7,Fit or Unfit: Analysis and Prediction of 'closed Questions' on Stack Overflow,2013,"Tool/Technique [ensemble-based machine learning classification framework (Stochastic Gradient Boosted Trees)];
+Target Content [question];
+Purpose [predict and identify low-quality questions that are likely to be closed at creation time];"
+S8,8,Answering questions about unanswered questions of Stack Overflow,2013,"Tool/Technique [machine learning–based prediction models (Random Forest, J48 classifiers)];
+Target Content [question];
+Purpose [predict how long a question will remain unanswered to help improve question quality and moderation actions];"
+S9,9,A discriminative model approach for suggesting tags automatically for stack overflow questions,2013,"Tool/Technique [discriminative machine learning–based automatic tag suggestion framework (SVM-based)];
+Target Content [question tags];
+Purpose [automatically suggest appropriate and missing tags for questions to improve categorization and increase chances of receiving answers];"
+S10,10,Analyzing question quality through intersubjectivity: world views and objective assessments of questions on social question-answering,2013,N/A
+S11,11,From bad to good: an investigation of question quality and transformation,2013,N/A
+S12,12,Discovering high quality answers in community question answering archives using a hierarchy of classifiers,2014,"Tool/Technique [hybrid hierarchy-of-classifiers framework];
+Target Content [answer];
+Purpose [identify and distinguish high-quality answers by combining question-type analysis with answer quality prediction];"
+S13,13,"""A Bit of Code"": How the Stack Overflow Community Creates Quality Postings",2014,N/A
+S14,14,Understanding and Classifying the Quality of Technical Forum Questions,2014,"Tool/Technique [automated question quality classification framework using machine learning];
+Target Content [question];
+Purpose [automatically classify and filter high-quality and low-quality technical forum questions at creation time to reduce manual review effort];"
+S15,15,Chaff from the wheat : Characterization and modeling of deleted questions on Stack Overflow,2014,"Tool/Technique [machine learning–based deleted-question prediction framework (AdaBoost ensemble classifier)];
+Target Content [question];
+Purpose [predict extremely low-quality questions at creation time that are likely to be deleted, enabling early intervention and content quality control];"
+S16,16,Questioning the Question -- Addressing the Answerability of Questions in Community Question-Answering,2014,"Tool/Technique [two-stage machine learning classification framework (question type classification followed by question quality classification using SVM)];
+Target Content [question];
+Purpose [identify and flag low-quality questions by first separating questions by type and then classifying them as good or bad to support question revision and routing];"
+S17,17,An Insight into the Unresolved Questions at Stack Overflow,2015,"Tool/Technique [machine learning–based unresolved question prediction model];
+Target Content [question];
+Purpose [predict questions whose answers are likely to remain unaccepted to support early quality management and intervention];"
+S18,18,Evaluating Answer Quality across Knowledge Domains: Using Textual and Non-Textual Features in Social Q&A,2015,"Tool/Technique [feature-based answer quality evaluation and prediction model];
+Target Content [answer];
+Purpose [assess and predict high-quality answers by combining textual and non-textual features across different knowledge domains];"
+S19,19,Mining Successful Answers in Stack Overflow,2015,"Tool/Technique [logistic regression–based answer success prediction model with affective features];
+Target Content [answer];
+Purpose [predict and improve answer acceptance by modeling presentation quality, timing, reputation, and emotional tone];"
+S20,20,Automatic assessments of code explanations: Predicting answering times on stack overflow,2015,N/A
+S21,21,Quality Questions Need Quality Code: Classifying Code Fragments on Stack Overflow,2015,"Tool/Technique [code-fragment–aware question quality classification model];
+Target Content [question (embedded code fragments)];
+Purpose [automatically classify high- and low-quality questions at posting time by analyzing code fragments to enable early feedback and moderation];"
+S22,22,"Utilizing Content Moderators to Investigate Critical Factors for Assessing the Quality of Answers on Brainly, Social Learning Q&A Platform for Students: A Pilot Study",2015,N/A
+S23,23,Predicting the quality of questions on Stackoverflow,2015,"Tool/Technique [ridge regression–based question quality prediction model];
+Target Content [question];
+Purpose [predict question quality (score and likelihood of receiving answers) at posting time to identify and improve low-quality questions];"
+S24,24,Answers or no answers: Studying question answerability in Stack Overflow,2015,N/A
+S25,25,TagCombine: Recommending Tags to Contents in Software Information Sites,2015,"Tool/Technique [TagCombine automatic tag recommendation framework];
+Target Content [question tags];
+Purpose [automatically recommend high-quality and relevant tags by combining multi-label learning, similarity-based ranking, and tag–term associations to improve content organization and discoverability];"
+S26,26,Detecting high-quality posts in community question answering sites,2015,"Tool/Technique [co-prediction (CoPs) framework using joint voting prediction];
+Target Content [question, answer];
+Purpose [early detection of high-quality questions and answers by jointly modeling voting-score correlation between questions and their associated answers];"
+S27,27,Building a parsimonious model for identifying best answers using interaction history in community Q&A,2015,"Tool/Technique [two-step parsimonious classification framework using interaction history];
+Target Content [answer];
+Purpose [identify best (high-quality) answers by first applying a text-based classifier and then refining difficult cases using asker–answerer interaction features];"
+S28,28,Multi-Factor Duplicate Question Detection in Stack Overflow,2015,"Tool/Technique [DupPredictor multi-factor duplicate question detection framework];
+Target Content [question];
+Purpose [automatically detect and recommend duplicate questions by combining textual, topical, and tag-based similarity to reduce redundant low-quality postings];"
+S29,29,Synonym Suggestion for Tags on Stack Overflow,2015,"Tool/Technique [TSST tag synonym suggestion tool];
+Target Content [question tags];
+Purpose [automatically suggest and rank synonymous tags to reduce tag redundancy and improve tag quality and consistency];"
+S30,30,CSNIPPEX: Automated Synthesis of Compilable Code Snippets from Q&A Sites,2016,"Tool/Technique [CSnippEx code snippet synthesis tool];
+Target Content [answer code snippets];
+Purpose [automatically synthesize compilable code snippets by resolving missing dependencies, generating imports, and fixing syntactic errors to improve the usability and quality of Q&A code content];"
+S31,31,Evaluating the Quality of Educational Answers in Community Question-Answering,2016,"Tool/Technique [automatic answer quality assessment framework using Random Forest classifier];
+Target Content [answer];
+Purpose [automatically identify and filter high-quality vs. low-quality educational answers by integrating personal, community, textual, and contextual features to support moderation and improve learning outcomes];"
+S32,32,Improving the Quality of Code Snippets in Stack Overflow,2016,"Tool/Technique [ExRec IDE-based code snippet improvement tool];
+Target Content [answer code snippets];
+Purpose [enable developers to improve the completeness, correctness, and understandability of Stack Overflow code snippets by fixing and contributing enhanced versions directly from the IDE];"
+S33,33,Mining Duplicate Questions in Stack Overflow,2016,"Tool/Technique [Dupe - discriminative duplicate-question detection model];
+Target Content [question];
+Purpose [automatically detect and recommend duplicate questions to reduce redundant low-quality postings and moderator workload];"
+S34,34,Predicting Questions' Scores on Stack Overflow,2016,N/A
+S35,35,"Social Question Answering: Textual, User, and Network Features for Best Answer Prediction",2016,"Tool/Technique [learning-to-rank framework for best answer prediction];
+Target Content [answer];
+Purpose [rank candidate answers to identify the best (highest-quality) answer using textual, user, and network features];"
+S36,36,Understanding Question Quality through Affective Aspect in Q&A Site,2016,"Tool/Technique [random forest–based question quality prediction model];
+Target Content [question];
+Purpose [predict question quality (likelihood of receiving an accepted answer) by incorporating textual, community-based, and affective features];"
+S37,37,Embedded Emotion-based Classification of Stack Overflow Questions Towards the Question Quality Prediction,2016,"Tool/Technique [emotion-aware machine learning classification framework (MLP and SVM using sentiment metrics)];
+Target Content [question];
+Purpose [predict and classify low-quality vs. high-quality questions by modeling embedded emotions and sentiment polarity in question text];"
+S38,38,It Takes Two to Tango: Deleted Stack Overflow Question Prediction with Text and Meta Features,2016,"Tool/Technique [DelPredictor two-stage hybrid classification framework];
+Target Content [question];
+Purpose [predict and identify extremely low-quality questions likely to be deleted by combining textual and meta-feature-based classifiers];"
+S39,39,By the Community & For the Community: A Deep Learning Approach to Assist Collaborative Editing in Q&A Sites,2017,"Tool/Technique [deep learning-based edit assistance tool using character-level RNN encoder-decoder];
+Target Content [question, answer];
+Purpose [automatically detect and correct minor textual issues (spelling, grammar, formatting, domain-specific conventions) by recommending sentence-level edits to improve post quality];"
+S40,40,Detecting Duplicate Posts in Programming QA Communities via Latent Semantics and Association Rules,2017,"Tool/Technique [PCQADup - latent semantics and association-rule–based duplicate detection framework];
+Target Content [question];
+Purpose [automatically detect duplicate programming questions using latent semantic representations and association-rule–based features to reduce redundant low-quality posts];"
+S41,41,Discerning the Quality of Questions in Educational Q&A using Textual Features,2017,"Tool/Technique [logistic regression–based question quality classification model];
+Target Content [question];
+Purpose [automatically classify educational questions as high- or low-quality based on textual features to support question reformulation and improve answerability];"
+S42,42,TAGme: A Topical Folksonomy Based Collaborative Filtering for Tag Recommendation in Community Sites,2017,"Tool/Technique [TAGme – topical folksonomy–based collaborative filtering tag recommendation framework];
+Target Content [question tags];
+Purpose [automatically recommend relevant and high-quality tags by leveraging topic modeling, folksonomy construction, and user history to improve content organization and discoverability];"
+S43,43,Identifying Textual Features of High-Quality Questions: An Empirical Study on Stack Overflow,2017,N/A
+S44,44,Scalable tag recommendation for software information sites,2017,"Tool/Technique [TagMulRec – scalable semantic-similarity–based tag recommendation framework];
+Target Content [question tags];
+Purpose [automatically recommend high-quality and relevant tags for software-related questions at scale, improving content organization, discoverability, and tagging consistency];"
+S45,45,Towards Question Improvement on Knowledge Sharing Platforms: A Stack Overflow Case Study,2017,"Tool/Technique [reopenability prediction model – SVM (rbf)–based question improvement framework];
+Target Content [question (title, body, tags edits)];
+Purpose [predict whether an edited closed question will be successfully reopened and guide users toward effective question improvements];"
+S46,46,"Question's advisor a wizard interface to teach novice programmers how to post ""better"" questions in stack overflow",2017,"Tool/Technique [Question’s Advisor – NLP-based wizard-style question improvement tool];
+Target Content [question title, question body, tags];
+Purpose [assist users-especially novices-in composing higher-quality questions by analyzing missing “good characteristics” and providing actionable improvement suggestions before posting];"
+S47,47,On early detection of high voted Q&A on Stack Overflow,2017,"Tool/Technique [relational classification framework for early detection of high-quality Q&A];
+Target Content [question, answer];
+Purpose [simultaneously predict high-quality questions and answers shortly after posting by modeling accepted-answer and answer-competition effects];"
+S48,48,The best answer prediction by exploiting heterogeneous data on software development Q&A forum,2017,"Tool/Technique [BoostStack – multi-view learning framework for best answer prediction];
+Target Content [answer];
+Purpose [predict the best (highest-quality) answer by jointly exploiting heterogeneous information sources (text, code snippets, and user background) via stacked ensemble learning];"
+S49,49,Language Use Matters: Analysis of the Linguistic Structure of Question Texts Can Characterize Answerability in Quora,2017,"Tool/Technique [linguistic-activity–based answerability prediction framework];
+Target Content [question text];
+Purpose [predict whether a question will remain unanswered or receive answers by modeling linguistic and psycholinguistic features of question language use];"
+S50,50,Understanding Stack Overflow Code Fragments,2017,N/A
+S51,51,Are Code Examples on an Online Q&A Forum Reliable? A Study of API Misuse on Stack Overflow,2018,"Tool/Technique [ExampleCheck – large-scale API usage mining and misuse detection framework];
+Target Content [answer code snippets];
+Purpose [automatically detect unreliable and low-quality code examples by contrasting Stack Overflow snippets against desirable API usage patterns mined from large GitHub corpora, and recommend correct or alternative usage];"
+S52,52,Data-Driven Proactive Policy Assurance of Post Quality in Community Q&A Sites,2018,"Tool/Technique [CNN-based proactive policy assurance framework (post-edit recommendation model)];
+Target Content [question body, answer body];
+Purpose [proactively predict and recommend needed quality-improving edits (code formatting, text formatting, link addition, image addition) before or after posting by learning collaborative editing patterns, thereby enforcing implicit community quality norms];"
+S53,53,Duplicate Detection in Programming Question Answering Communities,2018,"Tool/Technique [DupDetector – two-stage ranking–classification duplicate detection framework];
+Target Content [question];
+Purpose [automatically detect duplicate programming questions to reduce redundancy and improve overall content quality];"
+S54,54,Two Perspectives on Software Documentation Quality in Stack Overflow,2018,"Tool/Technique [Naïve Bayes–based quality prediction model];
+Target Content [question, answer];
+Purpose [predict whether questions and answers will be accepted or up-voted by modeling documentation quality indicators such as readability, code-to-text ratio, and presence of information artifacts];"
+S55,55,"Determinants of quality, latency, and amount of Stack Overflow answers about recent Android APIs",2018,N/A
+S56,56,ICSD: An Automatic System for Insecure Code Snippet Detection in Stack Overflow over Heterogeneous Information Network,2018,"Tool/Technique [ICSD – heterogeneous information network–based insecure code snippet detection system];
+Target Content [answer code snippets];
+Purpose [automatically detect and flag insecure or low-quality code snippets by jointly modeling code content and social coding relationships (users, questions, answers, badges) to improve the security and reliability of Q&A content];"
+S57,57,"EnTagRec ++: An enhanced tag recommendation system for software information sites
+",2018,"Tool/Technique [EnTagRec++ – enhanced tag recommendation system];
+Target Content [question tags];
+Purpose [automatically recommend high-quality and relevant tags by leveraging historical tag assignments, user information, and initial user-provided tags to improve tagging quality and content organization];"
+S58,58,Exploiting User Activities for Answer Ranking in Q&A Forums,2018,"Tool/Technique [learning-to-rank framework (SVMRank) with user-activity–aware features];
+Target Content [answer];
+Purpose [rank answers by quality by exploiting user activity networks (question–answering and commenting behavior) to better capture user expertise and improve answer ordering];"
+S59,59,Guiding supervised topic modeling for content based tag recommendation,2018,"Tool/Technique [SimWord – supervised topic modeling–based tag recommendation framework];
+Target Content [question tags];
+Purpose [automatically recommend high-quality and relevant tags by exploiting tag–content relevance and similar-word guidance to improve tagging accuracy and content organization];"
+S60,60,How to ask for technical help? Evidence-based guidelines for writing questions on Stack Overflow,2018,N/A
+S61,61,Finding and Ranking High-Quality Answers in Community Question Answering Sites,2018,"Tool/Technique [promising answers ranking system – hybrid classification and regression framework];
+Target Content [answer];
+Purpose [identify and rank a set of high-quality answers (not just the single best answer) by predicting answer usefulness to mitigate vote-based Matthew effect and improve answer visibility];"
+S62,62,FastTagRec: fast tag recommendation for software information sites,2018,"Tool/Technique [FastTagRec – fast neural network–based tag recommendation framework];
+Target Content [question tags];
+Purpose [automatically recommend high-quality and relevant tags at scale by learning from existing posts and tags, reducing tag redundancy and improving content organization];"
+S63,63,AnswerBot: An Answer Summary Generation Tool Based on Stack Overflow,2019,"Tool/Technique [AnswerBot – answer summary generation tool];
+Target Content [answer content];
+Purpose [automatically generate concise, relevant, and diverse answer summaries from multiple Stack Overflow answers to improve content usability and reduce information overload];"
+S64,64,Features That Predict the Acceptability of Java and JavaScript Answers on Stack Overflow,2019,"Tool/Technique [random forest and neural network–based answer acceptability prediction models];
+Target Content [answer];
+Purpose [predict whether an answer will be accepted by the asker by modeling textual, code, user, and temporal features];"
+S65,65,How Reliable is the Crowdsourced Knowledge of Security Implementation?,2019,N/A
+S66,66,Integrating Multi-Level Tag Recommendation with External Knowledge Bases for Automatic Question Answering,2019,"Tool/Technique [multi-level tag recommendation framework integrated with external knowledge bases];
+Target Content [question tags];
+Purpose [automatically recommend semantically rich and hierarchical tags and leverage them to retrieve relevant external knowledge-base articles, improving question understanding, answer quality, and reducing future duplicate questions];"
+S67,67,SOTagRec: A Combined Tag Recommendation Approach for Stack Overflow,2019,"Tool/Technique [SOTagRec – hybrid tag recommendation framework combining convolutional neural networks (CNN) and collaborative filtering (CF)];
+Target Content [question tags];
+Purpose [automatically recommend high-quality, relevant tags for new Stack Overflow questions to improve classification, discoverability, and retrieval efficiency]."
+S68,68,Towards an Accurate Prediction of the Question Quality on Stack Overflow using a Deep-Learning-Based NLP Approach,2019,"Tool/Technique [Deep-learning–based NLP question quality classifier using Doc2Vec representations and a GRU-based neural network];
+Target Content [question];
+Purpose [automatically predict and filter low-quality Stack Overflow questions (e.g., likely-to-be-closed posts) using only linguistic and semantic features to support moderation and pre-submission quality checking]."
+S69,69,Detecting Duplicate Questions in Stack Overflow via Deep Learning Approaches,2019,"Tool/Technique [DQ-LSTM – deep learning–based duplicate question detection framework using Long Short-Term Memory networks];
+Target Content [question];
+Purpose [automatically detect and rank duplicate Stack Overflow questions by capturing semantic similarity, reducing redundancy, and improving question quality and discoverability]."
+S70,70,Predicting the Timing and Quality of Responses in Online Discussion Forums,2019,N/A
+S71,71,An empirical study of obsolete answers on stack overflow,2019,N/A
+S72,72,Quality assessment of answers with user-identified criteria and data-driven features in social Q&A,2019,N/A
+S73,73,Assessing the quality of answers autonomously in community question-answering,2019,"Tool/Technique [Random Forest–based answer quality classification model];
+Target Content [answer];
+Purpose [automatically identify and classify high-quality answers in community question-answering systems with high accuracy];"
+S74,74,Code Duplication on Stack Overflow,2020,N/A
+S75,75,Generating Question Titles for Stack Overflow from Mined Code Snippets,2020,"Tool/Technique [Code2Que – sequence-to-sequence deep learning–based question title generation tool with attention, copy, and coverage mechanisms];
+Target Content [question title];
+Purpose [automatically generate clear, informative, and high-quality Stack Overflow question titles from code snippets to improve question quality and attract relevant answers]; "
+S76,76,Large-Scale Question Tagging via Joint Question-Topic Embedding Learning,2020,"Tool/Technique [PROFIT – deep interactive joint question–topic embedding learning model with DAG-guided regularization];
+Target Content [question tags];
+Purpose [automatically recommend accurate and semantically consistent topic tags for newly posted questions by jointly embedding questions and hierarchically organized tags, improving question organization, routing, and discoverability];"
+S77,77,Why Will My Question Be Closed? NLP-Based Pre-Submission Predictions of Question Closing Reasons on Stack Overflow,2020,"Tool/Technique [GRU-based NLP pre-submission question closure prediction classifiers (binary and multiclass)];
+Target Content [question];
+Purpose [predict whether a Stack Overflow question will be closed and estimate the specific closing reason before submission, helping users improve question quality and reduce moderation overhead];"
+S78,78, Duplicate Question Detection With Deep Learning in Stack Overflow,2020,"Tool/Technique [WV-CNN / WV-RNN / WV-LSTM – Word2Vec-enhanced deep learning duplicate question detection frameworks];
+Target Content [question];
+Purpose [automatically detect and rank duplicate Stack Overflow questions by capturing both word-level and document-level semantic similarity, reducing redundancy and improving question quality and moderation efficiency];"
+S79,79,Improving Quality of a Post's Set of Answers in Stack Overflow,2020,"Tool/Technique [SOPI – Stack Overflow Post Improver with decision-tree–based deficient post prediction and IDE-integrated recommendation];
+Target Content [answers, question];
+Purpose [automatically identify questions with deficient answer sets and facilitate the improvement of answer quality by routing them to relevant experts and recommending code snippets in-context]."
+S80,80,Predicting closed questions on community question answering sites using convolutional neural network,2020,"Tool/Technique [CNN/LSTM-based closed-question prediction model];
+Target Content [question];
+Purpose [predict whether a newly posted Stack Overflow question will be closed and identify the likely reason for closure in advance, enabling users to improve question quality and reducing moderator workload]; "
+S81,81,TagDC: A tag recommendation method for software information sites with a combination of deep learning and collaborative filtering,2020,"Tool/Technique [TagDC – hybrid tag recommendation method combining deep learning (Bi-LSTM + CNN + capsule networks) and collaborative filtering];
+Target Content [question tags];
+Purpose [automatically recommend accurate and consistent tags for software Q&A posts to alleviate tag synonymy and tag explosion, and improve question organization and retrieval];"
+S82,82,Multilayer Convolutional Neural Network to Filter Low Quality Content from Quora,2020,"Tool/Technique [Multilayer Convolutional Neural Network (MLCNN)–based low-quality question filtering model];
+Target Content [question];
+Purpose [automatically detect and filter low-quality or insincere questions at posting time using only question text, thereby improving overall content quality and reducing manual moderation effort];"
+S83,83,Understanding stack overflow code quality: A recommendation of caution,2020,N/A
+S84,84,Toxic code snippets on stack overflow,2021,N/A
+S85,85,Are Comments on Stack Overflow Well Organized for Easy Retrieval by Developers?,2021,"Tool/Technique [Informative comment classification and reorganization framework using machine learning (Random Forest)];
+Target Content [comments];
+Purpose [identify and prioritize informative comments and improve their organization and retrievability for developers];"
+S86,86,Early Detection and Guidelines to Improve Unanswered Questions on Stack Overflow,2021,"Tool/Technique [Early unanswered-question prediction models using machine learning (Random Forest, Decision Tree, KNN, ANN) with submission-time features];
+Target Content [question];
+Purpose [predict potentially unanswered Stack Overflow questions at submission time and provide empirically grounded guidance to help users improve question quality and increase the likelihood of receiving answers];"
+S87,87,Quantifying Human-Perceived Answer Utility in Non-Factoid Question Answering,2021,N/A
+S88,88,Technical Q&A Site Answer Recommendation via Question Boosting,2021,"Tool/Technique [DeepAns – deep learning–based answer recommendation framework with question boosting];
+Target Content [answer];
+Purpose [recommend the most relevant and high-quality answers for unanswered or unresolved technical Q&A posts by generating clarifying questions and improving question–answer matching];"
+S89,89,Contextual Profiling of Stack Overflow Java Code Security Vulnerabilities Initial Insights from a Pilot Study,2021,N/A
+S90,90,Detecting Duplicate Questions in Stack Overflow via Semantic and Relevance Approaches,2021,"Tool/Technique [SRDM – Semantics and Relevance Duplicate Questions Detection Model using Siamese BiLSTM with semantic interaction and relevance matching];
+Target Content [question];
+Purpose [automatically detect duplicate Stack Overflow questions by jointly modeling semantic similarity and relevance matching between question titles and bodies, reducing redundancy and improving content organization]; "
+S91,91,Rollback Edit Inconsistencies in Developer Forum,2021,"Tool/Technique [Rule-based rollback edit inconsistency detection algorithms];
+Target Content [questions and answers (post edits / rollback edits)];
+Purpose [automatically detect and warn about inconsistent rollback edits to improve editing consistency, user experience, and overall post quality in developer forums];"
+S92,92,Characterization and Prediction of Questions without Accepted Answers on Stack Overflow,2021,"Tool/Technique [Online accepted-answer prediction tool using XGBoost-based classification models];
+Target Content [question];
+Purpose [predict whether a newly posted Stack Overflow question will receive an accepted answer using submission-time features, enabling users to revise question content and tags to improve answer acceptance likelihood];"
+S93,93,Beyond Relevance: Trustworthy Answer Selection via Consensus Verification,2021,"Tool/Technique [Matching–Verification (MV) framework with consensus verification for trustworthy answer selection];
+Target Content [answer];
+Purpose [automatically select and rank high-quality and trustworthy answers by jointly modeling question–answer relevance and consensus-based trustworthiness beyond relevance alone];"
+S94,94,Recency and quality-based ranking question in CQAs: A Stack Overflow case study,2021,"Tool/Technique [Quality- and recency-aware answer ranking framework using learning-to-rank algorithms (e.g., Coordinate Ascent, LambdaMART) with temporal ranking algorithm];
+Target Content [answer];
+Purpose [automatically rank answers by jointly considering answer quality and content recency to surface the most current and high-quality answers at top positions without relying on user votes];"
+S95,95,How to Formulate Specific How-to Questions in Software Development?,2022,"Tool/Technique [TaskKG4Q – interactive how-to question formulation tool based on a programming task knowledge graph];
+Target Content [question];
+Purpose [interactively help developers formulate more specific, complete, and effective how-to questions by recommending missing and refined task elements (actions, objects, constraints) derived from mined Stack Overflow knowledge];"
+S96,96,PTM4Tag: Sharpening Tag Recommendation of Stack Overflow Posts with Pre-Trained Models,2022,"Tool/Technique [PTM4Tag – tag recommendation framework using pre-trained transformer models with a triplet architecture];
+Target Content [question tags];
+Purpose [automatically recommend high-quality and semantically accurate tags for Stack Overflow posts by jointly modeling title, description, and code to mitigate tag synonymy and tag explosion];"
+S97,97,A Study of C/C++ Code Weaknesses on Stack Overflow,2022,N/A
+S98,98,An Empirical Study of C++ Vulnerabilities in Crowd-Sourced Code Examples,2022,"Tool/Technique [Browser-based vulnerability warning extension for Stack Overflow C++ code snippets];
+Target Content [answer (code snippets)];
+Purpose [notify developers of security vulnerabilities in C++ code snippets directly on Stack Overflow and recommend safer alternative snippets to prevent reuse of insecure code];"
+S99,99,Ask It Right! Identifying Low-Quality questions on Community Question Answering Services,2022,"Tool/Technique [LQuaD – Low-Quality Question Detection multi-tier hybrid framework using transformers and graph convolutional networks];
+Target Content [question];
+Purpose [automatically detect low-quality Stack Overflow questions at the time of posting by jointly modeling semantic content and question–tag relationships, enabling early intervention to reduce question closure and improve question quality];"
+S100,100,Generating High Quality Titles in StackOverflow via Data Denoising Method,2022,"Tool/Technique [KCL-CT – K-clusters Confidence Learning–based title generation and data denoising model];
+Target Content [question title];
+Purpose [generate high-quality Stack Overflow question titles by denoising noisy <code, title> training data using confidence learning and code clustering, thereby improving title generation accuracy and clarity];"
+S101,101,Predicting Rollback Edits on Stack Overflow Based on Deep Fusion of Metadata and Text,2022,"Tool/Technique [DFMT – Deep Fusion of Metadata and Text model];
+Target Content [questions and answers (post edits / edit revisions)];
+Purpose [automatically predict rollback edits by jointly modeling edit textual content and edit-related metadata, enabling early detection of low-quality or harmful edits and improving post quality maintenance];"
+S102,102,SOTitle: A Transformer-based Post Title Generation Approach for Stack Overflow,2022,"Tool/Technique [SOTitle – transformer-based multi-modal post title generation approach];
+Target Content [question title];
+Purpose [automatically generate concise, precise, and high-quality Stack Overflow question titles by jointly leveraging problem descriptions and code snippets to improve post clarity and overall question quality];"
+S103,103,Is this question going to be closed? Answering question closibility on Stack Exchange,2022,"Tool/Technique [Supervised machine-learning–based question closability prediction model];
+Target Content [question];
+Purpose [automatically predict whether a Stack Exchange question is likely to be closed by learning patterns associated with low-quality or off-topic questions, enabling early quality control];"
+S104,104,Improving Stack Overflow question title generation with copying enhanced CodeBERT model and bi-modal information,2022,"Tool/Technique [CCBERT – copying-enhanced CodeBERT–based bi-modal transformer model];
+Target Content [question title];
+Purpose [automatically generate high-quality Stack Overflow question titles by jointly leveraging textual descriptions and code snippets, improving title clarity, relevance, and overall question quality];"
+S105,105,Analyzing Techniques for Duplicate Question Detection on Q&A Websites for Game Developers,2022,"Tool/Technique [Supervised duplicate question detection model using Random Forest over multiple similarity measures (ensemble of unsupervised and pre-trained models, including MPNet)];
+Target Content [question];
+Purpose [automatically detect duplicate questions on Q&A websites for game developers by combining multiple semantic similarity signals into a single predictive model, reducing redundancy and improving content organization];"
+S106,106,The reproducibility of programming-related issues in Stack Overflow questions,2022,N/A
+S107,107,Studying the Long-Term Value Answers on Stack Overflow,2022,"Tool/Technique [Logistic regression–based long-term answer value classification model];
+Target Content [answer];
+Purpose [identify and explain factors associated with answers that retain long-term value on Stack Overflow by distinguishing long-term vs. short-term value answers based on upvote dynamics over time];"
+S108,108,Towards Quality Improvement and Prediction of Closed Questions on Stack Overflow,2022,"Tool/Technique [XGBoost-based multi-class closed-question prediction model];
+Target Content [question];
+Purpose [predict whether a Stack Overflow question will be closed and classify it into specific closing reasons (open, off-topic, unclear, too-broad, opinion-based) at posting time to reduce moderator workload and improve question quality];"
+S109,109,Context-Aware Answer Selection in Community Question Answering Exploiting Spatial Temporal Bidirectional Long Short-Term Memory,2023,"Tool/Technique [Spatial Temporal Bidirectional Long Short-Term Memory (ST-BiLSTM) deep learning model for context-aware answer selection];
+Target Content [answer];
+Purpose [automatically select high-quality and relevant answers by modeling question–answer and answer–answer contextual dependencies];"
+S110,110,A novel hybrid CNN-LSTM approach for assessing Stack Overflow post quality,2023,"Tool/Technique [Hybrid CNN–LSTM deep learning–based post quality assessment model];
+Target Content [question];
+Purpose [automatically assess and classify Stack Overflow question quality into multiple quality levels to support moderation and improve overall content quality];"
+S111,111,Diverse title generation for Stack Overflow posts with multiple-sampling-enhanced transformer,2023,"Tool/Technique [M3NSCT5 – multiple-sampling–enhanced transformer-based title generation model using CodeT5 with maximal marginal nucleus sampling];
+Target Content [question title];
+Purpose [automatically generate multiple high-quality and diverse Stack Overflow question titles from code snippets to improve clarity, discoverability, and problem articulation for developers];"
+S112,112,Dual-interactive fusion for code-mixed deep representation learning in tag recommendation,2023,"Tool/Technique [CDR4Tag – Code-mixed Deep Representation learning via dual-interactive fusion];
+Target Content [question (tags)];
+Purpose [automatically recommend high-quality tags by jointly modeling text descriptions, code snippets, and tag semantics through dual-interactive fusion, improving tag accuracy and content organization on software Q&A sites];"
+S113,113,KEIC: A Tag Recommendation Framework with Knowledge Enhancement and Interclass Correlation,2023,"Tool/Technique [KEIC – Knowledge Enhancement and Interclass Correlation framework for tag recommendation];
+Target Content [question tags];
+Purpose [recommend accurate and complete tags by enriching question text with external knowledge and modeling correlations among tags, thereby mitigating long-tail effects and improving question organization and discoverability];"
+S114,114,Textual tag recommendation with multi-tag topical attention,2023,"Tool/Technique [TGTR – Topic-Guided Tag Recommendation model with dynamic neural topic and multi-tag topical attention];
+Target Content [question tags];
+Purpose [automatically recommend accurate and tail-aware tags for textual posts by jointly modeling dynamic neural topics and tag-specific attention, improving tag quality, balance, and retrieval effectiveness];"
+S115,115,Duplicate Quora Questions Pair Detection using Siamese Bert and Ma-LSTM,2023,"Tool/Technique [SiameseBERT / MaLSTM-based duplicate question detection framework];
+Target Content [question];
+Purpose [automatically detect and classify duplicate question pairs by modeling semantic similarity between questions, reducing redundancy and improving content quality and retrieval effectiveness on Q&A platforms];"
+S116,116,Predicting answer acceptability for question-answering system,2023,"Tool/Technique [Machine-learning–based answer acceptability prediction model using Gradient Boosting (GB), Random Forest, Logistic Regression, and Naive Bayes classifiers];
+Target Content [answer];
+Purpose [predict whether a newly posted answer will be accepted by the questioner, enabling answerers to revise and improve answer quality to increase acceptance likelihood];"
+S117,117,Automatic prediction of rejected edits in Stack Overflow,2023,"Tool/Technique [EditEx – online edit-assistance and rejected-edit prediction tool based on machine learning classifiers];
+Target Content [question edits, answer edits];
+Purpose [assist users during editing by predicting potential edit rejections and identifying likely rejection reasons to improve post content quality and reduce rejected edits];"
+S118,118,Automated Question Title Reformulation by Mining Modification Logs From Stack Overflow,2023,"Tool/Technique [QETRA – automated question title reformulation via mining modification logs and multi-task Transformer (T5)];
+Target Content [question title];
+Purpose [reformulate and improve existing question titles by learning real developer edit patterns, enhancing clarity, conciseness, and quality rather than generating titles from scratch];"
+S119,119,Is Stack Overflow Obsolete? An Empirical Study of the Characteristics of ChatGPT Answers to Stack Overflow Questions,2024,N/A
+S120,120,Identifying Smart Contract Security Issues in Code Snippets from Stack Overflow,2024,"Tool/Technique [SOChecker – LLM-assisted code completion and program-analysis-based vulnerability detection tool]; 
+Target Content [answer code snippets]; 
+Purpose [identify security vulnerabilities in incomplete Stack Overflow smart contract code snippets by completing code with a fine-tuned LLM and applying symbolic execution and CFG-based analysis];"
+S121,121,Can We Identify Stack Overflow Questions Requiring Code Snippets? Investigating the Cause & Effect of Missing Code Snippets,2024,"Tool/Technique [Machine-learning–based code-snippet requirement prediction models (six supervised ML classifiers: Random Forest, XGBoost, ANN, Naive Bayes, KNN, SVM)]; 
+Target Content [question]; 
+Purpose [automatically identify questions that need code snippets (and thus flag likely “missing-code” questions) to improve question quality and increase the chance of getting prompt/accepted answers];"
+S122,122,AUTOGENICS: Automated Generation of Context-Aware Inline Comments for Code Snippets on Programming Q&A Sites Using LLM,2024,"Tool/Technique [AUTOGENICS – Automated Generation of Context-Aware Inline Comments for Code Snippets];
+Target Content [Answer];
+Purpose [automatically generate context-aware, noise-free inline comments for answer code snippets using large language models to improve readability, comprehension, and correct reuse of solutions];"
+S123,123,"Reproducibility of issues reported in stack overflow questions: Challenges, impact & estimation",2024,"Tool/Technique [Machine-learning–based issue reproducibility prediction framework];
+Target Content [Question];
+Purpose [automatically predict whether issues reported in Stack Overflow questions are reproducible using code-based features, enabling early identification of irreproducible questions and motivating improvements to code snippets for better answerability]; "
+S124,124,PTM4Tag+: Tag recommendation of stack overflow posts with pre-trained models,2024,"Tool/Technique [PTM4Tag+ – pre-trained model–based tag recommendation framework];
+Target Content [Question Tag];
+Purpose [automatically recommend accurate and high-quality tags for Stack Overflow questions by leveraging transformer-based pre-trained models over title, description, and code, thereby improving content organization, searchability, and overall question quality];"
+S125,125,Towards Better Answers: Automated Stack Overflow Post Updating,2025,"Tool/Technique [SOUP – Stack Overflow Updator for Post];
+Target Content [Answer];
+Purpose [automatically update and improve Stack Overflow answers by integrating valuable information from comments into answer code snippets, thereby fixing bugs, addressing weaknesses, resolving obsolescence, and improving overall answer quality using large language models];"
+S126,126,Does Editing Improve Answer Quality on Stack Overflow? A Data-Driven  Investigation,2025,N/A
+S127,127,Detecting question relatedness in programming Q&A communities via bimodal feature fusion,2025,"Tool/Technique [Bimodal question relatedness detection framework with cross-attention];
+Target Content [Question];
+Purpose [automatically detect semantically related or duplicate questions in programming Q&A sites by jointly modeling question text and embedded code using pre-trained language models and cross-attention, thereby reducing redundancy and improving overall question quality and retrieval efficiency];"

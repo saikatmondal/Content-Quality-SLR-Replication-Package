@@ -1,0 +1,21 @@
+MT7: Tag Relevance and Specificity
+
+Topic Overlap & Coverage Ratios (alignment and overlap between answer, question, and common topics):
+#(a-topics), #(a-topics) #(q-topics) / #(a-topics), #(a-topics) * #(q-topics), #(a-topics) / #(answer body), #(c-topics) / (#(a-topics) + #(q-topics) - #(c-topics))
+________________________________________
+Tag Quality & Effectiveness (how informative and useful tags are):
+avg tag quality, max tag quality, min tag quality, tag popularity score, max problem rate
+________________________________________
+Tag Popularity & Commonality (use and spread of tags in the community):
+popular tags, number of popular tags, number of previous tags, defunct tags
+________________________________________
+Tag Similarity & Semantic Alignment (relatedness between tag sets):
+tag similarity, term tags
+________________________________________
+Tag Specificity & Granularity (how focused or broad the tagging is):
+specificity (number of tags), tags
+________________________________________
+Expertise & Topic-Aware User Signals (user expertise inferred from tag usage):
+max expert ratio, three new topic-aware features with user profile information and the relationship of user’s activities to capture the expertise of users in a specific topic
+
+

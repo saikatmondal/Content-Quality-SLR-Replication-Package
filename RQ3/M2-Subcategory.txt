@@ -1,0 +1,20 @@
+M2: Text Analysis and Natural Language Processing
+
+Text Representation, Embeddings & Vector Models (how text is encoded numerically):
+bag of words, bag-of-words, bow, cbow embedding, skip-gram embedding, word embedding, word embeddings, word embeddings (word2vec, word2vec, word2vec and doc2vec embeddings, word2vec embeddings, word2vec model, doc2vec, doc2vec representation, par2vec encoding, vector similarity (doc2vec), vector space model (vsm), semantic-aware vector representation, network embedding (snippet2vec), post2vec baseline comparison
+________________________________________
+Topic Modeling, Semantics & Knowledge-Aware Analysis (latent topics, semantics, and external knowledge):
+latent dirichlet allocation (lda), latent dirichlet allocation (lda) topic modeling, lda topic modeling, topic modeling, topic modeling (lda), lda for dimensionality reduction, relational topic modeling (rtm), tag-lda, topic clustering, topic entropy analysis, topical folksonomy, semantic analysis, semantic similarity analysis, knowledge graph augmentation, knowledge integration, contextual profiling
+________________________________________
+Text Similarity, Matching & Verification (comparing, validating, and ranking text):
+duplicate pair detection, sentence pair matching, sentence alignment, matching-verification (mv) framework, consensus verification, maximal marginal relevance (mmr), token similarity algorithm (tsa), l-rouge metric, rouge-lcs recall, vector similarity (doc2vec)
+________________________________________
+Linguistic Processing, Annotation & Pragmatics (linguistic structure and social signals):
+natural language processing (nlp), lexical analysis, linguistic analysis, linguistic inquiry and word count (liwc), orthographic), syntaxnet analysis, part-of-speech tagging, named entity recognition (ner), sentence pattern recognition, sentiment analysis, sentiment analysis (e.g., sentiment evaluation, sentistrength), politeness scoring
+________________________________________
+Preprocessing, Token & Term-Level Analysis (cleaning, tokens, and lexical statistics):
+data preprocessing, text preprocessing, text preprocessing (cleaning, preprocessing (tokenization, pre-processing (html tag removal), tokenization, stemming), stop-word removal, stopword removal), n-gram features, term extraction, term extraction using antlr4, term frequency (tf), inverse document frequency (idf), term frequency analysis (tf-idf), tf-idf, tf-idf transformation, tf-idf vectorization, term-based strategy, tag normalization, tag-term affinity scoring
+________________________________________
+Miscelleneous (applied tasks, frameworks, and transformations):
+language models (lmjm, lmdir), mallet, text classification, text mining, obsolescence reason classification, user-oriented feature extraction, concept mutation, linguistic mutation, synonym creation strategies, feature engineering (textual, formatting, glove embedding, google2vec), huffman coding
+

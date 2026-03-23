@@ -1,0 +1,20 @@
+M8: Program and Code Analysis
+
+Static Analysis, Quality & Compliance (rule-based inspection, quality, and policy checks):
+static analysis, static code analysis (cppcheck), checkstyle for readability, pmd for code reliability, code readability metrics, code violation analysis, licensing conflict analysis, analysis of non-trivial code blocks
+________________________________________
+Security, Vulnerability & CWE Analysis (security flaws and weakness classification):
+code vulnerability detection, vulnerability classification, cwe mapping, cwe tagging, findbugs for security
+________________________________________
+Code Evolution, Clones & Revisions (change and reuse analysis):
+clone detection, outdated clone analysis, code revision analysis
+________________________________________
+Program Structure, Dependencies & Slicing (structural and dependency reasoning):
+program slicing, slicing techniques, c-units inference, dependencies resolver, dependency resolution
+________________________________________
+Automated Improvement, Classification & Tooling (assistance, fixes, and categorization):
+feedback-directed compilation, feedback-driven code improvement, quick fix suggestions, code completer, code classification, code normalization, snippet sampling, findbugs for performance
+________________________________________
+Miscelleneous (specialized program analysis techniques):
+static analysis, feedback-directed compilation
+

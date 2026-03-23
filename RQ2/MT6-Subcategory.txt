@@ -1,0 +1,34 @@
+MT6: Post Popularity and Metadata
+
+Post Metadata & Structural Attributes (basic descriptive properties of the post):
+#tags, a revision number, a url number, qcreationdate, question creation date, question age, answer age, comment age, tag count, tags, tags count, number of tags, qntags
+________________________________________
+Answer Presence & Availability (whether and how answers exist):
+#ans posted before this answer, #ans posted to the question, number of answers, number of answers for the question, presence of answers, does not have any answer, presence of an accepted answer, in an accepted answer, answer no longer relevant or needed, works for me
+________________________________________
+Voting, Scores & Ratios (popularity through votes and scores):
+accepted answer score, average answer score, average question score, average favorite votes, favorite score, post score, score, posscore, negscore, score ratio, down votes, up votes, number of upvotes, number of downvotes, number of upvotes per downvote, positive/negative vote ratio for the answers given by the user, votes of question
+________________________________________
+Views, Attention & Engagement (visibility and user attention):
+view count, number of question views, average question view counts, dwell time, satisfaction, fails to attract an expert member
+________________________________________
+Comments & Review Activity (discussion and moderation signals):
+average number of comments, n. of comments posted to the answer, n. of comments posted to the question, number of comments, review count, comment score
+________________________________________
+Answer Ranking & Positioning (relative position among answers):
+reciprocal rank of the answer in the list of answers for the given question
+________________________________________
+Code, Links & Media Indicators (content elements affecting popularity):
+code snippet length, n. of code snippets, number of code snippets, number of code blocks, hyperlink count, number of links, url count, image count
+________________________________________
+Tag & Topical Signals (topic-related popularity metadata):
+tags, #tags, tag count, tags count, number of tags, qntags
+________________________________________
+Lexical Popularity Signals (word-level frequency and overlap):
+high-frequency words, number of high-frequency words, non-stop word overlap, number of non-stop word overlap
+________________________________________
+Question-Level Answer Dynamics (answer distribution statistics):
+avg answers posted per question, max answers posted per question, min answers posted per question
+
+
+

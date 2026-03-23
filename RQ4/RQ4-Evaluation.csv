@@ -1,0 +1,132 @@
+Study#,SL,Title,Year,Performance Evaluation,Statistical Test
+S1,1,Finding high-quality content in social media,2008,Cohen's Kappa (agreement); precision; recall; Area Under the ROC Curve (AUC); F1-Score;,Cohen's Kappa (agreement)
+S2,2,Evaluating and Predicting Answer Quality in Community QA,2010,5-point Likert scale; accuracy; Pseudo-R-squared; Chi-squared test; Two-tailed paired t-test;,Chi-squared test; Two-tailed paired t-test
+S3,3,Selection of the Best Answer in CQA Services,2010,logistic regression(Beta value - ?; Standard Error - S.E; Wald statistics - Wald; Significance - ?; Odds ratio - Exp(?)); Omnibus Tests of model coefficients; P-value significance;,Wald statistics; Omnibus Tests of model coefficients
+S4,4,Automatic Identification of Best Answers in Online Enquiry Communities,2012,Precision; Recall; F1-Score; Area Under the ROC Curve (AUC); feature rank (Information Gain Ratio);,
+S5,5,Predictors of High-Quality Answers,2012,Cohen’s Kappa; Log likelihood; Cox and Snell R square; Nagelkerke R square; Beta value – B; significance – p; odds ratio – Exp(B); Hosmer-Lemeshow test;,Cohen’s Kappa; Hosmer-Lemeshow test; Log likelihood;
+S6,6,Exploiting User Feedback to Learn to Rank Answers in Q&A Forums: A Case Study with Stack Overflow,2013,NDCG(Normalized Discounted Cumulative Gain)@k; infogain;,
+S7,7,Fit or Unfit: Analysis and Prediction of 'closed Questions' on Stack Overflow,2013,Pearson Correlation Coefficien; accuracy; F1 score; Area Under the ROC Curve (AUC);,
+S8,8,Answering questions about unanswered questions of Stack Overflow,2013,Precision; Recall; Binning (time categorization);,
+S9,9,A discriminative model approach for suggesting tags automatically for stack overflow questions,2013,accuracy;,
+S10,10,Analyzing question quality through intersubjectivity: world views and objective assessments of questions on social question-answering,2013,Krippendorff’s alpha (inter-coder agreement); Mean; Standard Deviation; Skewness; Kurtosis; ANOVA; Adjusted R-square;  Beta coefficients;,Krippendorff’s alpha; ANOVA
+S11,11,From bad to good: an investigation of question quality and transformation,2013,Kohen's Kappa; t-test; mean; standard deviation; Standard Error Mean;,t-test; Kohen's Kappa
+S12,12,Discovering high quality answers in community question answering archives using a hierarchy of classifiers,2014,Cohen’s kappa; accuracy; chi-squared statistic; ,Cohen’s kappa; chi-squared statistic
+S13,13,"""A Bit of Code"": How the Stack Overflow Community Creates Quality Postings",2014,answer score;,
+S14,14,Understanding and Classifying the Quality of Technical Forum Questions,2014,Precision; Average ROC; Fitness function;,
+S15,15,Chaff from the wheat : Characterization and modeling of deleted questions on Stack Overflow,2014,F1-Score; Accuracy; Area Under the ROC Curve (AUC);,
+S16,16,Questioning the Question -- Addressing the Answerability of Questions in Community Question-Answering,2014,Accuracy; Receiver Operating Characteristic (ROC)/Area Under the ROC Curve (AUC);,
+S17,17,An Insight into the Unresolved Questions at Stack Overflow,2015,precision; recall; accuracy;,
+S18,18,Evaluating Answer Quality across Knowledge Domains: Using Textual and Non-Textual Features in Social Q&A,2015,answer Score;,
+S19,19,Mining Successful Answers in Stack Overflow,2015,Precision; Recall; F1-Score; Area Under the ROC Curve (AUC); Odds ratio; Coefficient estimate;,Odds ratio; Coefficient estimate
+S20,20,Automatic assessments of code explanations: Predicting answering times on stack overflow,2015,Precision; Recall;,
+S21,21,Quality Questions Need Quality Code: Classifying Code Fragments on Stack Overflow,2015,Pearson’s correlation coefficient; accuracy;,Pearson’s correlation coefficient
+S22,22,"Utilizing Content Moderators to Investigate Critical Factors for Assessing the Quality of Answers on Brainly, Social Learning Q&A Platform for Students: A Pilot Study",2015,Mean; Standard Deviation; Mean rating (Likert scale);,
+S23,23,Predicting the quality of questions on Stackoverflow,2015,MSE; MAE; R-Square; F-statistic;,F-statistic
+S24,24,Answers or no answers: Studying question answerability in Stack Overflow,2015,"Cohen’s Kappa; mean; standard deviation; Accuracy; Omnibus test ?2;
+Hosmer–Lemeshow test ?2; Cox and Snell R^2;
+Cox and Snell incremental R^2; Na; gelkerke R^2;
+Nagelkerke incremental R^2; Odds ratio;",Cohen’s Kappa; Omnibus test ?2; Hosmer–Lemeshow test ?2; Odds ratio
+S25,25,TagCombine: Recommending Tags to Contents in Software Information Sites,2015,"Recall@K (k=5, 10);",
+S26,26,Detecting high-quality posts in community question answering sites,2015,Pearson correlation; Precision;,Pearson correlation
+S27,27,Building a parsimonious model for identifying best answers using interaction history in community Q&A,2015,accuracy; precision; recall; ROC (AUC); Krippendorff’s Alpha; InfoGain;,Krippendorff’s Alpha
+S28,28,Multi-Factor Duplicate Question Detection in Stack Overflow,2015,"recall-rate@k (k=5, 10, 20);",
+S29,29,Synonym Suggestion for Tags on Stack Overflow,2015,"top@k (k=1,3,5,10,15);",
+S30,30,CSNIPPEX: Automated Synthesis of Compilable Code Snippets from Q&A Sites,2016,compilability; Precision;,
+S31,31,Evaluating the Quality of Educational Answers in Community Question-Answering,2016,accuracy; F1-Score; ,
+S32,32,Improving the Quality of Code Snippets in Stack Overflow,2016,completeness; conciseness; correctness; understandability;,
+S33,33,Mining Duplicate Questions in Stack Overflow,2016,"recall@K (K=5, 10, 20);",
+S34,34,Predicting Questions' Scores on Stack Overflow,2016,Spearman’s Rank Correlation; R-squared; ,Spearman’s Rank Correlation
+S35,35,"Social Question Answering: Textual, User, and Network Features for Best Answer Prediction",2016,Precision@1; ,
+S36,36,Understanding Question Quality through Affective Aspect in Q&A Site,2016,Precision; recall; F1-score; Scott-Knott (feature ranking);,Scott-Knott (feature ranking)
+S37,37,Embedded Emotion-based Classification of Stack Overflow Questions Towards the Question Quality Prediction,2016,Precision; Recall; F1 score; Accuracy; Mann-Whitney U-test results;,Mann-Whitney U-test results
+S38,38,It Takes Two to Tango: Deleted Stack Overflow Question Prediction with Text and Meta Features,2016,precision; recall; F1-score;,
+S39,39,By the Community & For the Community: A Deep Learning Approach to Assist Collaborative Editing in Q&A Sites,2017,GLEU;,
+S40,40,Detecting Duplicate Posts in Programming QA Communities via Latent Semantics and Association Rules,2017,Recall; F1-Score; AUC; ,
+S41,41,Discerning the Quality of Questions in Educational Q&A using Textual Features,2017,ROC; Precision; F1-Score; Recall; Accuracy;,
+S42,42,TAGme: A Topical Folksonomy Based Collaborative Filtering for Tag Recommendation in Community Sites,2017,precision@K; recall@k; F1-score@k; Cosine similarity;,
+S43,43,Identifying Textual Features of High-Quality Questions: An Empirical Study on Stack Overflow,2017,Rank Feature (Z-Score); ,
+S44,44,Scalable tag recommendation for software information sites,2017,"Recall@k; Precision@k; F1-Score@k (k=5,10); ",
+S45,45,Towards Question Improvement on Knowledge Sharing Platforms: A Stack Overflow Case Study,2017,F1-Score; Accuracy; ROC_AUC;,
+S46,46,"Question's advisor a wizard interface to teach novice programmers how to post ""better"" questions in stack overflow",2017,agreement level;,
+S47,47,On early detection of high voted Q&A on Stack Overflow,2017,Precision; Recall; F-measure; accuracy; ROC; AUC;,
+S48,48,The best answer prediction by exploiting heterogeneous data on software development Q&A forum,2017,Precision; Recall; F-measure;,
+S49,49,Language Use Matters: Analysis of the Linguistic Structure of Question Texts Can Characterize Answerability in Quora,2017,Precision; Recall; F-measure; accuracy; ROC; AUC;,
+S50,50,Understanding Stack Overflow Code Fragments,2017,Chi-Squared test; Cramer’s V;,Chi-Squared test; Cramer’s V
+S51,51,Are Code Examples on an Online Q&A Forum Reliable? A Study of API Misuse on Stack Overflow,2018,manual validation; Relevance score; Usefulness score; Diversity score; Likert scale (1 to 5);,
+S52,52,Data-Driven Proactive Policy Assurance of Post Quality in Community Q&A Sites,2018,precision; recall; F1-score;,
+S53,53,Duplicate Detection in Programming Question Answering Communities,2018,Recall; F1-Score; AUC; ROC;,
+S54,54,Two Perspectives on Software Documentation Quality in Stack Overflow,2018,precision; recall; accuracy; ,
+S55,55,"Determinants of quality, latency, and amount of Stack Overflow answers about recent Android APIs",2018,R-square; Constant; Log Likelihood;,
+S56,56,ICSD: An Automatic System for Insecure Code Snippet Detection in Stack Overflow over Heterogeneous Information Network,2018,precision; recall; accuracy; F1-score;,
+S57,57,"EnTagRec ++: An enhanced tag recommendation system for software information sites
+",2018,"Recall@K (K= 5,10); Precision@K;",
+S58,58,Exploiting User Activities for Answer Ranking in Q&A Forums,2018,"precision@k (k=1,2); Mean Reciprocal Rank;",
+S59,59,Guiding supervised topic modeling for content based tag recommendation,2018,recall@n; ,
+S60,60,How to ask for technical help? Evidence-based guidelines for writing questions on Stack Overflow,2018,Coefficient estimate; Odds Ratio; p-value; AUC; ROC;,Odds Ratio
+S61,61,Finding and Ranking High-Quality Answers in Community Question Answering Sites,2018,precision; recall; F1- score; area under the receiver operating characteristic curve (AUC-ROC); root mean squared error; MATCHING_top10;,
+S62,62,FastTagRec: fast tag recommendation for software information sites,2018,recall@k; precision@k; F1-Score@k; manual evaluation;,
+S63,63,AnswerBot: An Answer Summary Generation Tool Based on Stack Overflow,2019,manual validation; Relevance score; Usefulness score; Diversity score; Likert scale (1 to 5);,
+S64,64,Features That Predict the Acceptability of Java and JavaScript Answers on Stack Overflow,2019,ROC curve; Random Forest Coefficient; Neural Network Coefficient; Matthews correlation coefficient;,
+S65,65,How Reliable is the Crowdsourced Knowledge of Security Implementation?,2019,,
+S66,66,Integrating Multi-Level Tag Recommendation with External Knowledge Bases for Automatic Question Answering,2019,recall@k; recall@k; Mean Reciprocal Ranking (MRR); Normalized Discounted Cumulative Gain (NDCG);,
+S67,67,SOTagRec: A Combined Tag Recommendation Approach for Stack Overflow,2019,"recall@k; precision@k (k=5,10);",
+S68,68,Towards an Accurate Prediction of the Question Quality on Stack Overflow using a Deep-Learning-Based NLP Approach,2019,precision; recall; accuracy;,
+S69,69,Detecting Duplicate Questions in Stack Overflow via Deep Learning Approaches,2019,recall-rate@5; recall-rate@10; recall-rate@20;,
+S70,70,Predicting the Timing and Quality of Responses in Online Discussion Forums,2019,AUC; RMSE;,
+S71,71,An empirical study of obsolete answers on stack overflow,2019,statistical analysis;,
+S72,72,Quality assessment of answers with user-identified criteria and data-driven features in social Q&A,2019,correlation;,
+S73,73,Assessing the quality of answers autonomously in community question-answering,2019,F1-Score; Accuracy; ROC;,
+S74,74,Code Duplication on Stack Overflow,2020,qualitative analysis; ,
+S75,75,Generating Question Titles for Stack Overflow from Mined Code Snippets,2020,BLEU-1; BLEU-2; BLEU- 3; BLEU-4; ROUGE-1; ROUGE-2; ROUGE-L; human evaluation;,
+S76,76,Large-Scale Question Tagging via Joint Question-Topic Embedding Learning,2020,"precision@k (k=5,10); recall@k; F1-score@k;",
+S77,77,Why Will My Question Be Closed? NLP-Based Pre-Submission Predictions of Question Closing Reasons on Stack Overflow,2020,precision; recall; F1-score; accuracy;,
+S78,78, Duplicate Question Detection With Deep Learning in Stack Overflow,2020,"recall@K (K=5, 10, 20);",
+S79,79,Improving Quality of a Post's Set of Answers in Stack Overflow,2020,precision; recall; F1-score; accuracy; Correctness; Conciseness; Completeness; Comprehensibility;,
+S80,80,Predicting closed questions on community question answering sites using convolutional neural network,2020,precision; recall; F1-score; Micro-receiver operating characteristic (ROC) curve;,
+S81,81,TagDC: A tag recommendation method for software information sites with a combination of deep learning and collaborative filtering,2020,"recall@k (k=5,10); precision@k; F1-Score@k;",
+S82,82,Multilayer Convolutional Neural Network to Filter Low Quality Content from Quora,2020,precision; recall; F1-score; accuracy;,
+S83,83,Understanding stack overflow code quality: A recommendation of caution,2020,Cohen’s classification (rho); ,
+S84,84,Toxic code snippets on stack overflow,2021,,
+S85,85,Are Comments on Stack Overflow Well Organized for Easy Retrieval by Developers?,2021,precision@5; recall@5; Cosine similarity; Accuracy; AUC;,
+S86,86,Early Detection and Guidelines to Improve Unanswered Questions on Stack Overflow,2021,precision; recall; F1-score; accuracy;,
+S87,87,Quantifying Human-Perceived Answer Utility in Non-Factoid Question Answering,2021,"Statistical analysis (mean, standard deviation); ROUGE; BLEU; METEOR; BERTScore; Fisher’s z-transformation;",Fisher’s z-transformation
+S88,88,Technical Q&A Site Answer Recommendation via Question Boosting,2021,precision@k (k=1-4); Discounted Cumulative Gain -DCG@k (k=2-5); Matching score; User study;,
+S89,89,Contextual Profiling of Stack Overflow Java Code Security Vulnerabilities Initial Insights from a Pilot Study,2021,N/A,
+S90,90,Detecting Duplicate Questions in Stack Overflow via Semantic and Relevance Approaches,2021,Precision; Recall; F1-score; Accuracy;,
+S91,91,Rollback Edit Inconsistencies in Developer Forum,2021,precision; recall; F1-score; accuracy;,
+S92,92,Characterization and Prediction of Questions without Accepted Answers on Stack Overflow,2021,AUC;,
+S93,93,Beyond Relevance: Trustworthy Answer Selection via Consensus Verification,2021,precision@1; Mean Reciprocal Rank(MRR);,
+S94,94,Recency and quality-based ranking question in CQAs: A Stack Overflow case study,2021,"Normalized Cumulative Gain Discount (NDCC@k, K=1-10); Precision; Recall; F-Score;",
+S95,95,How to Formulate Specific How-to Questions in Software Development?,2022,qualitative analysis; ,
+S96,96,PTM4Tag: Sharpening Tag Recommendation of Stack Overflow Posts with Pre-Trained Models,2022,precision@K; recall@k; F1-score@k;,
+S97,97,A Study of C/C++ Code Weaknesses on Stack Overflow,2022,,
+S98,98,An Empirical Study of C++ Vulnerabilities in Crowd-Sourced Code Examples,2022,Precision; Recall; F1-score; Accuracy;,
+S99,99,Ask It Right! Identifying Low-Quality questions on Community Question Answering Services,2022,precision; recall; F1-score; Kaplan-Meier estimator;,Kaplan-Meier estimator
+S100,100,Generating High Quality Titles in StackOverflow via Data Denoising Method,2022,BLEU score; ROUGE score;,
+S101,101,Predicting Rollback Edits on Stack Overflow Based on Deep Fusion of Metadata and Text,2022,precision; recall; F1-score; AUC-ROC;,
+S102,102,SOTitle: A Transformer-based Post Title Generation Approach for Stack Overflow,2022,ROUGE; Human Evaluation; BLEU; METEOR; ,
+S103,103,Is this question going to be closed? Answering question closibility on Stack Exchange,2022,precision; recall; F1-score; AUC;,
+S104,104,Improving Stack Overflow question title generation with copying enhanced CodeBERT model and bi-modal information,2022,BLEUS-4; ROUGE-1; ROUGE-2; ROUGE-L;,
+S105,105,Analyzing Techniques for Duplicate Question Detection on Q&A Websites for Game Developers,2022,,
+S106,106,The reproducibility of programming-related issues in Stack Overflow questions,2022,Chi-Squared test; Mann-Whitney-Wilcoxon test; Cliff’s delta;,Chi-Squared test; Mann-Whitney-Wilcoxon test
+S107,107,Studying the Long-Term Value Answers on Stack Overflow,2022,AUC; ,
+S108,108,Towards Quality Improvement and Prediction of Closed Questions on Stack Overflow,2022,precision; recall; F1-score; accuracy; Multi-class log loss (MLL);,
+S109,109,Context-Aware Answer Selection in Community Question Answering Exploiting Spatial Temporal Bidirectional Long Short-Term Memory,2023,mean average precision (MAP); mean reciprocal rank (MRR); accuracy; precision; recall; F1 measure;,
+S110,110,A novel hybrid CNN-LSTM approach for assessing Stack Overflow post quality,2023,Precision; Recall; F1 score; Accuracy; Mann-Whitney U-test results;,
+S111,111,Diverse title generation for Stack Overflow posts with multiple-sampling-enhanced transformer,2023,BLEUS-4; ROUGE-1; ROUGE-2; ROUGE-L;,
+S112,112,Dual-interactive fusion for code-mixed deep representation learning in tag recommendation,2023,recall@k; precision@k; F1-score@k;,
+S113,113,KEIC: A Tag Recommendation Framework with Knowledge Enhancement and Interclass Correlation,2023,precision@K; recall@k; F1-score@k; PSP (Propensity Scored Precision); nDCG (normalized Discounted Cumulative Gain);,
+S114,114,Textual tag recommendation with multi-tag topical attention,2023,precision@K; recall@k; F1-score@k; Cross-entropy loss;,
+S115,115,Duplicate Quora Questions Pair Detection using Siamese Bert and Ma-LSTM,2023,accuracy; precision; recall; F1-score;,
+S116,116,Predicting answer acceptability for question-answering system,2023,precision; recall; F1-score; accuracy; AUC-ROC;,
+S117,117,Automatic prediction of rejected edits in Stack Overflow,2023,precision; recall; F1-score; accuracy; NASA TLX for workload;,
+S118,118,Automated Question Title Reformulation by Mining Modification Logs From Stack Overflow,2023,Bilingual Evaluation Understudy (BLEU); Recall-Oriented Understudy for Gisting Evaluation (ROUGE-L); consensus-based image description evaluation (CIDER); Exact Match (EM); General Language Evaluation Understanding (GLEU); Mean Reciprocal Rank (MRR); ,
+S119,119,Is Stack Overflow Obsolete? An Empirical Study of the Characteristics of ChatGPT Answers to Stack Overflow Questions,2024,"Fleiss’s Kappa (agreement); relative differences (RD); t-test (paired, Welch); ","Fleiss’s Kappa (agreement); t-test (paired, Welch); "
+S120,120,Identifying Smart Contract Security Issues in Code Snippets from Stack Overflow,2024,precision; recall; F1-score;,
+S121,121,Can We Identify Stack Overflow Questions Requiring Code Snippets? Investigating the Cause & Effect of Missing Code Snippets,2024,Cohen’s Kappa (agreement); precision; recall; F1-score; accuracy; Chi-Squared test; Mann-Whitney-Wilcoxon test; Cliff’s Delta test; ,Cohen’s Kappa (agreement); Chi-Squared test; Mann-Whitney-Wilcoxon test; Cliff’s Delta test; 
+S122,122,AUTOGENICS: Automated Generation of Context-Aware Inline Comments for Code Snippets on Programming Q&A Sites Using LLM,2024,Cohen’s Kappa (agreement);,Cohen’s Kappa (agreement);
+S123,123,"Reproducibility of issues reported in stack overflow questions: Challenges, impact & estimation",2024,precision; recall; F1-score; accuracy;,
+S124,124,PTM4Tag+: Tag recommendation of stack overflow posts with pre-trained models,2024,Precision@k; Recall@k; F1-score@k;,
+S125,125,Towards Better Answers: Automated Stack Overflow Post Updating,2025,precision; recall; F1-score; exact match (EM); ,
+S126,126,Does Editing Improve Answer Quality on Stack Overflow? A Data-Driven  Investigation,2025,Mann-Whitney-Wilcoxon test; Cliff’s Delta;,Mann-Whitney-Wilcoxon test; Cliff’s Delta;
+S127,127,Detecting question relatedness in programming Q&A communities via bimodal feature fusion,2025,Macro-Precision; Macro-Recall; Macro-F1;,

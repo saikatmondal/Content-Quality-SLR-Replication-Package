@@ -1,0 +1,31 @@
+MT9: Affect and Sentiment Analysis
+
+Overall Sentiment & Polarity (global emotional orientation of the text):
+sentiment, sentiment analysis, sentiment polarity, sentiment score, sentiscore, polarity (negative, positive), text polarity, title polarity, neutral
+________________________________________
+Positive Affect & Politeness (constructive and socially positive emotions):
+positive emotion, positive sentiment, positive sentence count, gratitude, be polite, greetings, humor, friends
+________________________________________
+Negative Affect & Emotional Distress (negative emotions and hostility):
+negative emotion, negative sentiment, negative sentence count, anger, anxiety, sadness
+________________________________________
+Neutral Emotional Tone (emotionally balanced or factual tone):
+neutral sentence count
+________________________________________
+Social & Interpersonal Signals (social orientation and interaction cues):
+social process, liwc score of social words, humans, answerer's attitude
+________________________________________
+Cognitive & Psychological Processes (mental and reasoning-related affect):
+cognitive processes, tentative, cause, biological processes
+________________________________________
+Sensitivity, Taboo & Explicit Content (socially sensitive language):
+sexual, number of taboo words, presence of taboo words
+________________________________________
+Health & Well-being References (health-related affective signals):
+health
+________________________________________
+Preference, Taste & Subjective Expression (personal preference indicators):
+taste
+
+
+

@@ -1,0 +1,17 @@
+M6: Relevance, Ranking, and Evaluation
+
+Relevance & Similarity Measurement (matching and relevance estimation):
+relevance matching, relevance features (bm25), semantic matching, similarity matching, cosine similarity, cross-domain comparison, tag-content relevance
+________________________________________
+Ranking Algorithms & Models (explicit ranking and ordering methods):
+bm25 ranking function, bm25 scoring function, ranking algorithm (pagerank), hits algorithm, svmrank, tag ranking, topic-guided tag ranker
+________________________________________
+Learning-to-Rank & Ranking Components (ML-based ranking frameworks):
+learning to rank (l2r), learning-to-rank (l2r) approach, learning-to-rank algorithms, multi-label ranking component, similarity-based ranking component, multi-tag topical attention mechanism
+________________________________________
+Feature Importance & Evaluation-Oriented Ranking (analysis and comparison of ranking factors):
+feature ranking, feature importance ranking, learning algorithm comparison
+________________________________________
+Miscelleneous (ranking-related elements not fitting other groups):
+tag ranking, topic-guided tag ranker
+

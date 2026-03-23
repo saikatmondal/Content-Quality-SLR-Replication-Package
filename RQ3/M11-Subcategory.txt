@@ -1,0 +1,11 @@
+M11: Miscellaneous
+
+Evaluation Protocols & Validation Strategies (model evaluation and robustness checks):
+10-fold cross-validation, cross-validation, k-fold cross-validation, ablation study
+________________________________________
+Platform & Incentive Analysis (community mechanisms and incentives):
+bounty analysis
+________________________________________
+Tools & Utilities (supporting tools and environments):
+prompter tool, weka tool
+

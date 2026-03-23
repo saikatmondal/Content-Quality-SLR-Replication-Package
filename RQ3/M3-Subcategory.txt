@@ -1,0 +1,17 @@
+M3: Qualitative Analysis
+
+Manual & Expert-Driven Evaluation (human judgment and expert inspection):
+expert evaluation, expert judgment, human assessments (e.g., human expert assessments, human quality ratings, human rating (e.g., human rating on quality, manual code review, manual inspection, manual validation, usability testing
+________________________________________
+Qualitative Coding & Content Analysis (systematic interpretation and coding of content):
+qualitative analysis, qualitative assessment, qualitative coding, qualitative content analysis, qualitative study, content analysis, inductive analysis, likert scale), likert-based coding, typology-based evaluation, psycholinguistic analysis
+________________________________________
+Annotation, Labeling & Ground Truth Creation (human-generated reference data):
+manual annotation, manual labeling, ground truth creation, mechanical turk)
+________________________________________
+Community, Editing & Feedback-Oriented Analysis (collaborative and social processes):
+collaborative editing analysis, community feedback analysis, empirical study of edits, qualitative analysis of snippets, open-discussion evaluation
+________________________________________
+User-Centered Studies & Surveys (participant-based qualitative inquiry):
+user study, user survey, open-ended questions, user background knowledge analysis, manual case studies, manual tag analysis
+

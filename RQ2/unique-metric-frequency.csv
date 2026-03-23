@@ -1,0 +1,1328 @@
+Metric Name,Frequency
+# alphabetical characters in body field,1
+# characters in body field,1
+# characters in title field,1
+# conjunctions,1
+# digit characters in body field,1
+# function words,1
+# lower case characters in body field,1
+# of answerer’s previous answers at answer creation time,1
+# of answers received in one hour after question creation,1
+# of comments received in one hour after question creation,2
+# of questioner’s previous questions at question creation time,1
+# prepositions,1
+# previous answers,1
+# previous answers with 0 scores,1
+# previous answers with negative scores,1
+# previous answers with positive scores,1
+# previous badges,1
+# previous questions,1
+# previous questions with 0 scores,1
+# previous questions with negative scores,1
+# previous questions with positive scores,1
+# punctuation marks in body field,1
+# short words in body field,1
+# special characters in body field,1
+# tags,1
+# unique words in body field,1
+# upper case characters in body field,1
+# urls,1
+# white case characters in body field,1
+# words in body field,1
+# words in title field,1
+#(answer chars),1
+#(answer union words),1
+#(answer words),1
+#(a-topics),1
+#(a-topics) #(q-topics) / #(a-topics),1
+#(a-topics) * #(q-topics),1
+#(a-topics) / #(answer body),1
+#(c-topics) / (#(a-topics) + #(q-topics) - #(c-topics)),1
+#(question body) / (#(answer body) ? #(word list)),1
+#(question body) / tf-body,1
+#(title) / (#(answer body) ? #(word list)),1
+#(title) / tf-title,1
+#ans posted before this answer,2
+#ans posted to the question,2
+#sug approved by the answer author,1
+#sug approved by the asker,1
+#sug rejected by the answer author,1
+#sug rejected by the asker,1
+#sug to the answer,1
+#sug to the question,1
+(# previous answers)/(age of account),1
+(# previous questions)/(age of account),1
+“error”/“not working” in title,1
+1st person plural,1
+1st person singular,1
+2nd person,1
+3rd person plural,1
+3rd person singular,1
+a body length,1
+a code length,1
+a code percentage,1
+a duplicate question,1
+a revision number,1
+a url number,1
+a_best_answers,1
+a_level,1
+a_questions_asked,1
+a_questions_resolved,1
+a_stars),1
+a_total_answers,1
+abodycharsofcode,1
+abodynwords,1
+abodyurlcount,1
+accepted answer count,1
+accepted answer ratio,1
+accepted answer score,1
+accepted by originator votes,1
+access control (ac),1
+account age,1
+accuracy,5
+accuracy (linguistic errors (reverse-coded)),1
+addedcodelines,1
+addedtextlines,1
+adequacy,1
+adjective,2
+adjectives,2
+adverbs,1
+afternoon,1
+age,1
+age of account,3
+agreement,1
+ak mean/median/sum - qn upvote,1
+ak mean/sum/median an upvote,1
+ak number answer,1
+ak number question,1
+ambiguity,2
+amec,1
+amount of unique information,1
+an number answer,1
+an number question,1
+an total/median/max - a upvote,1
+an total/median/max - q upvote,1
+and character count),1
+and verbs in the answer which did not appear on the question,1
+anger,1
+answer (words),1
+answer age,2
+answer age/day,1
+answer badge count,1
+answer badges count,1
+answer code to text ratio,1
+answer count,2
+answer flesch reading ease,1
+answer images,1
+answer length,2
+answer listing,1
+answer no longer relevant or needed,1
+answer question ratio,1
+answer quotes,1
+answer ratio,1
+answer rejection ratio,1
+answer score,1
+answer-answer similarity,1
+answer-echo-question,1
+answerer authority,1
+answerer’s points,1
+answerer’s reputation at answer creation time,1
+answerer’s user history (answers answered,1
+answerer's attitude,1
+answerer's effort,1
+answerer's experience,1
+answerer's expertise,1
+answer-include-code,1
+answering their own question,1
+answering time prediction model features,1
+answers entropy,1
+answers provided,1
+answers ratio,1
+answers to age of account ratio,1
+answitches,1
+anxiety,1
+aownerreputation,1
+apidifftime,1
+approve edit vote count,1
+approved edit suggestion,1
+ari,1
+arithmetic issues (ai),1
+articles,1
+asker authority,1
+asker score,1
+asker’s points,1
+asker’s user history (questions asked,1
+asking time (day of the week),1
+asking time (hour),1
+association feature,1
+association score (ass),1
+asymmetric - key,1
+automated readability index,2
+automated readability index of the question,1
+automated reading index,2
+average answer score,1
+average body word length,1
+average cc of friends,1
+average cc of friends (cc_adj),1
+average code length,1
+average degree of neighborhood,1
+average degree of neighborhood (deg_adj),1
+average favorite votes,3
+average length of comments posted to the answer,1
+average length of quoted text,1
+average length of words in body field,2
+average n. of edits per user,2
+average number of accepted answers,2
+average number of answers per posted question,1
+average number of code lines per code snippet,1
+average number of comments,1
+average number of comments per posted answer,1
+average number of comments per posted question,1
+average number of comments received,1
+average number of down votes per posted answer,1
+average number of up votes per posted answer,1
+average paragraph length,1
+average question score,2
+average question view counts,2
+average quoted text length,1
+average rank position for posted answers,1
+average relation scores of title words and answers,1
+average score for previous answers,1
+average score for previous questions,1
+average section length,1
+average sentence length,1
+average term entropy,1
+average terms entropy,1
+average title word length,1
+average unique words per sentence,1
+average view counts for previous questions,1
+average word length,1
+average words length in characters,1
+average words length in syllables,1
+average words per sentence,1
+averagewords,1
+avg answers posted per question,1
+avg n. of answers posted in the categories of t,1
+avg n. of comments per answer,1
+avg n. of comments per question,1
+avg n. of questions posted in the categories of t,1
+avg rank position in racat,1
+avg rank position in rqcat,1
+avg rank position in rracat,1
+avg rank position in rrqcat,1
+avg rating received in the categories of t,1
+avg tag quality,1
+avgparalen,1
+avgsntclen,1
+avgwordlen,1
+avoiding a large amount of code,1
+avoiding creating duplicate questions,1
+avoiding description with only code,1
+bad randomness (br),1
+badge score,2
+badges-tags coverage,1
+be polite,1
+before 2 days and after 2 days),1
+best answers answered),1
+best answers ratio,1
+bigram,1
+biological processes,1
+blank lines (avg),1
+bm25,1
+bm25 ranking function,2
+bm25 with lemmas,1
+body,1
+body avg sentence in words,1
+body avg word in characters,1
+body length,3
+body sentence count,1
+body text length,1
+body word count,1
+bounty close vote count,1
+bounty end votes,1
+bounty start vote count,1
+bounty start votes,1
+brackets per line (avg),1
+brevity,1
+buggy code,1
+by another answerer,1
+by answerer,1
+by asker,1
+by commenter,1
+by insider,1
+by outsider,1
+capital letters divided by all characters,1
+capital title,1
+capitalization,2
+cause,1
+changes,1
+chebyshev distance by pca,1
+clarification,1
+clarity,2
+close vote count,1
+close votes,1
+clustering coefficient in friendship network,1
+clustering coefficient in friendship network (cc),1
+clutter,1
+code complexity,1
+code errors,1
+code format,1
+code length standard deviation,1
+code optimization,1
+code readability,1
+code snippet,1
+code snippet length,3
+code snippets,3
+code snippets length in characters,1
+code usability,1
+code-contain-keyword question-have-code,1
+code-text ratio,1
+code-text-ratio,1
+coding inconsistency,1
+cognitive processes,2
+coherence between question description and title,1
+coherence between title and description,1
+coherent,1
+coleman liau,1
+coleman liau index,2
+coleman-liau index,2
+combining links content,1
+comment age,1
+comment count,1
+comment length,1
+comment score,1
+commenter reputation,1
+commentlength,1
+common weakness enumeration (cwe),2
+comparisons (avg),1
+compatibility,1
+competitors,1
+compilability,2
+complete change of post,1
+completeness,10
+complex,2
+complexity (reverse-coded),1
+complexwords,1
+comprehensibility,1
+comprehensiveness,1
+comprehensiveness (comprehensive,1
+conceptual errors,1
+conceptual inconsistency,1
+conciseness,5
+conciseness (redundant,1
+conjunctions,1
+connectivity network,1
+consistency (factual inconsistency,1
+containment (containment-n-g),1
+content length,1
+content present,1
+content starts with an interrogative word,2
+correctness,4
+correctness (factual errors,1
+correlation,2
+cosine distance (cosine-n-g),1
+cosine similarity,1
+cosine similarity between subject and content,2
+cosine similarity by pca,1
+cosine similarity value,2
+count of punctuation marks,1
+counts of “to-be” verbs,1
+counts of “to-be” verbs (t_bvc),1
+counts of answer age/day (r_aage),1
+counts of answers posted by a user,1
+counts of answers posted by a user (u_ac),1
+counts of auxiliary verbs,1
+counts of auxiliary verbs (t_avc),1
+counts of comments an answer received,1
+counts of comments an answer received (r_cc),1
+counts of comments posted by a user,1
+counts of comments posted by a user (u_cc),1
+counts of conjunctions,1
+counts of conjunctions (t_cc),1
+counts of external links,1
+counts of external links (s_elc),1
+counts of images,1
+counts of internal links (to other questions/answers in the site),1
+counts of internal links (to other questions/answers in the site) (s_ilc),1
+counts of interrogative pronouns,1
+counts of interrogative pronouns (t_ipc),1
+counts of merit badges,1
+counts of merit badges (u_mbc),1
+counts of nominalization,1
+counts of nominalizations (t_nc),1
+counts of paragraphs,1
+counts of passive voice sentences,1
+counts of passive voice sentences (t_pvc),1
+counts of prepositions,1
+counts of prepositions (t_prc),1
+counts of pronouns,1
+counts of pronouns (t_pc),1
+counts of questions posted by a user,1
+counts of questions posted by a user (u_qc),1
+counts of revision (r_rc),1
+counts of revisions,1
+counts of sentences,1
+counts of sentences (l-sc),1
+counts of subordinating conjunctions,1
+counts of subordinating conjunctions (t_scc),1
+counts of suggested edits made by a user,1
+counts of suggested edits made by a user (u_ec),1
+counts of user points,1
+counts of user points (u_point),1
+counts of words,1
+counts of words (l-wc),1
+course project or homework question,1
+credentials,1
+dale challe reading score,2
+dale-chall readability score,1
+dale–chall readability score,1
+day of week,1
+day of week - {weekend,1
+deface post,1
+defunct tags,1
+delay in getting accepted answers,1
+deletedcodelines,1
+deletedtextlines,1
+deletion vote count,1
+deletion votes,1
+denial of service (dos),1
+denser betweenness centrality,1
+denser closeness centrality,1
+denser resource allocation index,1
+density of lemmas,1
+deprecation note,1
+derived role (number of answers per question),1
+description (words),1
+description code to text ratio,1
+description flesch reading ease,1
+description images,1
+description length in words,1
+description listing,1
+description quotes,1
+description similarity,1
+detail,1
+details,1
+difference between the timestamp of when the answer was chosen as best answer by the asker and the timestamp of when the question was posted,1
+difference between the timestamp of when the answerer’s answer was posted and when the question was posted,1
+different number of solutions),1
+difficult words,4
+digital signature,1
+dirichlet prior smoothing,1
+divergence from randomness similarity,1
+diversity,2
+do not create homework questions,1
+doc2vec vector similarity (vs),1
+does not have any answer,1
+does the answer contain source code? (yes/no),1
+does the question contain source code? (yes/no),1
+domain,1
+down vote count,1
+down votes,1
+downvotes,1
+dp_create_classloader_inside_do_privileged,1
+drives attributes,1
+duplicate,2
+duplicate/clone,1
+duplication,1
+duplication note,1
+duration to answer,1
+duration to answer (time_to_answer),1
+dwell time,1
+earned analytical badge,1
+earned autobiographer badge,1
+earned commentator badge,1
+earned curious badge,1
+earned custodian badge,1
+earned editor badge,1
+earned enthusiast badge,1
+earned famous question badge,1
+earned good answer badge,1
+earned informed badge,1
+earned necromancer badge,1
+earned nice answer badge,1
+earned notable question badge,1
+earned popular question badge,1
+earned scholar badge,1
+earned student badge,1
+earned supporter badge,1
+earned teacher badge,1
+earned tumbleweed badge,1
+earned yearling badge,1
+edit distance between subject and content,2
+ei_expose_rep,1
+emails count,1
+emphtexts,1
+entity overlap,1
+entity type overlap,1
+entropy,6
+entropy of subject and content,2
+entropy of the text word sizes,1
+entropy of the vector constructed by counting the number of answers in each category,1
+entropy of the vector constructed by counting the number of questions in each category,1
+entropy of word lengths,1
+errors,1
+euclidean distance by pca,1
+evening,1
+example/code,1
+exception handling,1
+excess information),1
+excessive information,1
+expertise,2
+explanation,1
+f.added,1
+f.bounty,1
+f.qqualitylabelgood,1
+factuality,1
+fails to attract an expert member,1
+fair,1
+favorite score,1
+favorite vote count,1
+favorite votes,1
+favourite count,1
+fixes,1
+flesch,2
+flesch kincaid,1
+flesch kincaid grade level,2
+flesch reading ease,4
+flesch reading ease score,2
+flesch reading ease score of the answer (fres),1
+flesch reading score,2
+flesch-kincaid grade level,1
+flesch-kincaid),1
+flesch-kinkaid grade level,1
+focus adjective,1
+focus type,1
+fog scale determines,1
+forcast,1
+format of the answer (well_format),1
+formatting,2
+friends,1
+front running (fr),1
+function words,1
+getters,1
+grade level of users,1
+grammar,1
+gratitude,1
+greetings,1
+gunning fox index,2
+gunningfog,1
+gunning-fog index,1
+has list (“<li>” in body),1
+has quote (“<quote>” in body),1
+has wh-word in title,1
+hasbadgearchaeologist,1
+hasbadgecopyeditor,1
+hasbadgestrunkwhite,1
+hasclarifyexplain,1
+hascode,1
+hasfixingimproving,1
+hasformatting,1
+hash - pbkdf,1
+haslinkimage,1
+hastypogrammarspelling,1
+health,1
+helpfulness,2
+high-frequency words,1
+highlighting,1
+hits authority of the user in the arn,1
+hour of day,1
+humans,1
+humor,1
+hypergeometric distribution d (hdd)),1
+hyperlink count,1
+hyperlink modification,1
+idf-body,1
+idf-title,1
+image,1
+image count,2
+image revision,1
+impatient,1
+impersonal pronoun,1
+in an accepted answer,1
+inactive hyperlink,1
+inappropriate,2
+including links in the question,1
+inclusion of external library,1
+inclusion of native library,1
+inclusion of references with the answer,1
+incomplete,1
+inconsistency,1
+inconsistent,2
+incorrect guard condition,1
+incorrect solutions,1
+indegree of the user in the arn,1
+indentation,1
+indentation (avg),1
+indentation (max),1
+informal attributes),1
+information,1
+information from the answerer’s profile (a_points,1
+information from the asker’s profile (q_points,1
+information to noise,1
+informativeness,4
+initialization vector (iv),1
+interestingness,1
+interrogative words,1
+invalid keywords (avg),1
+irregular or inconsiderate members,1
+irrelevant,1
+is title an interrogative sentence,1
+italic plus bold tag count,1
+jaccard index of lemmas,1
+jelinek-mercer smoothing,1
+key,1
+keywords (avg),1
+keywords (max),1
+kld(good answers of same category),1
+kld(good answers),1
+kld(wikipedia discussion pages),1
+"kld(wikipedia pages classified as ""good"")",1
+kl-divergence,1
+lack of information,3
+language modeling with lemmas,1
+largest distance between two words that appear in answer and question,1
+largest distance between two words that appear in answer and questions,1
+last access delay,1
+length,5
+length (# characters),1
+length features (word,1
+length of a title,1
+length of answer,1
+length of code snippet,1
+length of the answer (length),1
+length of the answer’s content,1
+length of the body of a question,1
+length of the code,1
+length of the post,1
+length of the question body,1
+length of the question title,1
+length of the question’s content,1
+length of the question’s subject,1
+length of the resume (in characters),1
+letters,1
+lex diversity,3
+lexical diversity (maas,1
+license violation,1
+licensing conflicts,1
+line of code (loc),1
+lines (avg),1
+lines of code,1
+linguistic characteristics (linguistic styles,1
+linguistic errors (reverse-coded),1
+links,2
+list count,1
+lists,1
+liwc score of cognitive process words,1
+liwc score of conjunctions,1
+liwc score of function words,1
+liwc score of inclusive words,1
+liwc score of personal pronouns,1
+liwc score of prepositions,1
+liwc score of pronouns,1
+liwc score of relativity words,1
+liwc score of social words,1
+liwc score of space words,1
+lix score,1
+loc,1
+loc percentage,1
+long words,1
+longer letter words,2
+loops,1
+lower-case,1
+lowercase percentage,2
+l-rouge,1
+machine translation of lemmas,1
+main verb,1
+maintainability/readability,1
+max answers posted per question,1
+max expert ratio,1
+max n. of answers posted in the categories of t,1
+max n. of comments per answer,1
+max n. of comments per question,1
+max n. of questions posted in the categories of t,1
+max problem rate,1
+max rank position in racat,1
+max rank position in rqcat,1
+max rank position in rracat,1
+max rank position in rrqcat,1
+max rating received in the categories of t,1
+max tag quality,1
+maximum code length,1
+maximum length of quoted text,1
+maximum number of comments in one comment session,1
+maximum quoted text length,1
+maximum relation scores of title words and answers,1
+maximum section length,1
+measure of textual lexical diversity (mtld),1
+median response time,1
+membership duration,1
+membership duration in years,1
+methods,1
+metric entropy,2
+min answers posted per question,1
+min n. of answers posted in the categories of t,1
+min n. of comments per answer,1
+min n. of comments per question,1
+min n. of questions posted in the categories of t,1
+min rank position in racat,1
+min rank position in rqcat,1
+min rank position in rracat,1
+min rank position in rrqcat,1
+min rating received in the categories of t,1
+min tag quality,1
+minimum code length,1
+minimum length of quoted text,1
+minimum quoted text length,1
+minimum section length,1
+mismatched solutions,1
+missing exception handling,1
+missing finally,1
+missing if checks,1
+missing or incorrect order of api calls,1
+misspelledwords,1
+moderator review vote count,1
+moderator review votes,1
+modifications,1
+monolingual word translation,1
+ms_expose_rep,1
+ms_final_pkgprotect,1
+ms_pkgprotect,1
+ms_should_be_final,1
+n. of auxiliary verbs,1
+n. of capitalization errors,1
+n. of categories user is a top-3 answerer,1
+n. of categories user is a top-3 asker,1
+n. of code snippets,1
+n. of comments posted to answers and questions,1
+n. of comments posted to the answer,1
+n. of comments posted to the question,1
+n. of days since last access,1
+n. of days since register,1
+n. of edits made on answers,1
+n. of interactions with other forum users,1
+n. of links to external sources,1
+n. of links to other query/answer in the forum,1
+n. of list items in the text,1
+n. of lists,1
+n. of merit badges,1
+n. of nominalizations,1
+n. of passive voice sentences,1
+n. of posted answers,1
+n. of posted questions,1
+n. of posted questions already solved,1
+n. of prepositions,1
+n. of pronouns,1
+n. of questions,1
+n. of quoted blocks,1
+n. of suggested edits,1
+n. of suggested edits approved,1
+n. of suggested edits rejected,1
+n. of typos,1
+n. of users who commented the answer,1
+n. of users who edit the answer,1
+n. of users who suggested edits to an ans. or qst.,1
+"n. of uses of verb ""to be""",1
+n. of words capitalized,1
+n. of words not in wordnet,1
+n. of words that are conjunctions,1
+naming,1
+naturalness,1
+negation,1
+negative emotion,1
+negative sentence count,1
+negative sentiment,2
+negative votes received),1
+negscore,1
+net answer votes,1
+net question votes,1
+neutral,1
+neutral sentence count,1
+n-grams,1
+night},1
+no. of modifications,1
+non-stop word overlap,1
+normalised activity entropy,1
+normalised topic entropy,1
+not a question for so,1
+not a real question,1
+not clear,1
+not comprehensive),1
+noun,2
+nouns,3
+nouns & verbs,1
+novelty,1
+number of (not deleted) questions asked by the user,1
+number of <strong> tags,1
+number of accepted answers on different domains,1
+number of accepted answers on same domain,1
+number of adjectives present in the answer but not in the question,1
+number of alphabetical characters in body,1
+number of answers,3
+number of answers for the question,1
+number of answers given,1
+number of answers given by the user,1
+number of asker’s accepted answers,1
+number of asker’s answers,1
+number of asker’s questions,1
+number of best answers,1
+number of capitalization violations (no capital letter after sentence mark),1
+number of capitalized words,1
+number of characters,1
+number of characters / number of words / number of sentences,1
+number of characters in the text,1
+number of characters in title,1
+number of code blocks,1
+number of code lines,1
+number of code snippets,2
+number of comments,2
+number of comments for the question,1
+number of comments of all submitted answers one hour after question posted,1
+number of comments of question one hour after question creation,1
+number of comments posted by the answerer,1
+number of comments posted to answers,1
+number of comments posted to questions,1
+number of comments posted to the answer,1
+number of complex words,3
+number of complex words divided by all words,1
+number of digit characters in body,1
+number of distinct interactions between the asker and answerer,1
+number of downvotes,1
+number of down-votes that user received (down_votes),1
+number of downvotes to posted answers got from other users,1
+number of flagged answers,1
+number of flags given by the user,1
+number of friends in community,1
+number of friends in community (friends_count),1
+number of high-frequency words,1
+number of identifiers,1
+number of images in the text,1
+number of interrogative words,1
+number of links,1
+number of links in a question,1
+number of links in the text,1
+number of links to external sources,1
+number of links to other questions/answers in the same forum,1
+number of links/url,1
+number of list items in the text,1
+number of lists in the text,1
+number of long sentences,1
+number of lower case characters,1
+number of lower case characters in body,1
+number of misspelled words,3
+number of negative votes received,1
+number of neighbors in ego network (ego_adj),1
+number of neighbors in ego-network,1
+number of new adjectives,1
+number of non-stop word overlap,1
+number of non-stop words (a-nonstopw) in answer,1
+number of nouns in answer (a-nouns),1
+number of nouns in question (q-nouns),1
+number of nouns present in the answer but not in the question,1
+number of one-letter words,1
+number of outgoing edges in ego network (ego_out),1
+number of outgoing edges in ego-network,1
+number of paragraphs,1
+number of paragraphs in the text,1
+number of popular tags,1
+number of positive votes on different domain answers,1
+number of positive votes on same domain answers,1
+number of positive votes received,1
+number of posted answers,1
+number of posted answers selected as the best answer,1
+number of posted questions,1
+number of previous answers,1
+number of previous answers of answerer,1
+number of previous badges,1
+number of previous questions,1
+number of previous questions of questioner,1
+number of previous questions of questioner with accepted answer,1
+number of previous tags,1
+number of punctuation marks,2
+number of punctuation marks in body,1
+number of punctuation violations (lack or redundancy),1
+number of question marks,2
+number of question views,1
+number of questions,4
+number of questions asked,1
+number of quoted blocks in the text,1
+number of quotes,1
+number of sentences,2
+number of sentences / number of words,1
+number of sentences in answer (a-sentences),1
+number of sentences in the text,1
+number of sentences shared by question and answer,2
+number of short sentences,1
+number of short words,1
+number of short words in body,1
+number of spam reports that user received,1
+number of special characters,2
+number of special characters in body,1
+number of stack overflow urls,1
+number of stop words (a-stopw),1
+number of submitted answers one hour after question posted,1
+number of taboo words,1
+number of tags,4
+number of thanks that user received,1
+number of topics in which user post answers,1
+number of topics in which user post comments,1
+number of topics in which user post questions,1
+number of two-letter words,1
+number of unique words,1
+number of unique words in body,1
+number of unique words in the answer,1
+number of upper case characters,1
+number of upper case characters in body,1
+number of upvotes,1
+number of upvotes per downvote,1
+number of up-votes that user received (up_votes),1
+number of upvotes to posted answers got from other users,1
+number of urls,5
+number of users who commented the answer,1
+number of verbs in answer (a-verbs),1
+number of verbs in question (q-verbs),1
+number of verbs present in the answer but not in the question,1
+number of warnings that user received,1
+number of white case characters in body,1
+number of whitespace violations (lack or redundancy),1
+number of whitespaces,1
+number of words,2
+number of words in body,1
+number of words in the text,1
+number of words in title,1
+number of words shared by question and answer,2
+number of words which appear in answer and question in the same order,1
+number of words which appear in question and answer in the same order,1
+numbers (avg),1
+numcharacters,1
+numquestions,1
+numsentences,1
+numwords,1
+objectivity,4
+obsolete,1
+offensive vote count,1
+offensive votes,1
+off-topic,5
+one letter words,2
+open,2
+opinion based,1
+opinion-based,2
+or hard to follow,1
+organization,1
+originality,3
+orthographic,1
+outdated solutions,1
+out-of-vocabulary words,1
+overlap of concatenations of lemmas and pos tags,1
+overlap of lemma bigrams,1
+overlap of lemma trigrams,1
+overlap of lemmas,1
+overlap of named entities,1
+overlap of stems,1
+overlap of super-senses,1
+overlap of terms,1
+pagerank of the user in the arn,1
+paragraph count,2
+paragraphs,1
+parsability,1
+parse calls (avg),1
+part-of-speech (pos) tags,1
+password-based encryption (pbe),1
+percent of phrases where (avg. length - length) >= 5 words,1
+percent of phrases where (length - avg. length) >= 10 words,1
+perceptual attributes,1
+performance,1
+personal pronouns,1
+points,1
+polarity (negative,1
+politeness,4
+poor syntax,2
+popular tags,1
+positive emotion,1
+positive sentence count,1
+positive sentiment,2
+positive),1
+positive/negative vote ratio for the answers given by the user,1
+posscore,1
+post length,1
+post rate,1
+post score,2
+postedittime,1
+postprioredit,1
+postpriorrollback,1
+postpriorrollbackproportion,1
+presence of a class,1
+presence of a code snippet,1
+presence of a method,1
+presence of a picture in the user profile,1
+presence of a resume in the user profile,1
+presence of a title in the user profile,1
+presence of an accepted answer,1
+presence of answers,1
+presence of certain interrogative phrases,1
+presence of code,1
+presence of code snippet,1
+presence of code snippets,1
+presence of main method,1
+presence of multiple tags,1
+presence of taboo words,1
+presence of urls,1
+presentation,3
+previous answers with +ve score,1
+previous answers with 0 score,1
+previous answers with -ve score,1
+previous posts with negative score,1
+previous questions with +ve score,1
+previous questions with 0 score,1
+previous questions with -ve score,1
+primarily opinion-based,1
+printlines (max),1
+program-specific without a program snippet or proper explanation,1
+pronouns,1
+proprietary technology,1
+punctuation,1
+punctuation characters divided by all characters,1
+punctuation count,1
+punctuation density,1
+q answern,1
+q total/max answer score,1
+q upvote,1
+q_best_answers,1
+q_level,1
+q_questions_asked,1
+q_questions_resolved,1
+q_stars),1
+q_total_answers,1
+qa betweenness centrality,1
+qa closeness centrality,1
+qa resource allocation index reqa,1
+qbodycharsofcode,1
+qbodynwords,1
+qbodyurlcount,1
+qcreationdate,1
+qmec,1
+qncomments,1
+qneed,1
+qnswitches,1
+qntags,1
+qownerage,1
+qownernq,1
+qownerreputation,1
+qtitlelength,1
+quality,1
+question (words),1
+question age,1
+question and answer length ratio,3
+question and answer similarity,1
+question answered,1
+question asked,1
+question badge count,1
+question badges count,1
+question body length,1
+question code length,1
+question creation date,1
+question length,1
+question length / number of sentences / number of words,1
+question posting time (gmt) - {morning,1
+question similarity,1
+question title length,1
+question word,1
+question word determiner,1
+question word length,1
+question words,1
+question-answer similarity,1
+questioner’s reputation at question creation time,1
+questions and answers entropy,1
+questions entropy,1
+questions ratio,1
+questions to age of account ratio,1
+quickness,1
+quoted text length standard deviation,1
+random - type,1
+rank difference between answerer & asker (diff_rep_users),1
+rank position in ranswers,1
+rank position in rquestions,1
+rank position in rrans,1
+rank position in rrask,1
+ranking of users,1
+rated questions),1
+ratio of body length to paragraphs (calculated as the body length divided by the number of paragraph tags plus one),1
+rationale,1
+rationality,1
+raw length in answer (a-raw-length) in words,1
+raw length in question (q-raw-length) in words,1
+readability,9
+readability (flesch-kincaid reading ease),1
+readability (fog,1
+readability metrics - main method length,1
+readability of content,1
+readability of subject / content,1
+readability of the answer (ari),1
+readability with flesch-kincaid grade,1
+readability with gunning fog index,1
+reading level,1
+readingscore,1
+re-agemerge,1
+reasonableness,1
+received response ratio,1
+reciprocal rank of the answer in the list of answers for the given question,1
+re-edtage,1
+reference modification,1
+referencing,1
+relatedness,10
+relation score of question and answers,1
+relative answer position,1
+relevance,7
+reliability,3
+re-linkage,1
+reopen vote count,1
+reopen votes,1
+reproducibility,2
+reputation,6
+reputation of users (answerer_rep),1
+reputation score,2
+resemblance (resemblance-n-g),1
+response time,1
+restricting each question to a single problem,1
+re-tagage,1
+review count,2
+reviews,1
+sadness,1
+satisfaction,1
+score,2
+score ratio,1
+section count (n. of html h1 tags),1
+section length standard deviation,1
+security,1
+security vulnerabilities,1
+seeding,1
+semantic relevance,1
+semantic similarity using lsa on wikipedia corpus,1
+semantic similarity using the random indexing on wikipedia corpus,1
+sentence count,1
+sentences,2
+sentences count,1
+sentiment,2
+sentiment analysis,1
+sentiment polarity,1
+sentiment score,1
+sentiscore,1
+serendipity,1
+set length,3
+setters,1
+sexual,1
+short address attack (saa)),1
+short description,1
+show that knows the topic,1
+showing an example,1
+sign up date time lag,1
+signature,1
+similarity,1
+similarity between answer and question (sim),1
+size of ego network of friendship (ego),1
+size of ego-network of friendship,1
+size of the largest phrase,1
+smart contract vulnerabilities (reentrancy (re),1
+smog,1
+smog grade,3
+smog index,1
+social process,1
+space density,1
+spaces (avg),1
+spaces count,1
+spacing,1
+spam vote count,1
+spam votes,1
+specificity,1
+specificity (number of tags),1
+spelling,1
+spelling mistakes,1
+ssl/tls - hostnameverifier trust manager,1
+standard deviation of edits per user,2
+status,1
+stop words,4
+string concats (avg),1
+string concats (max),1
+structure,1
+style and legibility,1
+subject / content has url,1
+subject starts with an interrogative word,2
+subjectivity,2
+sub-section count (n. of html h2 tags),1
+sub-sub-section count (n. of html h3 tags),1
+sum of asker’s answers’ scores,1
+sum of asker’s questions’ scores,1
+sum of comment text length of all comments posted to the answer,1
+syllables per word,1
+symmetric - cipher/mode,1
+t max/min/total/mean - an median upvote,1
+t max/min/total/mean - n answer,1
+t max/min/total/mean - n question,1
+t max/min/total/mean - qn median upvote,1
+t number,1
+tag count,3
+tag popularity score,1
+tag similarity,2
+tags,20
+tags (words),1
+tags count,1
+tags-with-punctuation,1
+tags-with-spaces,1
+taste,1
+tentative,1
+term body,1
+term mixed,1
+term overlap,1
+term tags,1
+term title,1
+terminological errors),1
+terminological inconsistency,1
+terms used to formulate the question,1
+text format,1
+text polarity,1
+text readability,3
+text score,1
+text similarity (answer-comment),1
+text size,1
+text speak count,1
+text/code formatting,1
+text/code modification,1
+text-code ratio,2
+tf-body,1
+tf-body / #(answer body),1
+tf-body ? #(question body),1
+tf-body ? idf-body / #(answer body),1
+tf-idf of key/indicator terms,1
+tf-idf with lemmas,1
+tf-title,1
+tf-title / #(answer body),1
+tf-title ? #(title),1
+tf-title ? idf-title / #(answer body),1
+the automated readability scores,1
+the flesch reading ease score of answer,1
+the format of answer,1
+the jaccard textual overlap score of the question and answer,1
+the length of answer,1
+the length of the question answer,1
+the length of the question body,2
+the length of the question title,2
+the number of lines present in the code,1
+the number of misspellings,1
+the readability of answer,1
+the reputation of answerer,1
+the reputation of questioner,1
+the similarity between answer and question,1
+the similarity between the question and code in answers,1
+the total number of characters,1
+the total number of question marks in an entire query,1
+the total number of words,1
+thread,1
+thread co-occurrence,1
+three new topic-aware features with user profile information and the relationship of user’s activities to capture the expertise of users in a specific topic,1
+time,1
+time between the question being posted and the answer being given,2
+time manipulation,1
+time since the account creation,1
+time to accepted answer (the time difference between the creation of the accepted answer and its question),1
+time to first good answer models (log minutes,1
+timetobounty,1
+title avg word in characters,1
+title body similarity,1
+title length,5
+title length in words,1
+title polarity,1
+title similarity,1
+title starts with a capital character,1
+title subjectivity,1
+title word count,1
+token similarity,1
+too broad,3
+too complex,1
+too constructive,1
+too hard,1
+too localized,1
+too short,1
+too specific or too time-consuming,1
+too-broad,1
+topic entropy,2
+topic reputation different domain,1
+topic reputation same domain,1
+topic response ratio,1
+topic similarity,3
+topical reputation,1
+topical similarity (tp),1
+topics answered,1
+topics asked,1
+topic-weighted answer votes,1
+topic-weighted questions answered,1
+tot. rating got by answering questions in cats. of t,1
+tot. rating got by asking questions in cats. of t,1
+total badges,1
+total number of words,1
+total rating received by answering questions,1
+total rating received by asking questions,1
+total words,1
+trigram,1
+trustworthiness,2
+truthfulness,1
+two letter words,3
+typing speed,1
+typo,1
+unchecked return values (urv),1
+unclear,4
+unclear what you’re asking,1
+undeletion vote count,1
+undeletion votes,1
+understandability,2
+understandable description,1
+unigram,1
+unique words,1
+up vote count,1
+up votes,1
+uppercase,1
+uppercase character ratio,1
+uppercase percentage,2
+uppercase ratio,1
+upvotes,1
+url,1
+url count,3
+urls count,1
+usability,2
+usefulness,2
+user,1
+user relationships,1
+user reputation,4
+userdayeditcount,1
+user-gain-badge,1
+user-post-question,1
+userprioredit,1
+userpriorrollback,1
+userpriorrollbackproportion,1
+user-question topic similarity,1
+userregistrationdays,1
+users’ endorsement,1
+users’ endorsements (positive votes received,1
+user-supply-answer,1
+user-user topic similarity,1
+using advanced math typing: latex,1
+using advanced math typing: latex (contain_tex),1
+u-t3a / n. of categories user asked,1
+u-t3q / n. of categories user answered,1
+utility,1
+vague,1
+vector concordance similarity,1
+verbs,4
+version cipher suite onreceivedsslerror,1
+view count,3
+votes of question,1
+weekday},1
+well-chosen title,1
+well-formedness,1
+whitespace characters divided by all characters,1
+word count,1
+word overlap (overlap-n-g),1
+wordnet similarity,1
+words,1
+words count,1
+works for me,1
+writing style,1
+wrong words,4

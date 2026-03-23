@@ -1,0 +1,29 @@
+MT1: Clarity, Relevance, and Supporting Resources
+
+Clarity & Understandability (how clear and easy to follow the content is):
+ambiguity, clarity, coherent, not clear, unclear, unclear what you’re asking, vague, off-topic, open, or hard to follow, understandable description, short description, detail, information, lack of information, well-chosen title, focus type, restricting each question to a single problem, not a real question, too complex, complexity (reverse-coded), too constructive, too localized, open
+________________________________________
+Textual & Linguistic Characteristics (lexical, grammatical, and language-use signals):
+nouns, verbs in the answer which did not appear on the question, number of new adjectives, text speak count, number of sentences shared by question and answer, number of questions, entropy, metric entropy, topic entropy, average terms entropy, entropy of subject and content
+________________________________________
+Question–Answer Similarity & Relevance (lexical and semantic alignment between question and answer):
+answer question ratio, answer-answer similarity, answer-echo-question, answer-answer similarity, question and answer similarity, question similarity, question-answer similarity, similarity, similarity between answer and question (sim), the similarity between answer and question, number of words shared by question and answer, number of words which appear in answer and question in the same order, number of words which appear in question and answer in the same order, word overlap (overlap-n-g), term overlap, token similarity, the jaccard textual overlap score of the question and answer, containment (containment-n-g), resemblance (resemblance-n-g), semantic relevance, semantic similarity using lsa on wikipedia corpus, semantic similarity using the random indexing on wikipedia corpus, doc2vec vector similarity (vs), vector concordance similarity, wordnet similarity, topical similarity (tp), topic similarity, relatedness, relation score of question and answers, user-question topic similarity, tag similarity
+________________________________________
+Title–Body–Description Coherence (internal consistency within the post):
+coherence between question description and title, coherence between title and description, title similarity, title body similarity, description similarity, edit distance between subject and content, cosine similarity between subject and content, entropy of subject and content, subject / content has url
+________________________________________
+Code Presence & Usage (whether and how code is used):
+Does the answer contain source code? (yes/no), does the question contain source code? (yes/no), hascode, presence of code, presence of code snippet, presence of code snippets, presence of multiple tags, code snippet, code snippets, code snippet length, example/code, showing an example, answer-include-code, code-contain-keyword question-have-code, inclusion of external library, inclusion of native library, compilability, parse calls (avg)
+________________________________________
+Code–Text Balance & Proportion (relationship between code and explanatory text):
+a code percentage, answer code to text ratio, code-text ratio, code-text-ratio, description code to text ratio, text-code ratio, avoiding a large amount of code, avoiding description with only code, question and answer length ratio, ratio of body length to paragraphs (calculated as the body length divided by the number of paragraph tags plus one)
+________________________________________
+Supporting Resources & References (use of links, URLs, images, and citations):
+urls, url, url count, urls count, number of urls, number of links/url, number of links in the text, number of links in a question, number of links to external sources, n. of links to external sources, counts of external links, counts of external links (s_elc), including links in the question, presence of urls, number of stack overflow urls, counts of internal links (to other questions/answers in the site), counts of internal links (to other questions/answers in the site) (s_ilc), n. of links to other query/answer in the forum, number of links to other questions/answers in the same forum, referencing, inclusion of references with the answer, combining links content, image, answer images, counts of images, number of images in the text, haslinkimage, emails count, abodyurlcount, qbodyurlcount
+________________________________________
+IR, Ranking & Distance-Based Signals (retrieval models, similarity distances, and scoring):
+bm25 ranking function, dirichlet prior smoothing, jelinek-mercer smoothing, divergence from randomness similarity, kl-divergence, l-rouge, cosine similarity, cosine similarity value, cosine distance (cosine-n-g), cosine similarity by pca, chebyshev distance by pca, euclidean distance by pca, largest distance between two words that appear in answer and question, largest distance between two words that appear in answer and questions, chebyshev distance by pca, euclidean distance by pca
+________________________________________
+Association, Relation & Graph-Based Metrics (structural and network-level relevance):
+association feature, association score (ass), average relation scores of title words and answers, maximum relation scores of title words and answers, qa betweenness centrality, qa closeness centrality, qa resource allocation index reqa, denser betweenness centrality, denser closeness centrality, denser resource allocation index, thread co-occurrence, denser resource allocation index
+

@@ -1,0 +1,29 @@
+M5: Deep Learning (DL)/Transformer-Based Deep Learning
+
+Transformer-Based Models & Pre-trained Architectures (Transformer family and variants):
+bert, bert model, bert-based multi-label classifier, bert-based relevance matching, bert-based transformer model, bertoverflow, bertoverflow), albert, distilbert, roberta, distilroberta, sobert, mpnet embeddings, transformer model, transformer model t5, transformer models, transformer-based model, transformer-based model (multi-head attention mechanism), unixcoder, plbart, codet5, codet5 backbone, codet5-small, codebert, codebert model, codebert-small, ccbert, cotext, graphcodebert encoding, keic-bert, transfer learning, transfer learning (codebert, pre-training on code corpus, unsupervised and pre-trained models
+________________________________________
+Recurrent Neural Networks & Sequential Models (LSTM, GRU, RNN-based architectures):
+bi-lstm, bidirectional, bidirectional long short term memory network (bilstm), bilstm models, attention-based bilstm, siamese bilstm, spatial-temporal bi-lstm, malstm, long short-term memory (lstm), lstm, lstm models, lstm-based approach, lstm for temporal dependencies, gru, gru-based rnn models (unidirectional, recurrent neural networks (rnn), rnn, rnn encoder-decoder model, rnn-based approach, dq-lstm, dq-rnn, wv-lstm, wv-rnn
+________________________________________
+Convolutional & Hybrid Neural Models (CNNs and CNN–RNN combinations):
+cnn, cnn models, cnn-based approach, convolutional neural network, convolutional neural network (cnn), convolutional neural networks, convolutional neural networks (cnn), multilayer cnn, textcnn, dq-cnn, wv-cnn, hybrid convolutional neural network–long short-term memory, keic-xml-cnn
+________________________________________
+Attention, Fusion & Interaction Mechanisms (attention, fusion, and alignment strategies):
+attention mechanism, multi-head self-attention, pivoted attention mechanism, soft align attention, self-interaction network, copy mechanism, coverage mechanism, correlation capture, dual-interactive fusion, late fusion technique, deep fusion of metadata and text (dfmt), bi-modal encoding (text and code), multi-modal input (code and description), hierarchy-aware semantic learning
+________________________________________
+Graph-Based & Structured Neural Models (graph and hierarchy-aware DL):
+graph convolutional network (gcn), hierarchical dag encoding, dynamic neural topic, neural topic generator
+________________________________________
+Sequence-to-Sequence & Encoding Architectures (encoder–decoder and sequence learning):
+encoder-decoder architecture, sequence-to-sequence model, sequence encoder, sequence encoding, beam search, m3nsct5 (hybrid method combining maximal marginal multiple nucleus sampling and codet5)
+________________________________________
+Neural Network Components & Training Elements (layers, losses, and operations):
+neural network, neural networks, neural networks (gru, dense layers), max pooling, softmax function, softmax layer, sigmoid cross-entropy loss
+________________________________________
+Domain-Specific & Code-Aware Deep Models (code, tags, and mixed representations):
+cdr4tag (code-mixed deep representation learning), code-mixed deep representation, character-level modeling, keic-attentionxml, dq-cnn, dq-lstm, keic-xml-cnn, keic-attentionxml
+________________________________________
+Miscelleneous (specialized or uncategorized DL techniques):
+capsule networks, composite), sobert, wv-cnn, wv-lstm, wv-rnn
+
