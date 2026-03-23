@@ -160,8 +160,8 @@ Scripts/
 │   ├── evaluation-metrics-count.py
 │   ├── evaluation-metrics-overlapping-analysis.py
 │   ├── highly-co-occurred-evaluation-metric-by-count.py
-│   ├── highly-co-occurred-evaluation-metric-by-jaccard.py
-│   └── tool-name-purpose-extraction.py
+│   └── highly-co-occurred-evaluation-metric-by-jaccard.py
+│   
 │
 ├── RQ1/
 │   ├── Graphs/

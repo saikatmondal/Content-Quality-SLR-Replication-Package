@@ -1,8 +1,8 @@
 import pandas as pd
 import numpy as np
 
-IN_CSV  = r"E:/PhD Milestones/Comprehensive/ReplicationPackage/Data-N-Scripts/RQ4/Outputs/evaluation-metric-jaccard-similarity.csv"
-OUT_CSV = r"E:/PhD Milestones/Comprehensive/ReplicationPackage/Data-N-Scripts/RQ4/Outputs/highly-cooccurred-evaluation-metrics-jaccard.csv"
+IN_CSV  = r".../RQ4/Outputs/evaluation-metric-jaccard-similarity.csv"
+OUT_CSV = r".../RQ4/Outputs/highly-cooccurred-evaluation-metrics-jaccard.csv"
 
 # -----------------------------
 # Parameters (adjust as needed)
