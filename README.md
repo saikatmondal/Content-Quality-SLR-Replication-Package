@@ -10,7 +10,6 @@ This replication package provides all necessary artifacts to **reproduce, valida
 ### Contents Overview
 - Research question–wise analyzed datasets
 - Data processing and analysis scripts
-- Supporting resources (if any)
 
 ---
 
